@@ -1945,7 +1945,7 @@ form .form-row .input-data {
      * spacing
      */
 
-    --section-padding: 100px;
+    --section-padding: 70px;
 
   }
 
@@ -2096,5 +2096,15 @@ form .form-row .input-data {
     top: 0;
     left: 0;
   }
+
+}
+
+
+/* Responsive for small screen */
+
+@media (max-width: 480px) {
+  section#advantage {
+    margin-top: -100px;
+}
 
 }
