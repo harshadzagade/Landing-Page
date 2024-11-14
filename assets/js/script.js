@@ -103,27 +103,25 @@ $('.custom-slider').slick({
 });
 
 // Accordion
-$(document).ready(function() {
-  //toggle the component with class accordion_body
-  $(".accordion_head").click(function() {
-    $(this).removeClass('coll-back');
-    if ($('.accordion_body').is(':visible')) {
-      $(".accordion_body").slideUp(300);
-      $(".plusminus").text('+');
-      $(this).removeClass('coll-back');
-      $('.rmv-cls').removeClass('coll-back');
-    }
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".item");
+  const showMoreBtn = document.getElementById("showMoreBtn");
+  let showMore = false;
 
-    if($(this).next(".accordion_body").is(':visible')) {
-      $(this).next(".accordion_body").slideUp(300);
-      $(this).children(".plusminus").text('+');
-      $(this).removeClass('coll-back');
-    }else {
-      $(this).next(".accordion_body").slideDown(300);
-      $(this).children(".plusminus").text('');
-      $(this).children(".plusminus").append('<hr class="hr-clc">');
-      $(this).toggleClass('coll-back');
-      $(this).addClass('rmv-cls');
-    }
+  items.forEach((item, index) => {
+    item.querySelector(".FAQ-title").addEventListener("click", () => {
+      if (item.classList.contains("selected")) {
+        item.classList.remove("selected");
+        item.querySelector(".FAQ-content").classList.remove("show");
+      } else {
+        document.querySelectorAll(".item").forEach((el) => {
+          el.classList.remove("selected");
+          el.querySelector(".FAQ-content").classList.remove("show");
+        });
+        item.classList.add("selected");
+        item.querySelector(".FAQ-content").classList.add("show");
+      }
+    });
   });
+
 });

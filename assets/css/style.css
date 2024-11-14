@@ -980,27 +980,16 @@ form .form-row .input-data {
 .video {
   background-size: contain;
   background-position: center top;
+  background-repeat: no-repeat;
 }
 
 .video-banner {
   position: relative;
-  border-top-right-radius: 80px;
-  border-bottom-left-radius: 120px;
 }
 
-.video .play-btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: var(--radical-red);
-  font-size: 30px;
-  padding: 16px;
-  color: var(--white);
-  border-radius: var(--radius-circle);
-  box-shadow: 0 0 0 0 var(--white_50);
-  z-index: 1;
-  animation: pulse 3s ease infinite;
+.vid-iframe{
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @keyframes pulse {
@@ -1013,10 +1002,6 @@ form .form-row .input-data {
   }
 }
 
-.video-banner::after {
-  inset: 0;
-  background-color: var(--black_30);
-}
 
 
 
@@ -1174,6 +1159,145 @@ form .form-row .input-data {
 
 /* Syllabus */
 
+/* FAQ's */
+
+#FAQ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item {
+  background-color: #FDECEF;
+  margin-bottom: 10px;
+  padding: 15px 20px;
+  border-radius: 8px;
+  position: relative;
+  transition: background-color 0.3s ease;
+}
+
+.item.selected {
+  background-color: #ffffff;
+  border: 1px solid #e7ecf5;
+}
+
+
+.FAQ-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  font-size: var(--fs-3);
+  font-weight: var(--fw-500);
+  color: #131414;
+}
+
+.faqQuestion {
+  font-size: 15px;
+  color: #131414;
+  text-align: start;
+}
+
+.FAQ-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s cubic-bezier(0, 1, 0, 1);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--gray-web);
+}
+
+.FAQ-content.show {
+  padding: 10px;
+  max-height: 9999px;
+  transition: max-height 0.8s cubic-bezier(1, 0, 1, 0);
+}
+
+.expandToggle {
+  background: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.FAQ-ShowMore {
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+  .accordian {
+    max-width: 100%;
+  }
+
+  .item {
+    padding: 12px 16px;
+  }
+
+  .FAQ-title {
+    font-size: 16px;
+  }
+
+  .expandToggle {
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordian {
+    padding: 10px;
+  }
+
+  .item {
+    padding: 10px 14px;
+  }
+
+  .FAQ-title {
+    font-size: 14px;
+  }
+
+  .expandToggle {
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .accordian {
+    padding: 5px;
+  }
+
+  .item {
+    padding: 8px 12px;
+  }
+
+  .FAQ-title {
+    font-size: 12px;
+  }
+
+  .expandToggle {
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+  }
+}
+
+
+/* FAQ's */
+
 
 /*-----------------------------------*\
   #BLOG
@@ -1284,6 +1408,7 @@ form .form-row .input-data {
   #FOOTER
 \*-----------------------------------*/
 
+/* General footer styling */
 .footer {
   background-repeat: no-repeat;
   background-color: #191E27;
@@ -1291,19 +1416,15 @@ form .form-row .input-data {
   font-size: var(--fs-5);
 }
 
-
 .footer-top {
   display: grid;
   gap: 40px;
-  padding: 50px 50px 50px 50px;
-}
-
-.footer-brand-text {
-  margin-block: 20px;
+  padding: 50px;
 }
 
 .footer-brand .wrapper {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin-bottom: 15px;
 }
@@ -1320,20 +1441,6 @@ form .form-row .input-data {
   color: var(--kappel);
 }
 
-.footer-list-title {
-  color: var(--white);
-  font-family: var(--ff-league_spartan);
-  font-size: var(--fs-3);
-  font-weight: var(--fw-600);
-  margin-block-end: 10px;
-}
-
-
-
-.footer-list .footer-link {
-  padding-block: 5px;
-}
-
 .footer-icon {
   color: var(--white);
   font-size: 20px;
@@ -1346,27 +1453,80 @@ form .form-row .input-data {
   color: var(--white);
   font-size: 16px;
   font-weight: 400;
-
 }
 
-
+/* Footer bottom section */
 .footer-bottom {
-  border-block-start: 1px solid var(--eerie-black-1);
-  padding-block: 30px;
+  border-top: 1px solid var(--eerie-black-1);
+  padding: 30px;
   background-color: var(--radical-red);
 }
 
 .copyright {
   text-align: center;
   color: var(--white);
-
 }
 
 .copyright-link {
   color: var(--white);
-  font-size: 12pxs;
+  font-size: 12px;
   display: inline-block;
 }
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .footer-top {
+    padding: 30px 20px;
+    gap: 20px;
+  }
+
+  .footer-brand .wrapper {
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+
+  .address {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .footer-icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .footer-link {
+    font-size: 14px;
+  }
+
+  .footer-list {
+    text-align: center;
+    max-width: 100%;
+  }
+
+  /* Map iframe adjustments */
+  .footer-list iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-top {
+    padding: 20px 10px;
+  }
+
+  .address {
+    font-size: 12px;
+  }
+
+  .footer-link {
+    font-size: 12px;
+  }
+}
+
 
 
 
@@ -1459,9 +1619,6 @@ form .form-row .input-data {
    * VIDEO
    */
 
-  .video .play-btn {
-    padding: 25px;
-  }
 
 
 
@@ -1474,216 +1631,6 @@ form .form-row .input-data {
     margin-bottom: 50px;
 
   }
-
-  /* FAQ's */
-
-  .acc-main {
-    padding: 40px 0px 80px;
-    color: #000;
-  }
-
-
-  /*accordion*/
-  .accordion-main {
-    margin-bottom: 36px;
-  }
-
-  .accordion-main:last-child .accordion_body {
-    padding-bottom: 0;
-  }
-
-  .accordion_head {
-    background-color: #FDECEF !important;
-    color: var(--black_60);
-    font-size: 15px;
-    padding: 12px 25px;
-    border-radius: 10px;
-    border: 1px solid 29705a;
-    font-weight: normal;
-    letter-spacing: normal;
-  }
-
-  .accordion_body {
-    background: transparent;
-    font-size: 15px;
-    text-align: center;
-    padding: 50px 110px 5px;
-  }
-
-  .accordion_body img {
-    width: 100%;
-    max-width: 230px;
-    margin-bottom: 30px;
-  }
-
-  .accordion_body p {
-    margin: 0px;
-    color: #000000;
-  }
-
-  .plusminus {
-    float: right;
-    font-size: 36px;
-    margin-top: -9px;
-  }
-
-  .coll-back {
-    background-color: #fff;
-    color: #111;
-    border: 1px solid #111;
-  }
-
-  .hr-clc {
-    height: 2px;
-    background: #111;
-    margin-top: 22px;
-    width: 17px;
-    padding: 0;
-    border: 0;
-    margin-left: -20px;
-  }
-
-  /*media queries*/
-  @media (min-width:992px) and (max-width:1100px) {
-
-    .accordion_body {
-      padding: 35px 40px 5px;
-    }
-
-    .accordion_body img {
-      max-width: 205px;
-      margin-bottom: 20px;
-    }
-  }
-
-  @media (min-width: 768px) and (max-width: 991px) {
-
-    .accordion_head {
-      font-size: 20px;
-      padding: 11px 18px;
-    }
-
-    .plusminus {
-      font-size: 27px;
-      margin-top: -5px;
-    }
-
-    .accordion-main {
-      margin-bottom: 24px;
-    }
-
-    .hr-clc {
-      margin-top: 16px;
-      width: 15px;
-      margin-left: -15px;
-    }
-
-    .accordion_body {
-      font-size: 18px;
-      padding: 30px 40px 5px;
-    }
-
-    .accordion_body img {
-      width: 100%;
-      max-width: 185px;
-      margin-bottom: 20px;
-    }
-
-    .accordion_body h3 {
-      font-size: 24px;
-    }
-  }
-
-  @media (min-width: 576px) and (max-width: 767px) {
-
-    .accordion_head {
-      font-size: 20px;
-      padding: 10px 15px;
-    }
-
-    .accordion-main {
-      margin-bottom: 25px;
-    }
-
-    .plusminus {
-      font-size: 30px;
-      margin-top: -5px;
-    }
-
-    .accordion_body {
-      padding: 30px 25px 5px;
-    }
-
-    .accordion_body img {
-      max-width: 170px;
-      margin-bottom: 20px;
-    }
-
-    .hr-clc {
-      margin-top: 17px;
-      width: 16px;
-    }
-
-    .accordion_body h3 {
-      font-size: 22px;
-      margin: 15px 0;
-    }
-  }
-
-  @media (max-width:575px) {
-
-    .accordion_main {
-      background-color: #FDECEF !important;
-      color: var(--black_60);
-      font-size: 15px;
-      padding: 12px 25px;
-      border-radius: 10px;
-      border: 1px solid 29705a;
-      font-weight: normal;
-      letter-spacing: normal;
-    }
-
-    .accordion_head {
-      background-color: #FDECEF !important;
-      font-size: 15px;
-      padding: 8px 12px
-    }
-
-    .plusminus {
-      font-size: 27px;
-      margin-top: -7px;
-    }
-
-    .accordion-main {
-      margin-bottom: 22px;
-    }
-
-    .accordion_body {
-      font-size: 18px;
-      padding: 20px 20px 5px;
-    }
-
-    .accordion_body img {
-      max-width: 150px;
-      margin-bottom: 20px;
-    }
-
-    .accordion_body h3 {
-      font-size: 18px;
-      margin: 10px 0;
-      line-height: normal;
-    }
-
-    .hr-clc {
-      height: 2px;
-      margin-top: 16px;
-      width: 15px;
-      margin-left: -15px;
-    }
-  }
-
-
-  /* FAQ's */
 
 
 
