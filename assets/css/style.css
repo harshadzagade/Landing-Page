@@ -338,10 +338,45 @@ body {
 }
 
 
-/* Steps */
+/* floating button */
+.button {
+  cursor: pointer;
+  padding: 0.9em 1em;
+  border-radius: 0.5em;
+  min-height: 2.4em;
+  min-width: 3em;
+  display: flex;
+  align-items: right;
+  gap: 0.5em;
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 1;
+  background: var(--radical-red);
+  color: hsla(0, 0%, 90%);
+  border: 0;
+  position: fixed; /* make the button sticky */
+  top: 50%; /* position the button 50% from the top */
+  right: 0; /* position the button on the right side */
+  transform: rotate(90deg); /* rotate the button 90 degrees */
+  transform-origin: top right; 
+  box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
 
+.button::before {
+  inset: 0;
+  background-image: var(--gradient);
+  z-index: -1;
+  border-radius: inherit;
+  transform: translateX(-100%);
+  transition: var(--transition-2);
+}
 
-/* Steps */
+.button:is(:hover, :focus)::before {
+  transform: translateX(0);
+}
+
+/* floating button */
 
 
 /*-----------------------------------*\
@@ -436,7 +471,7 @@ body {
 }
 
 .nav-close-btn:is(:hover, :focus) {
-  background-color: var(--radical-red);
+  background-color: var(--kappel);
   color: var(--white);
 }
 
