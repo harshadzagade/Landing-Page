@@ -60,7 +60,7 @@ const activeElem = function () {
   }
 }
 
-addEventOnElem(window, "scroll", activeElem);
+// addEventOnElem(window, "scroll", activeElem);
 
 
 // SLider
