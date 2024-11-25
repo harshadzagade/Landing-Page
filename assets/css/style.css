@@ -26,11 +26,12 @@
   --quick-silver: hsl(0, 0%, 65%);
   --radical-red: #DC2626;
   --light-gray: hsl(0, 0%, 80%);
-  --isabelline: hsl(36, 33%, 94%);
+  /* --isabelline: hsl(36, 33%, 94%); */
+  --isabelline: #FEF7E8;
   --gray-x-11: hsl(0, 0%, 73%);
   --radical-red_15: hsla(170, 75%, 41%, 0.15);
   --platinum: hsl(0, 0%, 90%);
-  --gray-web: hsl(0, 0%, 50%);
+  --gray-web: hsl(0, 1%, 13%);
   --black_80: hsla(0, 0%, 0%, 0.8);
   --white_50: hsla(0, 0%, 100%, 0.5);
   --black_50: hsla(0, 0%, 0%, 0.5);
@@ -755,7 +756,7 @@ form .form-row .input-data {
   padding: 50px 30px;
   text-align: center;
   border-radius: var(--radius-5);
-  height: 500px;
+  height: 400px;
 }
 
 
@@ -1228,12 +1229,11 @@ form .form-row .input-data {
   cursor: pointer;
   font-size: var(--fs-3);
   font-weight: var(--fw-500);
-  color: #131414;
 }
 
 .faqQuestion {
   font-size: 15px;
-  color: #131414;
+  color: var(--white);
   text-align: start;
 }
 
@@ -1244,7 +1244,7 @@ form .form-row .input-data {
   font-weight: 400;
   font-size: 15px;
   line-height: 1.6;
-  color: var(--gray-web);
+  color: var(--white);
 }
 
 .FAQ-content.show {
@@ -1255,6 +1255,7 @@ form .form-row .input-data {
 
 .expandToggle {
   background: #ffffff;
+  color: var(--black_80);
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -1439,7 +1440,8 @@ form .form-row .input-data {
 }
 
 
-
+/* Program details */
+/* Program details */
 
 
 /*-----------------------------------*\
@@ -1813,9 +1815,11 @@ form .form-row .input-data {
   .about {
     padding-block-start: 50px;
   }
+  
 
   .about-banner {
     padding: 60px;
+    /* padding: 24px 60px; */
     padding-inline-end: 0;
   }
 
@@ -1885,7 +1889,7 @@ form .form-row .input-data {
     grid-template-columns: repeat(4, 1fr);
   }
 
-  :is(.course, .blog, .category) .grid-list {
+  :is(.course, .blog, .stats, .category) .grid-list {
     grid-template-columns: repeat(3, 1fr);
   }
 
