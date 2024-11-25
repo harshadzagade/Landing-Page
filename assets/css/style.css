@@ -1111,7 +1111,7 @@ form .form-row .input-data {
   line-height: 0;
   top: 50%;
   width: 30px;
-  height: 30px;
+  height: 50px;
   display: block;
   padding: 0;
   -webkit-transform: translate(0, -50%);
@@ -1140,7 +1140,7 @@ form .form-row .input-data {
   content: '\003e';
   font-size: 1.2em;
   font-weight: 1000;
-  padding-left: 12px;
+  padding-left: 8px;
   color: white;
 }
 

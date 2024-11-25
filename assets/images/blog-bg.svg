@@ -1,10 +1,30 @@
-<svg width="1920" height="913" viewBox="0 0 1920 913" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_60_9)">
-<path d="M1920 913C1920 913 1920 190.512 1920 96.999C1873.26 87.743 1817.52 109.59 1768.95 100.45C1720.82 91.394 1678.56 49.725 1628.44 42.415C1579.8 35.32 1525 62.775 1474.67 57.405C1425.65 52.177 1379.58 13.91 1329.13 10.392C1279.84 6.954 1227.72 38.331 1177.22 36.596C1127.76 34.897 1078.47 0 1028 0C977.532 0 928.254 34.897 878.792 36.596C828.3 38.331 776.181 6.953 726.895 10.39C676.446 13.908 630.37 52.175 581.353 57.404C531.023 62.772 476.226 35.318 427.587 42.411C377.46 49.722 335.198 91.391 287.067 100.447C237.247 109.821 179.877 86.977 132.416 98.126C83.399 109.64 46.108 154.225 0 167.999C0 201.082 0 913 0 913H1920Z" fill="#F9F6F2"/>
-</g>
-<defs>
-<clipPath id="clip0_60_9">
-<rect width="1920" height="913" fill="white"/>
-</clipPath>
-</defs>
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="6000px" height="2853px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 6000 2853.12"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil1 {fill:none}
+    .fil0 {fill:#FEF7E8;fill-rule:nonzero}
+   ]]>
+  </style>
+   <clipPath id="id0">
+    <path d="M0 2853.12l6000 0 0 -2853.12 -6000 0 0 2853.12z"/>
+   </clipPath>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+  </g>
+  <g style="clip-path:url(#id0)">
+   <g id="_2207772135168">
+    <path class="fil0" d="M6000 2853.12c0,0 0,-2257.77 0,-2550 -146.06,-28.93 -320.25,39.35 -472.03,10.78 -150.41,-28.3 -282.47,-158.51 -439.09,-181.36 -152,-22.17 -323.25,63.63 -480.54,46.85 -153.18,-16.34 -297.15,-135.92 -454.81,-146.92 -154.03,-10.74 -316.9,87.31 -474.72,81.89 -154.56,-5.31 -308.59,-114.36 -466.31,-114.36 -157.71,0 -311.71,109.05 -466.28,114.36 -157.78,5.42 -320.65,-92.63 -474.67,-81.9 -157.66,11 -301.64,130.58 -454.82,146.92 -157.28,16.78 -328.52,-69.01 -480.52,-46.85 -156.65,22.85 -288.72,153.06 -439.13,181.36 -155.68,29.3 -334.96,-42.09 -483.28,-7.25 -153.18,35.98 -269.71,175.31 -413.8,218.35 0,103.39 0,2328.13 0,2328.13l6000 0z"/>
+   </g>
+  </g>
+  <polygon class="fil1" points="0,2853.12 6000,2853.12 6000,0 0,0 "/>
+ </g>
 </svg>
