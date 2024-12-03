@@ -84,7 +84,7 @@
           </li>
 
           <li class="navbar-item">
-            <a href="#advantage" class="navbar-link" data-nav-link>Why MET</a>
+            <a href="#whymet" class="navbar-link" data-nav-link>Why MET</a>
           </li>
 
           <li class="navbar-item">
@@ -110,7 +110,7 @@
       </nav>
 
       <div class="header-actions">
-        <a href="#" class="btn has-before">
+        <a href="#about-pgdm" class="btn has-before">
           <span class="span">Apply Now</span>
           <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
         </a>
@@ -236,10 +236,9 @@
       </section>
       <!-- about pgdm Form -->
 
-      
 
       <!-- Programme Details -->
-      <section class="bg-[#FEF7E8] light py-24 md:py-24 text-white  relative overflow-hidden z-10">
+      <section class="bg-[#FEF7E8] light py-24 md:py-24 text-white  relative overflow-hidden  ">
         <div class="container px-4 mx-auto">
           <div class="flex max-w-3xl justify-center text-center mx-auto">
             <div>
@@ -458,7 +457,7 @@
 
 
       <!-- Why MET -->
-      <section class=" light py-24 md:py-24 bg-[#FEF7E8]  text-white  relative overflow-hidden z-10">
+      <section class=" light py-24 md:py-24 bg-[#FEF7E8]  text-white  relative overflow-hidden " id="whymet">
         <div class="container px-4 mx-auto">
           <div class="flex max-w-3xl justify-center text-center mx-auto">
             <div>
@@ -538,7 +537,6 @@
         </div>
       </section>
       <!-- Why MET -->
-
 
 
       <!-- Key takeaways -->
@@ -896,7 +894,6 @@
           </ul>
       </section>
       <!-- Specialisation -->
-
 
 
       <!-- testimonials -->
@@ -2287,9 +2284,7 @@
 
       <div class="container grid-list">
         <div class="footer-brand">
-          <!-- 
-          <p class="footer-list-title">Contacts</p> -->
-
+  
           <div class="wrapper">
             <span class="span">
               <svg xmlns="http://www.w3.org/2000/svg" class="footer-icon" fill="none" viewBox="0 0 24 24"
@@ -2381,7 +2376,7 @@
 
   <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
 
-  <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
   <!-- <script src="./script.js"></script> -->
