@@ -1,0 +1,48 @@
+server {
+    listen 80;
+    server_name hello.met.edu;
+
+    root /var/www/campaign/;
+    index index.php index.html index.htm;
+
+    # Redirect HTTP to HTTPS
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    # SSL configuration - Redirect HTTP to HTTPS
+    error_page 497 https://$host$request_uri;  # Fix for browsers that try to access HTTP and redirect to HTTPS
+}
+
+server {
+    listen 443 ssl;
+    server_name hello.met.edu;
+
+    root /var/www/campaign/;
+    index index.php index.html index.htm;
+
+    # SSL Certificates
+    ssl_certificate /etc/nginx/SSLCert.pem;
+    ssl_certificate_key /etc/nginx/private.key;
+
+    # SSL settings (optional for stronger security)
+    ssl_protocols TLSv1.2 TLSv1.3;
+    ssl_ciphers 'HIGH:!aNULL:!MD5';
+    ssl_prefer_server_ciphers on;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        include snippets/fastcgi-php.conf;
+        fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;  
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+}
+
