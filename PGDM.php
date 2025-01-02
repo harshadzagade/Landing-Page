@@ -1,2385 +1,365 @@
+<?php
+$utm_source = isset($_REQUEST['utm_source']) ? $_REQUEST['utm_source'] : '';
+$utm_medium = isset($_REQUEST['utm_medium']) ? $_REQUEST['utm_medium'] : '';
+$utm_campaign = isset($_REQUEST['utm_campaign']) ? $_REQUEST['utm_campaign'] : '';
+$utm_adgroup = isset($_REQUEST['utm_adgroup']) ? $_REQUEST['utm_adgroup'] : '';
+$utm_device = isset($_REQUEST['utm_device']) ? $_REQUEST['utm_device'] : '';
+$utm_term = isset($_REQUEST['utm_term']) ? $_REQUEST['utm_term'] : '';
+$gclid = isset($_REQUEST['gclid']) ? $_REQUEST['gclid'] : '';
+$fbclid = isset($_REQUEST['fbclid']) ? $_REQUEST['fbclid'] : '';
+$url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  <!-- 
-    - primary meta tag
-  -->
-  <title>
-    MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
-  </title>
-  <meta name="Description"
-    content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE & DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
-  <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/images/favicon.jpg" type="image/png" sizes="16x16">
+    <title>Home</title>
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/general.css">
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
-    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
-    crossorigin="anonymous" />
-  <!-- 
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./css/aos.css" />
 
-  <!-- 
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css'>
+    <!-- Include Owl Carousel CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
-  <script src="https://cdn.tailwindcss.com"></script>
-
-
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
-    rel="stylesheet" />
-
-  <!-- - preload images
-  -->
-  <link rel="preload" as="image" href="./assets/images/hero-bg.svg" />
-  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg" />
-  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg" />
-  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg" />
-  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png" />
+    <!-- FancyBox CSS -->
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
 </head>
 
-<body id="top">
-  <!-- 
-    - #HEADER
-  -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.png" width="120" height="50" alt="MET logo">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="wrapper">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.png" width="120" height="50" alt="MET logo">
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
+<body>
+    <div class="loader-container">
+        <div class="loader-wrapper">
+            <div class="loader">
+            </div>
         </div>
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="#about-pgdm" class="navbar-link" data-nav-link>About PGDM</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#whymet" class="navbar-link" data-nav-link>Why MET</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#specialisation" class="navbar-link" data-nav-link>Specialisation</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#placement" class="navbar-link" data-nav-link>Placement</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#testimonial" class="navbar-link" data-nav-link>Testimonials</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#howtoapply" class="navbar-link" data-nav-link>How To Apply</a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="#faq" class="navbar-link" data-nav-link>FAQ's</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div class="header-actions">
-        <a href="#about-pgdm" class="btn has-before">
-          <span class="span">Apply Now</span>
-          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-        </a>
-        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
-          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-        </button>
-      </div>
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
     </div>
-  </header>
 
-  <main>
+    <?php include './assets/component/header.php' ?>
 
-    <article>
+    <main>
 
-      <!--- #HERO-->
-      <section class="section hero has-bg-image" id="about" aria-label="home"
-        style="background-image: url('./assets/images/hero-bg.svg')">
-        <div class="container">
-          <div class="hero-content">
-            <h1 class="h1 section-title">
-              <span class="span">PGDM</span>
-            </h1>
+        <!------------------- Banner section ----------------->
+        <section class="main-banner">
+            <div class="custom-container-2">
+                <div class="row g-4 justify-content-center align-items-center">
+                    <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 col-12 pt-5">
+                        <div class="banner-txt">
+                            <div class="visualtxt">
+                                <div class="headline-pgdm">
+                                    <div class="head-line"></div>
+                                </div>
+                                <p>
+                                    <span class="linetext b-clr">PGDM</span><br>
+                                </p>
+                                <p>
+                                    Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
+                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
+                                    Start-ups & New Enterprise Management.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-            <p class="hero-text">
-              Marketing, Finance, HR, System and Operations. New Age Add on
-              specialisation in FinTech, MarTech, Media & Entertainment, Data
-              Science & Business Analytics, Start-ups & New Enterprise
-              Management.
-            </p>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="" > <img src="./assets/images/bannerstudent.png" class=""
+                                alt="...">
+                        </div>
+                    </div>
 
-            <a href="#form" class="btn has-before">
-              <span class="span">Apply Now</span>
+                    <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-12" style="z-index:1;">
+                        <div class="banform" id="banform">
+                            <div class="form-content">
+                                <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
+                                <div class="form-body">
+                                    <!-- <p>Get In Touch </p> -->
+                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                        class="needs-validation">
+                                        <div class="row g-3">
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Name </label>
 
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-          </div>
+                                                    <input id="enqform-fname" type="text" class="form-control rounded-pill"
+                                                        required name="fname" placeholder="Enter Your Name">
 
-          <figure class="hero-banner justify-center">
-            <div class="img-holder " style="--width: 520; --height: 520">
-              <img src="./assets/images/banner-1.jpeg" width="520" height="520" alt="hero banner" class="img-cover" />
-            </div>
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid name.
+                                                    </div>
+                                                </div>
+                                            </div>
 
-            <img src="./assets/images/hero-shape-2.png" width="622" height="551" alt="" class="shape hero-shape-2" />
-          </figure>
-        </div>
-      </section>
-      <!-- HERO -->
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Email Address </label>
 
-      <!-- stats -->
-      <!-- <section>
-        <div class="container">
-          <div class="stats-section py-10 px-5">
-            <div
-              class="stats-grid z-20  rounded-xl bg-[#FF6347]  mx-auto grid grid-cols-1 md:grid-cols-5 lg:grid-cols-5 items-center justify-between md:px-10 gap-x-5 py-20 px-5 lg:px-10 gap-y-5">
-              <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
-                <h2 class="text-[22px]  text-white  font-bold">$20 LPA</h2>
-                <p class="text-center  text-white ">Highest Salary</p>
-              </div>
-              <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
-                <h2 class="text-[22px] text-white  font-bold">4th Best In Mumbai</h2>
-                <p class="text-center  text-white ">By Times B-School Survey 2024</p>
-              </div>
-              <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-3">
-                <h2 class="text-[22px] text-white  font-bold">5+</h2>
-                <p class="text-center  text-white ">NSE Cogencis Finance Lab
-                </p>
-              </div>
-              <div class="col-span-1 md:col-span-1 lg:col-span-1 flex flex-col items-center justify-center gap-y-5">
-                <h2 class="text-[22px] text-white  font-bold">MarTech, FinTech, M&E</h2>
-                <p class="text-center  text-white ">Add-On Specialisation
-                </p>
-              </div>
-              <div class="col-span-0.5 md:col-span-0.5 lg:col-span-0.5 flex flex-col items-center justify-center">
-                <h2 class="text-[22px] text-white  font-bold">500+</h2>
-                <p class="text-center  text-white ">Recruiters
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> -->
-      <!-- stats -->
+                                                    <input type="email" class="form-control rounded-pill" required name="email"
+                                                        placeholder="Enter Your Email">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid email.
+                                                    </div>
+                                                </div>
+                                            </div>
 
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Mobile </label>
 
-      <!-- Floating Button -->
-      <div>
-        <button class="button">
-          <a href="#form">Apply Now</a>
-        </button>
-      </div>
-      <!-- Floating Button -->
+                                                    <input type="text" class="form-control rounded-pill number-only"
+                                                        name="mobile" maxlength="10" required placeholder="Enter Your Number">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid mbile no.
+                                                    </div>
+                                                </div>
+                                            </div>
 
-      <!-- about pgdm form -->
-      <section class="section about" id="about-pgdm" aria-label="about">
-        <div class="container">
-          <div class="about-content">
-            <h2 class="h2 section-title">
-              <span class="span"> About PGDM Programme</span>
-            </h2>
-            <p class="section-text">
-              MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations
-              in Marketing, Finance, HR, System and Operations.
-              PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. Of
-              Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding
-              managers with technological tools and knowledge besides honing their managerial prowess. It is evident by
-              the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading
-              corporate organisations, making their presence felt and many are successful entrepreneurs too.
-              Besides regular specializations in Finance, Marketing, Human Resources, System and Operations, MET PGDM
-              offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Data Science & Business
-              Analytics, Start-ups & New Enterprise Management.
-            </p>
-          </div>
-          <div class="w-full px-8 py-10 mx-auto overflow-hidden bg-[#DC2626] shadow-2xl rounded-3xl" id="form">
-            <h1 class="text-3xl font-medium text-white text-center">Download Free e-Brochure</h1>
-              
-              <div id="ee-form-11">
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">City </label>
 
-              </div>
-          </div>
-        </div>
-      </section>
-      <!-- about pgdm Form -->
+                                                    <input type="text" class="form-control rounded-pill" name="city" required
+                                                        placeholder="Enter Your City">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid city.
+                                                    </div>
+                                                </div>
 
+                                            </div>
 
-      <!-- Programme Details -->
-      <section class="bg-[#FEF7E8] light py-24 md:py-24 text-white  relative overflow-hidden  ">
-        <div class="container px-4 mx-auto">
-          <div class="flex max-w-3xl justify-center text-center mx-auto">
-            <div>
-              <h1 class="text-[32px] font-bold section-title leading-tight md:text-[45px] mb-12">
-                <span class="span">Programme Details</span>
-              </h1>
-            </div>
-          </div>
-          <div class="grid grid-cols-2 gap-6 items-center">
-            <div class="col-span-2 md:mb-[-25px] md:col-span-1 md:order-2">
-              <div class="accordian">
-                <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                  <div class="FAQ-title ">
-                    <p class="faqQuestion">Programme Highlights</p>
-                    <span class="expandToggle">+</span>
-                  </div>
-                  <div class="FAQ-content ">
-                    <ul>
-                      <li>Trimester based programme</li>
-                      <li>Robust and concurrent syllabus</li>
-                      <li>Evaluated Independent Study Courses</li>
-                      <li>Learn and Apply pedagogy</li>
-                      <li>
-                        New Age Add on Specialisations: FinTech, MarTech
-                      </li>
-                      <li>20 LPA highest CTC</li>
-                    </ul>
-                  </div>
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Qualification </label>
+
+                                                    <select type="text" class="form-select rounded-pill" name="qualification"
+                                                        placeholder="Enter Your City" required>
+                                                        <option value="" selected hidden>Choose...</option>
+                                                        <option value="Graduation">Graduation</option>
+                                                        <option value="Post-Graduation">Post-Graduation</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Select enter a valid qualification.
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class=" col-md-12 m-0">
+                                                <div class="checkboxprivcy">
+                                                    <input type="checkbox" id="privacy" name="privacy" value="true" required
+                                                        checked="">
+
+                                                    <label for="privacy"> I agree to receive information</label>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" name="page_name" value="PGDM">
+                                            <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
+                                            <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
+                                            <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
+                                            <input type="hidden" name="utm_adgroup" value="<?php echo $utm_adgroup ?>">
+                                            <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
+                                            <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
+                                            <input type="hidden" name="gclid" value="<?php echo $gclid ?>">
+                                            <input type="hidden" name="fbclid" value="<?php echo $fbclid ?>">
+                                            <input type="hidden" name="url" value="<?php echo $url ?>">
+                                            <button type="submit" class="form-btn round-btn text-center d-inline btn-submit-1"
+                                                href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                  <div class="FAQ-title">
-                    <p class="faqQuestion">Who Can Apply ?</p>
-                    <span class="expandToggle">+</span>
-                  </div>
-                  <div class="FAQ-content">
-                    <p>
-                    <ul>
-                      <li>
-                        Bachelor’s Degree with a minimum of 50% marks (45%
-                        marks in case of candidates belonging to reserved
-                        category) from a recognised university
-                      </li>
-                      <li>Final year/semester examination can also apply</li>
-                      <li>
-                        Valid score card of MH-CET, CMAT, XAT, CAT, ATMA,
-                        GMAT, MAT (any)
-                      </li>
-                    </ul>
+            </div>
+        </section>
+        <!------------------- Banner section ----------------->
+
+    <?php include './assets/component/content.php' ?>
+
+    </main>
+
+    <!--=================footer section starts=============== -->
+    <footer class="footer-background">
+        <div class="conatiner">
+            <div class="row">
+                <div class="footer-text">
+                    <p class="footer-p">
+                        Copyright © 2024 MET. All rights reserved
                     </p>
-                  </div>
                 </div>
-
-                <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                  <div class="FAQ-title">
-                    <p class="faqQuestion"> Selection Procedure</p>
-                    <span class="expandToggle">+</span>
-                  </div>
-                  <div class="FAQ-content">
-                    <p>
-                    <ul>
-                      <li>
-                        Written Exam Score (MH-CET, CMAT, XAT, CAT, ATMA,
-                        GMAT, MAT) + Academics Performance + Group Discussion
-                        (Or Essay) and Personal Interview + Other Parameters.
-                      </li>
-                    </ul>
-                    </p>
-                  </div>
-                </div>
-              </div>
             </div>
-            <div class="col-span-2 md:col-span-1 mt-12 md:mt-0 lg:mr-12">
-              <div class="relative mb-12">
-                <img src="./assets/images/p-3.png" alt="" class="rounded-3xl max-w-full h-auto mx-auto" />
-                <!-- <img src="https://cdn.easyfrontend.com/pictures/services/service19_1_2.png" alt=""
-                        class="absolute -bottom-24 left-0 -md:left-32 max-w-full h-auto" /> -->
-              </div>
-            </div>
-          </div>
         </div>
-      </section>
-      <!-- Programme Details -->
+    </footer>
+    <!-- =================footer section ends================ -->
+
+    <!-- bootstrap js cdn -->
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/aos.js"></script>
+
+    <!-- FancyBox JS -->
+    <script src="./js/jquery.fancybox.min.js"></script>
+
+    <script src="./js/AOS.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/url-tracking.js"></script>
+    <script src="./js/custom-validate.js"></script>
+    <script src="./js/form-validation.js"></script>
+
+    <script>
+        Delete_Cookie('formfilled');
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
+                $('.offcanvas-start').offcanvas('hide');
+            });
+            $('.gallery-carousel').owlCarousel({
+                items: 1,
+                loop: false,
+                margin: 10,
+                // center: true,
+                autoplay: false,
+                smartSpeed: 2000,
+                //autoplayTimeout: 6000,
+                //autoplayHoverPause: true,
+                dots: true,
+                backFocus: false,
+                navText: [
+                    '<img class="arrow" src="./assets/images/icons/left-arrow.png" alt="arrow"></img>',
+                    '<img class="arrow" src="./assets/images/icons/right-arrow.png" alt="arrow"></img>'
+                ],
+                responsive: {
+                    567: {
+                        items: 1,
+                        nav: false,
+                        margin: 0,
+                    },
+                    768: {
+                        items: 1,
+                        nav: true,
+                        margin: 10,
+                    },
+                    992: {
+                        items: 1,
+                        nav: true,
+                        margin: 20,
+                    },
+                    1300: {
+                        items: 1,
+                        nav: true,
+                        margin: 20,
+                    }
+                }
+            });
+            $('.takeaways-carousel').owlCarousel({
+                items: 1,
+                margin: 30,
+                smartSpeed: 2000,
+                nav: true,
+                autoplayTimeout: 6000,
+                autoplay: true,
+                loop: false,
+                dots: true,
+                autoplayHoverPause: true,
+                navText: [
+                    '<img class="arrow" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
+                    '<img class="arrow rotate" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    992: {
+                        items: 2,
+                    },
+                    1350: {
+                        items: 3,
+                    },
+                    1700: {
+                        items: 4,
+                    }
+                }
+            });
+            $('.event-carousel').owlCarousel({
+                items: 1,
+                margin: 30,
+                smartSpeed: 2000,
+                nav: false,
+                autoplayTimeout: 6000,
+                autoplay: false,
+                loop: true,
+                dots: true,
+                autoplayHoverPause: true,
+                // navText: ['<img class="arrow" src="assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
+                //     '<img class="arrow rotate" src="assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                // ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 4,
+                    },
+                    1300: {
+                        items: 4,
+                    }
+                }
+            });
+            $('.testimonial-carousel').owlCarousel({
+                items: 1,
+                margin: 30,
+                smartSpeed: 2000,
+                nav: false,
+                autoplayTimeout: 6000,
+                autoplay: false,
+                loop: true,
+                dots: true,
+                autoplayHoverPause: true,
+                navText: [
+                    '<img class="arrow" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
+                    '<img class="arrow rotate" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    768: {
+                        items: 2,
+                    },
+                    992: {
+                        items: 3,
+                    },
+                    1300: {
+                        items: 3,
+                    }
+                }
+            });
+            // Initialize FancyBox
+            $("[data-fancybox]").fancybox({
+                // Options
+            });
+        })
 
 
-      <!-- placement -->
-      <section class="section stats" id="placement" aria-label="stats">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            <span class="span">Placement</span>
-          </h2>
-
-          <ul class="grid-list">
-            <li>
-              <div class="stats-card" style="--color: 170, 75%, 41%">
-                <h3 class="card-title font-bold">20 LPA</h3>
-
-                <p class="card-text">Highest Salary</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="stats-card" style="--color: 351, 83%, 61%">
-                <h3 class="card-title font-bold">8.5 LPA</h3>
-
-                <p class="card-text">Average Salary</p>
-              </div>
-            </li>
-
-            <li>
-              <div class="stats-card" style="--color: 260, 100%, 67%">
-                <h3 class="card-title font-bold">500+</h3>
-
-                <p class="card-text">Recruiters</p>
-              </div>
-            </li>
-          </ul>
-          <div x-data="{swiper: null}" x-init="swiper = new Swiper($refs.container, {
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 0,
         
-            breakpoints: {
-              640: {
-                slidesPerView: 1,
-                spaceBetween: 0,
-              },
-              768: {
-                slidesPerView: 2,
-                spaceBetween: 0,
-              },
-              1024: {
-                slidesPerView: 4,
-                spaceBetween: 0,
-              },
-            },
-            })" class="relative max-sm:mt-[50px]   mx-auto flex flex-row">
-            <div class="absolute inset-y-0 left-0 z-10 flex items-center">
-              <button @click="swiper.slidePrev()"
-                class="bg-white -ml-2 lg:-ml-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
-                <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-left w-6 h-6">
-                  <path fill-rule="evenodd"
-                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </button>
-            </div>
+    </script>
 
-            <div class="swiper-container" x-ref="container">
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/1.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/2.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/3.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/5.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/6.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <img src="./assets/images/placement/3.jpg" width="100%" height="100%" alt="">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="absolute inset-y-0 right-0 z-10 flex items-center">
-              <button @click="swiper.slideNext()"
-                class="bg-white -mr-2 lg:-mr-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
-                <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-right w-6 h-6">
-                  <path fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- placement -->
-
-
-      <!-- Why MET -->
-      <section class=" light py-24 md:py-24 bg-[#FEF7E8]  text-white  relative overflow-hidden " id="whymet">
-        <div class="container px-4 mx-auto">
-          <div class="flex max-w-3xl justify-center text-center mx-auto">
-            <div>
-              <h1 class="text-[32px] font-bold section-title leading-tight md:text-[45px] mb-12">
-                <span class="span">Why MET</span>
-              </h1>
-            </div>
-          </div>
-          <div class="grid grid-cols-2 gap-6 items-center">
-            <div class="col-span-2 md:mb-[-25px] md:col-span-1 md:order-2">
-              <div class="relative mb-12">
-                <img src="./assets/images/p-1.png" alt="" class="rounded-3xl max-w-full h-auto mx-auto" />
-                <!-- <img src="https://cdn.easyfrontend.com/pictures/services/service19_1_2.png" alt=""
-                        class="absolute -bottom-24 left-0 -md:left-32 max-w-full h-auto" /> -->
-              </div>
-            </div>
-            <div class="col-span-2 md:col-span-1 mt-12 md:mt-0 lg:mr-12">
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  Ranked 2nd Best B-School in Mumbai, India's 16th Best Pvt. B-School, 28th Best B-School All India
-                  and 14th amongst Top West B-Schools by the Times B-School Survey 2024
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  NSE Cogencis Finance Lab
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  MET Incubation Centre to foster entrepreneurship
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  Excellent placement
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  Learn and Apply pedagogy
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4 mb-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  Trimester-based programme
-                </h4>
-              </div>
-              <div class="bg-white shadow-xl flex items-center rounded-xl p-4">
-                <div class="flex justify-center items-center text-[10px] p-3 bg-[#DC2626] text-white rounded-full mr-3">
-                  <i class="fas fa-check"></i>
-                </div>
-                <h4 class="text-[17px] text-black">
-                  Robust and concurrent syllabus
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Why MET -->
-
-
-      <!-- Key takeaways -->
-      <section class="section  category" aria-label="category">
-        <div class="container">
-          <h2 class="h2 section-title">
-            <span class="span">Key Takeaways</span>
-          </h2>
-
-          <div x-data="{swiper: null}" x-init="swiper = new Swiper($refs.container, {
-            loop: true,
-            slidesPerView: 1,
-            spaceBetween: 0,
-        
-            breakpoints: {
-              640: {
-                slidesPerView: 1,
-                spaceBetween: 0,
-              },
-              768: {
-                slidesPerView: 2,
-                spaceBetween: 0,
-              },
-              1024: {
-                slidesPerView: 4,
-                spaceBetween: 0,
-              },
-            },
-            })" class="relative mt-3  mx-auto flex flex-row">
-            <div class="absolute inset-y-0 left-0 z-10 flex items-center">
-              <button @click="swiper.slidePrev()"
-                class="bg-white -ml-2 lg:-ml-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
-                <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-left w-6 h-6">
-                  <path fill-rule="evenodd"
-                    d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </button>
-            </div>
-
-            <div class="swiper-container" x-ref="container">
-              <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <div class="category-card" style="--color: 229, 75%, 58%">
-                        <div class="card-icon">
-                          <img src="./assets/images/category-3.svg" width="40" height="40" loading="lazy"
-                            alt="Off-Campus Programs" class="img" />
-                        </div>
-
-                        <h3 class="h3">
-                          <a href="#" class="card-title">Leadership development</a>
-                        </h3>
-
-                        <p class="card-text">
-                          Development of leadership, communication, and interpersonal
-                          skills, which are essential for success in any management
-                          role.
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <div class="category-card" style="--color: 170, 75%, 41%">
-                        <div class="card-icon">
-                          <img src="./assets/images/category-4.svg" width="40" height="40" loading="lazy"
-                            alt="Hybrid Distance Programs" class="img" />
-                        </div>
-
-                        <h3 class="h3">
-                          <a href="#" class="card-title">Opportunities</a>
-                        </h3>
-
-                        <p class="card-text">
-                          Opportunities for networking and building professional
-                          relationships with peers, alumni, and industry experts.
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <div class="category-card" style="--color: 229, 75%, 58%">
-                        <div class="card-icon">
-                          <img src="./assets/images/category-4.svg" width="40" height="40" loading="lazy"
-                            alt="Hybrid Distance Programs" class="img" />
-                        </div>
-
-                        <h3 class="h3">
-                          <a href="#" class="card-title">Modern Day Pedagogy</a>
-                        </h3>
-
-                        <p class="card-text">
-                          Hands-on experience through case studies, live projects, and
-                          summer internships, which help students apply the concepts
-                          they learn in the classroom to real-world situations.
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <div class="category-card" style="--color: 170, 75%, 41%">
-                        <div class="card-icon">
-                          <img src="./assets/images/category-1.svg" width="40" height="40" loading="lazy"
-                            alt="Online Degree Programs" class="img" />
-                        </div>
-
-                        <h3 class="h3">
-                          <a href="#" class="card-title">Strong theoretical & practical knowledge</a>
-                        </h3>
-
-                        <p class="card-text">
-                          Understanding of various business and management concepts
-                          such as finance, marketing, operations, human resources and
-                          IT.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div class="swiper-slide p-4">
-                  <div class="flex flex-col rounded shadow overflow-hidden">
-                    <div class="flex-shrink-0">
-                      <div class="category-card" style="--color: 351, 83%, 61%">
-                        <div class="card-icon">
-                          <img src="./assets/images/category-2.svg" width="40" height="40" loading="lazy"
-                            alt="Non-Degree Programs" class="img" />
-                        </div>
-
-                        <h3 class="h3">
-                          <a href="#" class="card-title">Latest tools and techniques</a>
-                        </h3>
-
-                        <p class="card-text">
-                          Exposure to the latest tools and techniques used in the
-                          business world, such as data analysis, digital marketing,
-                          project management, etc.
-                        </p>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="absolute inset-y-0 right-0 z-10 flex items-center">
-              <button @click="swiper.slideNext()"
-                class="bg-white -mr-2 lg:-mr-4 flex justify-center items-center w-10 h-10 rounded-full shadow focus:outline-none">
-                <svg viewBox="0 0 20 20" fill="currentColor" class="chevron-right w-6 h-6">
-                  <path fill-rule="evenodd"
-                    d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- key takeaways -->
-
-
-      <!-- About Institute of PGDM -->
-      <section class="section about bg-[#FEF7E8]" id="about-institute" aria-label="about">
-        <div class="container">
-          <div class="video-card">
-            <iframe width="100%" height="500" class="vid-iframe" src="https://www.youtube.com/embed/pHl_OD60JkY"
-              frameborder="0" allowfullscreen></iframe>
-          </div>
-
-          <div class="about-content">
-
-            <h2 class="h2 section-title">
-              About <span class="span">MET Institute of PGDM</span>
-            </h2>
-
-            <p class="section-text">
-              MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations
-              in Marketing, Finance, HR, System and Operations.
-              PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. Of
-              Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding
-              managers with technological tools and knowledge besides honing their managerial prowess. It is evident by
-              the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading
-              corporate organisations, making their presence felt and many are successful entrepreneurs too.
-              Besides regular specializations in Finance, Marketing, Human Resources, System and Operations, MET PGDM
-              offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Data Science & Business
-              Analytics, Start-ups & New Enterprise Management.
-            </p>
-
-          </div>
-        </div>
-      </section>
-      <!-- About Institute of PGDM -->
-
-
-
-      <!--- specialisation -->
-      <section class=" bg-white section course specialisation" id="specialisation" aria-label="course">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            <span class="span">Specialisation</span>
-          </h2>
-
-          <ul class="grid-list">
-            <li>
-              <div class="course-card">
-                <div class="card-content">
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Specialisation</a>
-                  </h3>
-
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">PGDM in Finance</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">PGDM in Marketing</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">PGDM in Human Resources</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">PGDM in Operations</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">PGDM in Systems</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-                <div class="card-content">
-                  <h3 class="h3">
-                    <a href="#" class="card-title"> NEW AGE Specialisation </a>
-                  </h3>
-
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">FinTech</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">MarTech</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">Data Science and Business Analytics</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">Media & Entertainment</p>
-                    </div>
-                  </div>
-                  <div class="flex space-x-2 sm:space-x-4 items-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-                      class="flex-shrink-0 w-8 h-8">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z">
-                      </path>
-                    </svg>
-                    <div class="space-y-2">
-                      <p class="text-3xl font-medium leading-snug">Start-ups and New Enterprise Management</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-          </ul>
-      </section>
-      <!-- Specialisation -->
-
-
-      <!-- testimonials -->
-      <section class="section blog has-bg-image" id="testimonial" aria-label="blog"
-        style="background-image: url('./assets/images/blog-bg.svg')">
-
-        <div class="container">
-          <h2 class="h2 section-title">
-            <span class="span">Testimonials</span>
-          </h2>
-
-          <svg class="absolute bottom-0 left-0 -z-[1]" width="404" height="572" viewBox="0 0 404 572" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <circle cx="118" cy="286" r="265.5" stroke="#4175DF" stroke-opacity="0.2" stroke-width="41" />
-          </svg>
-
-          <svg class="absolute top-0 right-0 -z-[1]" width="269" height="479" viewBox="0 0 269 479" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <circle cx="239.5" cy="239.5" r="239.5" fill="#FC4755" fill-opacity="0.25" />
-          </svg>
-
-          <div class="container px-4 mx-auto">
-            <div class="mt-12">
-              <div class="grid grid-cols-3 gap-6">
-
-                <div class="col-span-3 lg:col-span-1">
-                  <div class="bg-white  shadow-2xl h-full p-6 xl:p-10 br-10 rounded-3xl">
-                    <div class="flex items-center mb-6">
-                      <div class="mr-3">
-                        <img src="./assets/images/testimonial/Amogh_Patil.png" alt=""
-                          class="max-w-full h-auto rounded-full border" width="65" />
-                      </div>
-                      <div>
-                        <h4 class="text-xl font-medium">Amogh Patil</h4>
-                        <p class="text-sm mb-2">PGDM (Finance)</p>
-                      </div>
-                    </div>
-                    <p class="opacity-75 mb-2">
-                      "Studying PGDM at MET was a remarkable experience. The institute delivers exceptional management
-                      education with knowledgeable & approachable faculty members, state of the art campus facilities
-                      and
-                      a curriculum that expertly blends theory and practical exposure."
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-span-3 lg:col-span-1">
-                  <div class="bg-white  shadow-2xl h-full p-6 xl:p-10 rounded-3xl">
-                    <div class="flex items-center mb-6">
-                      <div class="mr-3">
-                        <img src="./assets/images/testimonial/Riti_Modi.png" alt=""
-                          class="max-w-full h-auto rounded-full border" width="65" />
-                      </div>
-                      <div>
-                        <h4 class="text-xl font-medium">Riti Modi</h4>
-                        <p class="text-sm mb-2">PGDM (Marketing)</p>
-                      </div>
-                    </div>
-                    <p class="opacity-75 mb-2">
-                      "Ranked 4th Best in Mumbai, MET was my first choice. The faculty members are outstanding and
-                      readily
-                      available to assist students, while the friendly & accommodating campus atmosphere fosters a
-                      positive and flexible learning environment."
-                    </p>
-                  </div>
-                </div>
-
-                <div class="col-span-3 lg:col-span-1">
-                  <div class="bg-white  shadow-2xl h-full p-6 xl:p-10 rounded-3xl">
-                    <div class="flex items-center mb-6">
-                      <div class="mr-3">
-                        <img src="./assets/images/testimonial/Rahul_Thakur.png" alt=""
-                          class="max-w-full h-auto rounded-full border" width="65" />
-                      </div>
-                      <div>
-                        <h4 class="text-xl font-medium">Rahul Thakur</h4>
-                        <p class="text-sm mb-2">PGDM (Operations)</p>
-                      </div>
-                    </div>
-                    <p class="opacity-75 mb-2">
-                      "MET has provided an unparalleled experience that cannot be matched by any other college. The
-                      internship programs offered here are unique and give students an advantage by providing hands-on
-                      exposure to the corporate world. My experience as a student was excellent."
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- testimonials -->
-
-
-      <!--- Syllabus -->
-      <section class="section specialisation" id="courses" aria-label="course">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            <span class="span">Syllabus</span>
-          </h2>
-
-          <div class="accordian ">
-            <div class=" item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester I</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            Trimester I
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Managerial Economics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Financial Reporting, <br> Statement & Analysis
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Mathematics & Statistics <br> for Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Management Research <br> Methods
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Organizational Behaviour <br> & Organizational Design
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Design Thinking & <br> Decision Making - I
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Corporate Social <br> Responsibility & Sustainability <br> - Concepts, Implementation
-                            Process <br> and Evaluation
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordian">
-            <div class="item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester II</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            Trimester II
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Human Resources Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Marketing Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Financial & Cost Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Operations Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Information Technology Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            FinTech Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Healthcare Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Social Enterprise Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Business of Media & Entertainment
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Legal & Tax Aspects of Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Operation Research & Data Science (Predictive and Prescriptive Analytics, AI&ML)
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="accordian">
-            <div class="item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester III</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Common ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Indian & Global Business Environment
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            International Business
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Finance ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Advanced Financial Management (Corporate Finance)
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Indian & Global Financial System, Markets & Services
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Banking and International Finance
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Fixed Income Securities & Mutual Funds
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Investment Analysis, Wealth & Portfolio Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Business & Financial Laws
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Marketing ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Consumer Behaviour
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Sales and Distribution Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            A) Product Management & (B) Strategic Brand Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            A) B2B & Retail Marketing & (B) Marketing of High Technology Products
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Integrated Marketing Communication
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            (A) Marketing Strategy & (B) Qualitative Marketing Research
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ HR ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Labour Laws and Implications on Industrial Relations
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Strategic HRM
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Global HRM
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            HR Accounting and Compensation Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Training & Development
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Competency Based <br> HRM and <br> Performance Management
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Operations ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Strategic Operations Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Business Process <br> Engineering & <br> Benchmarking
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Productivity Management <br> & TQM
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Materials Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Supply Chain <br> Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Service Operations Management
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ IT System ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Software Project <br> management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            A) IT Consulting, <br> (B) Digital Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Information System <br> Security and <br> Audit
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Enterprise Management <br> System
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Software Engineering & Software Testing
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Database Management System & Data Warehousing
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordian">
-            <div class="item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester IV</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full ">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Common ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Management Control Systems
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Analytics for Business & Research
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Start-ups & New Enterprise management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Internship
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Finance ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Corporate Restructuring <br>, Valuation and
-                            Merger <br> & Acquisition
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Derivatives & <br> Risk Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Strategic Cost Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Banking Operations & <br> Treasury Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies <br>(Insolvency & Forensic <br> Investigation,
-                            etc)
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Marketing ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            (A) Agricultural Marketing <br>& (B) Rural Marketing
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Marketing Decision Models, <br> E-Marketing & <br>Marketing
-                            Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Digital Marketing
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Marketing of Services (BFSI)
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies <br> in Marketing (Films, <br> Fashion, Event,
-                            etc)
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ HR ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Change Management, <br> Conflict & Negotiation <br> Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            HR Planning <br> and Application <br> of Technology in HR
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            HR Information <br> Systems & <br> HR Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Organizational Design <br> & Development, <br>Designing HR
-                            Policies
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies in HR
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Operations ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            (A) Inventory Management <br> (B) Technology Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            (A) World Class Manufacturing <br>(B) Designing Operations
-                            Systems
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Operations Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Manufacturing Resource <br> Planning & Control
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies <br> in Operations
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ IT System ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Big Data and <br> Business Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Knowledge Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Mobile Computing <br> with Android, <br> Web Designing <br> and
-                            Multimedia
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            (A) Network Technologies <br> and Security <br>(B) E-Governance
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies <br> in Systems
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordian">
-            <div class="item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester V</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Common ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Strategic Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Indian Wisdom <br>for Management, <br>Indian Ethos &<br>
-                            Business Ethics
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ FinTech ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Applied Fintech <br> for Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Blockchain for <br> Fintech & Applications
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Payments, Crypto-Currencies<br>& Alternative Finance
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            BankTech, InsurTech <br> & RegTech 4
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            FinTech for <br>Capital Markets
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies<br> (FinTech Innovations, <br>Applications &
-                            Considerations)
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ MarTech ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Web Development, <br> SEO nad SEM
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Integrated Digital <br> Media Campaigns & <br>Programmatic
-                            Advertising
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            MarTech Tools <br>and UI/UX tools
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Marketing Technology:<br> Digital Business and<br> Consumer
-                            Insights
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            User Generated<br> Contnet Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies<br> in MarTech
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Start-up & New <br> Enterprise Management ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Micro Finance <br> & Schemes for <br> MSME & Startups
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Business Plan <br> Preparation for <br> Social Enterprises,
-                            <br> Start-ups & MSME
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Marketing for <br> Small Business <br> & Social <br>
-                            Enterprise
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Strategy for <br> Startup Innovators <br> & Entrepreneurs:<br>
-                            From Idea to Impact
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Patent Law,<br> Technology Licensing <br>and Commercialization
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Special Studies <br>in Start-up &<br> New Enterprise Management
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Media & Entertainment ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Advertising & <br> Media Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Entertainment Marketing
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Public Relations <br> & Celebrity Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Audio Visual <br> Content Creation
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Content & <br> Business Strategy
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            New Techonolgies <br> for Media: <br> Analytics, AI & ML
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            [ Data Science & Business Analytics ]
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Foundations of <br> Business Analytics
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Statistical Analysis <br> for Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Decision Making <br> Exploratory Data
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Analysis and <br> Visualization using R
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Predictive Analytics <br> for Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Prescriptive Analytics <br> for Business
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Data Science and <br> Machine Learning for <br> Decision Making
-                          </td>
-                        </tr>
-                      </tbody>
-
-                    </table>
-                    <p class="text-black">
-                      Note: Student has to Select Any One New Age Elective Group, Subject to
-                      Minimum 40 students opting for a Particular New Age Elective Group
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="accordian">
-            <div class="item bg-gradient-to-r from-red-500 to-red-700">
-              <div class="FAQ-title">
-                <p class="faqQuestion">Trimester VI</p>
-                <span class="expandToggle">+</span>
-              </div>
-              <div class="FAQ-content">
-                <div class="course-table">
-                  <div class="overflow">
-                    <table class="min-w-full">
-                      <thead>
-                        <tr>
-                          <th scope="col" class="course-table-header">
-                            Course Title
-                          </th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <tr>
-                          <td class="course-table-cell">
-                            Project Management
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            ISC - Certificate Courses
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            ISC - Seminar/ Workshop/ Conference
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Capstone Project <br> (Specialization Based)
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="course-table-cell">
-                            Capstone Project <br> (Social/New Age <br> Elective Based)
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      <!-- Syllabus -->
-
-
-      <!--- steps -->
-      <section class="section course steps" id="howtoapply" aria-label="course">
-        <div class="container">
-
-          <h2 class="h2 section-title">
-            <span class="span font-bold">How To Apply</span>
-          </h2>
-
-          <div class="px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-            <div class="grid gap-6 row-gap-10 lg:grid-cols-2">
-              <div class="lg:py-6 lg:pr-16">
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-4 text-gray-600" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" viewBox="0 0 24 24">
-                          <line fill="none" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
-                          <polyline fill="none" stroke-miterlimit="10" points="19,15 12,22 5,15"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="w-px h-full bg-gray-300"></div>
-                  </div>
-                  <div class="pt-1 pb-8">
-                    <p class="mb-2 text-black text-3xl font-bold">Step 1</p>
-                    <p class="text-gray-700">
-                      <a href="#apply-now" class="font-bold text-red-600">Click Apply</a>
-                      and fill out your personal information, including
-                      your name, working email, mobile number, and qualifications. Select your desired
-                      discipline and program.
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-4 text-gray-600" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" viewBox="0 0 24 24">
-                          <line fill="none" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
-                          <polyline fill="none" stroke-miterlimit="10" points="19,15 12,22 5,15"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="w-px h-full bg-gray-300"></div>
-                  </div>
-                  <div class="pt-1 pb-8">
-                    <p class="mb-2 text-black text-3xl font-bold">Step 2</p>
-                    <p class="text-gray-700">
-                      <span class="font-bold">Register Yourself</span>
-                      Enter your details (Full Name, Mobile Number, Email ID, etc.), verify OTP, and click Register Now.
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-4 text-gray-600" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" viewBox="0 0 24 24">
-                          <line fill="none" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
-                          <polyline fill="none" stroke-miterlimit="10" points="19,15 12,22 5,15"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="w-px h-full bg-gray-300"></div>
-                  </div>
-                  <div class="pt-1 pb-8">
-                    <p class="mb-2 text-black text-3xl font-bold">Step 3</p>
-                    <p class="text-gray-700">
-                      <span class="font-bold">Complete the Application Form.</span>
-                      Use the login details sent to your email, access the MET form and follow
-                      the steps: <br>
-                      Step 1: Personal Details <br>
-                      Step 2: Pay ₹2300/- application fee <br>
-                      Step 3: Enter Guardian/Address Details <br>
-                      Step 4: Provide Academic/Qualification Documents <br>
-                      Step 5: Add Work Experience (if applicable)
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-4 text-gray-600" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" viewBox="0 0 24 24">
-                          <line fill="none" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
-                          <polyline fill="none" stroke-miterlimit="10" points="19,15 12,22 5,15"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="w-px h-full bg-gray-300"></div>
-                  </div>
-                  <div class="pt-1 pb-8">
-                    <p class="mb-2 text-black text-3xl font-bold">Step 4</p>
-                    <p class="text-gray-700">
-                      <span class="font-bold">Review and Submit</span>
-                      Double-check your details and submit the application after thorough review.
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-4 text-gray-600" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                          stroke-linejoin="round" viewBox="0 0 24 24">
-                          <line fill="none" stroke-miterlimit="10" x1="12" y1="2" x2="12" y2="22"></line>
-                          <polyline fill="none" stroke-miterlimit="10" points="19,15 12,22 5,15"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                    <div class="w-px h-full bg-gray-300"></div>
-                  </div>
-                  <div class="pt-1 pb-8">
-                    <p class="mb-2 text-black text-3xl font-bold">Step 5</p>
-                    <p class="text-gray-700">
-                      <span class="font-bold">Post-Submission</span>
-                      Receive updates about your Group Discussion (GD) and Personal Interview (PI) via Email, SMS, or
-                      WhatsApp.
-                    </p>
-                  </div>
-                </div>
-                <div class="flex">
-                  <div class="flex flex-col items-center mr-4">
-                    <div>
-                      <div class="flex items-center justify-center w-10 h-10 border rounded-full">
-                        <svg class="w-6 text-gray-600" stroke="currentColor" viewBox="0 0 24 24">
-                          <polyline fill="none" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            stroke-miterlimit="10" points="6,12 10,16 18,8"></polyline>
-                        </svg>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="pt-1">
-                    <p class="mb-2 text-black text-3xl font-bold">Success</p>
-                    <p class="text-gray-700"></p>
-                  </div>
-                </div>
-              </div>
-              <div class="relative">
-                <img class="inset-0 object-cover object-bottom w-full rounded shadow-lg h-96 lg:absolute lg:h-full"
-                  src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
-                  alt="" />
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-      <!-- steps -->
-
-
-      <!-- FAQ's -->
-      <br><br>
-      <section class="stats specialisation" id="faq" aria-label="stats">
-
-        <div class="container">
-          <h2 class="h2 section-title">
-            <span class="span">FAQ's</span>
-          </h2>
-
-          <div id="FAQ">
-            <div class="accordian">
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">Why opt for the PGDM Programme at MET?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    Some of the highlights of the MET PGDM programme give students extra benefits:
-                    <li>
-                      Opportunity to publish research papers
-                    </li>
-                    <li>
-                      Trimester based programme with robust and concurrent syllabus
-                    </li>
-                    <li>
-                      Evaluated Independent Study (ISC) courses for extra credits
-                    </li>
-                    <li>
-                      Learn and Apply pedagogy
-                    </li>
-                    <li>
-                      Flexible and adaptable course structure to match the evolving market - Business
-                      Analytics, E-Commerce, etc
-                    </li>
-                    <li>
-                      Developing learning and skills that bridge the education-employment void
-                    </li>
-                    <li>
-                      Exceptional industrial curriculum and industrial expertise
-                    </li>
-                    <li>
-                      Trains you to be insightful managers of the future.
-                    </li>
-                    <li>
-                      Rich academic surroundings provide a competitive edge
-                    </li>
-                    <li>
-                      Nurturing entrepreneurship with enthusiasm to excel
-                    </li>
-                    <li>
-                      Industry-Academia Partnership
-                    </li>
-                  </p>
-                </div>
-              </div>
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">Is the programme MET PGDM recognized by the corporate sector?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>Yes.</p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion"> What is the teaching instruction MET PGDM follows?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    All needed essential inputs are provided using interactive methods such as
-                    case studies, management games, role plays, workshops, videos, networking,
-                    seminars and more to offer a superabundance of experiential learning. This is
-                    further strengthened by 8 weeks of Summer Internship, Live Projects and the
-                    Industry Threshold program in the 4th semester leading to placements.
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion"> What are the eligibility criteria for MET PGDM?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    Graduation with 50% marks (45% marks for reserved category) in aggregate
-                    in any discipline from any university. Final-year students can also apply. Proficiency
-                    in MS Office is a prerequisite.
-                    Candidates applying should have a valid scorecard for anyone from the entrance
-                    exams: CMAT, XAT, CAT, ATMA, GMAT, MAT and MH-CET.
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">What is the selection process for MET PGDM?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    Applicants will be selected based on the Entrance Test (anyone) Score (CMAT, XAT, CAT, ATMA,
-                    GMAT, MAT, MH-CET) + Aptitude Questions and Statement of Purpose (SOP) on Video +
-                    Personality Factor Test (PF Test) + Online/Offline Personal Interview + Academics
-                    Performance + Other Parameters
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">Is work experience mandatory for PGDM?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    No. However, students with work experience may get up to 10 marks allocated to them,
-                    depending on their work experience
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">What is the fee structure for MET PGDM?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    The fee for this MET PGDM programme is First Year Rs 5,50,000 (Five lacs Fifty Thousand
-                    only), Second Year Rs. 5,55,000 (Five lacs Fifty Five Thousand only) and a State-of-the-art
-                    laptop is given complimentary.
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">What are the fee payment facilities?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    Fees can be paid through loans or EMIs. MET has tied up with Saraswat Co-op Bank and Axis
-                    Bank for the loan facility. And GrayQuest for EMI facility, which offers spot sanctions to
-                    deserving students.
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">Does MET provide hostel facilities to the students?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    Currently the Institute does not provide hostel facilities to students. However, it
-                    endeavours to help students to procure accommodation around the MET campus.
-                  </p>
-                </div>
-              </div>
-
-              <div class="item bg-gradient-to-r from-red-500 to-red-700">
-                <div class="FAQ-title">
-                  <p class="faqQuestion">Does MET provide campus placements to all the students?</p>
-                  <span class="expandToggle">+</span>
-                </div>
-                <div class="FAQ-content">
-                  <p>
-                    MET provides excellent placement opportunities based on individual performance to every
-                    student. We have provided 100% placements to our students in the past. The highest package
-                    has been Rs. 20 LPA. and an average of Rs. 8.5 LPA.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <br><br><br>
-      <!-- FAQ's -->
-
-    </article>
-  </main>
-
-  <!--- #FOOTER-->
-  <footer class="footer"
-    style="background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./assets/images/footer-bg.jpg');">
-    <div class="footer-top section">
-
-      <h2 class="h2 section-title">
-        <span class="span">Contact Us</span>
-      </h2>
-
-      <div class="container grid-list">
-        <div class="footer-brand">
-  
-          <div class="wrapper">
-            <span class="span">
-              <svg xmlns="http://www.w3.org/2000/svg" class="footer-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-              </svg>
-            </span>
-
-            <div class="address">
-              MET Institute of Post Graduate Diploma in Management <br>
-              Bhujbal Knowledge City, <br>
-              Bandra Reclamation, Bandra (West), <br>
-              Mumbai - 400 050, Maharashtra, India <br>
-            </div>
-          </div>
-
-          <div class="wrapper">
-            <span class="span">
-              <svg xmlns="http://www.w3.org/2000/svg" class="footer-icon" fill="none" viewBox="0 0 24 24"
-                stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
-            </span>
-
-            <a href="tel:7208006694" class="footer-link">7208006694</a><a href="tel:8451907258"
-              class="footer-link">8451907258</a>
-            <a href="tel:7208006695" class="footer-link">7208006695</a><a href="tel:9967181380"
-              class="footer-link">9967181380</a>
-          </div>
-
-          <!-- <div class="wrapper">
-            <span class="span">Email:</span>
-
-            <a href="mailto:info@met.com" class="footer-link">info@met.com</a>
-          </div> -->
-
-
-        </div>
-
-
-        <div class="footer-list">
-
-
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.6244357723208!2d72.82837502002538!3d19.05178722536715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93f3228b1d9%3A0x3bbcfaf779efad37!2sMumbai+Educational+Trust+MET+League+of+Colleges!5e0!3m2!1sen!2sin!4v1523433495957"
-            width="100%" height="300" style="border:0; border-radius: 15px;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            keywords="PGDM, PGDM in Marketing, PGDM Admissions, PGDM in Media & Entertainment, best pgdm college in mumbai, pgdm course fees in mumbai, pgdm course details, pgdm course duration, pgdm admission in mumbai, pgdm program, pgdm admission process, top b-schools in india, top b-schools in mumbai">
-            PGDM, PGDM in Marketing, PGDM Admissions, PGDM in Media & Entertainment, best pgdm college in
-            mumbai, pgdm course fees in mumbai, pgdm course details, pgdm course duration, pgdm admission in
-            mumbai, pgdm program, pgdm admission process, top b-schools in india, top b-schools in mumbai
-          </iframe>
-
-
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="container">
-        <p class="copyright">
-          <a href="https://www.met.edu/privacy_policy" class="copyright-link">Privacy Policy</a>
-        </p>
-      </div>
-    </div>
-  </footer>
-  <!--- #FOOTER-->
-
-
-  <!-- - #BACK TO TOP  -->
-  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
-  <!-- - #BACK TO TOP  -->
-
-
-  <!-- - custom js link -->
-  <script src="./assets/js/script.js" defer></script>
-
-  <!-- - ionicon link-->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-  <script src='https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js'></script>
-  <script src='https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js'></script>
-
-  <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
-
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-  <!-- <script src="./script.js"></script> -->
 </body>
 
 </html>
