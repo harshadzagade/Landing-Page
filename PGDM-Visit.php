@@ -23,7 +23,7 @@ $institute_name = "Institute of Post Graduate Diploma in Management";
 // Database configuration
 $servername = "localhost"; // Change if needed
 $username = "root";        // Database username
-$password = "";        // Database password
+$password = "root";        // Database password
 $dbname = "met_db";  // Database name
 
 // Create a connection
