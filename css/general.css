@@ -268,6 +268,49 @@
     -webkit-filter: invert(1);
     filter: invert(1);
   }
+
+  @media only screen and (max-width: 1400px) {
+    nav {
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease;
+      padding: 0.65rem 2rem;
+    }
+  
+    .navbar-container .navbar-links .navbar-link .nav-link {
+      font-size: 1rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1500px) {
+    .navbar-container .navbar-links {
+      gap: 1.6rem;
+    }
+  
+    .navbar-container .navbar-links .navbar-link .nav-link {
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1300px) {
+    .navbar-container .navbar-links {
+      gap: 1.5rem;
+    }
+  
+    .navbar-container .navbar-links .navbar-link .nav-link {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .navbar-container .menu {
+      display: block;
+    }
+  
+    .navbar-links {
+      display: none !important;
+    }
+  }
   
   /******************Header End**************/
 
@@ -293,7 +336,7 @@
 
   /******************Banner Start**************/  
 .main-banner{
-  background-image: url('../assets/images/banner.png');
+  background-image: url('../assets/images/banner.webp');
   background-repeat: no-repeat;
   width: 100%;
   padding-top: 80px;
@@ -390,15 +433,18 @@
 /* ================================Advantage section starts==================== */
 .adv__sec {
   width: 100%;
-  background-size: cover;
   position: relative;
-  background: url("../assets/images/adv-bg.png") center no-repeat;
+  background-image: url("../assets/images/adv-bg.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 0px 0px 0px;
   /* margin-top: 5%;
   padding-top: 2rem; */
 }
 
 .adv_list ul {
-  list-style-image: url("../assets/images/check.png") !important;
+  list-style-image: url("../assets/images/check.webp") !important;
   padding: 0rem 0.75rem 0rem 3rem;
 }
 
@@ -418,12 +464,18 @@
   height: auto;
 }
 
+@media (max-width: 992px){
+  .adv__sec {
+    background-image: url("../assets/images/adv-bg_mb.webp");
+  }
+}
+
 /* ================================Advantage section starts==================== */
 
 /* ================================Programme Detail section starts==================== */
 .program__Sec {
   width: 100%;
-  padding: 50px 0 100px;
+  padding: 80px 0 100px;
 }
 
 .prg_img{
@@ -436,7 +488,7 @@
 /* ================================Placement section starts==================== */
 .place__Sec {
   width: 100%;
-  background: url("../assets/images/place-bg.png") center no-repeat;
+  background: url("../assets/images/place-bg.webp") center no-repeat;
   background-size: cover;
   padding: 50px 0 250px;
 }
@@ -468,7 +520,7 @@
 
 .img__sec {
   position: relative;
-  margin-top: -9%;
+  margin-top: -200px;
   padding-bottom: 50px;
 }
 
@@ -490,6 +542,30 @@
   font-weight: 500;
   font-size: 1rem;
   color: #f42525;
+}
+@media screen and (max-width: 767px) {
+  .plc_div h3 {
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 576px) {
+    
+  .plc_title h2 {
+    font-size: 2rem;
+  }
+
+  .plc_div h3 {
+    font-size: 1.15rem;
+    /* line-height: 1; */
+  }
+
+  .plc_div p {
+    font-size: 1rem;
+    text-align: center;
+    /* line-height: 1.5625rem; */
+    margin: 0.5rem 0 0 0;
+  }
 }
 
 /* ================================Placement section starts==================== */
@@ -607,13 +683,13 @@
   }
   
   .accordion-button:not(.collapsed)::after {
-    background-image: url("../assets/images/up.png");
+    background-image: url("../assets/images/up.webp");
     transform: scale(1.3);
     transition: all 0.4s ease;
   }
   
   .accordion-button::after {
-    background-image: url("../assets/images/down.png");
+    background-image: url("../assets/images/down.webp");
     transform: scale(1.3) !important;
     transition: all 0.4s ease;
   }
@@ -642,7 +718,7 @@ section.section-apply {
     z-index: -1;
     height: 60%;
     inset: 0;
-    background: url("../assets/images/overlay/placement-overlay.png") no-repeat
+    background: url("../assets/images/overlay/placement-overlay.jpg") no-repeat
       center center/cover;
   }
 
@@ -855,7 +931,7 @@ section.section-gallery {
 
 section.section-gallery .custom-container-2 {
   background-color: #f8f8f8;
-  padding: 3rem 0 0.25rem 0;
+  padding: 3rem 0 2rem 0;
   border-radius: 1.5rem !important;
 }
 
@@ -944,7 +1020,7 @@ section.section-gallery .custom-container-2 {
   left: 0;
   width: 100%;
   height: 40%;
-  background: url("../assets/images/overlay/placement-overlay.png") no-repeat
+  background: url("../assets/images/overlay/placement-overlay.jpg") no-repeat
     center center / cover;
   z-index: -1;
 }

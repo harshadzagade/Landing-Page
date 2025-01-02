@@ -1,12 +1,12 @@
 <?php
-$utm_source = isset($_REQUEST['utm_source']) ? $_REQUEST['utm_source'] : '';
-$utm_medium = isset($_REQUEST['utm_medium']) ? $_REQUEST['utm_medium'] : '';
-$utm_campaign = isset($_REQUEST['utm_campaign']) ? $_REQUEST['utm_campaign'] : '';
-$utm_adgroup = isset($_REQUEST['utm_adgroup']) ? $_REQUEST['utm_adgroup'] : '';
-$utm_device = isset($_REQUEST['utm_device']) ? $_REQUEST['utm_device'] : '';
-$utm_term = isset($_REQUEST['utm_term']) ? $_REQUEST['utm_term'] : '';
-$gclid = isset($_REQUEST['gclid']) ? $_REQUEST['gclid'] : '';
-$fbclid = isset($_REQUEST['fbclid']) ? $_REQUEST['fbclid'] : '';
+$utm_source = $_REQUEST['utm_source'] ?? '';
+$utm_medium = $_REQUEST['utm_medium'] ?? '';
+$utm_campaign = $_REQUEST['utm_campaign'] ?? '';
+$utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
+$utm_device = $_REQUEST['utm_device'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
+$gclid = $_REQUEST['gclid'] ?? '';
+$fbclid = $_REQUEST['fbclid'] ?? '';
 $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 ?>
@@ -18,21 +18,21 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="assets/images/favicon.jpg" type="image/png" sizes="16x16">
-    <title>Home</title>
+    <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
+    <title>PGDM</title>
     <!-- bootstrap css cdn -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css" />
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/general.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/general.css">
 
-    <link rel="stylesheet" href="./css/aos.css" />
+    <link rel="stylesheet" href="css/aos.css" />
 
     <!-- Include Owl Carousel CSS -->
-    <link rel="stylesheet" href="./css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
     <!-- FancyBox CSS -->
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
 </head>
 
 <body>
@@ -43,7 +43,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         </div>
     </div>
 
-    <?php include './assets/component/header.php' ?>
+    <?php include 'assets/component/header.php' ?>
 
     <main>
 
@@ -53,7 +53,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 <div class="row g-4 justify-content-center align-items-center">
                     <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 col-12 pt-5">
                         <div class="banner-txt">
-                            <div class="visualtxt">
+                            <div class="visualtxt " >
                                 <div class="headline-pgdm">
                                     <div class="head-line"></div>
                                 </div>
@@ -70,7 +70,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class="" > <img src="./assets/images/bannerstudent.png" class=""
+                        <div class=""> <img src="assets/images/bannerstudent.webp" class=""
                                 alt="...">
                         </div>
                     </div>
@@ -159,7 +159,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="PGDM">
+                                            <input type="hidden" name="page_name" value="MET - Business Mgmt">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
@@ -184,7 +184,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         </section>
         <!------------------- Banner section ----------------->
 
-    <?php include './assets/component/content.php' ?>
+        <?php include 'assets/component/content.php' ?>
 
     </main>
 
@@ -203,22 +203,22 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <!-- =================footer section ends================ -->
 
     <!-- bootstrap js cdn -->
-    <script src="./js/popper.min.js"></script>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- jQuery -->
-    <script src="./js/jquery-3.5.1.min.js"></script>
-    <script src="./js/owl.carousel.min.js"></script>
-    <script src="./js/aos.js"></script>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/aos.js"></script>
 
     <!-- FancyBox JS -->
-    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
 
-    <script src="./js/AOS.js"></script>
-    <script src="./js/cookie.js"></script>
-    <script src="./js/url-tracking.js"></script>
-    <script src="./js/custom-validate.js"></script>
-    <script src="./js/form-validation.js"></script>
+    <script src="js/AOS.js"></script>
+    <script src="js/cookie.js"></script>
+    <script src="js/url-tracking.js"></script>
+    <script src="js/custom-validate.js"></script>
+    <script src="js/form-validation.js"></script>
 
     <script>
         Delete_Cookie('formfilled');
@@ -238,8 +238,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 dots: true,
                 backFocus: false,
                 navText: [
-                    '<img class="arrow" src="./assets/images/icons/left-arrow.png" alt="arrow"></img>',
-                    '<img class="arrow" src="./assets/images/icons/right-arrow.png" alt="arrow"></img>'
+                    '<img class="arrow" src="assets/images/icons/left-arrow.svg" alt="arrow"></img>',
+                    '<img class="arrow" src="assets/images/icons/right-arrow.svg" alt="arrow"></img>'
                 ],
                 responsive: {
                     567: {
@@ -275,8 +275,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 dots: true,
                 autoplayHoverPause: true,
                 navText: [
-                    '<img class="arrow" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
-                    '<img class="arrow rotate" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                    '<img class="arrow" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>',
+                    '<img class="arrow rotate" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>'
                 ],
                 responsive: {
                     0: {
@@ -303,8 +303,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 loop: true,
                 dots: true,
                 autoplayHoverPause: true,
-                // navText: ['<img class="arrow" src="assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
-                //     '<img class="arrow rotate" src="assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                // navText: ['<img class="arrow" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>',
+                //     '<img class="arrow rotate" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>'
                 // ],
                 responsive: {
                     0: {
@@ -332,8 +332,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 dots: true,
                 autoplayHoverPause: true,
                 navText: [
-                    '<img class="arrow" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>',
-                    '<img class="arrow rotate" src="./assets/images/icons/left-arrow-2.png" alt="arrow"></img>'
+                    '<img class="arrow" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>',
+                    '<img class="arrow rotate" src="assets/images/icons/left-arrow-2.svg" alt="arrow"></img>'
                 ],
                 responsive: {
                     0: {
@@ -355,9 +355,6 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 // Options
             });
         })
-
-
-        
     </script>
 
 </body>
