@@ -3,11 +3,11 @@
            <div class="custom-container-2">
                <div class="banner-legacy ">
                    <div class="row mr0 about-sec align-items-center justify-content-center">
-                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3" >
+                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                            <h3>₹20 LPA</h3>
                            <p>Highest Salary</p>
                        </div>
-                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3" >
+                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                            <h3>4th Best in Mumbai</h3>
                            <p>By Times B-School Survey 2024</p>
                        </div>
@@ -16,7 +16,7 @@
                            <p>Add-On Specialisations</p>
                        </div>
 
-                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3" >
+                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                            <h3><span class="counter">500</span>+</h3>
                            <p>Recruiting Companies</p>
                        </div>
@@ -189,7 +189,7 @@
                    </div>
                    <div class="col-lg-5 col-md-12">
                        <div class="adv_img">
-                           <img src="assets/images/adv-girl.webp" alt="kolte Images">
+                           <img src="assets/images/adv-girl.png" alt="kolte Images">
                        </div>
                    </div>
                </div>
@@ -483,7 +483,7 @@
 
        <!------------------  takesway section ------------------>
 
-       <!--------------- Syllabus section ------------------->
+       <!--------------- Syllabus section 
 
        <section class="syllab__sec" id="syllabusSection">
            <div class="container">
@@ -1037,6 +1037,89 @@
        </section>
        <!--------------- Syllabus section ------------------->
 
+       <!--------------------- testimonial section ------------------->
+       <section class="testimonial-pgdm" id="testimonial">
+           <div class="custom-container-2">
+               <div class="row">
+                   <div class="col-12">
+                       <div class="sec_title">
+                           <h2><span>Testimonials</span></h2>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-12">
+                       <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+                           <div class="testimonial-card">
+                               <div class="img-testimonial d-flex align-items-center">
+                                   <div>
+                                       <img class="student-images" src="assets/images/test/student1.jpg"
+                                           alt="testimonial carousel slider 2">
+                                   </div>
+                                   <div>
+                                       <h5 class="card-title">Amogh Patil</h5>
+                                       <span class="text-secondary">PGDM (Finance)</span>
+                                   </div>
+                                   <div class="svg-icon-testimonial">
+                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
+                                   </div>
+                               </div>
+                               <div class="text-testimonial info_data_2 mt-3">
+                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
+                                       The institute delivers exceptional management education with knowledgeable &
+                                       approachable faculty members, state of the art campus facilities and a
+                                       curriculum that expertly blends theory and practical exposure."</p>
+                               </div>
+                           </div>
+                           <div class="testimonial-card">
+                               <div class="img-testimonial d-flex align-items-center">
+                                   <div>
+                                       <img class="student-images" src="assets/images/test/student2.jpg"
+                                           alt="testimonial carousel slider 2">
+                                   </div>
+                                   <div>
+                                       <h5 class="card-title">Amogh Patil</h5>
+                                       <span class="text-secondary">PGDM (Finance)</span>
+                                   </div>
+                                   <div class="svg-icon-testimonial">
+                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
+                                   </div>
+                               </div>
+                               <div class="text-testimonial info_data_2 mt-3">
+                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
+                                       The institute delivers exceptional management education with knowledgeable &
+                                       approachable faculty members, state of the art campus facilities and a
+                                       curriculum that expertly blends theory and practical exposure."</p>
+                               </div>
+                           </div>
+                           <div class="testimonial-card">
+                               <div class="img-testimonial d-flex align-items-center">
+                                   <div>
+                                       <img class="student-images" src="assets/images/test/student3.jpg"
+                                           alt="testimonial carousel slider 2">
+                                   </div>
+                                   <div>
+                                       <h5 class="card-title">Amogh Patil</h5>
+                                       <span class="text-secondary">PGDM (Finance)</span>
+                                   </div>
+                                   <div class="svg-icon-testimonial">
+                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
+                                   </div>
+                               </div>
+                               <div class="text-testimonial info_data_2 mt-3">
+                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
+                                       The institute delivers exceptional management education with knowledgeable &
+                                       approachable faculty members, state of the art campus facilities and a
+                                       curriculum that expertly blends theory and practical exposure."</p>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+       <!--------------------- testimonial section ------------------->
+
        <!------------------ apply section ---------------->
        <section class="section-apply" id="applySection">
            <div class="custom-container-2">
@@ -1162,88 +1245,7 @@
        </section>
        <!------------------ apply section ------------------->
 
-       <!--------------------- testimonial section ------------------->
-       <section class="testimonial-pgdm" id="testimonial">
-           <div class="custom-container-2">
-               <div class="row">
-                   <div class="col-12">
-                       <div class="sec_title">
-                           <h2><span>Testimonials</span></h2>
-                       </div>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-12">
-                       <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
-                           <div class="testimonial-card">
-                               <div class="img-testimonial d-flex align-items-center">
-                                   <div>
-                                       <img class="student-images" src="assets/images/test/student1.jpg"
-                                           alt="testimonial carousel slider 2">
-                                   </div>
-                                   <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
-                                   </div>
-                                   <div class="svg-icon-testimonial">
-                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                                   </div>
-                               </div>
-                               <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
-                               </div>
-                           </div>
-                           <div class="testimonial-card">
-                               <div class="img-testimonial d-flex align-items-center">
-                                   <div>
-                                       <img class="student-images" src="assets/images/test/student2.jpg"
-                                           alt="testimonial carousel slider 2">
-                                   </div>
-                                   <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
-                                   </div>
-                                   <div class="svg-icon-testimonial">
-                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                                   </div>
-                               </div>
-                               <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
-                               </div>
-                           </div>
-                           <div class="testimonial-card">
-                               <div class="img-testimonial d-flex align-items-center">
-                                   <div>
-                                       <img class="student-images" src="assets/images/test/student3.jpg"
-                                           alt="testimonial carousel slider 2">
-                                   </div>
-                                   <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
-                                   </div>
-                                   <div class="svg-icon-testimonial">
-                                       <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                                   </div>
-                               </div>
-                               <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <!--------------------- testimonial section ------------------->
+       
 
        <!------------------ Gallery section ---------------->
        <section class="section-gallery">
@@ -1594,12 +1596,12 @@
        <section class="syllab__sec" id="faq">
            <div class="custom-container-2">
                <div class="row">
-                   <div class="col-md-5">
+                   <div class="col-md-4">
                        <div class="sec_title">
                            <h2><span>Frequently</span> <br> Asked Questions</h2>
                        </div>
                    </div>
-                   <div class="col-md-7">
+                   <div class="col-md-8">
                        <div class="accordion" id="accordionLocationnn">
                            <div class="accordion-item">
                                <p class="accordion-header" id="headingTen">
@@ -1758,7 +1760,7 @@
                                        data-bs-target="#collapseeighteen" aria-expanded="true"
                                        aria-controls="collapseeighteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the selection process for MET PGDM?</p>
+                                           <p class="mb-0">What is the syllabus structure for the first and second trimesters, and is it common for all specialisations?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1766,7 +1768,47 @@
                                    aria-labelledby="headingeighteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>Applicants will be selected based on the Entrance Test (anyone) Score (CMAT, XAT, CAT, ATMA, GMAT, MAT, MH-CET) + Online/Offline Group Discussion (or Essay) and Personal Interview + Academics Performance + Other Parameters</p>
+                                       <p>The first and second trimester is common to all specialisations. It focuses on foundational management subjects, including Managerial Economics, Marketing, HR, Operations, Financial Management, Business Environment, and CSR etc.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingnineteen">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapsenineteen" aria-expanded="true"
+                                       aria-controls="collapsenineteen">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">What is the syllabus structure for the third and fourth trimesters, and how is it organized?</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapsenineteen" class="accordion-collapse collapse"
+                                   aria-labelledby="headingnineteen" data-bs-parent="#accordionLocationnn">
+                                   <div class="accordion-body info_data_2">
+                                       <hr />
+                                       <p>The third and fourth trimesters includes common courses like Strategic Management and International Business, along with specialization-specific subjects in <strong>Finance, Marketing, HR, Operations, and IT Systems,</strong> enabling students to deepen expertise in their chosen field.</p>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingtwentyone">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapsetwentyone" aria-expanded="true"
+                                       aria-controls="collapsetwentyone">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">What is the syllabus structure for the fifth and sixth trimesters, and how are they organized?</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapsetwentyone" class="accordion-collapse collapse"
+                                   aria-labelledby="headingtwentyone" data-bs-parent="#accordionLocationnn">
+                                   <div class="accordion-body info_data_2">
+                                       <hr />
+                                       <p>The fifth and sixth trimesters focus on <strong>add-on specialisations</strong> that enhance specialized skills and practical knowledge.</p>
+                                       <strong>Trimester V:</strong>
+                                       <p>Includes common courses like Project Management and Indian Business Ethics, alongside specialized subjects in <strong>FinTech, MarTech, Start-up Management, Media & Entertainment, and Data Science & Business Analytics.</strong></p>
+                                       <strong>Trimester VI:</strong>
+                                       <p>Focuses on advanced applications with courses like Management Control Systems, certifications, seminars, research activities, and a comprehensive <strong>Capstone Project</strong> in functional or new-age specializations.</p>
                                    </div>
                                </div>
                            </div>
