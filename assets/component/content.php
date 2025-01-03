@@ -189,7 +189,7 @@
                    </div>
                    <div class="col-lg-5 col-md-12">
                        <div class="adv_img">
-                           <img src="assets/images/adv-girl.png" alt="kolte Images">
+                           <img src="/assets/images/adv-girl.webp" alt="kolte Images">
                        </div>
                    </div>
                </div>
