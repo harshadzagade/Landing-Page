@@ -37,7 +37,7 @@
                    </div>
                    <div class="col-lg-6 col-md-12 headline2-about">
                        <div class="sec_title text-start">
-                           <h2><span>About</span>Programme</h2>
+                           <h2><span>About</span> Programme</h2>
                        </div>
                        <div class="info_data">
                            <p>MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations in Marketing, Finance, HR, IT and Operations. PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding managers with technological tools and knowledge besides honing their managerial prowess. It is evident by the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading corporate organisations, making their presence felt and many are successful entrepreneurs too. In addition to the regular specialisations in Finance, Marketing, Human Resources, IT and Operations, MET PGDM offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics, Startups & New Enterprise Management.</p>
@@ -189,7 +189,7 @@
                    </div>
                    <div class="col-lg-5 col-md-12">
                        <div class="adv_img">
-                           <img src="/assets/images/adv-girl.webp" alt="kolte Images">
+                           <img src="assets/images/adv-girl.webp" alt="kolte Images">
                        </div>
                    </div>
                </div>

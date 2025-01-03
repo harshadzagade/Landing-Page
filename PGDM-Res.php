@@ -1,15 +1,21 @@
-
 <!doctype html>
 <html lang="en">
 
 <head>
+
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Thank You </title>
+        <title>
+            MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+        </title>
+
+        <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+
+        <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
         <!-- bootstrap css cdn -->
-        <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/general.css">
@@ -62,7 +68,7 @@
         </div>
     </footer>
 
-    
+
 
     <!-- bootstrap js cdn -->
     <script src="./js/umd/popper.min.js"></script>
@@ -84,18 +90,18 @@
     <script src="./js/index.js"></script>
 
     <script>
-    $(document).ready(function() {
-        $(".offcanvas-nav .offcanvas-link").click(function() {
-            $('.offcanvas-start').offcanvas('hide');
-        });
-    })
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
+                $('.offcanvas-start').offcanvas('hide');
+            });
+        })
     </script>
     <script>
-    $(document).ready(function () {
-        setTimeout(function() {
-            $('#download-pdf')[0].click();
-        }, 2000);
-    });
+        $(document).ready(function() {
+            setTimeout(function() {
+                $('#download-pdf')[0].click();
+            }, 2000);
+        });
     </script>
 </body>
 

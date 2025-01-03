@@ -19,7 +19,13 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
-    <title>PGDM</title>
+    <title>
+        MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+    </title>
+
+    <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+
+    <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -33,6 +39,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <!-- FancyBox CSS -->
     <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
 </head>
 
 <body>
@@ -53,7 +60,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 <div class="row g-4 justify-content-center align-items-center">
                     <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6 col-12 pt-5">
                         <div class="banner-txt">
-                            <div class="visualtxt " >
+                            <div class="visualtxt ">
                                 <div class="headline-pgdm">
                                     <div class="head-line"></div>
                                 </div>
