@@ -1729,6 +1729,9 @@ section.section-takesway {
   transform: translate(-50%, -50%);
   z-index: 1050; /* Higher than other elements to ensure visibility */
   display: block !important; /* Ensure it is visible */
+  width: 90% !important; /* Set the width */
+  max-width: 100% !important; /* Set the max-width */
+  padding: 15px 30px;
 }
 
 /* Optional: Overlay to dim the background */
@@ -1746,16 +1749,6 @@ section.section-takesway {
   z-index: 1 !important;
 }
 
-.modal {
-  vertical-align: middle;
-  /* z-index: 2; */
-  max-width: 100% !important;
-  box-sizing: border-box;
-  width: 90% !important;
-  background: #fff;
-  padding: 15px 30px;
-
-}
 
 #ee-form-11 {
   z-index: 1000; /* The form's z-index should be lower than the modal */
