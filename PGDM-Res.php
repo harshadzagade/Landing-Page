@@ -29,6 +29,8 @@
         <!-- FancyBox CSS -->
         <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
 
+        
+
     </head>
 
 <body>
