@@ -1756,7 +1756,7 @@ section.section-takesway {
 
 
 
-.ee-row, .check-box-field, .full-width, input, select {
+.check-box-field, .full-width, input, select {
     height: 14px;
     border: none;
     border-radius: 0 !important;
