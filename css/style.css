@@ -1725,7 +1725,7 @@ section.section-takesway {
 .modal {
   position: fixed !important; /* Make sure it stays in the viewport */
   top: 30%;
-  /* left: 50%; */
+  left: 30%;
   /* transform: translate(-50%, -50%); */
   z-index: 1050 !important; /* Higher than other elements to ensure visibility */
   display: block !important; /* Ensure it is visible */
@@ -1752,6 +1752,25 @@ section.section-takesway {
 
 #ee-form-11 {
   z-index: 1000; /* The form's z-index should be lower than the modal */
+}
+
+/* Mobile-Specific Adjustments */
+@media (max-width: 768px) {
+  .modal {
+    left: 0;
+    width: 95% !important; /* Adjust width for mobile */
+    max-width: 95% !important; /* Ensure the modal fits smaller screens */
+    padding: 15px 20px; /* Reduce padding for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .modal {
+    left: 0;
+    width: 100% !important; /* Full width on very small screens */
+    max-width: 100% !important;
+    padding: 10px 15px; /* Minimal padding for tiny screens */
+  }
 }
 
 /* EE */
