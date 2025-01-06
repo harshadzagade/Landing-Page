@@ -1720,3 +1720,31 @@ section.section-takesway {
 
 
 
+/* EE */
+/* Ensure the modal appears above everything else */
+.modal {
+  position: fixed !important; /* Make sure it stays in the viewport */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1050; /* Higher than other elements to ensure visibility */
+  display: block !important; /* Ensure it is visible */
+}
+
+/* Optional: Overlay to dim the background */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1040; /* Slightly below the modal */
+}
+
+
+#ee-form-11 {
+  z-index: 1000; /* The form's z-index should be lower than the modal */
+}
+
+/* EE */
