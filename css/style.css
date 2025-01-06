@@ -1749,7 +1749,7 @@ section.section-takesway {
 .modal {
   vertical-align: middle;
   /* z-index: 2; */
-  max-width: 100%;
+  max-width: 100% !important;
   box-sizing: border-box;
   width: 90% !important;
   background: #fff;

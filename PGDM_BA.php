@@ -285,7 +285,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                 modal.style.left = "50%";
                 modal.style.transform = "translate(-50%, -50%)";
                 modal.style.zIndex = "1050";
-                modal.style.width = "100%";
+                modal.style.width = "90% !important";
+                modal.style.maxWidth = "90% !important";
             }
         });
     </script>
