@@ -1746,6 +1746,17 @@ section.section-takesway {
   z-index: 1 !important;
 }
 
+.modal {
+  vertical-align: middle;
+  /* z-index: 2; */
+  max-width: 100%;
+  box-sizing: border-box;
+  width: 90% !important;
+  background: #fff;
+  padding: 15px 30px;
+
+}
+
 #ee-form-11 {
   z-index: 1000; /* The form's z-index should be lower than the modal */
 }
