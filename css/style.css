@@ -1756,18 +1756,16 @@ section.section-takesway {
 
 
 
-.check-box-field, .full-width, input, select {
-    height: 14px;
-    border: none;
-    border-radius: 0 !important;
-    /* width: 100% !important; */
-    padding: 0px 15px;
-    color: #7b655b;
-    /* background: transparent; */
-    border: 1px solid #3c2b23;
-    box-shadow: none;
-
+.check-box-field input {
+  height: 14px;
+  border: none;
+  border-radius: 0 !important;
+  padding: 0px 15px;
+  color: #7b655b;
+  border: 1px solid #3c2b23;
+  box-shadow: none;
 }
+
 
 /* Mobile-Specific Adjustments */
 @media (max-width: 768px) {
