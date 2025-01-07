@@ -7,10 +7,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+            PGP in Mass Communication & Media Management
         </title>
 
-        <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+        <meta name="Description"
+            content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -29,7 +30,7 @@
         <!-- FancyBox CSS -->
         <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
 
-        
+
 
     </head>
 
@@ -51,7 +52,8 @@
                     Thank you for your Interest.
                     Our Sales Manager will get in touch with you shortly.
                 </p>
-                <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a href="assets/pdf/MET.pdf" download>click here</a>.</p>
+                <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
+                        href="assets/pdf/MET.pdf" download>click here</a>.</p>
                 <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET.pdf" download>Download PDF</a>
             </div>
         </section>
@@ -92,15 +94,15 @@
     <script src="./js/index.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
         })
     </script>
     <script>
-        $(document).ready(function() {
-            setTimeout(function() {
+        $(document).ready(function () {
+            setTimeout(function () {
                 $('#download-pdf')[0].click();
             }, 2000);
         });
