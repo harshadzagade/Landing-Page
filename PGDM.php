@@ -69,7 +69,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 </p>
                                 <p>
                                     Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
-                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
+                                    FinTech, MarTech, Media & Entertainment, Business Analytics,
                                     Start-ups & New Enterprise Management.
                                 </p>
                             </div>
@@ -77,8 +77,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class=""> <img src="assets/images/bannerstudent.webp" class=""
-                                alt="...">
+                        <div class=""> <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
