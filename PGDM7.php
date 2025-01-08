@@ -69,7 +69,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 </p>
                                 <p>
                                     Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
-                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
+                                    FinTech, MarTech, Media & Entertainment,  Business Analytics,
                                     Start-ups & New Enterprise Management.
                                 </p>
                             </div>
