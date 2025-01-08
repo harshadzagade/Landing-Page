@@ -88,7 +88,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                    <form id="pop-form" action="PGDM-Visit7.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -166,7 +166,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="PGDM">
+                                            <input type="hidden" name="page_name" value="PGDM7">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">

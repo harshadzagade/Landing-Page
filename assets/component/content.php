@@ -40,7 +40,7 @@
                            <h2><span>About</span> Programme</h2>
                        </div>
                        <div class="info_data">
-                           <p>MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations in Marketing, Finance, HR, IT and Operations. PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding managers with technological tools and knowledge besides honing their managerial prowess. It is evident by the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading corporate organisations, making their presence felt and many are successful entrepreneurs too. In addition to the regular specialisations in Finance, Marketing, Human Resources, IT and Operations, MET PGDM offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics, Startups & New Enterprise Management.</p>
+                           <p>MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations in Marketing, Finance, HR, IT and Operations. PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding managers with technological tools and knowledge besides honing their managerial prowess. It is evident by the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading corporate organisations, making their presence felt and many are successful entrepreneurs too. In addition to the regular specialisations in Finance, Marketing, Human Resources, IT and Operations, MET PGDM offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Business Analytics, Startups & New Enterprise Management.</p>
                        </div>
                        <div class="sec_title pt-3">
                            <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
@@ -103,7 +103,7 @@
                                    </div>
                                    <div class="pgdm-checksign">
                                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                       <p class="check-text">Data Science and Business Analytics</p>
+                                       <p class="check-text">Business Analytics</p>
                                    </div>
                                    <div class="pgdm-checksign">
                                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -974,7 +974,7 @@
                                                    </div>
                                                    <div class="pgdm-checksign">
                                                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Operation Ressearch and Data Science
+                                                       <p class="check-text">Operation Ressearch
                                                            (Predictive and
                                                            Prescriptive Analytics, AI & ML)</p>
                                                    </div>
@@ -1806,7 +1806,7 @@
                                        <hr />
                                        <p>The fifth and sixth trimesters focus on <strong>add-on specialisations</strong> that enhance specialized skills and practical knowledge.</p>
                                        <strong>Trimester V:</strong>
-                                       <p>Includes common courses like Project Management and Indian Business Ethics, alongside specialized subjects in <strong>FinTech, MarTech, Start-up Management, Media & Entertainment, and Data Science & Business Analytics.</strong></p>
+                                       <p>Includes common courses like Project Management and Indian Business Ethics, alongside specialized subjects in <strong>FinTech, MarTech, Start-up Management, Media & Entertainment, and Business Analytics.</strong></p>
                                        <strong>Trimester VI:</strong>
                                        <p>Focuses on advanced applications with courses like Management Control Systems, certifications, seminars, research activities, and a comprehensive <strong>Capstone Project</strong> in functional or new-age specializations.</p>
                                    </div>

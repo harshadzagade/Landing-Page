@@ -110,8 +110,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
-                    'LeadType' => "Digital Paid",
-                    'LeadSource' => "LogicLoop",
+                    'LeadType' => "Digital Organic",
+                    'LeadSource' => "SMS_WhatsApp",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: PGDM-Res.php");
+            header("Location: PGDM-Res5.php");
             exit; // Stop further script execution
         }
 
