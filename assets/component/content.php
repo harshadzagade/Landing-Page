@@ -1575,7 +1575,7 @@
                                    <div class="col-lg-6 col-md-12">
                                        <div class="maps">
                                            <iframe
-                                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.270158600167!2d72.82661657573964!3d19.05185598214777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d95195a12f%3A0x7b2c91d24e169a83!2sMET%20Institute%20of%20Management!5e0!3m2!1sen!2sin!4v1734695365063!5m2!1sen!2sin"
+                                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1585.6244357723208!2d72.82837502002538!3d19.05178722536715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c93f3228b1d9%3A0x3bbcfaf779efad37!2sMumbai+Educational+Trust+MET+League+of+Colleges!5e0!3m2!1sen!2sin!4v1523433495957"
                                                width="100%" height="550" style="border:0;" allowfullscreen=""
                                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                        </div>
