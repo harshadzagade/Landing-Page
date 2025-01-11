@@ -4,20 +4,20 @@
         <div class="banner-legacy ">
             <div class="row mr0 about-sec align-items-center justify-content-center">
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>₹20 LPA</h3>
+                    <h3>₹8 LPA</h3>
                     <p>Highest Salary</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>4th Best in Mumbai</h3>
-                    <p>By Times B-School Survey 2024</p>
+                <div class="col-lg-5 col-md-6 col-6 legcy-sec mt-5 mb-5">
+                    <h3>Silver Award in ‘Digital Media School’ Category</h3>
+                    <p>In Edutainment Show 2024</p>
                 </div>
-                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                <!-- <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>MarTech, FinTech, M & E</h3>
                     <p>Add-On Specialisations</p>
-                </div>
+                </div> -->
 
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3><span class="counter">500</span>+</h3>
+                    <h3><span class="counter">100</span>+</h3>
                     <p>Recruiting Companies</p>
                 </div>
             </div>
@@ -65,81 +65,120 @@
 
 <!---------------- Specialisations section -------------->
 
-<section class="specialisations-pgdm" id="specialisations">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-7 col-md-12">
-                <div class="row g-3">
-                    <div class="col-12">
-                        <div class="sec_title text-start">
-                            <h2><span>Specialisations</span></h2>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pgdm-gap">
-                            <h5 class="specialisations-title2">Specialisations</h5>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Finance</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Marketing</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Human Resources</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Operations</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Systems</p>
-                            </div>
-                        </div>
+<section class="syllab__sec" id="syllabusSection">
+           <div class="container">
+               <div class="row">
+                   <div class="col-12">
+                       <div class="sec_title text-start">
+                           <h2><span>Specialisations </span></h2>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-12">
+                       <div class="accordion" id="accordionLocationn">
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingSeven">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">PGP in Mass Communication & Media Management (Advertising & Public Relations)</p>
 
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pgdm-gap">
-                            <h5 class="specialisations-title">New Age Specialisations</h5>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">FinTech</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">MarTech</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Data Science and Business Analytics</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Media & Entertainment</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Start-ups and New Enterprise Management</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-12 d-none d-md-inline-block">
-                        <div class="sec_title">
-                            <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-5 col-md-6 offset-md-3 offset-lg-0">
-                <img class="girl-img" src="assets/images/girl.jpg" alt="girl">
-            </div>
-        </div>
-    </div>
-</section>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                                       <p class="check-text">The approach is dictated by the requirements in the Advertising, Media, Marketing, Digital, Radio, TV, Events, and PR profiles. Making media students immediately productive in the most practical sense is the cornerstone of this programme.</p>
+                                                   </div>                                                 
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingEight">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">PGP in Mass Communication & Media Management (Entertainment)</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                                       <p class="check-text">It is designed to provide the necessary understanding of the skills & knowledge sets required. With this Entertainment course, PG students of mass media learn to think beyond classroom learning.
+                                                       </p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="accordion-item">
+                               <p class="accordion-header" id="headingNine">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">PGP in Mass Communication & Media Management (Journalism)</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                                       <p class="check-text">This unique postgraduate program explores the symbiotic relationship between Journalism. This course teaches the latest trends, multimedia and digital skills, and functionalities of the professions.</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                               <div class="accordion-item">
+                               <p class="accordion-header" id="headingTen">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">PGP in Mass Communication & Media Management (Digital Marketing)</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                                       <p class="check-text">It has a 360° approach, imparting conceptual training with an intensive hands-on approach. Thereby giving you an edge, making you employable and ready for the dynamic digital world.</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+               </div>
+           </div>
+       </section>
 
 <!---------------- Specialisations section -------------->
 
@@ -148,31 +187,30 @@
 <section class="adv__sec" id="advMET">
     <div class="container">
         <div class="row align-items-end">
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-8 col-md-12">
                 <div class="sec_title text-start">
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
+                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment Awards 2024.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 4th Best B-School in Mumbai, India's 21st Best Pvt. B-School and
-                            15th Top West B-Schools by the Times B-School Survey 2024</p>
+                        <p class="check-text">Best Education Brand 2019 by The Economic Times</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">NSE Cogencis Finance Lab</p>
+                        <p class="check-text">MET Institute of Mass Media won the ‘Outstanding Institute for Mass Media Management of the Year’ award at the 9th World Education Summit & Awards, 2019</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Incubation Centre to foster entrepreneurship</p>
+                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Excellent placement</p>
+                        <p class="check-text">Excellent placement, Strong Alumni Base</p>
                     </div>
                     <!-- <div class="pgdm-checksign">
                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -186,20 +224,20 @@
                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                                <p class="check-text">Robust and concurrent syllabus</p>
                            </div> -->
-                    <div class="pgdm-checksign">
+                    <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">State-of-the-art infrastructure</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Strong Alumni Base</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="sec_title mb-5">
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="adv_img">
                     <img src="assets/images/adv-girl.png" alt="kolte Images">
                 </div>
@@ -294,6 +332,30 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseForu">Training Pedagogy
+                            </button>
+                        </p>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <hr />
+                                <ul>
+                                    <li>Business and function driven training pedagogy focused on an experiential approach with a concept to application learning in alignment with the media convergence trends</li>
+                                    <li>Curriculum designed in consultation with media experts</li>
+                                    <li>Senior professionals from the media industry as subject mentors</li>
+                                    <li>Lectures, Classroom Discussions, Role Plays, Projects, Presentations, Assignments and Case Studies</li>
+                                    <li>Exposure to International Certifications</li>
+                                    <li>Showreels, Portfolios, Live Projects and Industry Orientation</li>
+                                    <li>Exclusive year-round training towards career support services based on 'Growth Mindset' with MET's -
+                                    Campus To Corporate Programme</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -324,19 +386,19 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>₹20 LPA</h3>
+                                <h3>₹8 LPA</h3>
                                 <p>Highest Salary</p>
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>8.5 LPA</h3>
-                                <p>Average Salary</p>
+                                <h3>Top Media</h3>
+                                <p> Agencies</p>
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>500+</h3>
+                                <h3>100+</h3>
                                 <p>Recruiters</p>
                             </div>
                         </div>
@@ -1075,7 +1137,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/student1.jpg"
+                                <img class="student-images" src="assets/images/test/delna_shroff.jpg"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
@@ -1097,7 +1159,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/student2.jpg"
+                                <img class="student-images" src="assets/images/test/Priyanka-Surve.jpg"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
@@ -1117,7 +1179,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/student3.jpg"
+                                <img class="student-images" src="assets/images/test/Anup_Kadam.jpg"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
@@ -1208,7 +1270,7 @@
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
                                     non-refundable
-                                    online payment of Rs. 2300 via
+                                    online payment of Rs. 1200 via
                                     credit/debit card or net banking.</p>
                             </div>
                         </div>
@@ -1568,7 +1630,7 @@
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/call.svg" alt="">
-                                                <p class="check-text1">Phone No.: 7208006691, 8655820696, 9136425329</p>
+                                                <p class="check-text1">Phone No.: 7208006691, 8655820696</p>
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/mail.svg" alt="">
@@ -1586,7 +1648,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="maps">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.270158600167!2d72.82661657573964!3d19.05185598214777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d95195a12f%3A0x7b2c91d24e169a83!2sMET%20Institute%20of%20Management!5e0!3m2!1sen!2sin!4v1734695365063!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.269464908361!2d72.8291753!3d19.0518865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e3eb8288db%3A0x6eaea262c8538dd5!2sMET%20Institute%20of%20Mass%20Media!5e0!3m2!1sen!2sin!4v1736489245325!5m2!1sen!2sin"
                                         width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>

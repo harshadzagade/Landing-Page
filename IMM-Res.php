@@ -42,7 +42,7 @@
         <section class="secton-thankyou">
             <div class=" thankyou-content text-center">
                 <div class="thankyou-content-img">
-                    <img src="./assets/images/icons/success.png" class="d-block success_img" alt="success">
+                    <img src="./assets/images/icons/success.svg" class="d-block success_img" alt="success">
                 </div>
 
                 <h3 class="thankyou-title">You're All Set</h3>
@@ -54,7 +54,7 @@
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
                         href="assets/pdf/MET.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET.pdf" download>Download PDF</a>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET-IMM-brochure.pdf" download>Download PDF</a>
             </div>
         </section>
     </main>
