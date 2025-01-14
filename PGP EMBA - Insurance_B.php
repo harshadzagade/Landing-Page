@@ -20,10 +20,11 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>
-        MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+        PGP EMBA - Insurance
     </title>
 
-    <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+    <meta name="Description"
+        content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
     <!-- bootstrap css cdn -->
@@ -65,20 +66,17 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGDM</span><br>
+                                    <span class="linetext b-clr">PGP EMBA - Insurance</span><br>
                                 </p>
                                 <p>
-                                    Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
-                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
-                                    Start-ups & New Enterprise Management.
+                                    A specialized MBA in Insurance in association with the CII, London
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class=""> <img src="assets/images/bannerstudent.webp" class=""
-                                alt="...">
+                        <div class=""> <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -87,9 +85,9 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
-                                                <div id="ee-form-11">
+                                    <div id="ee-form-11">
 
-            </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -138,8 +136,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
@@ -272,11 +270,11 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             });
         })
     </script>
-    
-    <script
-    src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
 
- 
+    <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
+
+
 
 </body>
 
