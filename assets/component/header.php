@@ -9,12 +9,12 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About PGDM</a>
+                    <a href="#sectionabout" class="nav-link">About PGPDSML</a>
                 </div>
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#specialisations" class="nav-link">Specialisations</a>
-                </div>
+                </div> -->
 
                 <div class="navbar-link">
                     <a href="#advMET" class="nav-link">Advantage MET</a>

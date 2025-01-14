@@ -20,10 +20,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>
-        MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+        PGP In Data Science & Machine Learning - Expertise in Data-Driven future
     </title>
 
-    <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+    <meta name="Description" content="MET's PGP Data Science and Machine Learning programme highlights Hybrid mode, Industry expert faculty, IHP from TCS iON, Placement Assistance & Cutting edge curriculum!">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
     <!-- bootstrap css cdn -->
@@ -65,12 +65,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGDM</span><br>
+                                    <span class="linetext b-clr">PGP In Data Science & Machine Learning</span><br>
                                 </p>
                                 <p>
-                                    Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
-                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
-                                    Start-ups & New Enterprise Management.
+                                    Be an Expert Architect of the Data-Driven future
                                 </p>
                             </div>
                         </div>
@@ -88,7 +86,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                    <form id="pop-form" action="PGDM-Visit2.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -201,7 +199,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>

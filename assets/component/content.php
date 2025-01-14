@@ -1,28 +1,28 @@
        <!------------------- Legacy section ----------------->
-       <section class="legcy">
+        <section class="legcy">
            <div class="custom-container-2">
                <div class="banner-legacy ">
                    <div class="row mr0 about-sec align-items-center justify-content-center">
-                       <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                           <h3>₹20 LPA</h3>
-                           <p>Highest Salary</p>
+                   <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                           <h3>Online Mode</h3>
+                           <!-- <p>Add-On Specialisations</p> -->
                        </div>
                        <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                           <h3>4th Best in Mumbai</h3>
-                           <p>By Times B-School Survey 2024</p>
+                           <h3>Industry Expert Faculty</h3>
+                           <!-- <p>Add-On Specialisations</p> -->
                        </div>
                        <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                           <h3>MarTech, FinTech, M & E</h3>
-                           <p>Add-On Specialisations</p>
+                           <h3>IHP from TCS iON</h3>
+                           <!-- <p>Add-On Specialisations</p> -->
                        </div>
 
                        <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                           <h3><span class="counter">500</span>+</h3>
-                           <p>Recruiting Companies</p>
+                           <h3>Cutting Edge Curriculum</h3>
+                           <!-- <p>Recruiting Companies</p> -->
                        </div>
                    </div>
                </div>
-       </section>
+       </section> 
        <!------------------- Legacy section ----------------->
 
        <!---------------- about us section -------------->
@@ -40,7 +40,17 @@
                            <h2><span>About</span> Programme</h2>
                        </div>
                        <div class="info_data">
-                           <p>MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with specialisations in Marketing, Finance, HR, IT and Operations. PGDM at MET is approved by the All India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is more than an MBA since its industry-driven course content and pedagogy empowers budding managers with technological tools and knowledge besides honing their managerial prowess. It is evident by the fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading corporate organisations, making their presence felt and many are successful entrepreneurs too. In addition to the regular specialisations in Finance, Marketing, Human Resources, IT and Operations, MET PGDM offers New Age Add-on specialization in FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics, Startups & New Enterprise Management.</p>
+                           <p>Data Science is an amalgamation of statistics, computer science, and business domain which results
+                                in a unique skill set desirable for many commercial and government jobs. Most of the firms in India
+                                and abroad are using Data Science, Big Data and Machine Learning technologies for better analysis
+                                and predictions which has resulted in an incredibly strong demand for data science professionals.
+                                MET’s Post Graduate Programme in Data Science and Machine Learning (offered in hybrid mode) follows
+                                a project-based, practically driven innovative approach to teaching cutting-edge technologies and
+                                methods required in today’s competitive job market. After successful completion of the course, the
+                                student will be conferred with a Dual Certification:
+                            <br>
+                            1.PGP Certification from MET Institute of Software Development and Research</br>
+                            2.Industry Honour Programme Certification from TCS iON</p>
                        </div>
                        <div class="sec_title pt-3">
                            <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
@@ -54,7 +64,7 @@
 
        <!---------------- Specialisations section -------------->
 
-       <section class="specialisations-pgdm" id="specialisations">
+       <!-- <section class="specialisations-pgdm" id="specialisations">
            <div class="container">
                <div class="row">
                    <div class="col-lg-7 col-md-12">
@@ -128,73 +138,117 @@
                    </div>
                </div>
            </div>
-       </section>
+       </section> -->
 
        <!---------------- Specialisations section -------------->
 
        <!--------------- Advantages section ------------------->
 
        <section class="adv__sec" id="advMET">
-           <div class="container">
-               <div class="row align-items-end">
-                   <div class="col-lg-7 col-md-12">
+    <div class="container">
+    <div class="row">
+                   <div class="col-md-6">
                        <div class="sec_title text-start">
-                           <h2><span>Advantage</span> MET</h2>
-                       </div>
-                       <div class="pgdm-gap1">
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Ranked 4th Best B-School in Mumbai, India's 21st Best Pvt. B-School and 15th Top West B-Schools by the Times B-School Survey 2024</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">NSE Cogencis Finance Lab</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">MET Incubation Centre to foster entrepreneurship</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Excellent placement</p>
-                           </div>
-                           <!-- <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Learn and Apply pedagogy</p>
-                           </div>
-                          <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Trimester-based programme</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Robust and concurrent syllabus</p>
-                           </div> -->
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">State-of-the-art infrastructure</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Strong Alumni Base</p>
-                           </div>
-                       </div>
-                       <div class="sec_title mb-5">
-                           <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                           <h2><span>Programme </span> Overview</h2>
                        </div>
                    </div>
-                   <div class="col-lg-5 col-md-12">
-                       <div class="adv_img">
-                           <img src="assets/images/adv-girl.png" alt="kolte Images">
+                   <!-- <div class="col-md-6 d-none d-md-block">
+                       <div class="sec_title text-end">
+                           <a href="#banform"><button class="btn-primary">Apply Now</button></a>
                        </div>
-                   </div>
+                   </div> -->
                </div>
-           </div>
-       </section>
+        <div class="row align-items-end">
+            <div class="col-lg-6 col-md-12">
+                       <div class="accordion" id="accordionLocation">
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingOne">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                       Module 0 - Preparatory Course
+                                   </button>
+                               </p>
+                               <div id="collapseOne" class="accordion-collapse collapse"
+                                   aria-labelledby="headingOne" data-bs-parent="#accordionLocation">
+                                   <div class="accordion-body info_data">
+                                       <hr />
+                                       <ul>
+                                       <li>Part A - Foundations of Statistics</li>
+                                        <li>Part B - Programming Fundamentals</li>
+                                        <li>Part C - Advanced Excel</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingTwo">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                       Module 1- Data Science Fundamentals
+                                   </button>
+                               </p>
+                               <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                   data-bs-parent="#accordionLocation">
+                                   <div class="accordion-body info_data">
+                                       <hr />
+                                       <ul>
+                                           <li>Part A - General Concepts of Data Science</li>
+                                           <li>Part B - Python for Data Science</li>
+                                           <li>Part C-R for Data Science</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+            <div class="col-lg-6 col-md-12">
+                       <div class="accordion" id="accordionLocation">
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingthree">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+                                       Module 2 and 3 - Machine Learning
+                                   </button>
+                               </p>
+                               <div id="collapsethree" class="accordion-collapse collapse"
+                                   aria-labelledby="headingthree" data-bs-parent="#accordionLocation">
+                                   <div class="accordion-body info_data">
+                                       <hr />
+                                       <ul>
+                                       <li>Part A - Machine Learning Basics</li>
+                                        <li>Part B - Machine Learning Advanced</li>
+                                        <li>Part C - Project</li>
+                                       </ul>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingfour">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapsefour" aria-expanded="true" aria-controls="collapsefour">
+                                       Module 4 Electives
+                                   </button>
+                               </p>
+                               <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                   data-bs-parent="#accordionLocation">
+                                   <div class="accordion-body info_data">
+                                       <hr />
+                                       <p>Part A:</p>
+                                       <ul>
+                                           <li>Big Data Analytics</li>
+                                           <li>Computer Vision</li>
+                                           <li>Natural Language Processing</li>
+                                           <li>Artificial Intelligence</li>
+                                       </ul>
+                                       <p>Part B - Project</p>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+        </div>
+    </div>
+</section>
 
        <!--------------- Advantages section ------------------->
 
@@ -224,7 +278,7 @@
                                <p class="accordion-header" id="headingOne">
                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                       Programme Highlights
+                                       Curriculum
                                    </button>
                                </p>
                                <div id="collapseOne" class="accordion-collapse collapse"
@@ -232,18 +286,18 @@
                                    <div class="accordion-body info_data">
                                        <hr />
                                        <ul>
-                                           <li>Trimester based programme</li>
-                                           <li>Learn and Apply pedagogy</li>
-                                           <li>Robust and concurrent syllabus</li>
-                                           <li>Evaluated Independent Study Courses</li>
-                                           <li>New Age Add on Specialisations: FinTech, MarTech</li>
-                                           <li>20 LPA highest CTC</li>
-                                           <li>Experiential Learning</li>
-                                           <li>Latest management techniques</li>
-                                           <li>Industry Faculty & Mentors</li>
-                                           <li>Rich academic environment & Infra</li>
-                                           <li>Nurturing entrepreneurship</li>
-                                           <li>Opportunity to publish research papers</li>
+                                       <li>
+                                            Module 0 – Preparatory Course
+                                        </li>
+                                        <li>
+                                            Module 1 – Data Science Fundamentals
+                                        </li>
+                                        <li>
+                                            Module 2 and 3 – Machine Learning
+                                        </li>
+                                        <li>
+                                            Module 4 – Electives
+                                        </li>
                                        </ul>
                                    </div>
                                </div>
@@ -260,9 +314,9 @@
                                    <div class="accordion-body info_data">
                                        <hr />
                                        <ul>
-                                           <li>Bachelor’s Degree with a minimum of 50% marks (45% marks in case of candidates belonging to reserved category) from a recognised university</li>
-                                           <li>Final year/semester students can also apply</li>
-                                           <li>Valid scorecard of MH-CET, CMAT, XAT, CAT, ATMA, GMAT, MAT (any)</li>
+                                           <li>Any BE/ B Com/ B Sc IT/ BCA / Science Graduate</li>
+                                           <li>Any Post Graduate/Management Graduate</li>
+                                           <li>Working Professionals</li>
                                        </ul>
                                    </div>
                                </div>
@@ -279,7 +333,8 @@
                                    <div class="accordion-body info_data">
                                        <hr />
                                        <ul>
-                                           <li>Written Exam Score (MH-CET, CMAT, XAT, CAT, ATMA, GMAT, MAT) + Academics Performance + Group Discussion (Or Essay) and Personal Interview + Other Parameters.</li>
+                                           <li>Online Test</li>
+                                           <li>Online Personal Interview</li>
                                        </ul>
                                    </div>
                                </div>
@@ -308,7 +363,7 @@
                        </div>
                    </div>
                </div>
-               <div class="row justify-content-center">
+               <!-- <div class="row justify-content-center">
                    <div class="col-lg-9 col-md-12">
                        <div class="plc_box">
                            <div class="row">
@@ -338,7 +393,7 @@
                            <a href="#banform"><button class="btn-primary btn-white">Enquire Now</button></a>
                        </div>
                    </div>
-               </div>
+               </div> -->
            </div>
        </section>
 
@@ -394,13 +449,10 @@
                                            <img src="assets/images/icons/book.svg" alt="take icons">
                                        </div>
                                        <div class="takeaways-head info_data_2">
-                                           <strong class="takeaways-title">Strong theoretical & practical
-                                               knowledge</strong>
+                                           <strong class="takeaways-title">Preparatory Module for
+                                           Non IT Students</strong>
                                            <p class="takeaways-subtitle">
-                                               Understanding of various business and management concepts such as
-                                               finance,
-                                               marketing, operations, human resources and
-                                               IT.
+                                                Learn the basics of statistical programming and advanced excel
                                            </p>
                                        </div>
                                    </div>
@@ -413,12 +465,9 @@
                                        </div>
 
                                        <div class="takeaways-head info_data_2">
-                                           <strong class="takeaways-title">Latest tools and techniques</strong>
+                                           <strong class="takeaways-title">Project Based Learning</strong>
                                            <p class="takeaways-subtitle">
-                                               Exposure to the latest tools and techniques used in the business world,
-                                               such as
-                                               data analysis, digital marketing,
-                                               project management, etc.
+                                                Exposure to real world problems and learn how to solve using Data Science
                                            </p>
                                        </div>
                                    </div>
@@ -431,12 +480,9 @@
                                        </div>
 
                                        <div class="takeaways-head info_data_2">
-                                           <strong class="takeaways-title">Leadership development</strong>
+                                           <strong class="takeaways-title">Placement Assistance</strong>
                                            <p class="takeaways-subtitle">
-                                               Development of leadership, communication, and interpersonal skills,
-                                               which are
-                                               essential for success in any management
-                                               role.
+                                                Soft skill development, profile building, mock interviews and opportunities
                                            </p>
                                        </div>
                                    </div>
@@ -449,11 +495,10 @@
                                        </div>
 
                                        <div class="takeaways-head info_data_2">
-                                           <strong class="takeaways-title">Opportunities</strong>
+                                           <strong class="takeaways-title">Live Sessions by
+                                           Industry and Academic Experts</strong>
                                            <p class="takeaways-subtitle">
-                                               Opportunities for networking and building professional relationships
-                                               with peers,
-                                               alumni, and industry experts.
+                                                Learn from world class Industry and academic experts in fully online manner
                                            </p>
                                        </div>
                                    </div>
@@ -466,9 +511,25 @@
                                        </div>
 
                                        <div class="takeaways-head info_data_2">
-                                           <strong class="takeaways-title">Modern Day Pedagogy</strong>
+                                           <strong class="takeaways-title">IHP from TCS iON</strong>
                                            <p class="takeaways-subtitle">
-                                               Hands-on experience through case studies, live projects, and summer internships, which help students apply the concepts they learn in the classroom to real-world situations.
+                                                Learn basic and advanced concepts of Machine Learning supported by industry relevant business
+                                                case studies conducted by IIT Faculty.
+                                           </p>
+                                       </div>
+                                   </div>
+                               </div>
+
+                               <div class="takeaways">
+                                   <div class="takeaways-content">
+                                       <div class="takeaways-img">
+                                           <img src="assets/images/icons/man.svg" alt="take icons">
+                                       </div>
+
+                                       <div class="takeaways-head info_data_2">
+                                           <strong class="takeaways-title">Cutting Edge Curriculum</strong>
+                                           <p class="takeaways-subtitle">
+                                                Industry relevant curriculum designed by data science professionals.
                                            </p>
                                        </div>
                                    </div>
@@ -1053,64 +1114,64 @@
                            <div class="testimonial-card">
                                <div class="img-testimonial d-flex align-items-center">
                                    <div>
-                                       <img class="student-images" src="assets/images/test/student1.jpg"
+                                       <img class="student-images" src="assets/images/test/SachinRasam.jpg"
                                            alt="testimonial carousel slider 2">
                                    </div>
                                    <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
+                                       <h5 class="card-title">Sachin Rasam</h5>
+                                       <!-- <span class="text-secondary">PGDM (Finance)</span> -->
                                    </div>
                                    <div class="svg-icon-testimonial">
                                        <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                                    </div>
                                </div>
                                <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
+                                   <p class="card-text-testimonial">"MET's PGP in Data Science and Machine Learning is an excellent course that sparked my
+                                        interest in this field. The simplified content and live lectures with hands-on experience
+                                        made it easy to grasp every concept and cleared my doubts on the spot. I highly recommend it
+                                        to anyone curious about Data Science and Machine Learning."</p>
                                </div>
                            </div>
                            <div class="testimonial-card">
                                <div class="img-testimonial d-flex align-items-center">
                                    <div>
-                                       <img class="student-images" src="assets/images/test/student2.jpg"
+                                       <img class="student-images" src="assets/images/test/YashPatil.jpg"
                                            alt="testimonial carousel slider 2">
                                    </div>
                                    <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
+                                       <h5 class="card-title">Yash Patil</h5>
+                                       <!-- <span class="text-secondary">PGDM (Finance)</span> -->
                                    </div>
                                    <div class="svg-icon-testimonial">
                                        <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                                    </div>
                                </div>
                                <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
+                                   <p class="card-text-testimonial">"Those interested in pursuing a career in Data Science and Machine Learning should take the
+                                        highly recommended PGP course. As a new student, I found that MET's organized format and
+                                        syllabus made it easy to understand each learning phase. I highly recommend this course to
+                                        anyone seeking a career in this field."</p>
                                </div>
                            </div>
                            <div class="testimonial-card">
                                <div class="img-testimonial d-flex align-items-center">
                                    <div>
-                                       <img class="student-images" src="assets/images/test/student3.jpg"
+                                       <img class="student-images" src="assets/images/test/PranavBapat.jpg"
                                            alt="testimonial carousel slider 2">
                                    </div>
                                    <div>
-                                       <h5 class="card-title">Amogh Patil</h5>
-                                       <span class="text-secondary">PGDM (Finance)</span>
+                                       <h5 class="card-title">Pranav Bapat  </h5>
+                                       <!-- <span class="text-secondary">Data Scientist, AMF Bakery Systems, Netherlands</span> -->
                                    </div>
                                    <div class="svg-icon-testimonial">
                                        <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                                    </div>
                                </div>
                                <div class="text-testimonial info_data_2 mt-3">
-                                   <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                       The institute delivers exceptional management education with knowledgeable &
-                                       approachable faculty members, state of the art campus facilities and a
-                                       curriculum that expertly blends theory and practical exposure."</p>
+                                   <p class="card-text-testimonial">"Industry-oriented PGP in Data Science and Machine Learning at MET offers live sessions and
+                                        hands-on exercises, covering a broad range of topics like machine learning, computer vision,
+                                        and big data analytics. This course is an excellent launchpad for anyone starting a career
+                                        in Data Science and Machine Learning."</p>
                                </div>
                            </div>
                        </div>
@@ -1163,10 +1224,10 @@
                                    </div>
 
                                    <div class="info_data_2">
-                                       <p>Click Apply and fill out your personal information, including your name, working
-                                           email,
-                                           mobile number, and
-                                           qualifications.</p>
+                                       <p>Click the 'Apply' <a href="#apply-now" class="font-bold text-red-600">(or click here)</a> button
+                                            and register with your valid Full Name, Active Email, Working Mobile Number and Qualification. Pick the Discipline and Programme for the admission process else, you can click the
+                                            ‘Apply’ button from the Programme page.
+                                        </p>
                                    </div>
                                </div>
 
@@ -1182,10 +1243,8 @@
                                    </div>
 
                                    <div class="info_data_2">
-                                       <p>Verify the OTP received on your registered email/mobile number and make a
-                                           non-refundable
-                                           online payment of Rs. 2300 via
-                                           credit/debit card or net banking.</p>
+                                       <p>You will be then redirected to validate the OTP received and make the payment Using Credit Card/
+                                       Debit Card/ Net Banking.</p>
                                    </div>
                                </div>
 
@@ -1201,10 +1260,10 @@
                                    </div>
 
                                    <div class="info_data_2">
-                                       <p>Login to the MET Online Application Form using the information sent to your
-                                           email and
-                                           complete the form, uploading all
-                                           necessary documents, photos, a statement of purpose video, and a signature.</p>
+                                       <p>Login into the online form submission portal to fill out the entire application form. Scan and
+                                            Upload all applicable documents, photos and signatures. Once you click on the 'Submit' button,
+                                            it will generate a PDF file comprising your Application Form and enclosed documents.
+                                        </p>
                                    </div>
                                </div>
 
@@ -1220,12 +1279,8 @@
                                    </div>
 
                                    <div class="info_data_2">
-                                       <p>After the successful submission of the online application, you will be informed
-                                           of your
-                                           online personal interview
-                                           schedule. Instructions on how to attend the interview will be sent to your
-                                           registered
-                                           email.</p>
+                                       <p>Appear for Online Test and Online/Offline GD & PI. Candidates who clear the process will be
+                                       given the Admission Offer, which you can confirm by making fee payment to get admitted.</p>
                                    </div>
                                </div>
                            </div>
@@ -1542,7 +1597,7 @@
                                                </h5>
                                            </div>
                                            <div class="para-title">
-                                               <h5 class="para-text">MET Institute of Post Graduate Diploma in Management</h5>
+                                               <h5 class="para-text">MET Institute of Software Development and Research</h5>
                                            </div>
                                            <div class="contact-para">
                                                <div class="pgdm-gap">
@@ -1556,7 +1611,7 @@
                                                    <div class="pgdm-checksign">
                                                        <img class="check-sign1" src="assets/images/icons/call.svg"
                                                            alt="">
-                                                       <p class="check-text1">Phone No.: 7208006694, 7208006695, 8451907258, 9967181380</p>
+                                                       <p class="check-text1">Phone No.: 7208006691, 8655820696</p>
                                                    </div>
                                                    <div class="pgdm-checksign">
                                                        <img class="check-sign1" src="assets/images/icons/mail.svg"
@@ -1575,9 +1630,12 @@
                                    <div class="col-lg-6 col-md-12">
                                        <div class="maps">
                                            <iframe
-                                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.270158600167!2d72.82661657573964!3d19.05185598214777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d95195a12f%3A0x7b2c91d24e169a83!2sMET%20Institute%20of%20Management!5e0!3m2!1sen!2sin!4v1734695365063!5m2!1sen!2sin"
+                                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2668154621824!2d72.82683161437646!3d19.052003057678448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9351abe915f%3A0xae766638700cf39f!2sMET%20Institute%20of%20Software%20Development%20and%20Research!5e0!3m2!1sen!2sin!4v1675075920468!5m2!1sen!2sin"
                                                width="100%" height="550" style="border:0;" allowfullscreen=""
-                                               loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                               loading="lazy" referrerpolicy="no-referrer-when-downgrade">data science and machine learning courses, machine learning and data science courses,
+                                                MBA data science in Mumbai, MBA machine learning in Mumbai, data science courses in mumbai,
+                                                machine learning courses in mumbai, Artificial Intelligence courses in mumbai,
+                                                top b-schools in india, top b-schools in mumbai, Admission open</iframe>
                                        </div>
 
                                    </div>
@@ -1608,7 +1666,7 @@
                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                        data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Why opt for the PGDM Programme at MET?</p>
+                                           <p class="mb-0">What is PGP in Data Science and Machine Learning?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1617,7 +1675,9 @@
                                    <div class="accordion-body info_data_2">
                                        <hr />
                                        <p>
-                                           The MET PGDM programme offers a competitive edge with its trimester-based structure, robust syllabus, and opportunities to publish research papers. Its flexible course design includes industry-relevant specializations like Business Analytics and E-Commerce, fostering practical skills and bridging the education-employment gap. With a focus on entrepreneurship, industry expertise, and innovation, MET prepares future-ready managers for successful careers.</p>
+                                            PGP DS and ML is a 1 year autonomous Post graduate Programme in Data Science and Machine
+                                            Learning in association with TCS iON, it can be a stepping stone for candidates in this
+                                            successful endeavour.</p>
                                    </div>
                                </div>
                            </div>
@@ -1627,7 +1687,8 @@
                                        data-bs-target="#collapseEleven" aria-expanded="true"
                                        aria-controls="collapseEleven">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the teaching instruction MET PGDM follows?</p>
+                                           <p class="mb-0"> What are the notable traits of MET’s PGP in the Data Science & Machine Learning
+                                           programme?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1636,11 +1697,16 @@
                                    <div class="accordion-body info_data_2">
                                        <hr />
                                        <p>
-                                           All needed essential inputs are provided using interactive methods such as
-                                           case studies, management games, role plays, workshops, video, networking,
-                                           seminars and more to offer a superabundance of experiential learning,. This
-                                           is further strengthened by 8 weeks of Summer internship, Live Projects and
-                                           the Industry Threshold program in the 4th semester leading to placements.
+                                            Below are the outstanding features of the MET’s PGP in the Data Science & Machine Learning
+                                            programme. <br>
+                                            <ul>
+                                                <li>Preparatory Module for Non-IT Student</li>
+                                                <li>Live Sessions by Industry and Academic Experts</li>
+                                                <li>Project-Based Learning</li>
+                                                <li>Industry Honor Programme from TCS iON</li>
+                                                <li>Placement Assistance</li>
+                                                <li>Cutting Edge Curriculum</li>
+                                            </ul>
                                        </p>
                                    </div>
                                </div>
@@ -1651,8 +1717,7 @@
                                        data-bs-target="#collapseTwele" aria-expanded="true"
                                        aria-controls="collapseTwele">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Is the programme MET PGDM recognized by the corporate
-                                               sectior ?</p>
+                                           <p class="mb-0">Is MET’s PGP in Data Science & Machine Learning recognized by the corporate sector?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1660,7 +1725,8 @@
                                    aria-labelledby="headingTwele" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>Yes, the MET PGDM programme is well-recognized by the corporate sector for its industry-relevant curriculum, practical skill development, and focus on producing future-ready managers.</p>
+                                       <p> Yes, it is as a matter of fact since its jointly being offered TCS iON its acceptable world
+                                       over in the IT industry.</p>
                                    </div>
                                </div>
                            </div>
@@ -1670,7 +1736,8 @@
                                        data-bs-target="#collapsethirteen" aria-expanded="true"
                                        aria-controls="collapsethirteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What are the eligibility criteria for MET PGDM?</p>
+                                           <p class="mb-0">What are the eligibility measures for MET’s PGP in Data Science & Machine Learning
+                                           programme?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1678,7 +1745,8 @@
                                    aria-labelledby="headingthirteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>Graduation with 50% marks (45% marks for reserved category) in aggregate in any discipline from any university. Final-year students can also apply. Proficiency in MS Office is a prerequisite.Candidates must have a valid scorecard from one of the following entrance exams: CMAT, XAT, CAT, ATMA, GMAT, MAT and MH-CET.</p>
+                                       <p> Any BE/B Com/B Sc IT/ BCA / Science Graduate OR Any Post Graduate/ Management Graduate OR
+                                       Working Professionals are qualified to apply.</p>
                                    </div>
                                </div>
                            </div>
@@ -1688,7 +1756,7 @@
                                        data-bs-target="#collapseFourteen" aria-expanded="true"
                                        aria-controls="collapseFourteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the selection process for MET PGDM?</p>
+                                           <p class="mb-0">What is the admission process for MET’s PGP in Data Science & Machine Learning?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1696,7 +1764,12 @@
                                    aria-labelledby="headingFourteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>Applicants will be selected based on the Entrance Test (anyone) Score (CMAT, XAT, CAT, ATMA, GMAT, MAT, MH-CET) + Online/Offline Group Discussion (or Essay) and Personal Interview + Academics Performance + Other Parameters</p>
+                                       <p>The candidate can register online via MET’s official website
+                                            <br>
+                                                Submit and Verify the OTP and complete a one-time non-refundable online payment of Rs. 600
+                                                towards the form and prospectus. Fill out the application form and upload scanned copies of
+                                                documents.
+                                            </p>
                                    </div>
                                </div>
                            </div>
@@ -1706,7 +1779,7 @@
                                        data-bs-target="#collapseFifteen" aria-expanded="true"
                                        aria-controls="collapseFifteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the fee structure for MET PGDM?</p>
+                                           <p class="mb-0">What kind of questions are asked in the Online test?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1714,7 +1787,7 @@
                                    aria-labelledby="headingFifteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>The fee for this MET PGDM programme is First Year Rs 6,03,000 (Six lacs three thousand only), Second Year Rs. 6,03,000 (Six lacs three thousand only) and A state-of-the-art laptop is provided complimentary</p>
+                                       <p>General Aptitude, English, Mathematics, and Computer concepts</p>
                                    </div>
                                </div>
                            </div>
@@ -1724,7 +1797,8 @@
                                        data-bs-target="#collapseSixteen" aria-expanded="true"
                                        aria-controls="collapseSixteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Does MET provide campus placements to all the students?</p>
+                                           <p class="mb-0">Are there any negative markings in the Online test to be eligible for MET’s PGP in
+                                           Data Science & Machine Learning?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1732,7 +1806,7 @@
                                    aria-labelledby="headingSixteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>MET provides excellent placement opportunities based on individual performance to every student. We have provided placements to our students in the past. The highest package offered has been ₹20 LPA. and an average of Rs. 8.5 LPA.</p>
+                                       <p>No</p>
                                    </div>
                                </div>
                            </div>
@@ -1742,7 +1816,7 @@
                                        data-bs-target="#collapseseventeen" aria-expanded="true"
                                        aria-controls="collapseseventeen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Is work experience mandatory for PGDM?</p>
+                                           <p class="mb-0">What is the fee structure for MET's PGP in Data Science and Machine Learning?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1750,7 +1824,8 @@
                                    aria-labelledby="headingseventeen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>No. However, students with work experience may be awarded up to 10 marks, depending on their work experience.</p>
+                                       <p>The total fee for MET’s PGP in Data Science & Machine Learning programme is Rs 1,20,000
+                                       +GST.</p>
                                    </div>
                                </div>
                            </div>
@@ -1760,7 +1835,8 @@
                                        data-bs-target="#collapseeighteen" aria-expanded="true"
                                        aria-controls="collapseeighteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the syllabus structure for the first and second trimesters, and is it common for all specialisations?</p>
+                                           <p class="mb-0">Is there any reservation or quota system for MET’s PGP in Data Science & Machine
+                                           Learning?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1768,7 +1844,7 @@
                                    aria-labelledby="headingeighteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>The first and second trimester is common to all specialisations. It focuses on foundational management subjects, including Managerial Economics, Marketing, HR, Operations, Financial Management, Business Environment, and CSR etc.</p>
+                                       <p> No. The selection process is completely transparent and purely based on merit.</p>
                                    </div>
                                </div>
                            </div>
@@ -1778,7 +1854,7 @@
                                        data-bs-target="#collapsenineteen" aria-expanded="true"
                                        aria-controls="collapsenineteen">
                                        <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">What is the syllabus structure for the third and fourth trimesters, and how is it organized?</p>
+                                           <p class="mb-0"> Does MET provide hostel facilities to the students?</p>
                                        </div>
                                    </button>
                                </p>
@@ -1786,11 +1862,12 @@
                                    aria-labelledby="headingnineteen" data-bs-parent="#accordionLocationnn">
                                    <div class="accordion-body info_data_2">
                                        <hr />
-                                       <p>The third and fourth trimesters includes common courses like Strategic Management and International Business, along with specialization-specific subjects in <strong>Finance, Marketing, HR, Operations, and IT Systems,</strong> enabling students to deepen expertise in their chosen field.</p>
+                                       <p>Currently, the Institute does not provide hostel facilities to students. However, it
+                                       endeavours to help students to procure accommodation around the MET campus.</p>
                                    </div>
                                </div>
                            </div>
-                           <div class="accordion-item">
+                           <!-- <div class="accordion-item">
                                <p class="accordion-header" id="headingtwentyone">
                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                        data-bs-target="#collapsetwentyone" aria-expanded="true"
@@ -1811,7 +1888,7 @@
                                        <p>Focuses on advanced applications with courses like Management Control Systems, certifications, seminars, research activities, and a comprehensive <strong>Capstone Project</strong> in functional or new-age specializations.</p>
                                    </div>
                                </div>
-                           </div>
+                           </div> -->
                        </div>
                    </div>
                </div>
