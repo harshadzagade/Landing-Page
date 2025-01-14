@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: Bachelors-Degree-Res10.php");
+            header("Location: Bachelors-Degree-Res.php");
             exit; // Stop further script execution
         }
 

@@ -6,14 +6,30 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>
-            International Degrees in India
-        </title>
-
-        <meta name="Description"
-            content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+        <title>MET IIS: International BBA in India | Bachelors of Business Administration</title>
+    <meta name="Description" content="BA (Hons) Business Administration, an International BBA degree program by MET IIS, Mumbai, India, along with NCC Education (global provider of of British education), with credit transfers to foreign universities.">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+        </script>
+        <!-- End Google Tag Manager -->
+
 
         <!-- bootstrap css cdn -->
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -36,13 +52,18 @@
 
 <body>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <?php include './assets/component/header.php' ?>
 
     <main>
         <section class="secton-thankyou">
             <div class=" thankyou-content text-center">
                 <div class="thankyou-content-img">
-                    <img src="./assets/images/icons/success.png" class="d-block success_img" alt="success">
+                    <img src="./assets/images/icons/success.svg" class="d-block success_img" alt="success">
                 </div>
 
                 <h3 class="thankyou-title">You're All Set</h3>
@@ -94,15 +115,15 @@
     <script src="./js/index.js"></script>
 
     <script>
-        $(document).ready(function () {
-            $(".offcanvas-nav .offcanvas-link").click(function () {
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
                 $('.offcanvas-start').offcanvas('hide');
             });
         })
     </script>
     <script>
-        $(document).ready(function () {
-            setTimeout(function () {
+        $(document).ready(function() {
+            setTimeout(function() {
                 $('#download-pdf')[0].click();
             }, 2000);
         });

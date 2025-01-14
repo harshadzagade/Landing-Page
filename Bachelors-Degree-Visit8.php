@@ -111,7 +111,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
                     'LeadType' => "Publishers",
-                    'LeadSource' => "Hitbullseye",
+                    'LeadSource' => "CollegeDunia",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: Bachelors-Degree-Res10.php");
+            header("Location: Bachelors-Degree-Res.php");
             exit; // Stop further script execution
         }
 
