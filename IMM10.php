@@ -29,23 +29,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
     <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
-    </script>
-    <!-- End Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PWD7ZBXF');</script>
+<!-- End Google Tag Manager -->
 
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -65,10 +54,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -181,30 +170,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                         Select enter a valid qualification.
                                                     </div>
                                                 </div>
+
                                             </div>
-
-                                            <!-- enter this courses <option value="PGP MCMM - Advertising & PR" name="Course">PGP MCMM - Advertising & PR</option>
-                                    <option value="PGP MCMM - Entertainment" name="Course">PGP MCMM - Entertainment</option>
-                                    <option value="PGP MCMM - Journalism" name="Course">PGP MCMM - Journalism</option>
-                                    <option value="PGP MCMM - Digital Marketing" name="Course">PGP MCMM - Digital Marketing</option>-->
-                                            <div class="form-group col-md-12">
-                                                <div class="input-group">
-                                                    <label class="inputial">Course </label>
-
-                                                    <select type="text" class=" form-select rounded-pill" name="Course"
-                                                        placeholder="Select Course" required>
-                                                        <option value="" selected hidden>Choose...</option>
-                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM - Advertising & PR </option>
-                                                        <option value="PGP MCMM - Entertainment">PGP MCMM - Entertainment</option>
-                                                        <option value="PGP MCMM - Journalism">PGP MCMM - Journalism</option>
-                                                        <option value="PGP MCMM - Digital Marketing">PGP MCMM - Digital Marketing</option>
-                                                    </select>
-                                                    <div class="invalid-feedback">
-                                                        Select Valid Course.
-                                                    </div>
-                                                </div>
-                                            </div>
-
 
                                             <div class=" col-md-12 m-0">
                                                 <div class="checkboxprivcy">
@@ -279,8 +246,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
