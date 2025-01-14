@@ -42,7 +42,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             j.src =
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-T7VVW3NP');
+        })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
     <!-- End Google Tag Manager -->
 
@@ -65,7 +65,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 <body>
 
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T7VVW3NP"
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
