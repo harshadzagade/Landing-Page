@@ -29,12 +29,24 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
     <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PWD7ZBXF');</script>
-<!-- End Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+    </script>
+    <!-- End Google Tag Manager -->
+
 
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -101,7 +113,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                    <form id="pop-form" action="IMM-Visit14.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -173,6 +185,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                             </div>
 
+
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Course </label>
+
+                                                    <select type="text" class=" form-select rounded-pill" name="Course"
+                                                        placeholder="Select Course" required>
+                                                        <option value="" selected hidden>Choose...</option>
+                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM - Advertising & PR </option>
+                                                        <option value="PGP MCMM - Entertainment">PGP MCMM - Entertainment</option>
+                                                        <option value="PGP MCMM - Journalism">PGP MCMM - Journalism</option>
+                                                        <option value="PGP MCMM - Digital Marketing">PGP MCMM - Digital Marketing</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Select Valid Course.
+                                                    </div>
+                                                </div>
+                                            </div>
+
                                             <div class=" col-md-12 m-0">
                                                 <div class="checkboxprivcy">
                                                     <input type="checkbox" id="privacy" name="privacy" value="true"
@@ -181,7 +212,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="MET-PGDM">
+                                            <input type="hidden" name="page_name" value="IMM14">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign"
@@ -246,8 +277,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function () {
-            $(".offcanvas-nav .offcanvas-link").click(function () {
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({

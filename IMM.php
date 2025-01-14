@@ -47,6 +47,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     </script>
     <!-- End Google Tag Manager -->
 
+
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -65,10 +66,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <body>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -112,7 +113,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                    <form id="pop-form" action="IMM-Visit.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -183,10 +184,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 </div>
                                             </div>
 
-                                            <!-- enter this courses <option value="PGP MCMM - Advertising & PR" name="Course">PGP MCMM - Advertising & PR</option>
-                                    <option value="PGP MCMM - Entertainment" name="Course">PGP MCMM - Entertainment</option>
-                                    <option value="PGP MCMM - Journalism" name="Course">PGP MCMM - Journalism</option>
-                                    <option value="PGP MCMM - Digital Marketing" name="Course">PGP MCMM - Digital Marketing</option>-->
+
                                             <div class="form-group col-md-12">
                                                 <div class="input-group">
                                                     <label class="inputial">Course </label>
@@ -214,7 +212,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="MET-PGDM">
+                                            <input type="hidden" name="page_name" value="IMM">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign"

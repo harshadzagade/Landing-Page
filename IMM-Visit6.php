@@ -15,10 +15,28 @@ $utm_term = $_POST['utm_term'];
 $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
+$institute_name = "Institute of Mass Media";
 
-$programme_name = "PGDM";
-$extraegde_id = "11";
-$institute_name = "Institute of Post Graduate Diploma in Management";
+if (isset($_POST['Course'])) {
+    switch ($_POST['Course']) {
+        case "PGP MCMM - Advertising & PR":
+            $tdata['programme_name'] = 'PGP MCMM - Advertising & PR';
+            $tdata['extraegde_id']='28';
+            break;
+        case "PGP MCMM - Entertainment":
+            $tdata['programme_name'] = 'PGP MCMM - Entertainment';
+            $tdata['extraegde_id']='29';
+            break;
+        case "PGP MCMM - Journalism":
+            $tdata['programme_name'] = 'PGP MCMM - Journalism';
+            $tdata['extraegde_id']='31';
+            break;
+        case "PGP MCMM - Digital Marketing":
+            $tdata['programme_name'] = 'PGP MCMM - Digital Marketing';
+            $tdata['extraegde_id']='30';
+            break;
+    }  //  Displaying Selected Value
+}
 
 // Database configuration
 $servername = "localhost"; // Change if needed
@@ -109,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    // '' => $page_name, 
+                    'LeadName' => $page_name, 
                     'LeadType' => "Print Media",
                     'LeadSource' => "Newspaper",
                     'Location' => $extraegde_id,
@@ -197,7 +215,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: PGDM-Res.php");
+            header("Location: IMM-Res6.php");
             exit; // Stop further script execution
         }
 

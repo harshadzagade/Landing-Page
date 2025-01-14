@@ -15,13 +15,25 @@
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PWD7ZBXF');</script>
-<!-- End Google Tag Manager -->
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w, d, s, l, i) {
+                w[l] = w[l] || [];
+                w[l].push({
+                    'gtm.start': new Date().getTime(),
+                    event: 'gtm.js'
+                });
+                var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s),
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+                f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+        </script>
+        <!-- End Google Tag Manager -->
+
 
         <!-- bootstrap css cdn -->
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -105,15 +117,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <script src="./js/index.js"></script>
 
     <script>
-        $(document).ready(function () {
-            $(".offcanvas-nav .offcanvas-link").click(function () {
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
                 $('.offcanvas-start').offcanvas('hide');
             });
         })
     </script>
     <script>
-        $(document).ready(function () {
-            setTimeout(function () {
+        $(document).ready(function() {
+            setTimeout(function() {
                 $('#download-pdf')[0].click();
             }, 2000);
         });

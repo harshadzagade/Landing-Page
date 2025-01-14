@@ -22,22 +22,18 @@ if (isset($_POST['Course'])) {
         case "PGP MCMM - Advertising & PR":
             $tdata['programme_name'] = 'PGP MCMM - Advertising & PR';
             $tdata['extraegde_id']='28';
-            $tdata['course_id'] = '40';
             break;
         case "PGP MCMM - Entertainment":
             $tdata['programme_name'] = 'PGP MCMM - Entertainment';
             $tdata['extraegde_id']='29';
-            $tdata['course_id'] = '40';
             break;
         case "PGP MCMM - Journalism":
             $tdata['programme_name'] = 'PGP MCMM - Journalism';
             $tdata['extraegde_id']='31';
-            $tdata['course_id'] = '40';
             break;
         case "PGP MCMM - Digital Marketing":
             $tdata['programme_name'] = 'PGP MCMM - Digital Marketing';
             $tdata['extraegde_id']='30';
-            $tdata['course_id'] = '40';
             break;
     }  //  Displaying Selected Value
 }
@@ -131,7 +127,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    // '' => $page_name, 
+                    'LeadName' => $page_name, 
                     'LeadType' => "Digital Paid",
                     'LeadSource' => "LogicLoop",
                     'Location' => $extraegde_id,
@@ -219,7 +215,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: PGDM-Res.php");
+            header("Location: IMM-Res.php");
             exit; // Stop further script execution
         }
 
