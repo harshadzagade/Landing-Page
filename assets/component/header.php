@@ -9,7 +9,7 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About PGDM</a>
+                    <a href="#sectionabout" class="nav-link">About IIS</a>
                 </div>
 
                 <div class="navbar-link">
@@ -46,9 +46,9 @@
 
             <div class="navbar-more-links">
                 <div class="navbar-more-link">
-                    <a class="btn-contact" href="tel:+919967181380">
+                    <a class="btn-contact" href="tel:+918454046164">
                         <span><img src="assets/images/icons/phone.svg" alt="phone"></span>
-                        <span class="d-none d-xl-block">+91 9967181380</span>
+                        <span class="d-none d-xl-block">+91 8454046164</span>
                     </a>
                 </div>
 
@@ -82,7 +82,7 @@
     <div class="offcanvas-body">
         <div class="offcanvas-navs">
             <div class="offcanvas-nav">
-                <a href="#sectionabout" class="offcanvas-link">About PGDM</a>
+                <a href="#sectionabout" class="offcanvas-link">About IIS</a>
             </div>
 
             <div class="offcanvas-nav">
