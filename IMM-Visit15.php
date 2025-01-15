@@ -20,20 +20,20 @@ $institute_name = "Institute of Mass Media";
 if (isset($_POST['Course'])) {
     switch ($_POST['Course']) {
         case "PGP MCMM - Advertising & PR":
-            $tdata['programme_name'] = 'PGP MCMM - Advertising & PR';
-            $tdata['extraegde_id']='28';
+            $programme_name = 'PGP MCMM - Advertising & PR';
+            $extraegde_id ='28';
             break;
         case "PGP MCMM - Entertainment":
-            $tdata['programme_name'] = 'PGP MCMM - Entertainment';
-            $tdata['extraegde_id']='29';
+            $programme_name = 'PGP MCMM - Entertainment';
+            $extraegde_id ='29';
             break;
         case "PGP MCMM - Journalism":
-            $tdata['programme_name'] = 'PGP MCMM - Journalism';
-            $tdata['extraegde_id']='31';
+            $programme_name = 'PGP MCMM - Journalism';
+            $extraegde_id ='31';
             break;
         case "PGP MCMM - Digital Marketing":
-            $tdata['programme_name'] = 'PGP MCMM - Digital Marketing';
-            $tdata['extraegde_id']='30';
+            $programme_name = 'PGP MCMM - Digital Marketing';
+            $extraegde_id ='30';
             break;
     }  //  Displaying Selected Value
 }
