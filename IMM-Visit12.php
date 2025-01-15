@@ -141,8 +141,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     // '' => $gclid,
                     // '' => $fbclid,
                     // '' => $url,
-                ],
-            
+                ]
             )
         ];
 

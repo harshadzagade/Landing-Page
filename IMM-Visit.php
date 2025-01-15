@@ -17,29 +17,26 @@ $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 $institute_name = "Institute of Mass Media";
 
-// if (isset($_POST['Course'])) {
-//     switch ($_POST['Course']) {
-//         case "PGP MCMM - Advertising & PR":
-//             $programme_name = 'PGP MCMM - Advertising & PR';
-//             $extraegde_id ='28';
-//             break;
-//         case "PGP MCMM - Entertainment":
-//             $programme_name = 'PGP MCMM - Entertainment';
-//             $extraegde_id ='29';
-//             break;
-//         case "PGP MCMM - Journalism":
-//             $programme_name = 'PGP MCMM - Journalism';
-//             $extraegde_id ='31';
-//             break;
-//         case "PGP MCMM - Digital Marketing":
-//             $programme_name = 'PGP MCMM - Digital Marketing';
-//             $extraegde_id ='30';
-//             break;
-//     }  //  Displaying Selected Value
-// }
-
-$programme_name = 'PGP MCMM - Advertising & PR';
-$extraegde_id = '28';
+if (isset($_POST['Course'])) {
+    switch ($_POST['Course']) {
+        case "PGP MCMM - Advertising & PR":
+            $programme_name = 'PGP MCMM - Advertising & PR';
+            $extraegde_id ='28';
+            break;
+        case "PGP MCMM - Entertainment":
+            $programme_name = 'PGP MCMM - Entertainment';
+            $extraegde_id ='29';
+            break;
+        case "PGP MCMM - Journalism":
+            $programme_name = 'PGP MCMM - Journalism';
+            $extraegde_id ='31';
+            break;
+        case "PGP MCMM - Digital Marketing":
+            $programme_name = 'PGP MCMM - Digital Marketing';
+            $extraegde_id ='30';
+            break;
+    }  //  Displaying Selected Value
+}
 
 // Database configuration
 $servername = "localhost"; // Change if needed
@@ -144,7 +141,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     // '' => $gclid,
                     // '' => $fbclid,
                     // '' => $url,
-                ],
+                ]
             
             )
         ];
