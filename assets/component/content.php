@@ -40,23 +40,48 @@
                     <h2><span>About</span> Programme</h2>
                 </div>
                 <div class="info_data">
-                    <p>The fast-paced and growing mass media industry is in dire need of trained professionals who can
-                        bring fresh perspectives. The MET Institute of Mass Media offers a PGP in Mass Communication &
-                        Media Management that enhances students' innate abilities through a combination of theoretical
-                        and practical coursework, infused with technology and real-world business experiences.<br>
-
-                        The Postgraduate Programme in Mass Communication & Media Management at MET, Mumbai has
-                        specialisations in Advertising & PR, Entertainment, Journalism, and Digital Marketing that
-                        prepare students to master the MediaVerse. The institution follows international standards and
-                        offers state-of-the-art facilities for its media and communication students. The focus is on
-                        hands-on training rather than theoretical learning, which is why MET IMM is considered one of
-                        Mumbai's top mass media & communication colleges.
+                    <p>The MET Institute of International Studies (MET IIS) offers an undergraduate program that blends
+                        empirical and experiential learning, fostering a diverse student community. This program is
+                        designed to prepare students for success in a rapidly evolving global landscape. Affordable and
+                        accessible, they provide an opportunity to earn a prestigious international degree while
+                        studying in India. These globally recognized programs connect students to a global alumni
+                        network, enhancing career opportunities and developing leadership skills with a global
+                        perspective. MET IIS is committed to making world-class education accessible to Indian students.
+                        In today’s interconnected world, where global and local strategies converge, MET IIS has
+                        partnered with esteemed institutions like the University of London to deliver internationally
+                        acclaimed qualifications, empowering students to thrive in a dynamic global environment.
                     </p>
                 </div>
                 <div class="sec_title pt-3">
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
+        </div>
+    </div>
+</section>
+
+<!---------------- about us section -------------->
+
+<!---------------- about us section -------------->
+
+<section class="about-background" id="sectionabout">
+    <div class="custom-container1">
+        <div class="">
+            <div class="sec_title text-center">
+                    <h2><span>About</span> Royal Holloway</h2>
+                </div>
+                <div class="info_data">
+                    <p>Royal Holloway is one of the top 30 UK universities, according to The Times and Sunday Times Good University Guide 2024.<p> <br> </p>Royal Holloway is formed from two colleges, Bedford College & and Royal Holloway College. These colleges were among the first places in Britain where women could access higher education.</p>
+                </div>
+                <!-- <div class="sec_title pt-3">
+                    <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                </div> -->
+            </div>
+            <!-- <div class="col-lg-6 col-md-12">
+                <div class="about-pgdm">
+                    <img src="assets/images/about/RoyalHolloway.webp" alt="about">
+                </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -77,52 +102,22 @@
                     </div>
                     <div class="col-md-6">
                         <div class="pgdm-gap">
-                            <h5 class="specialisations-title2">Specialisations</h5>
+                            <h5 class="specialisations-title2"></h5>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Finance</p>
+                                <p class="check-text">General Business Administration</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Marketing</p>
+                                <p class="check-text">Human Resource Management</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Human Resources</p>
+                                <p class="check-text">International Business</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Operations</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGDM in Systems</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-md-6">
-                        <div class="pgdm-gap">
-                            <h5 class="specialisations-title">New Age Specialisations</h5>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">FinTech</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">MarTech</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Data Science and Business Analytics</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Media & Entertainment</p>
-                            </div>
-                            <div class="pgdm-checksign">
-                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">Start-ups and New Enterprise Management</p>
+                                <p class="check-text">Marketing</p>
                             </div>
                         </div>
 
@@ -150,42 +145,41 @@
         <div class="row align-items-end">
             <div class="col-lg-7 col-md-12">
                 <div class="sec_title text-start">
-                    <h2><span>Advantage</span> MET</h2>
+                    <h2><span>Why</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
+                        <p class="check-text">Global Recognition</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 4th Best B-School in Mumbai, India's 21st Best Pvt. B-School and
-                            15th Top West B-Schools by the Times B-School Survey 2024</p>
+                        <p class="check-text">Cost Effective</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">NSE Cogencis Finance Lab</p>
+                        <p class="check-text">Quality Education</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Incubation Centre to foster entrepreneurship</p>
+                        <p class="check-text">Unique Learning Experience</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Excellent placement</p>
+                        <p class="check-text">Outstanding Faculty</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Top Academic Placements</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Personal Growth</p>
                     </div>
                     <!-- <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Learn and Apply pedagogy</p>
-                           </div>
-                          <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Trimester-based programme</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Robust and concurrent syllabus</p>
-                           </div> -->
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Robust and concurrent syllabus</p>
+                    </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">State-of-the-art infrastructure</p>
@@ -193,7 +187,7 @@
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Strong Alumni Base</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="sec_title mb-5">
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
@@ -244,13 +238,12 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>India's leading Media School</li>
-                                    <li>Record placements & internships</li>
-                                    <li>Rich industry interface</li>
-                                    <li>Business driven pedagogy</li>
-                                    <li>Portfolios, Live Projects & Industry Orientation</li>
-                                    <li>Functional Visits, Assignments, Case Studies, Presentations</li>
-                                    <li>Campus To Corporate Programme</li>
+                                    <li>Interdisciplinary Approach</li>
+                                    <li>Practical Orientation</li>
+                                    <li>Industry Connections</li>
+                                    <li>Global Perspective</li>
+                                    <li>Soft Skills Development</li>
+                                    <li>Entrepreneurial Focus</li>
                                 </ul>
                             </div>
                         </div>
@@ -267,8 +260,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Graduate in any discipline with min 50%</li>
-                                    <li>Final year students can also apply</li>
+                                    <li>12th from CBSE or CISCE or NIOS, A Levels (passed/appearing) IB Diploma</li>
                                 </ul>
                             </div>
                         </div>
@@ -285,11 +277,25 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>The Entrance Procedure for aspiring mass media students will encompass the
-                                        following:
-                                    </li>
-                                    <li>Creativity CET</li>
-                                    <li>Personal Interview</li>
+                                    <li>Application</li>
+                                    <li>Eligibility check & Document verification</li>
+                                    <li>Interview</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="true"
+                                aria-controls="collapseFour">Courses Offered</button>
+                        </p>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <hr />
+                                <ul>
+                                    <li>BSc Business Administration</li>
                                 </ul>
                             </div>
                         </div>
@@ -306,82 +312,6 @@
 </section>
 
 <!--------------- Programme section ------------------->
-
-<!--------------- Placement section ------------------->
-
-<section class="place__Sec" id="placement">
-    <div class="custom-container-2">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="sec_title text-center">
-                    <h2 class="white-text"><span>Placement </span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-9 col-md-12">
-                <div class="plc_box">
-                    <div class="row">
-                        <div class="col-4 col-md-4">
-                            <div class="plc_div">
-                                <h3>₹20 LPA</h3>
-                                <p>Highest Salary</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-4">
-                            <div class="plc_div">
-                                <h3>8.5 LPA</h3>
-                                <p>Average Salary</p>
-                            </div>
-                        </div>
-                        <div class="col-4 col-md-4">
-                            <div class="plc_div">
-                                <h3>500+</h3>
-                                <p>Recruiters</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 mt-5">
-                <div class="sec_title text-center">
-                    <a href="#banform"><button class="btn-primary btn-white">Enquire Now</button></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="img__sec">
-    <div class="custom-container-2">
-        <div class="event-container">
-            <div class="event-carousel owl-carousel">
-                <div class="event">
-                    <img src="assets/images/p1.webp" class="w-100" alt="">
-                </div>
-
-                <div class="event">
-                    <img src="assets/images/p2.webp" class="w-100" alt="">
-                </div>
-
-                <div class="event">
-                    <img src="assets/images/p3.webp" class="w-100" alt="">
-                </div>
-
-                <div class="event">
-                    <img src="assets/images/p4.webp" class="w-100" alt="">
-                </div>
-
-                <div class="event">
-                    <img src="assets/images/p5.webp" class="w-100" alt="">
-                </div>
-
-            </div>
-
-        </div>
-</section>
-
-<!--------------- Placement section ------------------->
 
 <!------------------ takesway section ------------------>
 
@@ -404,10 +334,10 @@
                                     <img src="assets/images/icons/book.svg" alt="take icons">
                                 </div>
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Hands On Expertise</strong>
+                                    <strong class="takeaways-title">Recognized Degree</strong>
                                     <p class="takeaways-subtitle">
-                                        The Students get hands-on learning experience in the specialisation of their
-                                        choice.
+                                        Earn an internationally valued prestigious qualification from the University of
+                                        London, internationally renowned since 1858.
                                     </p>
                                 </div>
                             </div>
@@ -420,13 +350,12 @@
                                 </div>
 
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Record Placements</strong>
+                                    <strong class="takeaways-title">Study without relocating</strong>
                                     <p class="takeaways-subtitle">
-                                        Students are groomed for self-management skills, growth and leadership mind set
-                                        to become
-                                        well-rounded employable candidates, ready to take on the dynamics of their
-                                        upcoming
-                                        professional journey.
+                                        Study at MET Institute of International, the recongnised teaching centre near
+                                        you and gain a prestigious qualification. With no travel, relocation or
+                                        accommodation costs, studying a University of London programme at a distance is
+                                        more affordable than travelling to London to study on campus.
                                     </p>
                                 </div>
                             </div>
@@ -439,11 +368,10 @@
                                 </div>
 
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Networking with Media Professionals</strong>
+                                    <strong class="takeaways-title">Quality of learning</strong>
                                     <p class="takeaways-subtitle">
-                                        The experiential learning module allows students to interact & network with
-                                        Media Industry
-                                        professionals.
+                                        The programmes is developed by academics at Royal Holloway, University of
+                                        London, ensuring the world-class quality of the degree.
                                     </p>
                                 </div>
                             </div>
@@ -456,11 +384,11 @@
                                 </div>
 
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Exposure to Latest Media Tools</strong>
+                                    <strong class="takeaways-title">Employability</strong>
                                     <p class="takeaways-subtitle">
-                                        Students get to work with updated tools and guidance on using them effectively
-                                        using the
-                                        trending techniques.
+                                        Enhance your employability by developing skills such as problem solving,
+                                        critical thinking and self-discipline, all of which are valued by employers
+                                        worldwide.
                                     </p>
                                 </div>
                             </div>
@@ -473,9 +401,11 @@
                                 </div>
 
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Life Management & Mentorship</strong>
+                                    <strong class="takeaways-title">Transfer Opportunities</strong>
                                     <p class="takeaways-subtitle">
-                                        Students get groomed under the mentorship of Industry mavens.
+                                        Transfer to Royal Holloway for Stage 2 or the final stage of studies. The
+                                        eligibility requires a grade average of 60%+ and satisfactory references and a
+                                        personal statement.
                                     </p>
                                 </div>
                             </div>
@@ -486,12 +416,11 @@
                                     <img src="assets/images/icons/book.svg" alt="take icons">
                                 </div>
                                 <div class="takeaways-head info_data_2">
-                                    <strong class="takeaways-title">Relevance to today's world</strong>
+                                    <strong class="takeaways-title">Comprehensive Resources</strong>
                                     <p class="takeaways-subtitle">
-                                        The program is designed to align with the needs and realities of today's
-                                        globalized world,
-                                        preparing students to succeed in an increasingly interconnected and diverse
-                                        global community.
+                                        Access to the Virtual Learning Environment (VLE) for study materials, forums,
+                                        and revision guides. Extensive resources in the Online Library, including
+                                        databases and journals.
                                     </p>
                                 </div>
                             </div>
@@ -505,644 +434,6 @@
 
 <!------------------  takesway section ------------------>
 
-<!--------------- Syllabus section 
-
-       <section class="syllab__sec" id="syllabusSection">
-           <div class="container">
-               <div class="row">
-                   <div class="col-12">
-                       <div class="sec_title text-center">
-                           <h2><span>Syllabus </span></h2>
-                       </div>
-                   </div>
-               </div>
-               <div class="row">
-                   <div class="col-12">
-                       <div class="accordion" id="accordionLocationn">
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingSeven">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - I</p>
-
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Managerial Economics</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Financial Reporting, Statement & Analysis</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Mathematics & Statistics for Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Management Research Methods</p>
-                                                   </div>
-                                                   
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                               <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Organizational Behaviour & Organizational Design</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Business Communication</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Corporate Social Responsibility & Sustainability - Concepts, Implemenation Process and Evaluation</p>
-                                                   </div>
-
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingEight">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - II</p>
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Human Resources Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Marketing Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Financial & Cost Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Operations Management</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Information Technology Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Legal and Tax Aspects of Business</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Indian & Global Business Environment</p>
-                                                   </div>
-
-                                               </div>
-
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingNine">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - III</p>
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                    <div class="pgdm-checksign">
-                                                    <h4>Finance</h4>
-                                                    </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Advanced Financial Management (Corporate Finance)</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Indian & Global Financial System, Markets & Services</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Banking and International Finance</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Fixed Income Securities & Mutual Funds</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Investment Analysis, Wealth & Portfolio Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Business & Financial Laws</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>Marketing</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Consumer Behaviour</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Sales and Distribution Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) Product Management & (B) Strategic Brand Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) B2B & Retail Marketing and (B) Marketing of High Technology Products</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Integrated Marketing Communication</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) Marketing Strategy & (B) Qualitative Marketing Research</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>HR</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Labour Laws and Implications on Industrial Relations</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Strategic HRM</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Global HRM</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">HR Accounting and Compensation Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Competency Based HRM and Performance Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Training & Development</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                               <div class="pgdm-checksign">
-                                                   <h4>Operations </h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Strategic Operations Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Business Process Engineering & Benchmarking</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Productivity Management & TQM</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Materials Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Supply Chain Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Service Operations Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>IT System</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Software Project management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) IT Consulting, (B) Digital Business</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Information System Security and Audit</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Software Engineering & Software Testing</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Database Management System & Data Warehousing</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Enterprise Management System</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingFour">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - IV</p>
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                               <div class="pgdm-checksign">
-                                                    <h4>Finance</h4>
-                                                    </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Corporate Valuation, Merger & Acquisition and Corporate Restructuring</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Derivatives & Risk Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Strategic Cost Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Banking Operations & Treasury Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Special Studies in Finance</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>Marketing</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) Agricultural Marketing & (B) Rural Marketing</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Marketing Decision Models, E-Marketing & Marketing Analytics</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Digital Marketing</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Marketing of Services (BFSI)</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Special Studies in Marketing</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>HR</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Change Management, Conflict & Negotiation Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">HR Planning and HR Audit</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">HR Analytics</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Organizational Structure, Theory and & Design</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Special Studies in HR</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                               <div class="pgdm-checksign">
-                                                   <h4>Operations </h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) Inventory Management (B) Technology Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) World Class Manufacturing (B) Designing Operations Systems</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Operations Analytics</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Manufacturing Resource Planning & Control</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Special Studies in Operations</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                   <h4>IT System</h4>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Big Data and Business Analytics</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Knowledge Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Mobile Computing with Android, Web Designing and Multimedia</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">(A) Network Technologies and Security (B) E-Governance</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Special Studies in Systems</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingFive">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - V</p>
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Human Resource Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Marketing Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Financial & Cost Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Operations Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Information Technology Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">FinTech Management</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Healthcare Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Social Management</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Business of Media & Entertainment</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Legal and Tax Aspects of Business</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Operation Ressearch and Data Science
-                                                           (Predictive and
-                                                           Prescriptive Analytics, AI & ML)</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                           <div class="accordion-item">
-                               <p class="accordion-header" id="headingSix">
-                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                       data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                       <div class="d-flex justify-content-start align-items-center">
-                                           <p class="mb-0">Trimester - VI</p>
-                                       </div>
-                                   </button>
-                               </p>
-                               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                                   data-bs-parent="#accordionLocationn">
-                                   <div class="accordion-body">
-                                       <hr />
-                                       <div class="row">
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Management Control Systems</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">ISC1 - Certificate Courses</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">ISC2 - Seminar / Workshop / Conference</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                           <div class="col-md-6">
-                                               <div class="pgdm-gap">
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">ISC2 - Research Publications / Intercollegiate / CSR / Event Volunteering, etc</p>
-                                                   </div>
-                                                   <div class="pgdm-checksign">
-                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                                       <p class="check-text">Capstone Project Work (Functional & New Age Specialization)</p>
-                                                   </div>
-                                               </div>
-                                           </div>
-                                       </div>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-       </section>
-       <!--------------- Syllabus section ------------------->
-
-<!--------------------- testimonial section ------------------->
-<section class="testimonial-pgdm" id="testimonial">
-    <div class="custom-container-2">
-        <div class="row">
-            <div class="col-12">
-                <div class="sec_title">
-                    <h2><span>Testimonials</span></h2>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
-                    <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/student1.jpg"
-                                    alt="testimonial carousel slider 2">
-                            </div>
-                            <div>
-                                <h5 class="card-title">Delna Shroff</h5>
-                                <span class="text-secondary">
-                                    Creative Director<br>L&K Saatchi & Saatchi
-                                </span>
-                            </div>
-                            <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div>
-                        </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET gave me the opportunity to speak to industry veterans
-                                and instilled a sense of confidence to face the world of Indian advertising. The
-                                sessions always provided real-life industry insight instead of classroom theory."</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/student2.jpg"
-                                    alt="testimonial carousel slider 2">
-                            </div>
-                            <div>
-                                <h5 class="card-title">Priyanka Surve</h5>
-                                <span class="text-secondary">Founder & Creative Director<br>Motley Advertising</span>
-                            </div>
-                            <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div>
-                        </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET IMM gave me the confidence to step out in the world of
-                                Advertising. The great support and guidance from each of the faculties and mentors has
-                                tremendously helped throughout my professional journey."</p>
-                        </div>
-                    </div>
-                    <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/student3.jpg"
-                                    alt="testimonial carousel slider 2">
-                            </div>
-                            <div>
-                                <h5 class="card-title">Anup Kadam</h5>
-                                <span class="text-secondary">Creative Executive - India Series Team<br>Netflix
-                                    India</span>
-                            </div>
-                            <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div>
-                        </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET IMM gave a very comfortable and convenient learning
-                                environment. The curriculum and pedagogy was fluid which helped each one of us to work
-                                on what we really wanted to achieve without forcing any unnecessary subjects on
-                                ourselves."
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!--------------------- testimonial section ------------------->
 
 <!------------------ apply section ---------------->
 <section class="section-apply" id="applySection">
@@ -1208,7 +499,7 @@
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
                                     non-refundable
-                                    online payment of Rs. 2300 via
+                                    online payment of Rs. 3500 via
                                     credit/debit card or net banking.</p>
                             </div>
                         </div>
@@ -1556,7 +847,7 @@
                                         </h5>
                                     </div>
                                     <div class="para-title">
-                                        <h5 class="para-text">MET Institute of Mass Media</h5>
+                                        <h5 class="para-text">MET Institute of International Studies</h5>
                                     </div>
                                     <div class="contact-para">
                                         <div class="pgdm-gap">
@@ -1568,7 +859,8 @@
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/call.svg" alt="">
-                                                <p class="check-text1">Phone No.: 7208006691, 8655820696, 9136425329</p>
+                                                <p class="check-text1">Phone No.: 8454046164
+                                                </p>
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/mail.svg" alt="">
@@ -1586,7 +878,7 @@
                             <div class="col-lg-6 col-md-12">
                                 <div class="maps">
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.270158600167!2d72.82661657573964!3d19.05185598214777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9d95195a12f%3A0x7b2c91d24e169a83!2sMET%20Institute%20of%20Management!5e0!3m2!1sen!2sin!4v1734695365063!5m2!1sen!2sin"
+                                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7542.533860854899!2d72.829594!3d19.051998!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c962e996ef11%3A0x3c350caee1306cec!2sMET%20Institute%20of%20International%20Studies!5e0!3m2!1sen!2sin!4v1736595321917!5m2!1sen!2sin"
                                         width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
                                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
@@ -1619,8 +911,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Is work experience mandatory in securing admission for PGP MCMM at
-                                        MET Mumbai?</p>
+                                    <p class="mb-0">Which University Of London degrees does MET offer?</p>
                                 </div>
                             </button>
                         </p>
@@ -1629,8 +920,9 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    No. However, Students with work experience may get up to 10 marks allocated to them,
-                                    depending upon nature of their work experience.
+                                    BSc Business Administration - Awarding Body University of London & Academic
+                                    Direction by
+                                    Royal Holloway.
                                 </p>
                             </div>
                         </div>
@@ -1640,7 +932,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is MET CET and are there any negative markings?</p>
+                                    <p class="mb-0">Why choose a Pathway program instead of going abroad to foreign
+                                        universities directly?</p>
                                 </div>
                             </button>
                         </p>
@@ -1649,10 +942,9 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    MET CET is an entrance test conducted for applicants. There is no Negative marking
-                                    in MET CET. The candidate will be tested on his/her ability to handle uncertainty
-                                    and the pressures of demanding deadlines and clients and ability to demonstrate
-                                    proactiveness, initiative and creativity in finding solutions.
+                                    The cost of living abroad can be very high compared to your homeland. Also, the
+                                    student receives
+                                    personal attention and support in a familiar environment.
                                 </p>
                             </div>
                         </div>
@@ -1662,7 +954,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are the fee payment facilities offered to the students?</p>
+                                    <p class="mb-0">What are the eligibility criteria for MET Institute of International
+                                        Studies?</p>
                                 </div>
                             </button>
                         </p>
@@ -1670,9 +963,8 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Fees can be paid through loans and EMI's facilities. MET has tie-ups with Saraswat
-                                    Co-op Bank and Axis Bank for the loan facility. And GrayQuest for EMI facility,
-                                    which offers spot sanctions to deserving students.
+                                <p>Completion 12th from CBSE or CISCE or NIOS, A Levels (passed/appearing)
+                                    IB Diploma
                                 </p>
                             </div>
                         </div>
@@ -1683,7 +975,7 @@
                                 data-bs-target="#collapsethirteen" aria-expanded="true"
                                 aria-controls="collapsethirteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Does MET provide a hostel facility to the students?</p>
+                                    <p class="mb-0">Is the Pathway program recognized in India and abroad?</p>
                                 </div>
                             </button>
                         </p>
@@ -1691,8 +983,131 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Presently, the MET does not provide in-house hostel facilities to pupils. However, it
-                                    tries to assist students in procuring hostel accommodation.
+                                <p>Upon completion of two years at MET and the Final year at Royal Holloway University,
+                                    the student
+                                    earns the Final Degree from the University of London which is recognized globally.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingfourteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefourteen" aria-expanded="true"
+                                aria-controls="collapsefourteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">How are Pathway Courses different from other UG Courses in India?
+                                    </p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapsefourteen" class="accordion-collapse collapse" aria-labelledby="headingfourteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>1. Internationally and professionally designed course.<br>
+                                    2. Shift from a traditional knowledge-centric education to a competency-based
+                                    approach.<br>
+                                    3. Practical Exposure.<br>
+                                    4. Students apply their knowledge and skills in real-world situations through
+                                    internships, apprenticeships, and project-based learning.<br>
+                                    5. Flexibility
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingfiftyteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefiftyteen" aria-expanded="true"
+                                aria-controls="collapsefiftyteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What is a BSc Business Administration Programme?
+                                    </p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapsefiftyteen" class="accordion-collapse collapse"
+                            aria-labelledby="headingfiftyteen" data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Prepare for today's highly competitive business environment and learn to devise
+                                    effective
+                                    solutions to real management situations.
+                                    Study general Business Administration or specialize in one of three pathways: Human
+                                    Resource Management, International Business or Marketing.
+                                <ul>
+                                    <li>BSc Business Administration (Academic direction by Royal Holloway)</li>
+                                    <li>Business Administration- General Pathway</li>
+                                    <li>Business Administration - Human Resource Management</li>
+                                    <li>Business Administration - International Business</li>
+                                    <li>Business Administration - Marketing</li>
+                                </ul>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingsixteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsesixteen" aria-expanded="true" aria-controls="collapsesixteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What is the admission process for the University of London Programme
+                                        at MET Mumbai?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapsesixteen" class="accordion-collapse collapse" aria-labelledby="headingsixteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Application Form and Documents to be submitted Online followed by Personal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingseventeen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseseventeen" aria-expanded="true"
+                                aria-controls="collapseseventeen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Why Enroll for the University of London Degree at MET IIS?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseseventeen" class="accordion-collapse collapse"
+                            aria-labelledby="headingseventeenn" data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Recognized Degree<br>
+                                    Study without relocating<br>
+                                    Quality of learning<br>
+                                    Employability<br>
+                                    Transfer Opportunities<br>
+                                    Comprehensive Resources<br>
+                                    Global Networking and Career Support<br>
+                                    Graduation Ceremonies
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingeighteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseeighteen" aria-expanded="true"
+                                aria-controls="collapseeighteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Does MET provide hostel facilities to the students?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseeighteen" class="accordion-collapse collapse" aria-labelledby="headingeighteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p> MET provides assistance to students to find accommodation in the vicinity since
+                                    on-campus hostel
+                                    is not available.
                                 </p>
                             </div>
                         </div>

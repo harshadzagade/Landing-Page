@@ -9,7 +9,7 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About IMM</a>
+                    <a href="#sectionabout" class="nav-link">About IIS-UOL-Royal-Holloway</a>
                 </div>
 
                 <div class="navbar-link">
@@ -46,9 +46,9 @@
 
             <div class="navbar-more-links">
                 <div class="navbar-more-link">
-                    <a class="btn-contact" href="tel:+917208006691">
+                    <a class="btn-contact" href="tel:+918454046164">
                         <span><img src="assets/images/icons/phone.svg" alt="phone"></span>
-                        <span class="d-none d-xl-block">+91 7208006691</span>
+                        <span class="d-none d-xl-block">+91 8454046164</span>
                     </a>
                 </div>
 
@@ -82,7 +82,7 @@
     <div class="offcanvas-body">
         <div class="offcanvas-navs">
             <div class="offcanvas-nav">
-                <a href="#sectionabout" class="offcanvas-link">About IMM</a>
+                <a href="#sectionabout" class="offcanvas-link">About IIS-UOL-Royal-Holloway</a>
             </div>
 
             <div class="offcanvas-nav">
