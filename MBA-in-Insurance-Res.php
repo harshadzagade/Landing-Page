@@ -15,6 +15,19 @@
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+        </script>
+        <!-- End Google Tag Manager -->
+
         <!-- bootstrap css cdn -->
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
 
@@ -30,11 +43,16 @@
         <!-- FancyBox CSS -->
         <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
 
-
-
     </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <?php include './assets/component/header.php' ?>
 
@@ -65,7 +83,7 @@
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>

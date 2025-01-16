@@ -1084,12 +1084,15 @@
                                 <h5 class="card-title">Tess Michael</h5>
                                 <span class="text-secondary"></span>
                             </div>
-                                <!-- <div class="svg-icon-testimonial">
+                            <!-- <div class="svg-icon-testimonial">
                                     <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                                 </div> -->
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET has been a pathway in building my successful career. I was recruited from campus for a company in Dubai and have ever since flourished and grown. With the help of MET I was able to experience my dream of visiting Lloyd’s Market and pursuing ACII."</p>
+                            <p class="card-text-testimonial">"MET has been a pathway in building my successful career. I
+                                was recruited from campus for a company in Dubai and have ever since flourished and
+                                grown. With the help of MET I was able to experience my dream of visiting Lloyd’s Market
+                                and pursuing ACII."</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -1107,7 +1110,10 @@
                             </div> -->
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET has helped me learn values and ethics on my way forward in the corporate life. I was recruited from college and then went on to venture into my own Business. Lessons on Management and trades have helped me to be confident on these decisions."</p>
+                            <p class="card-text-testimonial">"MET has helped me learn values and ethics on my way
+                                forward in the corporate life. I was recruited from college and then went on to venture
+                                into my own Business. Lessons on Management and trades have helped me to be confident on
+                                these decisions."</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -1125,7 +1131,10 @@
                             </div> -->
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET gave me the platform to rise up to my potential. During my course I was not only trained on technical aspects but was also groomed for the corporate journey I was going to start. Proud to be an alumnus of PGP EMBA-Insurance course."</p>
+                            <p class="card-text-testimonial">"MET gave me the platform to rise up to my potential.
+                                During my course I was not only trained on technical aspects but was also groomed for
+                                the corporate journey I was going to start. Proud to be an alumnus of PGP EMBA-Insurance
+                                course."</p>
                         </div>
                     </div>
                 </div>
@@ -1547,7 +1556,8 @@
                                         </h5>
                                     </div>
                                     <div class="para-title">
-                                        <h5 class="para-text">MET Centre for Insurance Training, Research & Development</h5>
+                                        <h5 class="para-text">MET Centre for Insurance Training, Research & Development
+                                        </h5>
                                     </div>
                                     <div class="contact-para">
                                         <div class="pgdm-gap">

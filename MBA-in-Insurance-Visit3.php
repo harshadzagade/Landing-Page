@@ -16,9 +16,9 @@ $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 
-$programme_name = "PGDM";
-$extraegde_id = "11";
-$institute_name = "Institute of Post Graduate Diploma in Management";
+$programme_name = "PGP EMBA-Insurance";
+$extraegde_id = "21";
+$institute_name = "MET Centre for Insurance Training Research & Development";
 
 // Database configuration
 $servername = "localhost"; // Change if needed
@@ -109,9 +109,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    // '' => $page_name, 
-                    'LeadType' => "Digital Paid",
-                    'LeadSource' => "MediaDonuts_2024",
+                    'LeadName' => $page_name, 
+                    'LeadType' => "Publishers",
+                    'LeadSource' => "MBAUniverse",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: PGDM-Res.php");
+            header("Location: MBA-in-Insurance-Res3.php");
             exit; // Stop further script execution
         }
 
