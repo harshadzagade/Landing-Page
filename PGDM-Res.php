@@ -65,7 +65,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section class="secton-thankyou">
             <div class=" thankyou-content text-center">
                 <div class="thankyou-content-img">
-                    <img src="./assets/images/icons/success.png" class="d-block success_img" alt="success">
+                    <img src="./assets/images/icons/success.svg" class="d-block success_img" alt="success">
                 </div>
 
                 <h3 class="thankyou-title">You're All Set</h3>
