@@ -7,12 +7,27 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+            An MBA that Adapts to Dynamic Business Needs. Campus-based PGP in Empowered Management and Business
+            Administration
         </title>
 
-        <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+        <meta name="Description"
+            content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
+
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push({
+                    'gtm.start':
+                        new Date().getTime(), event: 'gtm.js'
+                }); var f = d.getElementsByTagName(s)[0],
+                    j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+        </script>
+        <!-- End Google Tag Manager -->
 
         <!-- bootstrap css cdn -->
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
@@ -29,11 +44,16 @@
         <!-- FancyBox CSS -->
         <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
 
-        
-
     </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <?php include './assets/component/header.php' ?>
 
@@ -51,7 +71,8 @@
                     Thank you for your Interest.
                     Our Sales Manager will get in touch with you shortly.
                 </p>
-                <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a href="assets/pdf/MET.pdf" download>click here</a>.</p>
+                <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
+                        href="assets/pdf/MET.pdf" download>click here</a>.</p>
                 <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET.pdf" download>Download PDF</a>
             </div>
         </section>
@@ -92,15 +113,15 @@
     <script src="./js/index.js"></script>
 
     <script>
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
         })
     </script>
     <script>
-        $(document).ready(function() {
-            setTimeout(function() {
+        $(document).ready(function () {
+            setTimeout(function () {
                 $('#download-pdf')[0].click();
             }, 2000);
         });
