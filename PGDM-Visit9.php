@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/1ttgiJ9ZoHX0M62vFFSX0jqFQZ5ntMdNri55FD_-htU4/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSc3GYGKkz5wycqueprY5vjo-i_8jbOgVLnMZauCrXDOdIcB_w/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
