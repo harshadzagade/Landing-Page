@@ -32,7 +32,7 @@
         <div class="row g-5">
             <div class="col-lg-6 col-md-12">
                 <div class="about-pgdm">
-                    <img src="assets/images/about/about.png" alt="about">
+                    <img src="assets/images/about/Mass_Media.png" alt="about">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 headline2-about">
@@ -1137,7 +1137,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/delna_shroff.jpg"
+                                <img class="student-images" src="assets/images/test/delna_shroff.png"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
@@ -1159,7 +1159,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/Priyanka-Surve.jpg"
+                                <img class="student-images" src="assets/images/test/Priyanka-Surve.png"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
@@ -1179,7 +1179,7 @@
                     <div class="testimonial-card">
                         <div class="img-testimonial d-flex align-items-center">
                             <div>
-                                <img class="student-images" src="assets/images/test/Anup_Kadam.jpg"
+                                <img class="student-images" src="assets/images/test/Anup_Kadam.png"
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>

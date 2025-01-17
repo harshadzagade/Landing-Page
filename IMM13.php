@@ -249,7 +249,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>

@@ -79,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
                         href="assets/pdf/MET.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET-IMM-brochure.pdf"
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/IMM-Prospectus-2025.pdf"
                     download>Download PDF</a>
             </div>
         </section>
@@ -91,7 +91,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>
