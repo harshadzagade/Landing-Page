@@ -17,7 +17,22 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-PWD7ZBXF');</script>
-<!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments)
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "pv5l42udd7");
+    </script>
+    <!-- End Microsoft Clarity -->
 
 
         <!-- bootstrap css cdn -->
@@ -63,8 +78,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Our Sales Manager will get in touch with you shortly.
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
-                        href="assets/pdf/MET.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET.pdf" download>Download PDF</a>
+                        href="assets/pdf/IIS-Brochure-2025.pdf" download>click here</a>.</p>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/IIS-Brochure-2025.pdf" download>Download PDF</a>
             </div>
         </section>
     </main>
@@ -75,7 +90,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>
