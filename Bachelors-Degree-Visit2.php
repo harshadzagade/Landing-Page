@@ -16,8 +16,8 @@ $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 
-$programme_name = "PGDM";
-$extraegde_id = "11";
+$programme_name = "BSc (Hons) Business Administration (Global BBA)";
+$extraegde_id = "23";
 $institute_name = "Institute of International Studies";
 
 // Database configuration
@@ -110,8 +110,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
-                    'LeadType' => "Digital Organic",
-                    'LeadSource' => "SMS_WhatsApp",
+                    'LeadType' => "Social",
+                    'LeadSource' => "SMM Organic",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: Bachelors-Degree-Res5.php");
+            header("Location: Bachelors-Degree-Res2.php");
             exit; // Stop further script execution
         }
 

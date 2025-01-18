@@ -16,8 +16,8 @@ $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 
-$programme_name = "Bachelors_Degree";
-$extraegde_id = "11";
+$programme_name = "BSc (Hons) Business Administration (Global BBA)";
+$extraegde_id = "23";
 $institute_name = "Institute of International Studies";
 
 // Database configuration
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/e/1FAIpQLScosfFKbZlcAqfi_nwKWdesZoKis04p-7pOV6bMl-Offql0JA/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSfDXnuoV3vkBWeHf87DzckXhSSh-zYug6tk92GF1vltg05X3A/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -110,8 +110,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
-                    'LeadType' => "Digital Paid",
-                    'LeadSource' => "LogicLoop",
+                    'LeadType' => "Publishers",
+                    'LeadSource' => "Zollege",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: Bachelors-Degree-Res.php");
+            header("Location: Bachelors-Degree-Res13.php");
             exit; // Stop further script execution
         }
 
