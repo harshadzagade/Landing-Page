@@ -32,7 +32,7 @@
         <div class="row g-5">
             <div class="col-lg-6 col-md-12">
                 <div class="about-pgdm">
-                    <img src="assets/images/about/about.png" alt="about">
+                    <img src="assets/images/about/PGP_EMBA.png" alt="about">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 headline2-about">
