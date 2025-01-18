@@ -16,9 +16,9 @@ $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 
-$programme_name = "PGDM";
-$extraegde_id = "11";
-$institute_name = "Institute of Post Graduate Diploma in Management";
+$programme_name = "BSc Computer Science - UOL Goldsmiths";
+$extraegde_id = "120";
+$institute_name = "IIS";
 
 // Database configuration
 $servername = "localhost"; // Change if needed
@@ -73,7 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/1ttgiJ9ZoHX0M62vFFSX0jqFQZ5ntMdNri55FD_-htU4/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSdaLQAyZ4F1P907TPacXSzVZMH-0AFbl_CtcCTTwgMXbZhsvQ/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -109,9 +109,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    // '' => $page_name, 
+                    'LeadName' => $page_name, 
                     'LeadType' => "Digital Paid",
-                    'LeadSource' => "MediaDonuts_2024",
+                    'LeadSource' => "LogicLoop",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
@@ -197,7 +197,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: PGDM-Res.php");
+            header("Location: BSc-Computer-Science-Res11.php");
             exit; // Stop further script execution
         }
 
