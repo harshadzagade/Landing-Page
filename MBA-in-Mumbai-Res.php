@@ -87,8 +87,8 @@
                     Our Sales Manager will get in touch with you shortly.
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
-                        href="assets/pdf/MET.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MET.pdf" download>Download PDF</a>
+                        href="assets/pdf/AMDC-handout-2025.pdf" download>click here</a>.</p>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/AMDC-handout-2025.pdf" download>Download PDF</a>
             </div>
         </section>
     </main>
