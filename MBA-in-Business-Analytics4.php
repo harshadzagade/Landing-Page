@@ -19,13 +19,41 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
-    <title>
-        MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+    <title>PGP in Strategic Business Analytics Program - MET AMDC | Management Courses in Mumbai | Top MBA/PG College
     </title>
-
-    <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+    <meta name="description"
+        content="Study at MET AMDC, top MBA/PG College in Mumbai for Management Courses, offers fulltime campus based eMBA, eMBA - Finance (BFSI) progarms focusing on Global Perspective, Quality Education, Best Faculty & Placements.">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Microsoft Clarity -->
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments)
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "pv5l42udd7");
+    </script>
+    <!-- End Microsoft Clarity -->
+
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css">
@@ -43,6 +71,14 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <div class="loader-container">
         <div class="loader-wrapper">
             <div class="loader">
@@ -65,20 +101,17 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGDM</span><br>
+                                    <span class="linetext b-clr">PGP-EMBA-BA</span><br>
                                 </p>
                                 <p>
-                                    Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
-                                    FinTech, MarTech, Media & Entertainment, Data Science & Business Analytics,
-                                    Start-ups & New Enterprise Management.
+                                    MBA in Business Analytics - 46% Growth, $98 Billion Industry, 2 Lacs+ Vacancies
                                 </p>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class=""> <img src="assets/images/bannerstudent.webp" class=""
-                                alt="...">
+                        <div class=""> <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -88,15 +121,16 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="PGDM-Visit.php" method="POST" novalidate
+                                    <form id="pop-form" action="MBA-in-Business-Analytics-Visit4.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
                                                 <div class="input-group">
                                                     <label class="inputial">Name </label>
 
-                                                    <input id="enqform-fname" type="text" class="form-control rounded-pill"
-                                                        required name="fname" placeholder="Enter Your Name">
+                                                    <input id="enqform-fname" type="text"
+                                                        class="form-control rounded-pill" required name="fname"
+                                                        placeholder="Enter Your Name">
 
                                                     <div class="invalid-feedback">
                                                         Please enter a valid name.
@@ -108,8 +142,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 <div class="input-group">
                                                     <label class="inputial">Email Address </label>
 
-                                                    <input type="email" class="form-control rounded-pill" required name="email"
-                                                        placeholder="Enter Your Email">
+                                                    <input type="email" class="form-control rounded-pill" required
+                                                        name="email" placeholder="Enter Your Email">
                                                     <div class="invalid-feedback">
                                                         Please enter a valid email.
                                                     </div>
@@ -121,7 +155,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label class="inputial">Mobile </label>
 
                                                     <input type="text" class="form-control rounded-pill number-only"
-                                                        name="mobile" maxlength="10" required placeholder="Enter Your Number">
+                                                        name="mobile" maxlength="10" required
+                                                        placeholder="Enter Your Number">
                                                     <div class="invalid-feedback">
                                                         Please enter a valid mbile no.
                                                     </div>
@@ -132,8 +167,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 <div class="input-group">
                                                     <label class="inputial">City </label>
 
-                                                    <input type="text" class="form-control rounded-pill" name="city" required
-                                                        placeholder="Enter Your City">
+                                                    <input type="text" class="form-control rounded-pill" name="city"
+                                                        required placeholder="Enter Your City">
                                                     <div class="invalid-feedback">
                                                         Please enter a valid city.
                                                     </div>
@@ -145,8 +180,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 <div class="input-group">
                                                     <label class="inputial">Qualification </label>
 
-                                                    <select type="text" class="form-select rounded-pill" name="qualification"
-                                                        placeholder="Enter Your City" required>
+                                                    <select type="text" class="form-select rounded-pill"
+                                                        name="qualification" placeholder="Enter Your City" required>
                                                         <option value="" selected hidden>Choose...</option>
                                                         <option value="Graduation">Graduation</option>
                                                         <option value="Post-Graduation">Post-Graduation</option>
@@ -160,23 +195,25 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                             <div class=" col-md-12 m-0">
                                                 <div class="checkboxprivcy">
-                                                    <input type="checkbox" id="privacy" name="privacy" value="true" required
-                                                        checked="">
+                                                    <input type="checkbox" id="privacy" name="privacy" value="true"
+                                                        required checked="">
 
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="MET-PGDM">
+                                            <input type="hidden" name="page_name" value="PGP EMBA-BA4">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
-                                            <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
+                                            <input type="hidden" name="utm_campaign"
+                                                value="<?php echo $utm_campaign ?>">
                                             <input type="hidden" name="utm_adgroup" value="<?php echo $utm_adgroup ?>">
                                             <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
                                             <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
                                             <input type="hidden" name="gclid" value="<?php echo $gclid ?>">
                                             <input type="hidden" name="fbclid" value="<?php echo $fbclid ?>">
                                             <input type="hidden" name="url" value="<?php echo $url ?>">
-                                            <button type="submit" class="form-btn round-btn text-center d-inline btn-submit-1"
+                                            <button type="submit"
+                                                class="form-btn round-btn text-center d-inline btn-submit-1"
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
@@ -201,7 +238,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2024 MET. All rights reserved
+                        Copyright © 2025 MET. All rights reserved
                     </p>
                 </div>
             </div>
@@ -229,8 +266,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
