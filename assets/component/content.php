@@ -1173,10 +1173,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, working
-                                    email,
-                                    mobile number, and
-                                    qualifications.</p>
+                                <p>Click Apply and fill out your personal information, including your name, email,
+                                    mobile number, and qualifications.</p>
                             </div>
                         </div>
 
@@ -1193,9 +1191,7 @@
 
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable
-                                    online payment of Rs. 1500 via
-                                    credit/debit card or net banking.</p>
+                                    non-refundable online payment of Rs. 1500.</p>
                             </div>
                         </div>
 
@@ -1211,10 +1207,9 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your
-                                    email and
-                                    complete the form, uploading all
-                                    necessary documents, photos, a statement of purpose video, and a signature.</p>
+                                <p>Login to the MET Online Application Form using the information sent to your email and
+                                    complete the form, uploading all necessary documents.
+                                </p>
                             </div>
                         </div>
 
@@ -1230,12 +1225,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed
-                                    of your
-                                    online personal interview
-                                    schedule. Instructions on how to attend the interview will be sent to your
-                                    registered
-                                    email.</p>
+                                <p>After the successful submission of the online application, you will be informed of
+                                    your GD & PI schedule.</p>
                             </div>
                         </div>
                     </div>
