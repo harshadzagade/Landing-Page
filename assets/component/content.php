@@ -1211,10 +1211,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your
-                                    email and
-                                    complete the form, uploading all
-                                    necessary documents, photos, a statement of purpose video, and a signature.</p>
+                                <p>Login to the MET Online Application Form using the information sent to your email and
+                                    complete the form, uploading all necessary documents, photos, and a signature.</p>
                             </div>
                         </div>
 
@@ -1230,12 +1228,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed
-                                    of your
-                                    online personal interview
-                                    schedule. Instructions on how to attend the interview will be sent to your
-                                    registered
-                                    email.</p>
+                                <p>After successfully submitting your application, you will receive details about your
+                                    Group Discussion (GD) / Personal Interview (PI) via Email/SMS/WhatsApp.</p>
                             </div>
                         </div>
                     </div>
