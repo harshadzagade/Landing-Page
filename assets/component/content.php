@@ -1691,16 +1691,15 @@
                                 <p>What is the selection process for PGP EMBA? Selection of candidates will be based on
                                     following.
                                 </p>
-                                <ol>
-                                    <li>MET - MCT + Aptitude Questions and Statement of Purpose - SOP on video (Online
-                                        Interview only if
-                                        needed) + Academics Performance + Other Parameters
+                                <ul>
+                                    <li>CATEGORY 1
+                                        MET Multiple choice Test to judge General Knowledge, English, Logical Reasoning
+                                        and Quantitative Aptitude + GD +PI + Academics + Overall Performance
                                         OR</li>
-                                    <li>MH-CET, CMAT, XAT, CAT, ATMA, GMAT, MAT, NMAT + Aptitude Questions and Statement
-                                        of Purpose -
-                                        SOP on video (Online Interview only if needed) + Academics Performance + Other
-                                        Parameters</li>
-                                </ol>
+                                    <li>CATEGORY 2
+                                        MH -CET, CMAT, XMAT, CAT, ATMA, GMAT, NMAT, MAT, SNAP + GD +PI + Academics +
+                                        Overall Performance</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
