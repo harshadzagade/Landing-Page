@@ -32,7 +32,7 @@
         <div class="row g-5">
             <div class="col-lg-6 col-md-12">
                 <div class="about-pgdm">
-                    <img src="assets/images/about/PGP_EMBA.png" alt="about">
+                    <img src="assets/images/about/about.png" alt="about">
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 headline2-about">
@@ -1173,8 +1173,10 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, email,
-                                    mobile number, and qualifications.</p>
+                                <p>Click Apply and fill out your personal information, including your name, working
+                                    email,
+                                    mobile number, and
+                                    qualifications.</p>
                             </div>
                         </div>
 
@@ -1191,7 +1193,9 @@
 
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable online payment of Rs. 1500.</p>
+                                    non-refundable
+                                    online payment of Rs. 1500 via
+                                    credit/debit card or net banking.</p>
                             </div>
                         </div>
 
@@ -1207,9 +1211,10 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your email and
-                                    complete the form, uploading all necessary documents.
-                                </p>
+                                <p>Login to the MET Online Application Form using the information sent to your
+                                    email and
+                                    complete the form, uploading all
+                                    necessary documents, photos, a statement of purpose video, and a signature.</p>
                             </div>
                         </div>
 
@@ -1225,8 +1230,12 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed of
-                                    your GD & PI schedule.</p>
+                                <p>After the successful submission of the online application, you will be informed
+                                    of your
+                                    online personal interview
+                                    schedule. Instructions on how to attend the interview will be sent to your
+                                    registered
+                                    email.</p>
                             </div>
                         </div>
                     </div>
@@ -1270,8 +1279,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1294,14 +1303,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
