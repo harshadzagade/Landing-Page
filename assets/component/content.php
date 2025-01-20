@@ -280,12 +280,13 @@
                                 <hr />
                                 <ul>
                                     <li>Candidates applying for this programme will be selected on the basis of:</li>
-                                    <li>Category 1: MET - MCT + Aptitude Questions and Statement of Purpose – SOP on
-                                        video (Online Interview only if required) + Academics Performance + Other
-                                        Parameters OR</li>
-                                    <li>Category 2: MH-CET, CMAT, XAT, CAT, ATMA, GMAT, NMAT, MAT + Aptitude Questions
-                                        and Statement of Purpose – SOP on video (Online Interview only if required) +
-                                        Academics Performance + Other Parameters
+                                    <li>Category 1: MET Multiple choice Test to judge General Knowledge, English,
+                                        Logical Reasoning and Quantitative Aptitude + GD +PI + Academics + Overall
+                                        Performance
+                                        OR</li>
+                                    <li>CATEGORY 2
+                                        MH -CET, CMAT, XMAT, CAT, ATMA, GMAT, NMAT, MAT, SNAP + GD +PI + Academics +
+                                        Overall Performance
                                     </li>
                                 </ul>
                             </div>
@@ -1315,8 +1316,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1339,14 +1340,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1745,7 +1746,9 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Graduate in any discipline from a recognized university. Candidates who have appeared or are appearing for their graduation examination in the academic year 2025, or are awaiting results, are also eligible to apply.
+                                <p>Graduate in any discipline from a recognized university. Candidates who have appeared
+                                    or are appearing for their graduation examination in the academic year 2025, or are
+                                    awaiting results, are also eligible to apply.
                                 </p>
                             </div>
                         </div>
