@@ -1275,8 +1275,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1299,14 +1299,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
