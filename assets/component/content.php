@@ -144,7 +144,7 @@
 <section class="adv__sec" id="advMET">
     <div class="container">
         <div class="row align-items-end">
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-8 col-md-12">
                 <div class="sec_title text-start">
                     <h2><span>Advantage</span> MET</h2>
                 </div>
@@ -187,7 +187,7 @@
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="adv_img">
                     <img src="assets/images/adv-girl.png" alt="kolte Images">
                 </div>
@@ -1173,10 +1173,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, working
-                                    email,
-                                    mobile number, and
-                                    qualifications.</p>
+                                <p>Click Apply and fill out your personal information, including your name, email,
+                                    mobile number, and qualifications.</p>
                             </div>
                         </div>
 
@@ -1193,9 +1191,7 @@
 
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable
-                                    online payment of Rs. 1500 via
-                                    credit/debit card or net banking.</p>
+                                    non-refundable online payment of Rs. 1500.</p>
                             </div>
                         </div>
 
@@ -1273,8 +1269,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1297,14 +1293,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
