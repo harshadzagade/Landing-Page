@@ -20,7 +20,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>
-        Unlock Global Opportunities with a University of London Degree
+        Unlock Global Opportunities
     </title>
 
     <meta name="Description"
@@ -88,8 +88,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">Unlock Global Opportunities with a University of London
-                                        Degree</span><br>
+                                    <span class="linetext b-clr">Unlock Global Opportunities</span><br>
                                 </p>
                                 <p>
                                     Earn a Prestigious BSc Business Administration Degree
