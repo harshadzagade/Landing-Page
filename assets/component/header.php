@@ -9,7 +9,7 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About IIS-UOL-Goldsmiths</a>
+                    <a href="#sectionabout" class="nav-link">About programme</a>
                 </div>
 
                 <div class="navbar-link">
@@ -25,18 +25,18 @@
                 </div>
 
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#placement" class="nav-link">Placement</a>
-                </div>
+                </div> -->
 
 
                 <div class="navbar-link">
                     <a href="#applySection" class="nav-link">How to Apply</a>
                 </div>
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#testimonial" class="nav-link">Testimonials</a>
-                </div>
+                </div> -->
 
                 <div class="navbar-link">
                     <a href="#faq" class="nav-link">FAQ</a>
@@ -82,7 +82,7 @@
     <div class="offcanvas-body">
         <div class="offcanvas-navs">
             <div class="offcanvas-nav">
-                <a href="#sectionabout" class="offcanvas-link">About IIS-UOL-Goldsmiths</a>
+                <a href="#sectionabout" class="offcanvas-link">About programme</a>
             </div>
 
             <div class="offcanvas-nav">
@@ -93,9 +93,9 @@
                 <a href="#prgDetail" class="offcanvas-link">Programme Details</a>
             </div>
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#placement" class="offcanvas-link">Placement</a>
-            </div>
+            </div> -->
 
             <div class="offcanvas-nav">
                 <a href="#specialisations" class="offcanvas-link">Specialisations</a>
@@ -109,9 +109,9 @@
                 <a href="#applySection" class="offcanvas-link">How to Apply</a>
             </div>
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#testimonial" class="offcanvas-link">Testimonials</a>
-            </div>
+            </div> -->
 
 
         </div>

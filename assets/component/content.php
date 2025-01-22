@@ -3,7 +3,7 @@
     <div class="custom-container-2">
         <div class="banner-legacy ">
             <div class="row mr0 about-sec align-items-center justify-content-center">
-                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                <!-- <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>₹20 LPA</h3>
                     <p>Highest Salary</p>
                 </div>
@@ -14,11 +14,13 @@
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>MarTech, FinTech, M & E</h3>
                     <p>Add-On Specialisations</p>
-                </div>
+                </div> -->
 
-                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3><span class="counter">500</span>+</h3>
-                    <p>Recruiting Companies</p>
+                <div class="col-md-10 legcy-sec">
+                    <h3>BSc. Computer Science
+                        Awarding Body University of London
+                        & Academic Direction by Goldsmiths
+                    </h3>
                 </div>
             </div>
         </div>
@@ -68,21 +70,33 @@
     <div class="custom-container1">
         <div class="">
             <div class="sec_title text-center">
-                    <h2><span>About</span> Goldsmiths</h2>
-                </div>
-                <div class="info_data">
-                    <p>Founded in 1891, Goldsmiths is world-renowned for teaching and research in creative, cultural and computational disciplines. Academic direction for the BSc Computer Science is provided by the Department of Computing at Goldsmiths, one of the UK’s top creative universities. Goldsmiths' unique hands-on project-based style works for a diverse range of interests - from computer and data science to art and music to social science and journalism.<p> <br> </p>Its multi-disciplinary staff are actively involved in a wide range of innovative applications of computer science. Research and teaching includes computer science but also extends to more surprising topics, including computational art, virtual reality, computer music, digital sociology and education</p>
-                </div>
-                <!-- <div class="sec_title pt-3">
+                <h2><span>About</span> Goldsmiths</h2>
+            </div>
+            <div class="info_data">
+                <p>Founded in 1891, Goldsmiths is world-renowned for teaching and research in creative, cultural and
+                    computational disciplines. Academic direction for the BSc Computer Science is provided by the
+                    Department of Computing at Goldsmiths, one of the UK’s top creative universities. Goldsmiths' unique
+                    hands-on project-based style works for a diverse range of interests - from computer and data science
+                    to art and music to social science and journalism.
+                </p><br>
+                <p>Its multi-disciplinary staff are actively involved in a wide range of innovative
+                    applications of computer science. Research and teaching includes computer science but also extends
+                    to
+                    more surprising topics, including computational art, virtual reality, computer music, digital
+                    sociology
+                    and education
+                </p>
+            </div>
+            <!-- <div class="sec_title pt-3">
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div> -->
-            </div>
-            <!-- <div class="col-lg-6 col-md-12">
+        </div>
+        <!-- <div class="col-lg-6 col-md-12">
                 <div class="about-pgdm">
                     <img src="assets/images/about/Goldsmiths.png" alt="about">
                 </div>
             </div> -->
-        </div>
+    </div>
     </div>
 </section>
 
@@ -1030,10 +1044,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, working
-                                    email,
-                                    mobile number, and
-                                    qualifications.</p>
+                                <p>Click Apply and fill out your personal information, including your name, email,
+                                    mobile number, and qualifications.</p>
                             </div>
                         </div>
 
@@ -1050,9 +1062,7 @@
 
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable
-                                    online payment of Rs. 3500 via
-                                    credit/debit card or net banking.</p>
+                                    non-refundable online payment of Rs. 3500.</p>
                             </div>
                         </div>
 
@@ -1068,10 +1078,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your
-                                    email and
-                                    complete the form, uploading all
-                                    necessary documents, photos, a statement of purpose video, and a signature.</p>
+                                <p>Login to the MET Online Application Form using the information sent to your email and
+                                    complete the form, uploading all necessary documents.</p>
                             </div>
                         </div>
 
@@ -1087,12 +1095,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed
-                                    of your
-                                    online personal interview
-                                    schedule. Instructions on how to attend the interview will be sent to your
-                                    registered
-                                    email.</p>
+                                <p>After the successful submission of the online application, you will be informed of
+                                    your GD & PI schedule.</p>
                             </div>
                         </div>
                     </div>
@@ -1582,18 +1586,28 @@
                             aria-labelledby="headingfiftyteen" data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Academic direction for the BSc Computer Science is provided by the Department of Computing at
-                                    Goldsmiths, one of the UK’s top creative universities. Goldsmiths' unique hands-on project-based
-                                    style works for a diverse range of interests - from computer and data science to art and music
+                                <p>Academic direction for the BSc Computer Science is provided by the Department of
+                                    Computing at
+                                    Goldsmiths, one of the UK’s top creative universities. Goldsmiths' unique hands-on
+                                    project-based
+                                    style works for a diverse range of interests - from computer and data science to art
+                                    and music
                                     to social science and journalism.<br><br>
-            
-                                    Get prepared for the technology jobs of the future. Taught by experts you'll master in-demand
-                                    programming, mathematical and computing skills through project-based modules where you'll
-                                    develop your own software. A choice of seven specialisms lets you tailor your degree to your
-                                    career ambitions. Undergraduate degrees of the University of London are awarded with Honours.
-                                    The award certificate will indicate the level of academic performance (Honours) achieved by
-                                    classifying the award. The classification of the degree will be based on the ratified marks from
-                                    the completed assessments. The standard classification system for bachelor’s degrees with
+
+                                    Get prepared for the technology jobs of the future. Taught by experts you'll master
+                                    in-demand
+                                    programming, mathematical and computing skills through project-based modules where
+                                    you'll
+                                    develop your own software. A choice of seven specialisms lets you tailor your degree
+                                    to your
+                                    career ambitions. Undergraduate degrees of the University of London are awarded with
+                                    Honours.
+                                    The award certificate will indicate the level of academic performance (Honours)
+                                    achieved by
+                                    classifying the award. The classification of the degree will be based on the
+                                    ratified marks from
+                                    the completed assessments. The standard classification system for bachelor’s degrees
+                                    with
                                     Honours is: • First Class • Upper Second Class • Lower Second Class • Third
                                     Class. A Pass Degree or Ordinary Degree is a degree without Honours
                                 </p>

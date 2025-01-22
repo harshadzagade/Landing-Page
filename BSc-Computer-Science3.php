@@ -100,8 +100,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">Unlock Global Opportunities with a University of London
-                                        Degree</span><br>
+                                    <span class="linetext b-clr">Unlock Global Opportunities</span><br>
                                 </p>
                                 <p>
                                     Earn a Prestigious BSc Computer Science Degree
