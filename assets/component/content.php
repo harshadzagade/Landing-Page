@@ -341,7 +341,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Online Test</li>
+                                    <li>Online Test (General Aptitude + Computer Basics)</li>
                                     <li>Online Personal Interview</li>
                                 </ul>
                             </div>
@@ -1295,7 +1295,7 @@
 
                             <div class="info_data_2">
                                 <p>After the successful submission of the online application, you will be informed of
-                                    your GD & PI schedule.</p>
+                                    your PI schedule.</p>
                             </div>
                         </div>
                     </div>
@@ -1614,7 +1614,7 @@
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/call.svg" alt="">
-                                                <p class="check-text1">Phone No.: 7208006691, 8655820696</p>
+                                                <p class="check-text1">Phone No.: 8655820696</p>
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/mail.svg" alt="">
