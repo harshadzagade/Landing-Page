@@ -1678,7 +1678,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsethirteen" aria-expanded="true" aria-controls="collapsethirteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are add-on specializations in met PGDM?</p>
+                                    <p class="mb-0">What are add-on specializations in MET PGDM?</p>
                                 </div>
                             </button>
                         </p>
