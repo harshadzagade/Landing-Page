@@ -275,7 +275,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Candidates applying for this programme will be selected on the basis of:</li>
+                                    <p>Candidates applying for this programme will be selected on the basis of:</p>
                                     <li>CATEGORY 1: MET Multiple choice Test to judge General Knowledge, English,
                                         Logical Reasoning and Quantitative Aptitude + GD +PI + Academics + Overall
                                         Performance OR</li>
