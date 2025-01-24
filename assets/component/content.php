@@ -144,7 +144,7 @@
 <section class="adv__sec" id="advMET">
     <div class="container">
         <div class="row align-items-end">
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-8 col-md-12">
                 <div class="sec_title text-start">
                     <h2><span>Advantage</span> MET</h2>
                 </div>
@@ -194,7 +194,7 @@
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="adv_img">
                     <img src="assets/images/adv-girl.png" alt="kolte Images">
                 </div>
@@ -279,7 +279,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Candidates applying for this programme will be selected on the basis of:</li>
+                                    <p>Candidates applying for this programme will be selected on the basis of:</p>
                                     <li>Category 1: MET Multiple choice Test to judge General Knowledge, English,
                                         Logical Reasoning and Quantitative Aptitude + GD +PI + Academics + Overall
                                         Performance
@@ -1210,10 +1210,9 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, working
-                                    email,
-                                    mobile number, and
-                                    qualifications.</p>
+                                <p>Click Apply and fill out your personal information, including your name, email,
+                                    mobile number, and qualifications.
+                                </p>
                             </div>
                         </div>
 
@@ -1230,9 +1229,7 @@
 
                             <div class="info_data_2">
                                 <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable
-                                    online payment of Rs. 1500 via
-                                    credit/debit card or net banking.</p>
+                                    non-refundable online payment of Rs. 1500.</p>
                             </div>
                         </div>
 
@@ -1248,10 +1245,9 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your
-                                    email and
-                                    complete the form, uploading all
-                                    necessary documents, photos, a statement of purpose video, and a signature.</p>
+                                <p>Login to the MET Online Application Form using the information sent to your email and
+                                    complete the form, uploading all necessary documents.
+                                </p>
                             </div>
                         </div>
 
@@ -1267,12 +1263,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed
-                                    of your
-                                    online personal interview
-                                    schedule. Instructions on how to attend the interview will be sent to your
-                                    registered
-                                    email.</p>
+                                <p>After the successful submission of the online application, you will be informed of
+                                    your GD & PI schedule.</p>
                             </div>
                         </div>
                     </div>
@@ -1316,8 +1308,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1340,14 +1332,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
