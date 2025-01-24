@@ -12,9 +12,9 @@
                     <a href="#sectionabout" class="nav-link">About IIS</a>
                 </div>
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#specialisations" class="nav-link">Specialisations</a>
-                </div>
+                </div> -->
 
                 <div class="navbar-link">
                     <a href="#advMET" class="nav-link">Advantage MET</a>
@@ -25,9 +25,9 @@
                 </div>
 
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#placement" class="nav-link">Placement</a>
-                </div>
+                </div> -->
 
 
                 <div class="navbar-link">
@@ -93,13 +93,13 @@
                 <a href="#prgDetail" class="offcanvas-link">Programme Details</a>
             </div>
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#placement" class="offcanvas-link">Placement</a>
-            </div>
+            </div> -->
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#specialisations" class="offcanvas-link">Specialisations</a>
-            </div>
+            </div> -->
 
             <div class="offcanvas-nav">
                 <a href="#syllabusSection" class="offcanvas-link">Syllabus</a>
