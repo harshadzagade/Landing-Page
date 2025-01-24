@@ -9,12 +9,12 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About PGP EMBA - Insurance</a>
+                    <a href="#sectionabout" class="nav-link">About Programme</a>
                 </div>
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#specialisations" class="nav-link">Specialisations</a>
-                </div>
+                </div> -->
 
                 <div class="navbar-link">
                     <a href="#advMET" class="nav-link">Advantage MET</a>
@@ -29,13 +29,12 @@
                     <a href="#placement" class="nav-link">Placement</a>
                 </div>
 
-
                 <div class="navbar-link">
-                    <a href="#applySection" class="nav-link">How to Apply</a>
+                    <a href="#testimonial" class="nav-link">Testimonials</a>
                 </div>
 
                 <div class="navbar-link">
-                    <a href="#testimonial" class="nav-link">Testimonials</a>
+                    <a href="#applySection" class="nav-link">How to Apply</a>
                 </div>
 
                 <div class="navbar-link">
@@ -82,7 +81,7 @@
     <div class="offcanvas-body">
         <div class="offcanvas-navs">
             <div class="offcanvas-nav">
-                <a href="#sectionabout" class="offcanvas-link">About PGP EMBA - Insurance</a>
+                <a href="#sectionabout" class="offcanvas-link">About Programme</a>
             </div>
 
             <div class="offcanvas-nav">
@@ -97,9 +96,9 @@
                 <a href="#placement" class="offcanvas-link">Placement</a>
             </div>
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#specialisations" class="offcanvas-link">Specialisations</a>
-            </div>
+            </div> -->
 
             <div class="offcanvas-nav">
                 <a href="#syllabusSection" class="offcanvas-link">Syllabus</a>

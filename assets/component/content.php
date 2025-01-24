@@ -145,7 +145,7 @@
 <section class="adv__sec" id="advMET">
     <div class="container">
         <div class="row align-items-end">
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-8 col-md-12">
                 <div class="sec_title text-start">
                     <h2><span>Advantage</span> MET</h2>
                 </div>
@@ -188,7 +188,7 @@
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="adv_img">
                     <img src="assets/images/adv-girl.png" alt="kolte Images">
                 </div>
@@ -275,10 +275,12 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>MH-CET, CMAT, XAT, CAT, ATMA, GMAT, MAT, NMAT (or MET MCT) + Aptitude Questions
-                                        and Statement of Purpose – SOP on video (Online Interview) + Academics
-                                        Performance + Other Parameters
-                                    </li>
+                                    <li>Candidates applying for this programme will be selected on the basis of:</li>
+                                    <li>CATEGORY 1: MET Multiple choice Test to judge General Knowledge, English,
+                                        Logical Reasoning and Quantitative Aptitude + GD +PI + Academics + Overall
+                                        Performance OR</li>
+                                    <li>CATEGORY 2: MH -CET, CMAT, XMAT, CAT, ATMA, GMAT, NMAT, MAT, SNAP + GD +PI +
+                                        Academics + Overall Performance</li>
                                 </ul>
                             </div>
                         </div>
@@ -1283,8 +1285,8 @@
                         <div class="gallery">
                             <div class="gallery-content">
                                 <div class="gallery-img img-2x2">
-                                    <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery6.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1307,14 +1309,14 @@
                                 </div>
 
                                 <div class="gallery-img img-4x2">
-                                    <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery2.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery6.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
                                 <div class="gallery-img img-2x1">
-                                    <a href="assets/images/gallery/gallery4.jpg" data-fancybox="club">
-                                        <img src="assets/images/gallery/gallery4.jpg" alt=" club" loading="lazy">
+                                    <a href="assets/images/gallery/gallery2.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.png" alt=" club" loading="lazy">
                                     </a>
                                 </div>
 
@@ -1704,16 +1706,12 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Candidates applying for this programme will be chosen based on 2 categories:
-                                    CATEGORY 1
-                                    MET - MCT + Aptitude Questions and Statement of Purpose – SOP on video (Online
-                                    Interview only if required) + Academics Performance + Other Parameters
-                                    <br>
-                                    <center>OR</center><br>
-                                    CATEGORY 2
-                                    MH-CET, CMAT, XAT, CAT, ATMA, NMAT GMAT, MAT + Aptitude Questions and
-                                    Statement of Purpose – SOP on video (Online Interview only if required) +
-                                    Academics Performance + Other Parameters
+                                <p>Candidates applying for this programme will be selected on the basis of:<br><br>
+                                    CATEGORY 1: MET Multiple choice Test to judge General Knowledge, English, Logical
+                                    Reasoning and Quantitative Aptitude + GD +PI + Academics + Overall Performance
+                                    <center>OR</center>
+                                    CATEGORY 2: MH -CET, CMAT, XMAT, CAT, ATMA, GMAT, NMAT, MAT, SNAP + GD +PI +
+                                    Academics + Overall Performance
                                 </p>
                             </div>
                         </div>
