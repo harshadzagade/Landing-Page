@@ -2,9 +2,7 @@
     <nav id="navbar">
         <div class="navbar-container">
             <div class="navlogo">
-                <a href="index.php">
                     <img src="assets/images/logo/logo.webp" class="logo" alt="logo">
-                </a>
             </div>
 
             <div class="navbar-links">
