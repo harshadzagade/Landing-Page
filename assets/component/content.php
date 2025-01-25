@@ -1080,10 +1080,11 @@
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                The institute delivers exceptional management education with knowledgeable &
-                                approachable faculty members, state of the art campus facilities and a
-                                curriculum that expertly blends theory and practical exposure."</p>
+                            <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience. The
+                                institute delivers exceptional management
+                                education with knowledgeable & approachable faculty members, state of the art campus
+                                facilities
+                                and a curriculum that expertly blends theory and practical exposure."</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -1093,18 +1094,19 @@
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
-                                <h5 class="card-title">Amogh Patil</h5>
-                                <span class="text-secondary">PGDM (Finance)</span>
+                                <h5 class="card-title">Riti Modi</h5>
+                                <span class="text-secondary">PGDM (Marketing)</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                The institute delivers exceptional management education with knowledgeable &
-                                approachable faculty members, state of the art campus facilities and a
-                                curriculum that expertly blends theory and practical exposure."</p>
+                            <p class="card-text-testimonial">"Ranked 4th Best in Mumbai, MET was my first choice. The
+                                faculty members are outstanding and
+                                readily available to assist students, while the friendly & accommodating campus
+                                atmosphere
+                                fosters a positive and flexible learning environment."</p>
                         </div>
                     </div>
                     <div class="testimonial-card">
@@ -1114,18 +1116,19 @@
                                     alt="testimonial carousel slider 2">
                             </div>
                             <div>
-                                <h5 class="card-title">Amogh Patil</h5>
-                                <span class="text-secondary">PGDM (Finance)</span>
+                                <h5 class="card-title">Rahul Thakur</h5>
+                                <span class="text-secondary">PGDM (Operations)</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"Studying PGDM at MET was a remarkable experience.
-                                The institute delivers exceptional management education with knowledgeable &
-                                approachable faculty members, state of the art campus facilities and a
-                                curriculum that expertly blends theory and practical exposure."</p>
+                            <p class="card-text-testimonial">"MET has provided an unparalleled experience that cannot be
+                                matched by any other college. The
+                                internship programs offered here are unique and give students an advantage by providing
+                                hands-on
+                                exposure to the corporate world. My experience as a student was excellent."</p>
                         </div>
                     </div>
                 </div>
@@ -1676,7 +1679,8 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingthirteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsethirteen" aria-expanded="true" aria-controls="collapsethirteen">
+                                data-bs-target="#collapsethirteen" aria-expanded="true"
+                                aria-controls="collapsethirteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What are add-on specializations in MET PGDM?</p>
                                 </div>
@@ -1709,7 +1713,8 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingfourteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsefourteen" aria-expanded="true" aria-controls="collapsefourteen">
+                                data-bs-target="#collapsefourteen" aria-expanded="true"
+                                aria-controls="collapsefourteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">Is the programme MET PGDM recognized by the corporate
                                         sectior ?</p>
@@ -1729,8 +1734,7 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingfifteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsefifteen" aria-expanded="true"
-                                aria-controls="collapsefifteen">
+                                data-bs-target="#collapsefifteen" aria-expanded="true" aria-controls="collapsefifteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What are the eligibility criteria for MET PGDM?</p>
                                 </div>
@@ -1750,8 +1754,7 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingsixteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsesixteen" aria-expanded="true"
-                                aria-controls="collapsesixteen">
+                                data-bs-target="#collapsesixteen" aria-expanded="true" aria-controls="collapsesixteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What is the selection process for MET PGDM?</p>
                                 </div>
@@ -1770,14 +1773,15 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingseventeen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseseventeen" aria-expanded="true" aria-controls="collapseseventeen">
+                                data-bs-target="#collapseseventeen" aria-expanded="true"
+                                aria-controls="collapseseventeen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What is the fee structure for MET PGDM?</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseseventeen" class="accordion-collapse collapse" aria-labelledby="headingseventeen"
-                            data-bs-parent="#accordionLocationnn">
+                        <div id="collapseseventeen" class="accordion-collapse collapse"
+                            aria-labelledby="headingseventeen" data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>The fee for this MET PGDM programme is First Year Rs 6,03,000 (Six lacs three
@@ -1788,7 +1792,8 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingeighteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseeighteen" aria-expanded="true" aria-controls="collapseeighteen">
+                                data-bs-target="#collapseeighteen" aria-expanded="true"
+                                aria-controls="collapseeighteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">Does MET provide campus placements to all the students?</p>
                                 </div>
@@ -1814,8 +1819,8 @@
                                 </div>
                             </button>
                         </p>
-                        <div id="collapsenineteen" class="accordion-collapse collapse"
-                            aria-labelledby="headingnineteen" data-bs-parent="#accordionLocationnn">
+                        <div id="collapsenineteen" class="accordion-collapse collapse" aria-labelledby="headingnineteen"
+                            data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>No. However, students with work experience may be awarded up to 10 marks, depending
@@ -1826,8 +1831,7 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingtwenty">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsetwenty" aria-expanded="true"
-                                aria-controls="collapsetwenty">
+                                data-bs-target="#collapsetwenty" aria-expanded="true" aria-controls="collapsetwenty">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What is the syllabus structure for the first and second trimesters,
                                         and is it common for all specialisations?</p>
@@ -1855,8 +1859,8 @@
                                 </div>
                             </button>
                         </p>
-                        <div id="collapsetwentyone" class="accordion-collapse collapse" aria-labelledby="headingtwentyone"
-                            data-bs-parent="#accordionLocationnn">
+                        <div id="collapsetwentyone" class="accordion-collapse collapse"
+                            aria-labelledby="headingtwentyone" data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>The third and fourth trimesters includes common courses like Strategic Management and

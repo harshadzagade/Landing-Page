@@ -2,9 +2,9 @@
     <nav id="navbar">
         <div class="navbar-container">
             <div class="navlogo">
-                <a href="index.php">
-                    <img src="assets/images/logo/logo.webp" class="logo" alt="logo">
-                </a>
+
+                <img src="assets/images/logo/logo.webp" class="logo" alt="logo">
+
             </div>
 
             <div class="navbar-links">
@@ -46,9 +46,9 @@
 
             <div class="navbar-more-links">
                 <div class="navbar-more-link">
-                    <a class="btn-contact" href="tel:+919967181380">
+                    <a class="btn-contact" href="tel:+917208006694">
                         <span><img src="assets/images/icons/phone.svg" alt="phone"></span>
-                        <span class="d-none d-xl-block">+91 9967181380</span>
+                        <span class="d-none d-xl-block">+91 7208006694</span>
                     </a>
                 </div>
 
