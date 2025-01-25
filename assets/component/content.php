@@ -1690,8 +1690,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Does the corporate sector recognize the PGP & EMBA in Business
-                                        Analytics & programme?</p>
+                                    <p class="mb-0">Does the corporate sector recognize the PGP EMBA in Business
+                                        Analytics programme?</p>
                                 </div>
                             </button>
                         </p>
