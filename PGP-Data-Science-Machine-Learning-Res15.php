@@ -7,10 +7,10 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            MET: Top PGDM College in Mumbai, PGDM in Marketing, PGDM in Finance
+        PGP In Data Science & Machine Learning - Expertise in Data-Driven future
         </title>
 
-        <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+        <meta name="Description" content="MET's PGP Data Science and Machine Learning programme highlights Hybrid mode, Industry expert faculty, IHP from TCS iON, Placement Assistance & Cutting edge curriculum!">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
