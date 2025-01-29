@@ -6,9 +6,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BSc Computer Science | University of London | MET IIS</title>
+        <title>BSc Computer Science at MET | University of London, Goldsmiths</title>
     <meta name="Description"
-        content="Advance your future with a BSc Computer Science degree from MET IIS, awarded by the University of London with academic direction from Goldsmiths. Gain a global edge now.">
+        content="Join MET IIS for a BSc Computer Science degree awarded by the University of London and guided by Goldsmiths. Gain global skills with a world-class curriculum.">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
