@@ -361,6 +361,8 @@
 @media (max-width: 600px){
   .main-banner img{
       margin-bottom: -125px;
+      width: 60% !important;
+      margin-top: -40px;
   }
 }
 
