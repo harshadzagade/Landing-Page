@@ -108,8 +108,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class=""> <img src="assets/images/bannerstudent.webp" class=""
-                                alt="...">
+                        <div class=" text-center">
+                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
