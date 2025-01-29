@@ -20,11 +20,11 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>
-        Unlock Global Opportunities
+        Global BBA at MET | University of London, Royal Holloway
     </title>
 
     <meta name="Description"
-        content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+        content="Pursue a BSc Business Administration at MET IIS, awarded by the University of London with academic guidance from Royal Holloway. Explore limitless global career opportunities.">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -101,7 +101,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div class=""> <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                       <div class="text-center">
+                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 

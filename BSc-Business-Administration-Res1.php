@@ -7,11 +7,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>
-            Unlock Global Opportunities
+            Global BBA at MET | University of London, Royal Holloway
         </title>
 
         <meta name="Description"
-            content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+            content="Pursue a BSc Business Administration at MET IIS, awarded by the University of London with academic guidance from Royal Holloway. Explore limitless global career opportunities.">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -74,7 +74,8 @@
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
                         href="assets/pdf/IIS-UOL-BBA-2025.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/IIS-UOL-BBA-2025.pdf" download>Download PDF</a>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/IIS-UOL-BBA-2025.pdf"
+                    download>Download PDF</a>
             </div>
         </section>
     </main>
