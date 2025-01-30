@@ -146,19 +146,22 @@
 <section class="adv__sec" id="advMET">
     <div class="container">
         <div class="row align-items-end">
-            <div class="col-lg-7 col-md-12">
+            <div class="col-lg-8 col-md-12">
                 <div class="sec_title text-start">
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
+                        <p class="check-text">Ranked 14th among the 'Top 20 West B-Schools' by the Times B-School Survey 2025.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 4th Best B-School in Mumbai, India's 21st Best Pvt. B-School and
-                            15th Top West B-Schools by the Times B-School Survey 2024</p>
+                        <p class="check-text">Ranked 4th Best B-School in Mumbai by the Times B-School Survey 2024.</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -197,7 +200,7 @@
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
                 </div>
             </div>
-            <div class="col-lg-5 col-md-12">
+            <div class="col-lg-4 col-md-12">
                 <div class="adv_img">
                     <img src="assets/images/adv-girl.png" alt="kolte Images">
                 </div>
