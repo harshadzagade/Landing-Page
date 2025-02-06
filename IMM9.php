@@ -22,13 +22,14 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <title>
         MET Institute of Mass Media | Top Mass Media & Communication College-Mumbai
     </title>
-    <meta name="Description" content="MET IMM, Mumbai's best Mass Communication & Media college offers UG/PG courses Advertising, Entertainment, Digital Marketing, Journalism, PR, Film Making, Celebrity Management ">
+    <meta name="Description"
+        content="MET IMM, Mumbai's best Mass Communication & Media college offers UG/PG courses Advertising, Entertainment, Digital Marketing, Journalism, PR, Film Making, Celebrity Management ">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -43,12 +44,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
-        <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
-        (function(c, l, a, r, i, t, y) {
-            c[a] = c[a] || function() {
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () {
                 (c[a].q = c[a].q || []).push(arguments)
             };
             t = l.createElement(r);
@@ -79,10 +80,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -117,7 +118,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -127,7 +128,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="IMM-Visit9.php" method="POST" novalidate
+                                    <div id="ee-form-11">
+
+                                    </div>
+                                    <!-- <form id="pop-form" action="IMM-Visit9.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -242,7 +246,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form>
+                                    </form> -->
                                 </div>
                             </div>
                         </div>
@@ -291,8 +295,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
@@ -425,6 +429,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             });
         })
     </script>
+
+    <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
 
 </body>
 
