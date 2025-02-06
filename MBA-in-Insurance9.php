@@ -20,7 +20,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>Best Insurance Courses in Mumbai | PG Courses | MET CITRD</title>
-  <meta name="description" content="MET CITRD has tied up with The CII - global professional body for financial services, to deliver campus based eMBA - Insurance course blending technical & managerial skill.">
+    <meta name="description"
+        content="MET CITRD has tied up with The CII - global professional body for financial services, to deliver campus based eMBA - Insurance course blending technical & managerial skill.">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -35,12 +36,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
-            <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
-        (function(c, l, a, r, i, t, y) {
-            c[a] = c[a] || function() {
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () {
                 (c[a].q = c[a].q || []).push(arguments)
             };
             t = l.createElement(r);
@@ -109,8 +110,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                       <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                        <div class="text-center">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -120,7 +121,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <form id="pop-form" action="MBA-in-Insurance-Visit9.php" method="POST" novalidate
+                                    <div id="ee-form-11">
+
+                                    </div>
+                                    <!-- <form id="pop-form" action="MBA-in-Insurance-Visit9.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -216,7 +220,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form>
+                                    </form> -->
                                 </div>
                             </div>
                         </div>
@@ -399,6 +403,9 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             });
         })
     </script>
+
+    <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
 
 </body>
 
