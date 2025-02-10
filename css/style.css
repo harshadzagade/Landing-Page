@@ -1788,3 +1788,10 @@ section.section-takesway {
 }
 
 /* EE */
+
+#form-6-feedback{
+  max-width: 500px;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  color:#000 !important;
+}
