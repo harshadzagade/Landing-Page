@@ -362,7 +362,7 @@
 
 <!--------------- Placement section ------------------->
 
-<section class="place__Sec" id="placement">
+<!-- <section class="place__Sec" id="placement">
     <div class="custom-container-2">
         <div class="row">
             <div class="col-md-12">
@@ -370,7 +370,7 @@
                     <h2 class="white-text"><span>Placement </span></h2>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- <div class="row justify-content-center">
                    <div class="col-lg-9 col-md-12">
                        <div class="plc_box">
@@ -402,10 +402,10 @@
                        </div>
                    </div>
                </div> -->
-    </div>
-</section>
+    <!-- </div>
+</section> -->
 
-<section class="img__sec">
+<!-- <section class="img__sec">
     <div class="custom-container-2">
         <div class="event-container">
             <div class="event-carousel owl-carousel">
@@ -432,7 +432,7 @@
             </div>
 
         </div>
-</section>
+</section> -->
 
 <!--------------- Placement section ------------------->
 

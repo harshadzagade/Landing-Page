@@ -23,9 +23,9 @@
                 </div>
 
 
-                <div class="navbar-link">
+                <!-- <div class="navbar-link">
                     <a href="#placement" class="nav-link">Placement</a>
-                </div>
+                </div> -->
 
 
                 <div class="navbar-link">
@@ -91,9 +91,9 @@
                 <a href="#prgDetail" class="offcanvas-link">Programme Details</a>
             </div>
 
-            <div class="offcanvas-nav">
+            <!-- <div class="offcanvas-nav">
                 <a href="#placement" class="offcanvas-link">Placement</a>
-            </div>
+            </div> -->
 
             <div class="offcanvas-nav">
                 <a href="#specialisations" class="offcanvas-link">Specialisations</a>
