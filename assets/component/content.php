@@ -362,77 +362,117 @@
 
 <!--------------- Placement section ------------------->
 
-<!-- <section class="place__Sec" id="placement">
+<section class="place__Sec" id="placement">
     <div class="custom-container-2">
         <div class="row">
             <div class="col-md-12">
                 <div class="sec_title text-center">
-                    <h2 class="white-text"><span>Placement </span></h2>
+                    <h2 class="white-text"><span>Programming Languages and Tools</span></h2>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12">
+                <div class="plc_box">
+                    <div class="row">
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>₹20 LPA</h3>
+                                <p>Highest Salary</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>8.5 LPA</h3>
+                                <p>Average Salary</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>500+</h3>
+                                <p>Recruiters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="sec_title text-center">
+                    <a href="#banform"><button class="btn-primary btn-white">Enquire Now</button></a>
                 </div>
             </div>
         </div> -->
-        <!-- <div class="row justify-content-center">
-                   <div class="col-lg-9 col-md-12">
-                       <div class="plc_box">
-                           <div class="row">
-                               <div class="col-4 col-md-4">
-                                   <div class="plc_div">
-                                       <h3>₹20 LPA</h3>
-                                       <p>Highest Salary</p>
-                                   </div>
-                               </div>
-                               <div class="col-4 col-md-4">
-                                   <div class="plc_div">
-                                       <h3>8.5 LPA</h3>
-                                       <p>Average Salary</p>
-                                   </div>
-                               </div>
-                               <div class="col-4 col-md-4">
-                                   <div class="plc_div">
-                                       <h3>500+</h3>
-                                       <p>Recruiters</p>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <div class="col-md-12 mt-5">
-                       <div class="sec_title text-center">
-                           <a href="#banform"><button class="btn-primary btn-white">Enquire Now</button></a>
-                       </div>
-                   </div>
-               </div> -->
-    <!-- </div>
-</section> -->
+    </div>
+</section>
 
-<!-- <section class="img__sec">
+<section class="img__sec">
     <div class="custom-container-2">
         <div class="event-container">
             <div class="event-carousel owl-carousel">
                 <div class="event">
-                    <img src="assets/images/p1.webp" class="w-100" alt="">
+                    <img src="assets/images/python.png" class="w-100" alt="">
                 </div>
 
                 <div class="event">
-                    <img src="assets/images/p2.webp" class="w-100" alt="">
+                    <img src="assets/images/msexcel.png" class="w-100" alt="">
                 </div>
 
                 <div class="event">
-                    <img src="assets/images/p3.webp" class="w-100" alt="">
+                    <img src="assets/images/MongoDB__1576589398563.png" class="w-100" alt="">
                 </div>
 
                 <div class="event">
-                    <img src="assets/images/p4.webp" class="w-100" alt="">
+                    <img src="assets/images/mysql.png" class="w-100" alt="">
                 </div>
 
                 <div class="event">
-                    <img src="assets/images/p5.webp" class="w-100" alt="">
+                    <img src="assets/images/tableau.png" class="w-100" alt="">
+                </div>
+                
+                <div class="event">
+                    <img src="assets/images/apachespark.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/hadoop.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/apachehive.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/keras.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/tensorflow.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/Hbase.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/OpenCV__1612348259867.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/awsShort.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/amazon_ec2_logo_240X80__1623135108391.png" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/kafka__1594294736191.png" class="w-100" alt="">
                 </div>
 
             </div>
 
         </div>
-</section> -->
+</section>
 
 <!--------------- Placement section ------------------->
 
