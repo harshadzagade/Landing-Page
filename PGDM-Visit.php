@@ -88,7 +88,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         ];
 
 
-
         // Data to be sent with each request
         $postData = [
             [
@@ -105,6 +104,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
+                'entry.403620755' => $utm_content,
+                'entry.1452753937' => $utm_keyword,
+                'entry.1392899682' => $utm_adposition,
+                'entry.361234515' => $utm_placement,
+                'entry.682284697' => $utm_matchtype,
+                'entry.1512719542' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
