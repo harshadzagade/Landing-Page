@@ -5,7 +5,7 @@ $utm_campaign = $_REQUEST['utm_campaign'] ?? '';
 $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
 $utm_device = $_REQUEST['utm_device'] ?? '';
 $utm_content = $_REQUEST['utm_content'] ?? '';
-$utm_keyword = $_REQUEST['utm_keyword'] ?? '';
+$utm_keyword = $_REQUEST['utm_keywords'] ?? '';
 $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
 $utm_placement = $_REQUEST['utm_placement'] ?? '';
 $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
@@ -222,7 +222,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             <input type="hidden" name="utm_adgroup" value="<?php echo $utm_adgroup ?>">
                                             <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
                                             <input type="hidden" name="utm_content" value="<?php echo $utm_content ?>">
-                                            <input type="hidden" name="utm_keyword" value="<?php echo $utm_keyword ?>">
+                                            <input type="hidden" name="utm_keywords" value="<?php echo $utm_keyword ?>">
                                             <input type="hidden" name="utm_adposition" value="<?php echo $utm_adposition ?>">
                                             <input type="hidden" name="utm_placement" value="<?php echo $utm_placement ?>">
                                             <input type="hidden" name="utm_matchtype" value="<?php echo $utm_matchtype ?>">

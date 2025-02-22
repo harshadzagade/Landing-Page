@@ -12,7 +12,7 @@ $utm_campaign = $_POST['utm_campaign'];
 $utm_adgroup = $_POST['utm_adgroup'];
 $utm_device = $_POST['utm_device'];
 $utm_content = $_POST['utm_content'];
-$utm_keyword = $_POST['utm_keyword'];
+$utm_keyword = $_POST['utm_keywords'];
 $utm_adposition = $_POST['utm_adposition'];
 $utm_placement = $_POST['utm_placement'];
 $utm_matchtype = $_POST['utm_matchtype'];
@@ -66,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $utm_adgroup = $conn->real_escape_string($_POST['utm_adgroup']);
     $utm_device = $conn->real_escape_string($_POST['utm_device']);
     $utm_content = $conn->real_escape_string($_POST['utm_content']);
-    $utm_keyword = $conn->real_escape_string($_POST['utm_keyword']);
+    $utm_keyword = $conn->real_escape_string($_POST['utm_keywords']);
     $utm_adposition = $conn->real_escape_string($_POST['utm_adposition']);
     $utm_placement = $conn->real_escape_string($_POST['utm_placement']);
     $utm_matchtype = $conn->real_escape_string($_POST['utm_matchtype']);
