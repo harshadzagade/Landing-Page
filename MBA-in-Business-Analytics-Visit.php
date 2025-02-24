@@ -66,12 +66,25 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $utm_adgroup = $conn->real_escape_string($_POST['utm_adgroup']);
     $utm_device = $conn->real_escape_string($_POST['utm_device']);
     $utm_term = $conn->real_escape_string($_POST['utm_term']);
+    $utm_content = $conn->real_escape_string($_POST['utm_content']);
+    $utm_keyword = $conn->real_escape_string($_POST['utm_keywords']);
+    $utm_adposition = $conn->real_escape_string($_POST['utm_adposition']);
+    $utm_placement = $conn->real_escape_string($_POST['utm_placement']);
+    $utm_matchtype = $conn->real_escape_string($_POST['utm_matchtype']);
+    $utm_creative = $conn->real_escape_string($_POST['utm_creative']);
     $gclid = $conn->real_escape_string($_POST['gclid']);
     $fbclid = $conn->real_escape_string($_POST['fbclid']);
     $url = $conn->real_escape_string($_POST['url']);
 
+//     Utm content - entry.1402282522
+// utm_keyword - entry.1952940089
+// utm_adposition - entry.1405467520
+// utm_placement - entry.1154859060
+// utm_matchtype - entry.324103925
+// utm_creative - entry.79590644
+
     // SQL query to insert data
-    $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$gclid', '$fbclid', '$url')";
+$sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, utm_content, utm_keyword, utm_adposition,  utm_placement, utm_matchtype, utm_creative, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$utm_content', '$utm_keyword', '$utm_adposition', '$utm_placement', '$utm_matchtype', '$utm_creative', '$gclid', '$fbclid', '$url')";
 
     // Execute the query and check for success
     if ($conn->query($sql) === TRUE) {
@@ -100,6 +113,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
+                'entry.1402282522' => $utm_content,
+                'entry.1952940089' => $utm_keyword,
+                'entry.1405467520' => $utm_adposition,
+                'entry.1154859060' => $utm_placement,
+                'entry.324103925' => $utm_matchtype,
+                'entry.79590644' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
