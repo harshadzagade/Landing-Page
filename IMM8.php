@@ -232,13 +232,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 </div>
                                             </div>
                                             <input type="hidden" name="page_name" value="IMM8">
-                                            <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
+<input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign"
                                                 value="<?php echo $utm_campaign ?>">
                                             <input type="hidden" name="utm_adgroup" value="<?php echo $utm_adgroup ?>">
                                             <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
                                             <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
+                                            <input type="hidden" name="utm_content" value="<?php echo $utm_content ?>">
+                                            <input type="hidden" name="utm_keyword" value="<?php echo $utm_keyword ?>">
+                                            <input type="hidden" name="utm_adposition" value="<?php echo $utm_adposition ?>">
+                                            <input type="hidden" name="utm_placement" value="<?php echo $utm_placement ?>">
+                                            <input type="hidden" name="utm_matchtype" value="<?php echo $utm_matchtype ?>">
+                                            <input type="hidden" name="utm_creative" value="<?php echo $utm_creative ?>">
                                             <input type="hidden" name="gclid" value="<?php echo $gclid ?>">
                                             <input type="hidden" name="fbclid" value="<?php echo $fbclid ?>">
                                             <input type="hidden" name="url" value="<?php echo $url ?>">
