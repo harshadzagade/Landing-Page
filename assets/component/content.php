@@ -264,7 +264,9 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>12th from CBSE or CISCE or NIOS, A Levels (passed/appearing) IB Diploma</li>
+                                    <li>12th from CBSE or CISCE or NIOS</li>
+                                    <li>A Levels (passed/appearing)</li>
+                                    <li>IB Diploma & IB Career-Related Programme (Case to Case)</li>
                                 </ul>
                             </div>
                         </div>
