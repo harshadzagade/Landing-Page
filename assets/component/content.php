@@ -9,7 +9,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>4th Best in Mumbai</h3>
-                    <p>By Times B-School Survey 2024</p>
+                    <p>By Times B-School Survey 2025</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>MarTech, FinTech, M & E</h3>
@@ -151,17 +151,17 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
+                <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Ranked 4th Best B-School in Mumbai by the Times B-School Survey 2025.</p>
+                    </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Ranked 14th among the 'Top 20 West B-Schools' by the Times B-School Survey 2025.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 4th Best B-School in Mumbai by the Times B-School Survey 2024.</p>
-                    </div>
-                    <div class="pgdm-checksign">
-                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
+                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
