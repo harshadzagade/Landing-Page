@@ -8,8 +8,8 @@
                     <p>Highest Salary</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>4th Best in Mumbai</h3>
-                    <p>By Times B-School Survey 2024</p>
+                    <h3>2nd Best in Mumbai</h3>
+                    <p>MET IOM By Times B-School Survey 2025</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>$98 Billion Industry</h3>
@@ -151,14 +151,22 @@
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 2nd Best B-School in Mumbai, India's 17th Best Pvt. B-School, 28th
-                            Best B-School All India and 14th amongst Top West B-Schools by the Times B-School Survey
-                            2023.</p>
+                        <p class="check-text">MET IOM is ranked 2th Best B-School in Mumbai by the Times B-School Survey
+                            2025</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Centre of Excellence in collaboration with leading Corporates and Academia
-                        </p>
+                        <p class="check-text">MET IOM Ranked 14th among the 'Top 20 West B-Schools' by the Times
+                            B-School Survey 2025</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">MET Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">MET is recognised as a ‘Prestigious Education Brands 2024-25’ by
+                            Marksmendaily</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -176,10 +184,6 @@
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Strong Alumni Base</p>
-                    </div>
-                    <div class="pgdm-checksign">
-                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Well networked with corporates and institutions in India and abroad</p>
                     </div>
                     <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
