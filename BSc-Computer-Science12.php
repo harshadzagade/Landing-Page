@@ -45,8 +45,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
-        (function(c, l, a, r, i, t, y) {
-            c[a] = c[a] || function() {
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () {
                 (c[a].q = c[a].q || []).push(arguments)
             };
             t = l.createElement(r);
@@ -116,8 +116,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                       <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                        <div class="text-center">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -125,8 +125,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                         <div class="banform" id="banform">
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
-                                <div class="form-body">
-                                    <!-- <p>Get In Touch </p> -->
+                                <!-- <div class="form-body">
                                     <form id="pop-form" action="BSc-Computer-Science-Visit12.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
@@ -230,6 +229,11 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             </button>
                                         </div>
                                     </form>
+                                </div> -->
+                                <div class="form-body">
+                                    <div id="ee-form-16">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -412,6 +416,9 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             });
         })
     </script>
+
+    <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-16/widget.js"></script>
 
 </body>
 
