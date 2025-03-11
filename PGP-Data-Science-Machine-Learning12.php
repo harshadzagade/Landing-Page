@@ -28,17 +28,21 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         PGP In Data Science & Machine Learning - Expertise in Data-Driven future
     </title>
 
-    <meta name="Description" content="MET's PGP Data Science and Machine Learning programme highlights Hybrid mode, Industry expert faculty, IHP from TCS iON, Placement Assistance & Cutting edge curriculum!">
+    <meta name="Description"
+        content="MET's PGP Data Science and Machine Learning programme highlights Hybrid mode, Industry expert faculty, IHP from TCS iON, Placement Assistance & Cutting edge curriculum!">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-PWD7ZBXF');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');</script>
+    <!-- End Google Tag Manager -->
 
     <!-- bootstrap css cdn -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -58,10 +62,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -96,7 +100,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -104,8 +108,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="banform" id="banform">
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
-                                <div class="form-body">
-                                    <!-- <p>Get In Touch </p> -->
+                                <!-- <div class="form-body">
                                     <form id="pop-form" action="PGP-Data-Science-Machine-Learning-Visit12.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
@@ -205,6 +208,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             </button>
                                         </div>
                                     </form>
+                                </div> -->
+                                <div class="form-body">
+                                    <div id="ee-form-12">
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -253,8 +261,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
@@ -387,6 +395,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             });
         })
     </script>
+
+    <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-12/widget.js"></script>
 
 </body>
 
