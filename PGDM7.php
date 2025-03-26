@@ -105,8 +105,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </p>
                                 <p>
                                     Marketing, Finance, HR, System and Operations. <b>Add on specialisation</b> in
-                                    FinTech, MarTech, Media & Entertainment, Business Analytics,
-                                    Start-ups & New Enterprise Management.
+                                    FinTech | MarTech | Media & Entertainment | Business Analytics | Start-Ups & New Enterprise Management.
                                 </p>
                             </div>
                         </div>
