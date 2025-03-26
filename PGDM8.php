@@ -103,7 +103,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span class="linetext b-clr">PGDM</span><br>
                                 </p>
                                 <p>
-                                    Marketing, Finance, HR, System and Operations. New Age Add on specialisation in
+                                    Marketing, Finance, HR, System and Operations. <b>Add on specialisation</b> in
                                     FinTech, MarTech, Media & Entertainment, Business Analytics,
                                     Start-ups & New Enterprise Management.
                                 </p>
