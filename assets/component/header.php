@@ -44,9 +44,9 @@
 
             <div class="navbar-more-links">
                 <div class="navbar-more-link">
-                    <a class="btn-contact" href="tel:+917208006689">
+                    <a class="btn-contact" href="tel:+918655945035">
                         <span><img src="assets/images/icons/phone.svg" alt="phone"></span>
-                        <span class="d-none d-xl-block">+91 7208006689</span>
+                        <span class="d-none d-xl-block">+91 8655945035</span>
                     </a>
                 </div>
 
