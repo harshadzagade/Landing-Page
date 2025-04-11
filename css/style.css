@@ -1795,3 +1795,33 @@ section.section-takesway {
   box-shadow: none !important;
   color:#000 !important;
 }
+
+
+
+.mobile-inline .input-group {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.mobile-inline .input-group {
+  display: flex !important;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.mobile-inline .input-group-prepend {
+  width: 20% !important;
+  flex: 0 0 20% !important;
+  max-width: 20% !important;
+}
+
+.mobile-inline .small-select {
+  width: 100%;
+}
+
+.mobile-inline input[type="text"] {
+  width: 80% !important;
+  flex: 0 0 80% !important;
+  max-width: 80% !important;
+}
