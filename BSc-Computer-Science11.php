@@ -182,14 +182,13 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                             </div>
 
-                                            <div class="form-group col-md-12">
+                                            <div class="form-group col-md-12" hidden>
                                                 <div class="input-group">
                                                     <label class="inputial">Qualification </label>
 
-                                                    <select type="text" class="form-select rounded-pill"
-                                                        name="qualification" placeholder="Enter Your City" required>
-                                                        <option value="" selected hidden>Choose...</option>
-                                                        <option value="Graduation">Graduation</option>
+                                                    <select type="text" class="form-select rounded-pill" name="qualification" disabled>
+                                                        <option value="" hidden>Choose...</option>
+                                                        <option value="Graduation" selected>Graduation</option>
                                                         <option value="Post-Graduation">Post-Graduation</option>
                                                     </select>
                                                     <div class="invalid-feedback">
