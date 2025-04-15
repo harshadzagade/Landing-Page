@@ -25,7 +25,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/images/favicon.webp" type="image/png" sizes="16x16">
     <title>
-    Global BBA at MET | University of London, Royal Holloway
+        Global BBA at MET | University of London, Royal Holloway
     </title>
 
     <meta name="Description"
@@ -35,13 +35,19 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <!-- Google Tag Manager -->
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || []; w[l].push({
-                'gtm.start':
-                    new Date().getTime(), event: 'gtm.js'
-            }); var f = d.getElementsByTagName(s)[0],
-                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
     <!-- End Google Tag Manager -->
@@ -104,8 +110,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
-                       <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                        <div class="text-center">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -170,14 +176,13 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                             </div>
 
-                                            <div class="form-group col-md-12">
+                                            <div class="form-group col-md-12" hidden>
                                                 <div class="input-group">
                                                     <label class="inputial">Qualification </label>
 
-                                                    <select type="text" class="form-select rounded-pill"
-                                                        name="qualification" placeholder="Enter Your City" required>
-                                                        <option value="" selected hidden>Choose...</option>
-                                                        <option value="Graduation">Graduation</option>
+                                                    <select type="text" class="form-select rounded-pill" name="qualification" disabled>
+                                                        <option value="" hidden>Choose...</option>
+                                                        <option value="Graduation" selected>Graduation</option>
                                                         <option value="Post-Graduation">Post-Graduation</option>
                                                     </select>
                                                     <div class="invalid-feedback">
@@ -266,8 +271,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function () {
-            $(".offcanvas-nav .offcanvas-link").click(function () {
+        $(document).ready(function() {
+            $(".offcanvas-nav .offcanvas-link").click(function() {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({
