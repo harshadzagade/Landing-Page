@@ -79,7 +79,7 @@
 
                 <p class="thankyou-subtitle">
                     Thank you for your Interest.
-                    Our Sales Manager will get in touch with you shortly.
+                    Our Counsellor will get in touch with you shortly.
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
                         href="assets/pdf/IIS-Brochure-2025.pdf" download>click here</a>.</p>
