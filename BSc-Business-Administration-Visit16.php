@@ -220,7 +220,7 @@ $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, prog
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: BSc-Business-Administration-Res14.php");
+            header("Location: BSc-Business-Administration-Res16.php");
             exit; // Stop further script execution
         }
 
