@@ -297,9 +297,7 @@ function setupMobileValidation() {
           errorLabel.innerHTML = rule.message;
           errorLabel.style.display = "block";
         }
-        if (submitBtn) {
-          submitBtn.disabled = true;
-        }
+
       }
     }
 
