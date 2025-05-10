@@ -1960,3 +1960,48 @@
         </div>
     </div>
 </section>
+
+<!--=================Sticky Button Mobile section starts=============== -->
+<style>
+        .sticky-cta-mb{
+            display: none;
+            background: #f42525;
+            position: fixed;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 99999;
+        }
+        .sticky-left-col{
+            padding: 15px 0px;
+            font-size: 22px;
+            color: #fff;
+            border-right: 2px solid #fff;
+        }
+        .sticky-right-col{
+            padding: 15px 0px;
+            font-size: 22px;
+            color: #fff;
+        }
+        .sticky-left-col a, .sticky-right-col a{
+            color: #fff;
+        }
+        @media (max-width: 768px){
+            .sticky-cta-mb{
+                display: block;
+            }
+        }
+    </style>
+    <section class="sticky-cta-mb">
+        <div class="container">
+            <div class="row">
+                <div class="col sticky-left-col d-flex align-items-center justify-content-center">
+                    <a href="tel:+919967181380">Call Us</a>
+                </div>
+                <div class="col sticky-right-col d-flex align-items-center justify-content-center">
+                    <a href="#banform">Apply Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=================Sticky Button Mobile section ends=============== -->
