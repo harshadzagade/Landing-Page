@@ -12,13 +12,13 @@
                     <p>By Times B-School Survey 2025</p>
                 </div>
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>MarTech, FinTech, M & E</h3>
-                    <p>Add-On Specialisations</p>
+                    <h3>KPMG</h3>
+                    <p>As the Academic Partner</p>
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3><span class="counter">500</span>+</h3>
-                    <p>Recruiting Companies</p>
+                    <h3><span class="counter">Diamond Rating</span></h3>
+                    <p>By QS I-GAUGE Indian College Rating</p>
                 </div>
             </div>
         </div>
@@ -153,6 +153,10 @@
                 <div class="pgdm-gap1">
                 <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Ranked 4th Best B-School in Mumbai by the Times B-School Survey 2025.</p>
                     </div>
                     <div class="pgdm-checksign">
@@ -245,6 +249,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
+                                    <li>In Academic Partnership with KPMG</li>
                                     <li>Trimester based programme</li>
                                     <li>Learn and Apply pedagogy</li>
                                     <li>Robust and concurrent syllabus</li>
