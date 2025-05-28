@@ -203,6 +203,10 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
+                <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
+                    </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment
