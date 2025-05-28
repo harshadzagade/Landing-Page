@@ -149,6 +149,10 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
+                <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
+                    </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">MET IOM is ranked 2th Best B-School in Mumbai by the Times B-School Survey
