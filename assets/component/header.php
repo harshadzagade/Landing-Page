@@ -2,7 +2,7 @@
     <nav id="navbar">
         <div class="navbar-container">
             <div class="navlogo">
-                    <img src="assets/images/logo/logo.webp" class="logo" alt="logo">
+                <img src="assets/images/logo/logo.webp" class="logo" alt="logo">
             </div>
 
             <div class="navbar-links">
@@ -44,7 +44,7 @@
 
             <div class="navbar-more-links">
                 <div class="navbar-more-link">
-                    <a class="btn-contact" href="tel:+918454046164">
+                    <a class="btn-contact" href="https://wa.me/+918454046164">
                         <span><img src="assets/images/icons/phone.svg" alt="phone"></span>
                         <span class="d-none d-xl-block">+91 8454046164</span>
                     </a>
