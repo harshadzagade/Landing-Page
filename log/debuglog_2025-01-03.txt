@@ -1,0 +1,24 @@
+
+
+----------------------------------------------------
+DEBUG_START - time: 2025-01-03 04:07:32
+[Request] #::<pre>{"AuthToken":"MET-07-02-2017","Source":"met","FirstName":"Sumedh Paralkar","Email":"sumedhaparalkar@gmail.com","MobileNumber":"9664528792","City":"Mumbai","highestQualification":"Graduation","Course":"Institute of Post Graduate Diploma in Management","LeadType":"Digital Paid","LeadSource":"MediaDonuts_2024","Location":"11","SourceTo":"Hoarding","leadMedium":"Print-5x5","leadCampaign":"2025","leadChannel":"Sumedh Testing","Field10":""}</pre>
+DEBUG_END - time: 2025-01-03 04:07:32
+----------------------------------------------------
+
+
+
+----------------------------------------------------
+DEBUG_START - time: 2025-01-03 04:07:33
+[Response Success] ::<pre>Success</pre>
+DEBUG_END - time: 2025-01-03 04:07:33
+----------------------------------------------------
+
+
+
+----------------------------------------------------
+DEBUG_START - time: 2025-01-03 04:07:33
+[Response Failer] ::<pre></pre>
+DEBUG_END - time: 2025-01-03 04:07:33
+----------------------------------------------------
+
