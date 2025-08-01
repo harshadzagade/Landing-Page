@@ -28,7 +28,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     MET: Top IIT College in Mumbai
     </title>
 
-    <meta name="Description" content="MET Institute of PGDM is one of the best PGDM colleges in Mumbai. PGDM at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
+    <meta name="Description" content="MET Institute of DACA is one of the best DACA colleges in Mumbai. DACA at MET is approved by AICTE &amp; DTE. It is more than an MBA since its industry-driven course content, pedagogy, New Age Add on specialisation">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -214,7 +214,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="PGDM">
+                                            <input type="hidden" name="page_name" value="DACA">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
