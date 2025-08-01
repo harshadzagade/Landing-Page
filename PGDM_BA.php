@@ -18,12 +18,15 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <!-- redirection to url -->
 <?php
-if (isset($_REQUEST['redirect']) && $_REQUEST['redirect'] == 'true') {
-    $redirect_url = "https://www.met.edu/application_form?pg=4";
-    header("Location: $redirect_url?utm_source=$utm_source&utm_medium=$utm_medium&utm_campaign=$utm_campaign&utm_adgroup=$utm_adgroup&utm_device=$utm_device&utm_content=$utm_content&utm_keywords=$utm_keyword&utm_adposition=$utm_adposition&utm_placement=$utm_placement&utm_matchtype=$utm_matchtype&utm_creative=$utm_creative&gclid=$gclid&fbclid=$fbclid");
-    exit();
-}
+    $url = "https://www.met.edu/application_form?pg=4";
+    if (!header("Location: $url")) {
+        // Handle the error, e.g., log it or display an error message
+        echo "Error: unable to redirect to $url";
+        exit;
+    }
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
