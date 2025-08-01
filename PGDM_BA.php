@@ -16,6 +16,15 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 ?>
 
+<!-- redirection to url -->
+<?php
+if (isset($_REQUEST['redirect']) && $_REQUEST['redirect'] == 'true') {
+    $redirect_url = "https://www.met.edu/application_form?pg=4";
+    header("Location: $redirect_url?utm_source=$utm_source&utm_medium=$utm_medium&utm_campaign=$utm_campaign&utm_adgroup=$utm_adgroup&utm_device=$utm_device&utm_content=$utm_content&utm_keywords=$utm_keyword&utm_adposition=$utm_adposition&utm_placement=$utm_placement&utm_matchtype=$utm_matchtype&utm_creative=$utm_creative&gclid=$gclid&fbclid=$fbclid");
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,12 +129,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <div class="col-xl-4 col-lg-5 col-md-12 col-sm-12 col-12" style="z-index:1;">
                         <div class="banform" id="banform">
                             <div class="form-content">
-                                <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
+                                <!-- <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <div id="ee-form-11">
 
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -308,10 +317,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         })
     </script>
 
-    <script
+    <!-- <script
         src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
 
-    <script>
+    <script> -->
 
     </script>
 
