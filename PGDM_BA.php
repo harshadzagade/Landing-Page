@@ -16,18 +16,6 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 ?>
 
-<!-- redirection to url -->
-<?php
-    $url = "https://www.met.edu/application_form?pg=4";
-    if (!header("Location: $url")) {
-        // Handle the error, e.g., log it or display an error message
-        echo "Error: unable to redirect to $url";
-        exit;
-    }
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,6 +126,104 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                                     </div>
                                 </div> -->
+                                <form id="pop-form" action="PGDM-Visit-BA.php" method="POST" novalidate
+                                        class="needs-validation">
+                                        <div class="row g-3">
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Name </label>
+
+                                                    <input id="enqform-fname" type="text" class="form-control rounded-pill"
+                                                        required name="fname" placeholder="Enter Your Name">
+
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid name.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Email Address </label>
+
+                                                    <input type="email" class="form-control rounded-pill" required name="email"
+                                                        placeholder="Enter Your Email">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid email.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Mobile </label>
+
+                                                    <input type="text" class="form-control rounded-pill number-only"
+                                                        name="mobile" maxlength="10" required placeholder="Enter Your Number">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid mbile no.
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">City </label>
+
+                                                    <input type="text" class="form-control rounded-pill" name="city" required
+                                                        placeholder="Enter Your City">
+                                                    <div class="invalid-feedback">
+                                                        Please enter a valid city.
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class="form-group col-md-12">
+                                                <div class="input-group">
+                                                    <label class="inputial">Qualification </label>
+
+                                                    <select type="text" class="form-select rounded-pill" name="qualification"
+                                                        placeholder="Enter Your City" required>
+                                                        <option value="" selected hidden>Choose...</option>
+                                                        <option value="Graduation">Graduation</option>
+                                                        <option value="Post-Graduation">Post-Graduation</option>
+                                                    </select>
+                                                    <div class="invalid-feedback">
+                                                        Select enter a valid qualification.
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                            <div class=" col-md-12 m-0">
+                                                <div class="checkboxprivcy">
+                                                    <input type="checkbox" id="privacy" name="privacy" value="true" required
+                                                        checked="">
+
+                                                    <label for="privacy"> I agree to receive information</label>
+                                                </div>
+                                            </div>
+                                            <input type="hidden" name="page_name" value="PGDM BA">
+                                            <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
+                                            <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
+                                            <input type="hidden" name="utm_campaign" value="<?php echo $utm_campaign ?>">
+                                            <input type="hidden" name="utm_adgroup" value="<?php echo $utm_adgroup ?>">
+                                            <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
+                                            <input type="hidden" name="utm_content" value="<?php echo $utm_content ?>">
+                                            <input type="hidden" name="utm_keywords" value="<?php echo $utm_keyword ?>">
+                                            <input type="hidden" name="utm_adposition" value="<?php echo $utm_adposition ?>">
+                                            <input type="hidden" name="utm_placement" value="<?php echo $utm_placement ?>">
+                                            <input type="hidden" name="utm_matchtype" value="<?php echo $utm_matchtype ?>">
+                                            <input type="hidden" name="utm_creative" value="<?php echo $utm_creative ?>">
+                                            <input type="hidden" name="gclid" value="<?php echo $gclid ?>">
+                                            <input type="hidden" name="fbclid" value="<?php echo $fbclid ?>">
+                                            <input type="hidden" name="url" value="<?php echo $url ?>">
+                                            <button type="submit" class="form-btn round-btn text-center d-inline btn-submit-1"
+                                                href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
+                                            </button>
+                                        </div>
+                                    </form>
                             </div>
                         </div>
                     </div>
