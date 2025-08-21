@@ -112,10 +112,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGP in Mass Communication & Media Management</span><br>
+                                    <span class="linetext b-clr">PGP In Mass Media & Media Management</span><br>
                                 </p>
                                 <p>
-                                    Specialisations in Advertising & PR | Entertainment | Journalism | Digital Marketing
+                                    Specialisation in NextGen Media & AI
                                 </p>
                             </div>
                         </div>
