@@ -245,7 +245,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: IMM-Res.php");
+            header("Location: IMM_AI-Res.php");
             exit; // Stop further script execution
         }
 
