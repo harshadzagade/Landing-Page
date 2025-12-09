@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="navbar-link">
-                    <a href="#specialisations" class="nav-link">Specialisations</a>
+                    <a href="#Specializations" class="nav-link">Specializations</a>
                 </div>
 
                 <div class="navbar-link">
@@ -96,7 +96,7 @@
             </div>
 
             <div class="offcanvas-nav">
-                <a href="#specialisations" class="offcanvas-link">Specialisations</a>
+                <a href="#Specializations" class="offcanvas-link">Specializations</a>
             </div>
 
             <div class="offcanvas-nav">
@@ -110,7 +110,6 @@
             <div class="offcanvas-nav">
                 <a href="#testimonial" class="offcanvas-link">Testimonials</a>
             </div>
-
 
         </div>
 

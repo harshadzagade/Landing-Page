@@ -4,7 +4,7 @@
         <div class="banner-legacy ">
             <div class="row mr0 about-sec align-items-center justify-content-center">
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>₹8 LPA</h3>
+                    <h3>₹10 LPA</h3>
                     <p>Highest Salary</p>
                 </div>
                 <div class="col-lg-5 col-md-6 col-6 legcy-sec mt-3 mb-3">
@@ -13,7 +13,7 @@
                 </div>
                 <!-- <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3>MarTech, FinTech, M & E</h3>
-                    <p>Add-On Specialisations</p>
+                    <p>Add-On Specializations</p>
                 </div> -->
 
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
@@ -46,9 +46,10 @@
                         and practical coursework, infused with technology and real-world business experiences.<br>
 
                         The Postgraduate Programme in Mass Communication & Media Management at MET, Mumbai has
-                        specialisations in Advertising & PR, Entertainment, Journalism, and Digital Marketing that
-                        prepare students to master the MediaVerse. The institution follows international standards and
-                        offers state-of-the-art facilities for its media and communication students. The focus is on
+                        Specializations in Advertising & PR, Entertainment & Events, Journalism & Content Creation,
+                        Next-Gen Digital Marketing, Creative Technology & Immersive Media and Cinematic Storytelling
+                        that prepare students to master the MediaVerse. The institution follows international standards
+                        and offers state-of-the-art facilities for its media and communication students. The focus is on
                         hands-on training rather than theoretical learning, which is why MET IMM is considered one of
                         Mumbai's top mass media & communication colleges.
                     </p>
@@ -63,14 +64,14 @@
 
 <!---------------- about us section -------------->
 
-<!---------------- Specialisations section -------------->
+<!---------------- Specializations section -------------->
 
-<section class="nav-link" id="specialisations">
+<section class="nav-link" id="Specializations">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="sec_title text-start">
-                    <h2><span>Specialisations </span></h2>
+                    <h2><span>Specializations</span></h2>
                 </div>
             </div>
         </div>
@@ -78,17 +79,16 @@
             <div class="col-12">
                 <div class="accordion" id="accordionLocationn">
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingSeven">
+                        <p class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP in Mass Communication & Media Management (Advertising & Public
-                                        Relations)</p>
+                                    <p class="mb-0">PGP MCMM – Advertising and PR  (AI-Integrated)</p>
 
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
                             data-bs-parent="#accordionLocationn">
                             <div class="accordion-body">
                                 <hr />
@@ -96,10 +96,7 @@
                                     <div class="pgdm-gap">
                                         <div class="pgdm-checksign">
                                             <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">The approach is dictated by the requirements in the
-                                                Advertising, Media, Marketing, Digital, Radio, TV, Events, and PR
-                                                profiles. Making media students immediately productive in the most
-                                                practical sense is the cornerstone of this programme.</p>
+                                            <p class="check-text">AI-powered branding, campaign strategy, content creation, public relations, and media planning, which is strengthened with creativity, critical thinking, and strategic insight.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -107,15 +104,15 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingEight">
+                        <p class="accordion-header" id="headingTwo">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP in Mass Communication & Media Management (Entertainment)</p>
+                                    <p class="mb-0">PGP MCMM – Entertainment & Events (AI-Integrated)</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
                             data-bs-parent="#accordionLocationn">
                             <div class="accordion-body">
                                 <hr />
@@ -123,9 +120,7 @@
                                     <div class="pgdm-gap">
                                         <div class="pgdm-checksign">
                                             <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">It is designed to provide the necessary understanding
-                                                of the skills & knowledge sets required. With this Entertainment course,
-                                                PG students of mass media learn to think beyond classroom learning.
+                                            <p class="check-text">Traditional and AI-enhanced filmmaking, OTT platforms, experiential marketing, live events, and data-driven audience insights, which are enriched with creative leadership and problem-solving.
                                             </p>
                                         </div>
                                     </div>
@@ -134,15 +129,15 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingNine">
+                        <p class="accordion-header" id="headingThree">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP in Mass Communication & Media Management (Journalism)</p>
+                                    <p class="mb-0">PGP MCMM – Next-Gen Digital Marketing (AI-Integrated)</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
                             data-bs-parent="#accordionLocationn">
                             <div class="accordion-body">
                                 <hr />
@@ -150,10 +145,7 @@
                                     <div class="pgdm-gap">
                                         <div class="pgdm-checksign">
                                             <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">This unique postgraduate program explores the
-                                                symbiotic relationship between Journalism. This course teaches the
-                                                latest trends, multimedia and digital skills, and functionalities of the
-                                                professions.</p>
+                                            <p class="check-text">AI-assisted marketing campaigns, predictive analytics, automation, and creative strategy which is enhanced with innovation and analytical decision-making.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -161,15 +153,15 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingTen">
+                        <p class="accordion-header" id="headingFour">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP in Mass Communication & Media Management (Digital Marketing)</p>
+                                    <p class="mb-0">PGP MCMM – Journalism & Content Creation (AI-Integrated)</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
                             data-bs-parent="#accordionLocationn">
                             <div class="accordion-body">
                                 <hr />
@@ -177,9 +169,55 @@
                                     <div class="pgdm-gap">
                                         <div class="pgdm-checksign">
                                             <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">It has a 360° approach, imparting conceptual training
-                                                with an intensive hands-on approach. Thereby giving you an edge, making
-                                                you employable and ready for the dynamic digital world.</p>
+                                            <p class="check-text">Data-backed reporting, multimedia storytelling, and AI-driven content creation which facilitates blending ethical judgment, creativity, and audience engagement.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">PGP MCMM – Creative Technology & Immersive Media (AI-Integrated)</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                            data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">AR/VR, generative content, interactive storytelling, gaming, and next-gen media experiences, which are powered by critical thinking, design innovation, and creative execution.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSix">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">PGP MCMM – Cinematic Storytelling (AI-Integrated)</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                            data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Where imagination meets the lens. Blend classic filmmaking principles with AI-powered production, editing, and storytelling tools to create impactful visual content.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -191,7 +229,9 @@
         </div>
 </section>
 
-<!---------------- Specialisations section -------------->
+<br><br>
+
+<!---------------- Specializations section -------------->
 
 <!--------------- Advantages section ------------------->
 
@@ -203,14 +243,13 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
-                <div class="pgdm-checksign">
+                    <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment
-                            Awards 2024.</p>
+                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment Awards 2024.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -218,13 +257,11 @@
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Institute of Mass Media won the ‘Outstanding Institute for Mass Media
-                            Management of the Year’ award at the 9th World Education Summit & Awards, 2019</p>
+                        <p class="check-text">MET Institute of Mass Media won the ‘Outstanding Institute for Mass Media Management of the Year’ award at the 9th World Education Summit & Awards, 2019</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully
-                            equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
+                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -289,21 +326,22 @@
             <div class="col-lg-6 col-md-12">
                 <div class="accordion" id="accordionLocation">
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingOne">
+                        <p class="accordion-header" id="headingSeven">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
                                 Programme Highlights
                             </button>
                         </p>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
                             data-bs-parent="#accordionLocation">
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
+                                    <li>MET Media Collective: Mumbai’s First Ever Campus Media Agency</li>
                                     <li>India's leading Media School</li>
                                     <li>Record placements & internships</li>
                                     <li>Rich industry interface</li>
-                                    <li>Business driven pedagogy</li>
+                                    <li>Business-driven pedagogy</li>
                                     <li>Portfolios, Live Projects & Industry Orientation</li>
                                     <li>Functional Visits, Assignments, Case Studies, Presentations</li>
                                     <li>Campus To Corporate Programme</li>
@@ -312,38 +350,36 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingTwo">
+                        <p class="accordion-header" id="headingEight">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
                                 Who Can Apply ?
                             </button>
                         </p>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
                             data-bs-parent="#accordionLocation">
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Graduate in any discipline with min 50%</li>
+                                    <li>Graduate in any discipline with a minimum 50%</li>
                                     <li>Final year students can also apply</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingThree">
+                        <p class="accordion-header" id="headingNine">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="true"
-                                aria-controls="collapseThree">Selection Procedure
+                                data-bs-target="#collapseNine" aria-expanded="true"
+                                aria-controls="collapseNine">Selection Procedure
                             </button>
                         </p>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
                             data-bs-parent="#accordionLocation">
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>The Entrance Procedure for aspiring mass media students will encompass the
-                                        following:
-                                    </li>
+                                    <li>The Entrance Procedure for aspiring mass media students will encompass the following:</li>
                                     <li>Creativity CET</li>
                                     <li>Personal Interview</li>
                                 </ul>
@@ -351,29 +387,24 @@
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingFour">
+                        <p class="accordion-header" id="headingTen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="true"
-                                aria-controls="collapseForu">Training Pedagogy
+                                data-bs-target="#collapseTen" aria-expanded="true"
+                                aria-controls="collapseTen">Training Pedagogy
                             </button>
                         </p>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
                             data-bs-parent="#accordionLocation">
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Business and function driven training pedagogy focused on an experiential
-                                        approach with a concept to application learning in alignment with the media
-                                        convergence trends</li>
+                                    <li>Business and function driven training pedagogy focused on an experiential approach with a concept to application learning in alignment with the media convergence trends</li>
                                     <li>Curriculum designed in consultation with media experts</li>
                                     <li>Senior professionals from the media industry as subject mentors</li>
-                                    <li>Lectures, Classroom Discussions, Role Plays, Projects, Presentations,
-                                        Assignments and Case Studies</li>
+                                    <li>Lectures, Classroom Discussions, Role Plays, Projects, Presentations, Assignments and Case Studies</li>
                                     <li>Exposure to International Certifications</li>
                                     <li>Showreels, Portfolios, Live Projects and Industry Orientation</li>
-                                    <li>Exclusive year-round training towards career support services based on 'Growth
-                                        Mindset' with MET's -
-                                        Campus To Corporate Programme</li>
+                                    <li>Exclusive year-round training towards career support services based on 'Growth Mindset' with MET's - Campus To Corporate Programme</li>
                                 </ul>
                             </div>
                         </div>
@@ -398,7 +429,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="sec_title text-center">
-                    <h2 class="white-text"><span>Placement </span></h2>
+                    <h2 class="white-text"><span>Placement</span></h2>
                 </div>
             </div>
         </div>
@@ -408,14 +439,14 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>₹8 LPA</h3>
+                                <h3>₹10 LPA</h3>
                                 <p>Highest Salary</p>
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
                                 <h3>Top Media</h3>
-                                <p> Agencies</p>
+                                <p>Agencies</p>
                             </div>
                         </div>
                         <div class="col-4 col-md-4">
@@ -1689,32 +1720,11 @@
             <div class="col-md-8">
                 <div class="accordion" id="accordionLocationnn">
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingTen">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Is work experience mandatory in securing admission for PGP MCMM at
-                                        MET Mumbai?</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                            data-bs-parent="#accordionLocationnn">
-                            <div class="accordion-body info_data_2">
-                                <hr />
-                                <p>
-                                    No. However, Students with work experience may get up to 10 marks allocated to them,
-                                    depending upon nature of their work experience.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
                         <p class="accordion-header" id="headingEleven">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is MET CET and are there any negative markings?</p>
+                                    <p class="mb-0">What makes the PGP MCMM program at MET IMM different from other media programs?</p>
                                 </div>
                             </button>
                         </p>
@@ -1723,51 +1733,183 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    MET CET is an entrance test conducted for applicants. There is no Negative marking
-                                    in MET CET. The candidate will be tested on his/her ability to handle uncertainty
-                                    and the pressures of demanding deadlines and clients and ability to demonstrate
-                                    proactiveness, initiative and creativity in finding solutions.
+                                The program blends traditional media education with next-gen AI tools, live industry projects, and cinematic-level facilities. Students learn through immersive, real-world work via the MET Media Collective — Mumbai’s first student-run campus agency.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingTwele">
+                        <p class="accordion-header" id="headingTwelve">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
+                                data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are the fee payment facilities offered to the students?</p>
+                                    <p class="mb-0">Is this program suitable for students from non-media backgrounds?</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseTwele" class="accordion-collapse collapse" aria-labelledby="headingTwele"
+                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Fees can be paid through loans and EMI's facilities. MET has tie-ups with Saraswat
-                                    Co-op Bank and Axis Bank for the loan facility. And GrayQuest for EMI facility,
-                                    which offers spot sanctions to deserving students.
+                                <p>
+                                Absolutely. The program starts with foundational learning in Semester 1, enabling students from any academic background to build strong media, storytelling, and communication skills before specialising.
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
-                        <p class="accordion-header" id="headingthirteen">
+                        <p class="accordion-header" id="headingThirteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapsethirteen" aria-expanded="true"
-                                aria-controls="collapsethirteen">
+                                data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Does MET provide a hostel facility to the students?</p>
+                                    <p class="mb-0">What kind of AI integration is included in the curriculum?</p>
                                 </div>
                             </button>
                         </p>
-                        <div id="collapsethirteen" class="accordion-collapse collapse" aria-labelledby="headingthirteen"
+                        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Presently, the MET does not provide in-house hostel facilities to pupils. However, it
-                                    tries to assist students in procuring hostel accommodation.
+                                <p>AI integration is moderate but meaningful — students use AI for research, creative ideation, content generation, data insights, audience mapping, editing support, automation, and immersive media workflows, depending on the specialization.
                                 </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFourteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFourteen" aria-expanded="true"
+                                aria-controls="collapseFourteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">How many specializations can a student choose from?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students choose <b>one specialization</b> out of six:<br><br>
+
+                                <ul>
+                                    <li>Advertising & PR</li>
+                                    <li>Entertainment & Events</li>
+                                    <li>Next-Gen Digital Marketing</li>
+                                    <li>Journalism & Content Creation</li>
+                                    <li>Creative Technology & Immersive Media</li>
+                                    <li>Cinematic Storytelling</li>
+                                </ul>
+
+                                Each is AI-integrated and industry-aligned.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFifteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFifteen" aria-expanded="true"
+                                aria-controls="collapseFifteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Will students work on real client projects?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Yes. Through the <b>MET Media Collective</b>, students work on actual briefs from brands, agencies, startups, and non-profits. They create real campaigns, videos, strategies, digital content, and immersive media projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSixteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSixteen" aria-expanded="true"
+                                aria-controls="collapseSixteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What are the internship opportunities like?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students undergo a structured internship after Semester 2 with placements in media houses, production studios, advertising agencies, PR firms, OTT platforms, and digital marketing companies. The internship helps students refine skills and gain industry exposure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSeventeen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeventeen" aria-expanded="true"
+                                aria-controls="collapseSeventeen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What career paths does the program prepare students for?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Depending on the specialization, students can pursue careers in advertising, PR, filmmaking, content creation, journalism, digital marketing, creative technology, AR/VR production, media strategy, brand storytelling, production management, or AI-enabled creative roles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingEighteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEighteen" aria-expanded="true"
+                                aria-controls="collapseEighteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Do students need prior technical skills for Creative Technology or Cinematic Storytelling?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>No prior expertise is required. All necessary software, production tools, and immersive media platforms are taught from the ground up, with additional support through labs and mentorship.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingNineteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNineteen" aria-expanded="true"
+                                aria-controls="collapseNineteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What facilities does MET IMM provide for hands-on media training?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students have access to 4K studios, editing labs, photography labs, sound recording setups, advanced production equipment, immersive media tools, and the MET Media Collective agency space for real-time project work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwenty">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwenty" aria-expanded="true"
+                                aria-controls="collapseTwenty">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">How does MET IMM support final placements?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>The institute’s dedicated Career Management Centre works closely with industry partners and alumni networks. Students graduate with a professional portfolio/playbook, internship experience, and polished job readiness through the Sharpening Process — ensuring strong placement outcomes.</p>
                             </div>
                         </div>
                     </div>
@@ -1790,45 +1932,50 @@
 
 <!--=================Sticky Button Mobile section starts=============== -->
 <style>
-        .sticky-cta-mb{
-            display: none;
-            background: #f42525;
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            z-index: 99999;
+    .sticky-cta-mb {
+        display: none;
+        background: #f42525;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999;
+    }
+
+    .sticky-left-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
+        border-right: 2px solid #fff;
+    }
+
+    .sticky-right-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .sticky-left-col a,
+    .sticky-right-col a {
+        color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        .sticky-cta-mb {
+            display: block;
         }
-        .sticky-left-col{
-            padding: 15px 0px;
-            font-size: 22px;
-            color: #fff;
-            border-right: 2px solid #fff;
-        }
-        .sticky-right-col{
-            padding: 15px 0px;
-            font-size: 22px;
-            color: #fff;
-        }
-        .sticky-left-col a, .sticky-right-col a{
-            color: #fff;
-        }
-        @media (max-width: 768px){
-            .sticky-cta-mb{
-                display: block;
-            }
-        }
-    </style>
-    <section class="sticky-cta-mb">
-        <div class="container">
-            <div class="row">
-                <div class="col sticky-left-col d-flex align-items-center justify-content-center">
-                    <a href="tel:+919967181380">Call Us</a>
-                </div>
-                <div class="col sticky-right-col d-flex align-items-center justify-content-center">
-                    <a href="#banform">Apply Now</a>
-                </div>
+    }
+</style>
+<section class="sticky-cta-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col sticky-left-col d-flex align-items-center justify-content-center">
+                <a href="tel:+919967181380">Call Us</a>
+            </div>
+            <div class="col sticky-right-col d-flex align-items-center justify-content-center">
+                <a href="#banform">Apply Now</a>
             </div>
         </div>
-    </section>
-    <!--=================Sticky Button Mobile section ends=============== -->
+    </div>
+</section>
+<!--=================Sticky Button Mobile section ends=============== -->

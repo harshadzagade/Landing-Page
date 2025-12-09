@@ -48,7 +48,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
-        <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
@@ -85,10 +85,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -115,7 +115,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span class="linetext b-clr">PGP in Mass Communication & Media Management</span><br>
                                 </p>
                                 <p>
-                                    Specialisations in Advertising & PR | Entertainment | Journalism | Digital Marketing
+                                    Specializations in Advertising & PR | Entertainment & Events | Journalism & Content Creation | Next-Gen Digital Marketing | Creative Technology & Immersive Media | Cinematic Storytelling
                                 </p>
                             </div>
                         </div>
@@ -123,7 +123,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 

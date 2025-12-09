@@ -114,7 +114,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <span class="linetext b-clr">PGP in Mass Communication & Media Management</span><br>
                                 </p>
                                 <p>
-                                    Specialisations in Advertising & PR | Entertainment | Journalism | Digital Marketing
+                                Specializations in Advertising & PR | Entertainment & Events | Journalism & Content Creation | Next-Gen Digital Marketing | Creative Technology & Immersive Media | Cinematic Storytelling
                                 </p>
                             </div>
                         </div>
@@ -211,10 +211,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <select type="text" class=" form-select rounded-pill" name="Course"
                                                         placeholder="Select Course" required>
                                                         <option value="" selected hidden>Choose...</option>
-                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM - Advertising & PR </option>
-                                                        <option value="PGP MCMM - Entertainment">PGP MCMM - Entertainment</option>
-                                                        <option value="PGP MCMM - Journalism">PGP MCMM - Journalism</option>
-                                                        <option value="PGP MCMM - Digital Marketing">PGP MCMM - Digital Marketing</option>
+                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM - Advertising & PR</option>
+                                                        <option value="PGP MCMM - Entertainment & Events">PGP MCMM - Entertainment & Events</option>
+                                                        <option value="PGP MCMM - Journalism & Content Creation">PGP MCMM - Journalism & Content Creation</option>
+                                                        <option value="PGP MCMM - Next-Gen Digital Marketing">PGP MCMM - Next-Gen Digital Marketing</option>
+                                                        <option value="PGP MCMM - Creative Technology & Immersive Media">PGP MCMM - Creative Technology & Immersive Media</option>
+                                                        <option value="PGP MCMM - Cinematic Storytelling">PGP MCMM - Cinematic Storytelling</option>
                                                     </select>
                                                     <div class="invalid-feedback">
                                                         Select Valid Course.
