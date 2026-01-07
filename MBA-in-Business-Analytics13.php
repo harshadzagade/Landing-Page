@@ -106,7 +106,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGP-EMBA-BA</span><br>
+                                    <span class="linetext b-clr">PGPMBA-BA</span><br>
                                 </p>
                                 <p>
                                     MBA in Business Analytics - 46% Growth, $98 Billion Industry, 2 Lacs+ Vacancies

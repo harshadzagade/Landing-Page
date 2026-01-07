@@ -1641,7 +1641,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is PGP EMBA in Business Analytics?</p>
+                                    <p class="mb-0">What is PGPMBA in Business Analytics?</p>
                                 </div>
                             </button>
                         </p>
@@ -1650,7 +1650,7 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    PGP EMBA in Business Analytics is Post Graduate Program in Empowered
+                                    PGPMBA in Business Analytics is Post Graduate Program in Empowered
                                     Management &amp; Business Administration - Business Analytics program, it is an
                                     autonomous two-year intensive flagship program at MET AMDC, spread across four
                                     certificate options and offering specializations in Marketing Analytics, Finance
@@ -1665,7 +1665,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Why choose a programme in PGP EMBA in Business Analytics (PGP
+                                    <p class="mb-0">Why choose a programme in PGPMBA in Business Analytics (PGP
                                         MBA in Business Analytics)?</p>
                                 </div>
                             </button>
@@ -1698,7 +1698,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Does the corporate sector recognize the PGP EMBA in Business
+                                    <p class="mb-0">Does the corporate sector recognize the PGPMBA in Business
                                         Analytics programme?</p>
                                 </div>
                             </button>
@@ -1758,7 +1758,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Is work experience mandatory for PGP EMBA in Business Analytics?</p>
+                                    <p class="mb-0">Is work experience mandatory for PGPMBA in Business Analytics?</p>
                                 </div>
                             </button>
                         </p>
