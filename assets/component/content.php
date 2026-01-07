@@ -40,12 +40,11 @@
                     <h2><span>About</span> Programme</h2>
                 </div>
                 <div class="info_data">
-                    <p>Post Graduate Programme in Empowered Management & Business Administration (PGP EMBA) is an
+                    <p>Post Graduate Programme in Management & Business Administration (PGPMBA) is an
                         autonomous two-year intensive flagship program at MET AMDC, offering specializations in
                         Marketing, Finance and HR.
                         We believe in the latest management thought and practice which focuses on delivering and shaping
-                        Management professionals in the process of Doing-Having- Being a multitasking e-savvy MBA. PGP
-                        EMBA is designed to give students the best of academics, networking and industry exposure that
+                        Management professionals in the process of Doing-Having- Being a multitasking e-savvy MBA. PGPMBA is designed to give students the best of academics, networking and industry exposure that
                         helps them become corporate leaders of tomorrow.
                     </p>
                 </div>
@@ -76,23 +75,23 @@
                             <h5 class="specialisations-title2"></h5>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGP EMBA in Finance</p>
+                                <p class="check-text">PGPMBA in Finance</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGP EMBA in Marketing</p>
+                                <p class="check-text">PGPMBA in Marketing</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGP EMBA in Human Resources</p>
+                                <p class="check-text">PGPMBA in Human Resources</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGP EMBA in Insurance</p>
+                                <p class="check-text">PGPMBA in Insurance</p>
                             </div>
                             <div class="pgdm-checksign">
                                 <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                                <p class="check-text">PGP EMBA in Business Analytics</p>
+                                <p class="check-text">PGPMBA in Business Analytics</p>
                             </div>
                         </div>
 
@@ -149,7 +148,7 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
-                <div class="pgdm-checksign">
+                    <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
                     </div>
@@ -1073,7 +1072,7 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Sakshi Agrawal</h5>
-                                <span class="text-secondary">PGP EMBA 2020-22 (Finance)</span>
+                                <span class="text-secondary">PGPMBA 2020-22 (Finance)</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
@@ -1094,14 +1093,14 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Rinkle Umariya</h5>
-                                <span class="text-secondary">PGP EMBA Marketing</span>
+                                <span class="text-secondary">PGPMBA Marketing</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"At MET, PGP EMBA has offered me numerous opportunities to
+                            <p class="card-text-testimonial">"At MET, PGPMBA has offered me numerous opportunities to
                                 work in a team-based environment. These experiences have helped me to strengthen my
                                 communication, leadership, presentation, and other abilities. I've gotten a fresh
                                 perspective on the difficulties that businesses confront, and I'm ready to put my
@@ -1116,14 +1115,14 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Zainab Ansari</h5>
-                                <span class="text-secondary">PGP EMBA HR student</span>
+                                <span class="text-secondary">PGPMBA HR student</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"At MET, PGP EMBA program offers, learning experience
+                            <p class="card-text-testimonial">"At MET, PGPMBA program offers, learning experience
                                 immense the power of the networking that you build at the institution with professors
                                 and alumni is huge. It was indeed a life changing experience for me. Faster decision
                                 making, multi tasking, parallel processing, and time utilization have immensely impacted
@@ -1602,7 +1601,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is PGP EMBA?</p>
+                                    <p class="mb-0">What is PGPMBA?</p>
                                 </div>
                             </button>
                         </p>
@@ -1611,7 +1610,7 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    PGP EMBA is a campus-based postgraduate programme in empowered management and
+                                    PGPMBA is a campus-based postgraduate programme in management and
                                     business
                                     administration offered by MET Asian Management Development Centre (AMDC). In other
                                     words it's an MBA
@@ -1627,7 +1626,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are the features of MET's PGP EMBA
+                                    <p class="mb-0">What are the features of MET's PGPMBA
                                         programme?</p>
                                 </div>
                             </button>
@@ -1636,7 +1635,7 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>he unique features of the PGP EMBA programme are as follows:</p>
+                                <p>he unique features of the PGPMBA programme are as follows:</p>
                                 <ul>
                                     <li>MET ranked 4th Best B-School in Mumbai, 28th Best B-School All India and 15th
                                         amongst the top
@@ -1662,7 +1661,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the application procedure for the PGP EMBA?</p>
+                                    <p class="mb-0">What is the application procedure for the PGPMBA?</p>
                                 </div>
                             </button>
                         </p>
@@ -1683,7 +1682,7 @@
                                 data-bs-target="#collapsethirteen" aria-expanded="true"
                                 aria-controls="collapsethirteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the selection process for the PGP EMBA?</p>
+                                    <p class="mb-0">What is the selection process for the PGPMBA?</p>
                                 </div>
                             </button>
                         </p>
@@ -1691,7 +1690,7 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>What is the selection process for PGP EMBA? Selection of candidates will be based on
+                                <p>What is the selection process for PGPMBA? Selection of candidates will be based on
                                     following.
                                 </p>
                                 <ul>
@@ -1712,7 +1711,7 @@
                                 data-bs-target="#collapseFourteen" aria-expanded="true"
                                 aria-controls="collapseFourteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are the Highlights of the PGP EMBA programme?</p>
+                                    <p class="mb-0">What are the Highlights of the PGPMBA programme?</p>
                                 </div>
                             </button>
                         </p>
@@ -1744,7 +1743,7 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>The specially designed PGP EMBA syllabus by MET Institute provides pupils to pursue
+                                <p>The specially designed PGPMBA syllabus by MET Institute provides pupils to pursue
                                     occupations in
                                 </p>
                                 <ul>
@@ -1881,45 +1880,50 @@
 
 <!--=================Sticky Button Mobile section starts=============== -->
 <style>
-        .sticky-cta-mb{
-            display: none;
-            background: #f42525;
-            position: fixed;
-            bottom: 0;
-            right: 0;
-            left: 0;
-            z-index: 99999;
+    .sticky-cta-mb {
+        display: none;
+        background: #f42525;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 99999;
+    }
+
+    .sticky-left-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
+        border-right: 2px solid #fff;
+    }
+
+    .sticky-right-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
+    }
+
+    .sticky-left-col a,
+    .sticky-right-col a {
+        color: #fff;
+    }
+
+    @media (max-width: 768px) {
+        .sticky-cta-mb {
+            display: block;
         }
-        .sticky-left-col{
-            padding: 15px 0px;
-            font-size: 22px;
-            color: #fff;
-            border-right: 2px solid #fff;
-        }
-        .sticky-right-col{
-            padding: 15px 0px;
-            font-size: 22px;
-            color: #fff;
-        }
-        .sticky-left-col a, .sticky-right-col a{
-            color: #fff;
-        }
-        @media (max-width: 768px){
-            .sticky-cta-mb{
-                display: block;
-            }
-        }
-    </style>
-    <section class="sticky-cta-mb">
-        <div class="container">
-            <div class="row">
-                <div class="col sticky-left-col d-flex align-items-center justify-content-center">
-                    <a href="tel:+919967181380">Call Us</a>
-                </div>
-                <div class="col sticky-right-col d-flex align-items-center justify-content-center">
-                    <a href="#banform">Apply Now</a>
-                </div>
+    }
+</style>
+<section class="sticky-cta-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col sticky-left-col d-flex align-items-center justify-content-center">
+                <a href="tel:+919967181380">Call Us</a>
+            </div>
+            <div class="col sticky-right-col d-flex align-items-center justify-content-center">
+                <a href="#banform">Apply Now</a>
             </div>
         </div>
-    </section>
-    <!--=================Sticky Button Mobile section ends=============== -->
+    </div>
+</section>
+<!--=================Sticky Button Mobile section ends=============== -->
