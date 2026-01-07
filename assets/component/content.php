@@ -42,7 +42,7 @@
                 <div class="info_data">
                     <p>MET, Mumbai, a leading B-School in Maharashtra has partnered with The Chartered Insurance
                         Institute (CII), London, a renowned global insurance body to create a Post Graduate Program
-                        aimed at producing global insurance professionals in India. PGP EMBA-Insurance, combines
+                        aimed at producing global insurance professionals in India. PGPMBA-Insurance, combines
                         technical content developed by the CII, London with management and business modules from MET,
                         providing specialized education in an industry with tremendous growth potential.
 
@@ -240,7 +240,7 @@
                                 <hr />
                                 <ul>
                                     <li>'Chartered' status and 'ACII' qualification from the CII, London</li>
-                                    <li>PGP EMBA-Insurance certification from MET</li>
+                                    <li>PGPMBA-Insurance certification from MET</li>
                                     <li>Advanced Diploma in Insurance from the CII, London</li>
                                     <li>Domestic & Overseas Placements</li>
                                     <li>Networking base and global faculty</li>
@@ -1142,7 +1142,7 @@
                         <div class="text-testimonial info_data_2 mt-3">
                             <p class="card-text-testimonial">"MET gave me the platform to rise up to my potential.
                                 During my course I was not only trained on technical aspects but was also groomed for
-                                the corporate journey I was going to start. Proud to be an alumnus of PGP EMBA-Insurance
+                                the corporate journey I was going to start. Proud to be an alumnus of PGPMBA-Insurance
                                 course."</p>
                         </div>
                     </div>
@@ -1619,7 +1619,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is PGP EMBA - Insurance?</p>
+                                    <p class="mb-0">What is PGPMBA - Insurance?</p>
                                 </div>
                             </button>
                         </p>
@@ -1628,7 +1628,7 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    MET&#39;s Post Graduate Programme in Empowered Management and Business
+                                    MET&#39;s Post Graduate Programme in Management and Business
                                     Administration is an exclusive course in Insurance with CII London. Besides, it is
                                     an
                                     internationally recognised qualification and also leads to acquiring the chartered
@@ -1642,7 +1642,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the benefit of the PGP EMBA – Insurance program at MET?</p>
+                                    <p class="mb-0">What is the benefit of the PGPMBA – Insurance program at MET?</p>
                                 </div>
                             </button>
                         </p>
@@ -1651,7 +1651,7 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                    I. PGP EMBA Certification<br>
+                                    I. PGPMBA Certification<br>
                                     II. Advanced Diploma in Insurance from the CII<br>
                                     III. Joint Accreditation by MET and the CII<br>
                                 </p>
@@ -1663,7 +1663,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwele" aria-expanded="true" aria-controls="collapseTwele">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">How many semesters cover in 2 years PGP EMBA - Insurance program?
+                                    <p class="mb-0">How many semesters cover in 2 years PGPMBA - Insurance program?
                                     </p>
                                 </div>
                             </button>
@@ -1672,7 +1672,7 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Total 4 Semesters covers in 2 years PGP EMBA - Insurance programme</p>
+                                <p>Total 4 Semesters covers in 2 years PGPMBA - Insurance programme</p>
                             </div>
                         </div>
                     </div>
@@ -1682,7 +1682,7 @@
                                 data-bs-target="#collapsethirteen" aria-expanded="true"
                                 aria-controls="collapsethirteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What are the eligibility criteria for MET&#39;s PGP EMBA - Insurance
+                                    <p class="mb-0">What are the eligibility criteria for MET&#39;s PGPMBA - Insurance
                                         programme?</p>
                                 </div>
                             </button>
@@ -1703,7 +1703,7 @@
                                 data-bs-target="#collapseFourteen" aria-expanded="true"
                                 aria-controls="collapseFourteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the admission selection process to get a PGP EMBA -
+                                    <p class="mb-0">What is the admission selection process to get a PGPMBA -
                                         Insurance programme
                                         in MET?</p>
                                 </div>
@@ -1728,7 +1728,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Why take admission to MET&#39;s PGP EMBA - Insurance Program?</p>
+                                    <p class="mb-0">Why take admission to MET&#39;s PGPMBA - Insurance Program?</p>
                                 </div>
                             </button>
                         </p>
@@ -1776,7 +1776,7 @@
                                 data-bs-target="#collapseseventeen" aria-expanded="true"
                                 aria-controls="collapseseventeen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the fee structure for PGP EMBA - Insurance program in MET?
+                                    <p class="mb-0">What is the fee structure for PGPMBA - Insurance program in MET?
                                     </p>
                                 </div>
                             </button>
@@ -1797,7 +1797,7 @@
                                 data-bs-target="#collapseeighteen" aria-expanded="true"
                                 aria-controls="collapseeighteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Do you provide a Hostel facility for PGP EMBA - Insurance program in
+                                    <p class="mb-0">Do you provide a Hostel facility for PGPMBA - Insurance program in
                                         MET?</p>
                                 </div>
                             </button>

@@ -104,7 +104,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">PGP EMBA - Insurance</span><br>
+                                    <span class="linetext b-clr">PGPMBA - Insurance</span><br>
                                 </p>
                                 <p>
                                     A specialized MBA in Insurance in association with the CII, London
