@@ -351,7 +351,7 @@
                         </div>
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>500+</h3>
+                                <h3>300+</h3>
                                 <p>Recruiters</p>
                             </div>
                         </div>
