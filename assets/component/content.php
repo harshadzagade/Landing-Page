@@ -153,6 +153,10 @@
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">MET is proud to be certified as an Institute of Happiness by QS I-GAUGE for 2025-26.</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">MET Institute of PGDM has been ranked the 17th Best Private B-School in Mumbai by The Week Best B-School Survey 2025</p>
                     </div>
                     <div class="pgdm-checksign">
@@ -1729,7 +1733,7 @@
                                 aria-controls="collapsefourteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">Is the programme MET PGDM recognized by the corporate
-                                        sectior ?</p>
+                                        Sector?</p>
                                 </div>
                             </button>
                         </p>
