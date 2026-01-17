@@ -1,18 +1,18 @@
 <?php
-$utm_source = $_REQUEST['utm_source'] ?? '';
-$utm_medium = $_REQUEST['utm_medium'] ?? '';
-$utm_campaign = $_REQUEST['utm_campaign'] ?? '';
-$utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
-$utm_device = $_REQUEST['utm_device'] ?? '';
-$utm_content = $_REQUEST['utm_content'] ?? '';
-$utm_keyword = $_REQUEST['utm_keyword'] ?? '';
-$utm_adposition = $_REQUEST['utm_adposition'] ?? '';
-$utm_placement = $_REQUEST['utm_placement'] ?? '';
-$utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
-$utm_creative = $_REQUEST['utm_creative'] ?? '';
-$gclid = $_REQUEST['gclid'] ?? '';
-$fbclid = $_REQUEST['fbclid'] ?? '';
-$url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+// $utm_source = $_REQUEST['utm_source'] ?? '';
+// $utm_medium = $_REQUEST['utm_medium'] ?? '';
+// $utm_campaign = $_REQUEST['utm_campaign'] ?? '';
+// $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
+// $utm_device = $_REQUEST['utm_device'] ?? '';
+// $utm_content = $_REQUEST['utm_content'] ?? '';
+// $utm_keyword = $_REQUEST['utm_keyword'] ?? '';
+// $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
+// $utm_placement = $_REQUEST['utm_placement'] ?? '';
+// $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
+// $utm_creative = $_REQUEST['utm_creative'] ?? '';
+// $gclid = $_REQUEST['gclid'] ?? '';
+// $fbclid = $_REQUEST['fbclid'] ?? '';
+// $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 ?>
 
@@ -27,13 +27,14 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     <title>
         MET Institute of Mass Media | Top Mass Media & Communication College-Mumbai
     </title>
-    <meta name="Description" content="MET IMM, Mumbai's best Mass Communication & Media college offers UG/PG courses Advertising, Entertainment, Digital Marketing, Journalism, PR, Film Making, Celebrity Management ">
+    <meta name="Description"
+        content="MET IMM, Mumbai's best Mass Communication & Media college offers UG/PG courses Advertising, Entertainment, Digital Marketing, Journalism, PR, Film Making, Celebrity Management ">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -48,12 +49,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
     </script>
-        <!-- End Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
     <!-- Microsoft Clarity -->
     <script type="text/javascript">
-        (function(c, l, a, r, i, t, y) {
-            c[a] = c[a] || function() {
+        (function (c, l, a, r, i, t, y) {
+            c[a] = c[a] || function () {
                 (c[a].q = c[a].q || []).push(arguments)
             };
             t = l.createElement(r);
@@ -84,10 +85,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
 <body>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
     <div class="loader-container">
         <div class="loader-wrapper">
@@ -113,16 +114,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <p>
                                     <span class="linetext b-clr">PGP in Mass Communication & Media Management</span><br>
                                 </p>
-                                <p>
-                                Specializations in Advertising & PR | Entertainment & Events | Journalism & Content Creation | Next-Gen Digital Marketing | Creative Technology & Immersive Media | Cinematic Storytelling
-                                </p>
+                                <p style="font-size: 20px;">Specializations in</p>
+                                <ul style="font-size: 20px;">
+                                    <li>Advertising & PR</li>
+                                    <li>Entertainment & Events</li>
+                                    <li>Journalism & Content Creation</li>
+                                    <li>Next-Gen Digital Marketing</li>
+                                    <li>Creative Technology & Immersive Media</li>
+                                    <li>Cinematic Storytelling</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
                         <div class="text-center">
-                             <img src="assets/images/bannerstudent.webp" class="" alt="...">
+                            <img src="assets/images/bannerstudent.webp" class="" alt="...">
                         </div>
                     </div>
 
@@ -211,12 +218,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <select type="text" class=" form-select rounded-pill" name="Course"
                                                         placeholder="Select Course" required>
                                                         <option value="" selected hidden>Choose...</option>
-                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM - Advertising & PR</option>
-                                                        <option value="PGP MCMM - Entertainment & Events">PGP MCMM - Entertainment & Events</option>
-                                                        <option value="PGP MCMM - Journalism & Content Creation">PGP MCMM - Journalism & Content Creation</option>
-                                                        <option value="PGP MCMM - Next-Gen Digital Marketing">PGP MCMM - Next-Gen Digital Marketing</option>
-                                                        <option value="PGP MCMM - Creative Technology & Immersive Media">PGP MCMM - Creative Technology & Immersive Media</option>
-                                                        <option value="PGP MCMM - Cinematic Storytelling">PGP MCMM - Cinematic Storytelling</option>
+                                                        <option value="PGP MCMM - Advertising & PR">PGP MCMM -
+                                                            Advertising & PR</option>
+                                                        <option value="PGP MCMM - Entertainment & Events">PGP MCMM -
+                                                            Entertainment & Events</option>
+                                                        <option value="PGP MCMM - Journalism & Content Creation">PGP
+                                                            MCMM - Journalism & Content Creation</option>
+                                                        <option value="PGP MCMM - Next-Gen Digital Marketing">PGP MCMM -
+                                                            Next-Gen Digital Marketing</option>
+                                                        <option
+                                                            value="PGP MCMM - Creative Technology & Immersive Media">PGP
+                                                            MCMM - Creative Technology & Immersive Media</option>
+                                                        <option value="PGP MCMM - Cinematic Storytelling">PGP MCMM -
+                                                            Cinematic Storytelling</option>
                                                     </select>
                                                     <div class="invalid-feedback">
                                                         Select Valid Course.
@@ -243,10 +257,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
                                             <input type="hidden" name="utm_content" value="<?php echo $utm_content ?>">
                                             <input type="hidden" name="utm_keyword" value="<?php echo $utm_keyword ?>">
-                                            <input type="hidden" name="utm_adposition" value="<?php echo $utm_adposition ?>">
-                                            <input type="hidden" name="utm_placement" value="<?php echo $utm_placement ?>">
-                                            <input type="hidden" name="utm_matchtype" value="<?php echo $utm_matchtype ?>">
-                                            <input type="hidden" name="utm_creative" value="<?php echo $utm_creative ?>">
+                                            <input type="hidden" name="utm_adposition"
+                                                value="<?php echo $utm_adposition ?>">
+                                            <input type="hidden" name="utm_placement"
+                                                value="<?php echo $utm_placement ?>">
+                                            <input type="hidden" name="utm_matchtype"
+                                                value="<?php echo $utm_matchtype ?>">
+                                            <input type="hidden" name="utm_creative"
+                                                value="<?php echo $utm_creative ?>">
                                             <input type="hidden" name="gclid" value="<?php echo $gclid ?>">
                                             <input type="hidden" name="fbclid" value="<?php echo $fbclid ?>">
                                             <input type="hidden" name="url" value="<?php echo $url ?>">
@@ -304,8 +322,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script>
         Delete_Cookie('formfilled');
-        $(document).ready(function() {
-            $(".offcanvas-nav .offcanvas-link").click(function() {
+        $(document).ready(function () {
+            $(".offcanvas-nav .offcanvas-link").click(function () {
                 $('.offcanvas-start').offcanvas('hide');
             });
             $('.gallery-carousel').owlCarousel({

@@ -4,7 +4,7 @@
         <div class="banner-legacy ">
             <div class="row mr0 about-sec align-items-center justify-content-center">
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3>₹10 LPA</h3>
+                    <h3>₹8 LPA</h3>
                     <p>Highest Salary</p>
                 </div>
                 <div class="col-lg-5 col-md-6 col-6 legcy-sec mt-3 mb-3">
@@ -71,163 +71,89 @@
         <div class="row">
             <div class="col-12">
                 <div class="sec_title text-start">
-                    <h2><span>Specializations</span></h2>
+                    <h2><span>Specializations with AI-Integrated</span></h2>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="accordion" id="accordionLocationn">
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Advertising and PR  (AI-Integrated)</p>
 
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">AI-powered branding, campaign strategy, content creation, public relations, and media planning, which is strengthened with creativity, critical thinking, and strategic insight.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingTwo">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Entertainment & Events (AI-Integrated)</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">Traditional and AI-enhanced filmmaking, OTT platforms, experiential marketing, live events, and data-driven audience insights, which are enriched with creative leadership and problem-solving.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingThree">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Next-Gen Digital Marketing (AI-Integrated)</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">AI-assisted marketing campaigns, predictive analytics, automation, and creative strategy which is enhanced with innovation and analytical decision-making.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingFour">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Journalism & Content Creation (AI-Integrated)</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">Data-backed reporting, multimedia storytelling, and AI-driven content creation which facilitates blending ethical judgment, creativity, and audience engagement.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingFive">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Creative Technology & Immersive Media (AI-Integrated)</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">AR/VR, generative content, interactive storytelling, gaming, and next-gen media experiences, which are powered by critical thinking, design innovation, and creative execution.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingSix">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                                <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">PGP MCMM – Cinematic Storytelling (AI-Integrated)</p>
-                                </div>
-                            </button>
-                        </p>
-                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
-                            data-bs-parent="#accordionLocationn">
-                            <div class="accordion-body">
-                                <hr />
-                                <div class="row">
-                                    <div class="pgdm-gap">
-                                        <div class="pgdm-checksign">
-                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
-                                            <p class="check-text">Where imagination meets the lens. Blend classic filmmaking principles with AI-powered production, editing, and storytelling tools to create impactful visual content.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Advertising_and_PR.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Advertising and PR</h5>
+                    <p style="font-size:14px;color:#555;">AI-powered branding, campaign strategy, content creation,
+                        public relations, and media planning, which is strengthened with creativity, critical thinking,
+                        and strategic insight.</p>
                 </div>
             </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Entertainment_and_Events.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Entertainment and Events</h5>
+                    <p style="font-size:14px;color:#555;">Traditional and AI-enhanced filmmaking, OTT platforms,
+                        experiential marketing, live events, and data-driven audience insights, which are enriched with
+                        creative leadership and problem-solving.</p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Next_Gen_Digital_Marketing.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Next-Gen Digital Marketing</h5>
+                    <p style="font-size:14px;color:#555;">AI-assisted marketing campaigns, predictive analytics,
+                        automation, and creative strategy, which is enhanced with innovation and analytical
+                        decision-making.</p>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Journalism_and_Content_Creation.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Journalism and Content Creation</h5>
+                    <p style="font-size:14px;color:#555;">Data-backed reporting, multimedia storytelling, and AI-driven
+                        content creation which facilitate blending ethical judgment, creativity, and audience
+                        engagement.</p>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Creative_Technology_and_Immersive_Media.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Creative Technology and Immersive Media</h5>
+                    <p style="font-size:14px;color:#555;">AR/VR, generative content, interactive storytelling, gaming,
+                        and next-gen media experiences, which are powered by critical thinking, design innovation, and
+                        creative execution.</p>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Cinematic_Storytelling.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Cinematic Storytelling</h5>
+                    <p style="font-size:14px;color:#555;">Where imagination meets the lens. Blend classic filmmaking
+                        principles with AI-powered production, editing, and storytelling tools to create impactful
+                        visual content.</p>
+                </div>
+            </div>
+
         </div>
+    </div>
 </section>
+
 
 <br><br>
 
@@ -249,19 +175,21 @@
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment Awards 2024.</p>
+                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment
+                            Awards 2024.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Best Education Brand 2019 by The Economic Times</p>
+                        <p class="check-text">MET Media Collective: Mumbai’s First Ever Campus Media Agency</p>
                     </div>
-                    <div class="pgdm-checksign">
+                    <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">MET Institute of Mass Media won the ‘Outstanding Institute for Mass Media Management of the Year’ award at the 9th World Education Summit & Awards, 2019</p>
-                    </div>
+                    </div> -->
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
+                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully
+                            equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -303,6 +231,85 @@
 
 <!--------------- Advantages section ------------------->
 
+<br><br>
+
+<!---------------- VVIPs @ IMM section -------------->
+
+
+<section class="nav-link" id="VVIPs @ IMM">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>VVIPs @ IMM</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Prahlad_Kakar.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Prahlad Kakar</h5>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Manoj_Bajpayee.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Manoj Bajpayee</h5>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Rakeyash_Omprakesh_Mehra.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Rakeyash Omprakesh Mehra</h5>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Sonakshi_Sinha_&_Zaheer_Iqbal.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Sonakshi Sinha and Zaheer Iqbal</h5>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Sarabg_Sathaye.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Sarang Sathaye</h5>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Hruta_Durgule_Abhinay_Berde_and_Kshitij_Patwardhan.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Hruta Durgule, Abhinay Berde and Kshitij Patwardhan</h5>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<br><br>
+
+<!---------------- VVIPs @ IMM section -------------->
+
 <!--------------- Programme section ------------------->
 
 <section class="program__Sec" id="prgDetail">
@@ -337,6 +344,9 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
+                                    <li>4K Media Studio</li>
+                                    <li>100% Experiential Learning</li>
+                                    <li>Stalwarts as Mentors</li>
                                     <li>MET Media Collective: Mumbai’s First Ever Campus Media Agency</li>
                                     <li>India's leading Media School</li>
                                     <li>Record placements & internships</li>
@@ -361,7 +371,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>Graduate in any discipline with a minimum 50%</li>
+                                    <li>Graduate in any discipline</li>
                                     <li>Final year students can also apply</li>
                                 </ul>
                             </div>
@@ -379,32 +389,7 @@
                             <div class="accordion-body info_data">
                                 <hr />
                                 <ul>
-                                    <li>The Entrance Procedure for aspiring mass media students will encompass the following:</li>
-                                    <li>Creativity CET</li>
-                                    <li>Personal Interview</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <p class="accordion-header" id="headingTen">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTen" aria-expanded="true"
-                                aria-controls="collapseTen">Training Pedagogy
-                            </button>
-                        </p>
-                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen"
-                            data-bs-parent="#accordionLocation">
-                            <div class="accordion-body info_data">
-                                <hr />
-                                <ul>
-                                    <li>Business and function driven training pedagogy focused on an experiential approach with a concept to application learning in alignment with the media convergence trends</li>
-                                    <li>Curriculum designed in consultation with media experts</li>
-                                    <li>Senior professionals from the media industry as subject mentors</li>
-                                    <li>Lectures, Classroom Discussions, Role Plays, Projects, Presentations, Assignments and Case Studies</li>
-                                    <li>Exposure to International Certifications</li>
-                                    <li>Showreels, Portfolios, Live Projects and Industry Orientation</li>
-                                    <li>Exclusive year-round training towards career support services based on 'Growth Mindset' with MET's - Campus To Corporate Programme</li>
+                                    <li>Divergent thinking + PI</li>
                                 </ul>
                             </div>
                         </div>
@@ -421,6 +406,162 @@
 </section>
 
 <!--------------- Programme section ------------------->
+
+<!--------------- MET Media Collective section ------------------->
+<section class="mmc-sec nav-link" id="met-media-collective">
+    <div class="container">
+        <div class="row align-items-start g-4">
+            <div class="col-lg-12">
+                <div class="sec_title text-start">
+                    <h2><span>MET Media Collective</span></h2>
+                </div>
+
+                <p class="mmc-text">
+                    MET Media Collective is MET IMM’s on-campus media agency where classroom learning transforms into real-world
+                    campaigns. Launched in September 2025 by legendary adman KV Shridhar (Pops), the Collective gives students
+                    hands-on experience with live industry briefs—creating advertisements, managing social media, designing brands,
+                    producing videos, and executing events for real clients. Guided by faculty and industry mentors, students work
+                    with real deadlines and real expectations, building strong portfolios, confidence, and professional readiness
+                    even before they graduate.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------- VVIPs @ IMM section ------------------->
+<section class="vvip-sec nav-link" id="vvips-imm">
+    <div class="container">
+        <div class="row g-4">
+
+            <!-- CARD 1 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Prahlad_Kakar.jpg" alt="Prahlad Kakar">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Prahlad Kakar</h5>
+                        <p class="vvip-role">Founder, Genesis Film Productions</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/KV_Sridhar_Pops.jpg" alt="KV Sridhar Pops">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">KV Sridhar Pops</h5>
+                        <p class="vvip-role">Global Chief Creative Officer, Nihilent Technologies</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Bharat_Dabholkar.jpg" alt="Bharat Dabholkar">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Bharat Dabholkar</h5>
+                        <p class="vvip-role">Creative Maverick, Actor & Director</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Hephzibah_Pathak.jpg" alt="Hephzibah Pathak">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Hephzibah Pathak</h5>
+                        <p class="vvip-role">Executive Chairperson, India</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--------------- MET Media Collective section ------------------->
+<br><br>
+
+<!--------------- Training Pedagogy section ------------------->
+<section class="pedagogy-sec " id="training-pedagogy">
+    <div class="container">
+        <div class="row align-items-start g-4">
+
+            <!-- Left Content -->
+            <div class="col-lg-12 col-md-12">
+                <div class="sec_title text-start">
+                    <h2><span>Training Pedagogy</span></h2>
+                </div>
+
+                <div class="pedagogy-list">
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Business and function driven training pedagogy focused on an experiential approach with a concept to application learning in alignment with the media convergence trends</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Curriculum designed in consultation with media experts</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Senior professionals from the media industry as subject mentors</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Lectures, Classroom Discussions, Role Plays, Projects, Presentations, Assignments and Case Studies</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Exposure to International Certifications</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Showreels, Portfolios, Live Projects and Industry Orientation</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Exclusive year-round training towards career support services based on 'Growth Mindset' with MET's - Campus To Corporate Programme</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Highlight Card (Optional but recommended) -->
+            <!-- <div class="col-lg-4 col-md-12">
+                <div class="pedagogy-card">
+                    <h5>How you learn</h5>
+                    <p>Hands-on training designed for the media industry — from concept to execution.</p>
+
+                    <ul>
+                        <li>Industry mentors & expert curriculum</li>
+                        <li>Live projects + showreels + portfolios</li>
+                        <li>Career support all year round</li>
+                    </ul>
+
+                    <a href="#banform" class="pedagogy-btn">Download e-Brochure</a>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+<!--------------- Training Pedagogy section ------------------->
+<br><br>
 
 <!--------------- Placement section ------------------->
 
@@ -439,7 +580,7 @@
                     <div class="row">
                         <div class="col-4 col-md-4">
                             <div class="plc_div">
-                                <h3>₹10 LPA</h3>
+                                <h3>₹8 LPA</h3>
                                 <p>Highest Salary</p>
                             </div>
                         </div>
@@ -1184,80 +1325,239 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
                 <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+
+                    <!-- 1 -->
                     <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/delna_shroff.png"
-                                    alt="testimonial carousel slider 2">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Kaveri_Roy.jpg" alt="Kaveri Roy">
                             </div>
-                            <div>
-                                <h5 class="card-title">Delna Shroff</h5>
-                                <span class="text-secondary">
-                                    Creative Director<br>L&K Saatchi & Saatchi
-                                </span>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Kaveri Roy</h5>
+                                <span class="text-secondary">Senior Director – Strategic Planning & Creativity, Burson</span>
                             </div>
-                            <!-- <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div> -->
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
                         </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET gave me the opportunity to speak to industry veterans
-                                and instilled a sense of confidence to face the world of Indian advertising. The
-                                sessions always provided real-life industry insight instead of classroom theory."</p>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM gave me my first real exposure to how media works beyond textbooks. The institute’s emphasis on thinking, questioning, and understanding audiences shaped the strategic mindset I carry into every global boardroom today.”</p>
                         </div>
                     </div>
+
+                    <!-- 2 -->
                     <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/Priyanka-Surve.png"
-                                    alt="testimonial carousel slider 2">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Suparna_Chakravarty.jpg" alt="Suparna Chakravarty">
                             </div>
-                            <div>
-                                <h5 class="card-title">Priyanka Surve</h5>
-                                <span class="text-secondary">Founder & Creative Director<br>Motley Advertising</span>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Suparna Chakravarty</h5>
+                                <span class="text-secondary">Director, Bharat Media LLC | Founder, Reel Talkys Motion Pictures & Global Village of Indian Music</span>
                             </div>
-                            <!-- <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div> -->
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
                         </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"MET IMM gave me the confidence to step out in the world of
-                                Advertising. The great support and guidance from each of the faculties and mentors has
-                                tremendously helped throughout my professional journey."</p>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM nurtured my creative voice and gave me the confidence to explore storytelling across formats. The foundation I received here continues to guide my work as a filmmaker and content creator.”</p>
                         </div>
                     </div>
+
+                    <!-- 3 -->
                     <div class="testimonial-card">
-                        <div class="img-testimonial d-flex align-items-center">
-                            <div>
-                                <img class="student-images" src="assets/images/test/Rupali.png"
-                                    alt="testimonial carousel slider 2">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Junior_Figueiredo.jpg" alt="Junior (Pep) Figueiredo">
                             </div>
-                            <div>
-                                <h5 class="card-title">Rupali Sawant</h5>
-                                <span class="text-secondary">Sr. DirectorGroup M</span>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Junior (Pep) Figueiredo</h5>
+                                <span class="text-secondary">Chief Strategy Officer, Munch TV | OTT & New Media Business Leader</span>
                             </div>
-                            <!-- <div class="svg-icon-testimonial">
-                                <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
-                            </div> -->
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
                         </div>
-                        <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">"The faculty prepared us for competing in the global
-                                marketplace. All the interactive sessions
-                                really helped & trained us for the practical media world. The students get outstanding
-                                exposure
-                                through the session with professionals who are industry experts."
-                            </p>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM was instrumental in shaping my understanding of content, media business, and emerging platforms. The institute encouraged us to think ahead of the curve—an approach that defines my work in the OTT space today.”</p>
                         </div>
                     </div>
+
+                    <!-- 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Siddhav_Nachane.jpg" alt="Siddhav Nachane">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Siddhav Nachane</h5>
+                                <span class="text-secondary">Group Head – Fiction, Zee Marathi | Creative Supervisor, ZEE5 Marathi</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“My journey at MET IMM helped me understand the discipline behind creativity. The practical exposure and storytelling focus prepared me for the realities of television and long-format fiction.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Manasi_Bhagat.jpg" alt="Manasi Bhagat">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Manasi Bhagat</h5>
+                                <span class="text-secondary">Head – Marketing & Communications, CSR & Sustainability, AUMOVIO</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM laid a strong foundation for my career in marketing and communications. The learning environment encouraged adaptability, strategic thinking, and a deep respect for evolving media ecosystems.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Abhishek_Jain.jpg" alt="Abhishek Jain">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Abhishek Jain</h5>
+                                <span class="text-secondary">Founder, DG Avatar Media</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM helped me connect creativity with execution. The hands-on learning and industry exposure played a key role in shaping my journey as a digital marketing entrepreneur in the film industry.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Rohit_Satoskar.jpg" alt="Rohit Satoskar">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Rohit Satoskar</h5>
+                                <span class="text-secondary">Associate Director – Sales, Zee Entertainment Enterprises Ltd.</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“The institute gave me a clear understanding of how media functions from both creative and commercial perspectives. MET IMM’s exposure to the industry prepared me well for the business side of media.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Pranita_Mithbaonkar.jpg" alt="Pranita Mithbaonkar">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Pranita Mithbaonkar</h5>
+                                <span class="text-secondary">Senior Media Director, Mindshare India</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM gave me a strong grounding in media planning and strategic thinking. The practical approach to learning helped me transition smoothly into leading roles within top media agencies.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 9 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Vidushi_Gaur.jpg" alt="Vidushi Gaur">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Vidushi Gaur</h5>
+                                <span class="text-secondary">Brand Partnerships & Licensing, Saregama | Pocket Aces</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“My time at MET IMM taught me how content, brands, and audiences connect. The institute’s industry-oriented learning helped me navigate the fast-paced world of digital media and branded content.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 10 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Palaak_Vaidya_Tiwari.jpg" alt="Palaak Vaidya-Tiwari">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Palaak Vaidya-Tiwari</h5>
+                                <span class="text-secondary">Marketing & Public Relations, Sony YAY!</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM played a crucial role in shaping my communication skills and professional outlook. The exposure to real-world media practices gave me confidence early in my career.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 11 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Karan_Lakhe.jpg" alt="Karan Lakhe">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Karan Lakhe</h5>
+                                <span class="text-secondary">Product & Revenue Strategy, Disney Star</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM helped me understand media not just as content, but as a business. The blend of creative and strategic learning at the institute continues to influence my work in product and revenue strategy.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 12 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Amar_Vora.jpg" alt="Amar Vora">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Amar Vora</h5>
+                                <span class="text-secondary">Founder, Innovate Digital Media</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“The practical learning environment at MET IMM gave me clarity about digital media and branding. It helped me build the confidence to eventually start my own digital agency.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 13 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Mehek_Singhi.jpg" alt="Mehek Singhi">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Mehek Singhi</h5>
+                                <span class="text-secondary">Head – Planning, Strategy & Development, Think Ink Communications</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM provided me with a strong base in communication, strategy, and industry expectations. The institute’s focus on adaptability prepared me well for diverse roles across media and PR.”</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
     </div>
 </section>
 <!--------------------- testimonial section ------------------->
+
 
 <!------------------ apply section ---------------->
 <section class="section-apply" id="applySection">
@@ -1302,8 +1602,7 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Click Apply and fill out your personal information, including your name, email,
-                                    mobile number, and qualifications.</p>
+                                <p>Click Apply and fill out your Basic Information</p>
                             </div>
                         </div>
 
@@ -1319,8 +1618,7 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Verify the OTP received on your registered email/mobile number and make a
-                                    non-refundable online payment of Rs. 1200.</p>
+                                <p>Verify the OTP and make a non-refundable online payment of Rs. 1200.</p>
                             </div>
                         </div>
 
@@ -1336,8 +1634,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>Login to the MET Online Application Form using the information sent to your email and
-                                    complete the form, uploading all necessary documents.</p>
+                                <p>Login to the MET Online Application Form and complete the form, uploading all
+                                    necessary documents.</p>
                             </div>
                         </div>
 
@@ -1353,8 +1651,8 @@
                             </div>
 
                             <div class="info_data_2">
-                                <p>After the successful submission of the online application, you will be informed of
-                                    your GD & PI schedule.</p>
+                                <p>After successful submission, you will be informed about your Divergent Thinking + PI
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1634,6 +1932,321 @@
 </section>
 <!------------------ Gallery section ---------------->
 
+<br><br>
+
+
+<!---------------- Life @ MET IMM section -------------->
+
+<section class="life-imm" id="life-imm">
+    <div class="custom-container-2">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>Life @ MET IMM</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4 life-grid">
+
+            <!-- CARD 1 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Launch_of_MET_Media_Collective.jpg" alt="Launch of MET Media Collective (In-house Media Agency)">
+                    </div>
+                    <h5 class="life-title">Launch of MET Media Collective (In-house Media Agency)</h5>
+                    <p class="life-desc">
+                        The launch of MET Media Collective marked the institute’s commitment to experiential learning by offering students real-time exposure to professional media operations.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Student_Podcast_Shoot.jpg" alt="Student Podcast Shoot">
+                    </div>
+                    <h5 class="life-title">Student Podcast Shoot</h5>
+                    <p class="life-desc">
+                        The Student Podcast Shoot provided a platform for students to create, host, and produce original audio content, enhancing their storytelling and digital communication skills.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/International_Research_Conference.jpg" alt="International Research Conference">
+                    </div>
+                    <h5 class="life-title">International Research Conference</h5>
+                    <p class="life-desc">
+                        The International Research Conference fostered academic exchange by bringing together researchers, scholars, and practitioners to discuss contemporary issues in media and communication.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/HR_Conclave.jpg" alt="HR Conclave">
+                    </div>
+                    <h5 class="life-title">HR Conclave</h5>
+                    <p class="life-desc">
+                        The HR Conclave connected students with industry leaders to explore emerging workplace trends, talent management practices, and the future of work.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Trophy_Record_Achievement.jpg" alt="Trophy Record Achievement">
+                    </div>
+                    <h5 class="life-title">Trophy Record Achievement</h5>
+                    <p class="life-desc">
+                        IMM achieved a significant milestone by securing the world record for the tallest trophy in Global book of Excellence and India Book of records reflecting excellence in creativity, performance, and intercollegiate competitiveness.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Portfolio_Day.jpg" alt="Portfolio Day">
+                    </div>
+                    <h5 class="life-title">Portfolio Day</h5>
+                    <p class="life-desc">
+                        Portfolio Day enabled students to showcase their creative and strategic work before industry professionals, receiving valuable feedback and placement exposure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Outbound_Training_Activity_at_Vikramgad.jpg" alt="Outbound Training Activity at Vikramgad">
+                    </div>
+                    <h5 class="life-title">Outbound Training Activity at Vikramgad</h5>
+                    <p class="life-desc">
+                        The outbound training at Vikramgad focused on leadership, teamwork, and resilience through structured experiential learning activities in a natural setting.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Metamorphosis_Celebrity_Engagements.jpg" alt="Metamorphosis – Celebrity Engagements">
+                    </div>
+                    <h5 class="life-title">Metamorphosis – Celebrity Engagements</h5>
+                    <p class="life-desc">
+                        Metamorphosis featured renowned celebrities from the media and entertainment industry, offering students inspiration, insights, and direct interaction with industry icons. (Pictures of Manoj Bajpayee, Prahlad Kakkad, Omprakash Mehra, Sonakshi Sinha, Zahir Iqbal and others already with Marcomm)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!---------------- Life @ MET IMM section -------------->
+
+<!---------------- Career Pathways section -------------->
+
+<section class="nav-link" id="Career Pathways">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>Career Pathways</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionLocationn">
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyTwo" aria-expanded="true"
+                                aria-controls="collapseTwentyTwo">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Advertising and PR</p>
+
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyTwo" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Advertising Executive, Brand Strategist, Account
+                                                Manager, Copywriter, Media Planner, Public Relations Manager, Corporate
+                                                Communications Specialist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyThree" aria-expanded="true"
+                                aria-controls="collapseTwentyThree">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Entertainment and Events</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyThree" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyThree" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Event Manager, Celebrity & Artist Manager,
+                                                Entertainment Marketing Executive, Live Event Producer, Festival &
+                                                Experiential Marketing Manager
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyFour" aria-expanded="true"
+                                aria-controls="collapseTwentyFour">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Next-Gen Digital Marketing</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyFour" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyFour" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Digital Marketing Strategist, Social Media Manager,
+                                                Performance Marketing Executive, SEO/SEM Specialist, Influencer
+                                                Marketing Manager, Growth Marketer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyFive" aria-expanded="true"
+                                aria-controls="collapseTwentyFive">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Journalism and Content Creation</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyFive" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyFive" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Journalist, Digital Content Creator, News Producer,
+                                                Media Researcher, Scriptwriter, Podcast Host, Content Editor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentySix">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentySix" aria-expanded="true"
+                                aria-controls="collapseTwentySix">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Creative Technology and Immersive Media</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentySix" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentySix" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">AR/VR Designer, Immersive Media Producer, Interactive
+                                                Experience Designer, Game Content Creator, AI-Driven Media Specialist,
+                                                Creative Technologist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentySeven">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentySeven" aria-expanded="true"
+                                aria-controls="collapseTwentySeven">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Cinematic Storytelling</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentySeven" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentySeven" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Film Director, Assistant Director, Cinematographer,
+                                                Video Producer, Screenwriter, Editor, OTT Content Creator</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<br><br>
+
+<!---------------- Career Pathways section -------------->
+
 <!------------------- contact section ---------------------->
 
 <section class="contact-us" id="contactus">
@@ -1724,7 +2337,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What makes the PGP MCMM program at MET IMM different from other media programs?</p>
+                                    <p class="mb-0">What makes the PGP MCMM program at MET IMM different from other
+                                        media programs?</p>
                                 </div>
                             </button>
                         </p>
@@ -1733,7 +2347,10 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                The program blends traditional media education with next-gen AI tools, live industry projects, and cinematic-level facilities. Students learn through immersive, real-world work via the MET Media Collective — Mumbai’s first student-run campus agency.
+                                    The program blends traditional media education with next-gen AI tools, live industry
+                                    projects, and cinematic-level facilities. Students learn through immersive,
+                                    real-world work via the MET Media Collective — Mumbai’s first student-run campus
+                                    agency.
                                 </p>
                             </div>
                         </div>
@@ -1743,7 +2360,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Is this program suitable for students from non-media backgrounds?</p>
+                                    <p class="mb-0">Is this program suitable for students from non-media backgrounds?
+                                    </p>
                                 </div>
                             </button>
                         </p>
@@ -1752,7 +2370,9 @@
                             <div class="accordion-body info_data_2">
                                 <hr />
                                 <p>
-                                Absolutely. The program starts with foundational learning in Semester 1, enabling students from any academic background to build strong media, storytelling, and communication skills before specialising.
+                                    Absolutely. The program starts with foundational learning in Semester 1, enabling
+                                    students from any academic background to build strong media, storytelling, and
+                                    communication skills before specialising.
                                 </p>
                             </div>
                         </div>
@@ -1760,7 +2380,8 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingThirteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseThirteen" aria-expanded="true" aria-controls="collapseThirteen">
+                                data-bs-target="#collapseThirteen" aria-expanded="true"
+                                aria-controls="collapseThirteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What kind of AI integration is included in the curriculum?</p>
                                 </div>
@@ -1770,7 +2391,9 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>AI integration is moderate but meaningful — students use AI for research, creative ideation, content generation, data insights, audience mapping, editing support, automation, and immersive media workflows, depending on the specialization.
+                                <p>AI integration is moderate but meaningful — students use AI for research, creative
+                                    ideation, content generation, data insights, audience mapping, editing support,
+                                    automation, and immersive media workflows, depending on the specialization.
                                 </p>
                             </div>
                         </div>
@@ -1808,8 +2431,7 @@
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingFifteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseFifteen" aria-expanded="true"
-                                aria-controls="collapseFifteen">
+                                data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">Will students work on real client projects?</p>
                                 </div>
@@ -1819,15 +2441,16 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Yes. Through the <b>MET Media Collective</b>, students work on actual briefs from brands, agencies, startups, and non-profits. They create real campaigns, videos, strategies, digital content, and immersive media projects.</p>
+                                <p>Yes. Through the <b>MET Media Collective</b>, students work on actual briefs from
+                                    brands, agencies, startups, and non-profits. They create real campaigns, videos,
+                                    strategies, digital content, and immersive media projects.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingSixteen">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseSixteen" aria-expanded="true"
-                                aria-controls="collapseSixteen">
+                                data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">What are the internship opportunities like?</p>
                                 </div>
@@ -1837,7 +2460,10 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Students undergo a structured internship after Semester 2 with placements in media houses, production studios, advertising agencies, PR firms, OTT platforms, and digital marketing companies. The internship helps students refine skills and gain industry exposure.</p>
+                                <p>Students undergo a structured internship after Semester 2 with placements in media
+                                    houses, production studios, advertising agencies, PR firms, OTT platforms, and
+                                    digital marketing companies. The internship helps students refine skills and gain
+                                    industry exposure.</p>
                             </div>
                         </div>
                     </div>
@@ -1851,11 +2477,14 @@
                                 </div>
                             </button>
                         </p>
-                        <div id="collapseSeventeen" class="accordion-collapse collapse" aria-labelledby="headingSeventeen"
-                            data-bs-parent="#accordionLocationnn">
+                        <div id="collapseSeventeen" class="accordion-collapse collapse"
+                            aria-labelledby="headingSeventeen" data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Depending on the specialization, students can pursue careers in advertising, PR, filmmaking, content creation, journalism, digital marketing, creative technology, AR/VR production, media strategy, brand storytelling, production management, or AI-enabled creative roles.</p>
+                                <p>Depending on the specialization, students can pursue careers in advertising, PR,
+                                    filmmaking, content creation, journalism, digital marketing, creative technology,
+                                    AR/VR production, media strategy, brand storytelling, production management, or
+                                    AI-enabled creative roles.</p>
                             </div>
                         </div>
                     </div>
@@ -1865,7 +2494,8 @@
                                 data-bs-target="#collapseEighteen" aria-expanded="true"
                                 aria-controls="collapseEighteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">Do students need prior technical skills for Creative Technology or Cinematic Storytelling?</p>
+                                    <p class="mb-0">Do students need prior technical skills for Creative Technology or
+                                        Cinematic Storytelling?</p>
                                 </div>
                             </button>
                         </p>
@@ -1873,7 +2503,9 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>No prior expertise is required. All necessary software, production tools, and immersive media platforms are taught from the ground up, with additional support through labs and mentorship.</p>
+                                <p>No prior expertise is required. All necessary software, production tools, and
+                                    immersive media platforms are taught from the ground up, with additional support
+                                    through labs and mentorship.</p>
                             </div>
                         </div>
                     </div>
@@ -1883,7 +2515,8 @@
                                 data-bs-target="#collapseNineteen" aria-expanded="true"
                                 aria-controls="collapseNineteen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What facilities does MET IMM provide for hands-on media training?</p>
+                                    <p class="mb-0">What facilities does MET IMM provide for hands-on media training?
+                                    </p>
                                 </div>
                             </button>
                         </p>
@@ -1891,15 +2524,16 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>Students have access to 4K studios, editing labs, photography labs, sound recording setups, advanced production equipment, immersive media tools, and the MET Media Collective agency space for real-time project work.</p>
+                                <p>Students have access to 4K studios, editing labs, photography labs, sound recording
+                                    setups, advanced production equipment, immersive media tools, and the MET Media
+                                    Collective agency space for real-time project work.</p>
                             </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <p class="accordion-header" id="headingTwenty">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseTwenty" aria-expanded="true"
-                                aria-controls="collapseTwenty">
+                                data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
                                 <div class="d-flex justify-content-start align-items-center">
                                     <p class="mb-0">How does MET IMM support final placements?</p>
                                 </div>
@@ -1909,7 +2543,10 @@
                             data-bs-parent="#accordionLocationnn">
                             <div class="accordion-body info_data_2">
                                 <hr />
-                                <p>The institute’s dedicated Career Management Centre works closely with industry partners and alumni networks. Students graduate with a professional portfolio/playbook, internship experience, and polished job readiness through the Sharpening Process — ensuring strong placement outcomes.</p>
+                                <p>The institute’s dedicated Career Management Centre works closely with industry
+                                    partners and alumni networks. Students graduate with a professional
+                                    portfolio/playbook, internship experience, and polished job readiness through the
+                                    Sharpening Process — ensuring strong placement outcomes.</p>
                             </div>
                         </div>
                     </div>

@@ -114,9 +114,15 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p>
                                     <span class="linetext b-clr">PGP in Mass Communication & Media Management</span><br>
                                 </p>
-                                <p>
-                                    Specializations in Advertising & PR | Entertainment & Events | Journalism & Content Creation | Next-Gen Digital Marketing | Creative Technology & Immersive Media | Cinematic Storytelling
-                                </p>
+                                <p style="font-size: 20px;">Specializations in</p>
+                                <ul style="font-size: 20px;">
+                                    <li>Advertising & PR</li>
+                                    <li>Entertainment & Events</li>
+                                    <li>Journalism & Content Creation</li>
+                                    <li>Next-Gen Digital Marketing</li>
+                                    <li>Creative Technology & Immersive Media</li>
+                                    <li>Cinematic Storytelling</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
