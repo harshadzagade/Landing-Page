@@ -533,7 +533,7 @@ input[type="checkbox"] {
   }
 
   .prg_img img {
-    width: 80%;
+    width: 90%;
   }
 
   .prg_abs {
@@ -1324,90 +1324,98 @@ input[type="checkbox"] {
 
 /* ===================== Training Pedagogy ===================== */
 .pedagogy-sec {
-  padding: 60px 0;
+  padding: 50px 0;
   background: url("../assets/images/adv-mob.webp") center no-repeat;
   margin-top: 0;
   background-size: cover;
 }
 
+/* List layout */
 .pedagogy-list {
-  margin-top: 18px;
+  margin-top: 12px;
   display: grid;
-  gap: 14px;
+  gap: 8px;   /* gap kam */
 }
 
+/* BOX – COMPACT VERSION */
 .pedagogy-item {
   display: flex;
-  gap: 12px;
+  gap: 8px;                 
   align-items: flex-start;
-  padding: 14px 16px;
-  border: 1px solid #ececec;
-  border-radius: 14px;
+  padding: 8px 10px;        /* HEIGHT KAM */
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;       
   background: #fff;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.05);
-  transition: transform .2s ease, box-shadow .2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
 
 .pedagogy-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
 }
 
+/* ICON SMALL */
 .pedagogy-item .check-sign {
-  width: 22px;
-  height: 22px;
+  width: 16px;              
+  height: 16px;
   margin-top: 2px;
   flex: 0 0 auto;
 }
 
+/* TEXT SMALL */
 .pedagogy-item .check-text {
   margin: 0;
-  font-size: 0.98rem;
-  line-height: 1.6;
+  font-size: 0.88rem;       
+  line-height: 1.45;        
   color: #333;
 }
 
-/* Right highlight card */
+/* RIGHT HIGHLIGHT CARD (SAFE, COMPACT) */
 .pedagogy-card {
   height: 100%;
   border: 1px solid #ececec;
-  border-radius: 18px;
-  padding: 22px;
+  border-radius: 12px;
+  padding: 16px;
   background: #f8f8f8;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05);
 }
 
 .pedagogy-card h5 {
-  font-weight: 800;
-  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-bottom: 6px;
 }
 
 .pedagogy-card p {
   color: #555;
-  line-height: 1.6;
-  margin-bottom: 12px;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
 }
 
 .pedagogy-card ul {
-  padding-left: 18px;
-  margin: 0 0 18px;
+  padding-left: 16px;
+  margin: 0 0 12px;
   color: #444;
+  font-size: 0.9rem;
 }
 
 .pedagogy-card li {
-  margin-bottom: 8px;
-  line-height: 1.5;
+  margin-bottom: 6px;
+  line-height: 1.4;
 }
 
 .pedagogy-btn {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding: 12px 14px;
+  padding: 10px 12px;
   border-radius: 999px;
   background: #000;
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 0.9rem;
   text-decoration: none;
   transition: opacity .2s ease;
 }
@@ -1416,18 +1424,18 @@ input[type="checkbox"] {
   opacity: 0.9;
 }
 
-/* Responsive */
+/* RESPONSIVE */
 @media (max-width: 576px) {
   .pedagogy-sec {
     padding: 40px 0;
   }
 
   .pedagogy-item {
-    padding: 12px 14px;
+    padding: 8px 10px;
   }
 
   .pedagogy-item .check-text {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 }
 

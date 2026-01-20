@@ -433,7 +433,9 @@
 <section class="vvip-sec nav-link" id="vvips-imm">
     <div class="container">
         <div class="row g-4">
-
+        <div class="sec_title text-start">
+                    <h2><span>Advisory Board</span></h2>
+                </div>
             <!-- CARD 1 -->
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="vvip-card">
