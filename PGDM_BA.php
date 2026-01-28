@@ -214,7 +214,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                                 <label for="privacy"> I agree to receive information</label>
                                             </div>
-                                        </div> -->
+                                        </div>
                                         <input type="hidden" name="page_name" value="PGDMB">
                                         <input type="hidden" name="utm_source" value="<?php // echo $utm_source ?>">
                                         <input type="hidden" name="utm_medium" value="<?php // echo $utm_medium ?>">
@@ -230,7 +230,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                         <input type="hidden" name="gclid" value="<?php // echo $gclid ?>">
                                         <input type="hidden" name="fbclid" value="<?php // echo $fbclid ?>">
                                         <input type="hidden" name="url" value="<?php // echo $url ?>">
-                                        <!-- <button type="submit" class="form-btn round-btn text-center d-inline btn-submit-1"
+                                        <button type="submit" class="form-btn round-btn text-center d-inline btn-submit-1"
                                             href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                         </button>
                                     </div>
