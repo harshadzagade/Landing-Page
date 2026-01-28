@@ -126,7 +126,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
                     'LeadType' => "Digital Paid",
-                    'LeadSource' => "LogicLoop",
+                    'LeadSource' => "LL_Branding",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
