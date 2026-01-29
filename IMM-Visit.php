@@ -26,27 +26,27 @@ if (isset($_POST['Course'])) {
     switch ($_POST['Course']) {
         case "PGP MCMM - Advertising & PR":
             $programme_name = 'PGP MCMM - Advertising & PR';
-            $extraegde_id ='28';
+            $extraegde_id = '28';
             break;
         case "PGP MCMM - Entertainment & Events":
             $programme_name = 'PGP MCMM - Entertainment & Events';
-            $extraegde_id ='29';
+            $extraegde_id = '29';
             break;
         case "PGP MCMM - Journalism & Content Creation":
             $programme_name = 'PGP MCMM - Journalism & Content Creation';
-            $extraegde_id ='31';
+            $extraegde_id = '31';
             break;
         case "PGP MCMM - Next-Gen Digital Marketing":
             $programme_name = 'PGP MCMM - Next-Gen Digital Marketing';
-            $extraegde_id ='30';
+            $extraegde_id = '30';
             break;
         case "PGP MCMM - Creative Technology & Immersive Media":
             $programme_name = 'PGP MCMM - Creative Technology & Immersive Media';
-            $extraegde_id ='156';
+            $extraegde_id = '156';
             break;
         case "PGP MCMM - Cinematic Storytelling":
             $programme_name = 'PGP MCMM - Cinematic Storytelling';
-            $extraegde_id ='163';
+            $extraegde_id = '163';
             break;
     }  //  Displaying Selected Value
 }
@@ -63,7 +63,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}else {
+} else {
     echo "Database connection established successfully!";
 }
 
@@ -118,7 +118,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/e/1FAIpQLSdNQa9ffYLIdmqcQ-BzXmmaj_Br1fDGW8t0QzlgcHvrD8f5yQ/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSdfJNuCYx9hvHkOQjaHspQw9gyzeh19gFn-KD6xRYIJg5uGuQ/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -140,12 +140,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
-                'entry.1083883795' => $utm_content,
-                'entry.419177250' => $utm_keyword,
-                'entry.981440918' => $utm_adposition,
-                'entry.249485828' => $utm_placement,
-                'entry.1712193093' => $utm_matchtype,
-                'entry.164262656' => $utm_creative,
+                'entry.1175826796' => $utm_content,
+                'entry.1260444939' => $utm_keyword,
+                'entry.372368334' => $utm_adposition,
+                'entry.1501046149' => $utm_placement,
+                'entry.1676527481' => $utm_matchtype,
+                'entry.1972015359' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
@@ -160,7 +160,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    'LeadName' => $page_name, 
+                    'LeadName' => $page_name,
                     'LeadType' => "Digital Paid",
                     'LeadSource' => "LogicLoop",
                     'Location' => $extraegde_id,
@@ -180,7 +180,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     // '' => $fbclid,
                     // '' => $url,
                 ]
-            
+
             )
         ];
 

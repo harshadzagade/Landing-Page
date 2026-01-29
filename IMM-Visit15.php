@@ -110,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/e/1FAIpQLSeoVCr1fJ03gq5ogwXSRy9B1uPmAAahjNUZ4s8xuswLB9q28Q/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLScMlD-WcMH1ChG0piSgw3znkYoiyq4_rK2d8hu8WJz2vwQ_iQ/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -132,12 +132,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
-                'entry.1083883795' => $utm_content,
-                'entry.419177250' => $utm_keyword,
-                'entry.981440918' => $utm_adposition,
-                'entry.249485828' => $utm_placement,
-                'entry.1712193093' => $utm_matchtype,
-                'entry.164262656' => $utm_creative,
+                'entry.1175826796' => $utm_content,
+                'entry.1260444939' => $utm_keyword,
+                'entry.372368334' => $utm_adposition,
+                'entry.1501046149' => $utm_placement,
+                'entry.1676527481' => $utm_matchtype,
+                'entry.1972015359' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
