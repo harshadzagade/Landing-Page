@@ -85,7 +85,7 @@ $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, prog
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/e/1FAIpQLSfDXnuoV3vkBWeHf87DzckXhSSh-zYug6tk92GF1vltg05X3A/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSf6F6z3fRr8wSBO1c9wqCyEmuY6s22auyXNy3qD-9bJQQOoBA/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -107,12 +107,12 @@ $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, prog
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
-                'entry.747358162' => $utm_content,
-                'entry.263783310' => $utm_keyword,
-                'entry.394402962' => $utm_adposition,
-                'entry.1779647436' => $utm_placement,
-                'entry.2130289848' => $utm_matchtype,
-                'entry.509972424' => $utm_creative,
+                'entry.1121253959' => $utm_content,
+                'entry.246802155' => $utm_keyword,
+                'entry.952099601' => $utm_adposition,
+                'entry.892284035' => $utm_placement,
+                'entry.1530090448' => $utm_matchtype,
+                'entry.1782695232' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
