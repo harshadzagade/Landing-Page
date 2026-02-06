@@ -171,16 +171,19 @@
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
+                        <p class="check-text">Two Decades in Media Education</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Silver Award in the ‘Digital Media School’ category at the Edutainment
-                            Awards 2024.</p>
+                        <p class="check-text">
+                            Inhouse 4K studio complex - Shooting Floor, Editing Suite, Recording Studio
+                        </p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Media Collective: Mumbai’s First Ever Campus Media Agency</p>
+                        <p class="check-text">
+                            Professionals as Professors
+                        </p>
                     </div>
                     <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -188,25 +191,34 @@
                     </div> -->
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET offers state-of-the-art e-enabled infrastructure, including fully
-                            equipped classrooms, a comprehensive library, and a 4K camera step-up studio complex.</p>
+                        <p class="check-text">
+                            MET Media Collective: Mumbai’s First Ever Campus Media Agency
+                        </p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Excellent placement, Strong Alumni Base</p>
+                        <p class="check-text">
+                            Holistic approach based on the 3 A’s of Media Education – ‘Acquire, Assemble and Apply’
+                        </p>
                     </div>
-                    <!-- <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Learn and Apply pedagogy</p>
-                           </div>
-                          <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Trimester-based programme</p>
-                           </div>
-                           <div class="pgdm-checksign">
-                               <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                               <p class="check-text">Robust and concurrent syllabus</p>
-                           </div> -->
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            MET IMM (under the aegis of MET Schools of Management) has been awarded the overall DIAMOND rating by QS I-GAUGE
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            MET is recognised as a ‘Prestigious Education Brands 2024-25’ by Marksmendaily.
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            Won the Silver Award in ‘Best Digital Media School’ category all India by the Edutainment Awards 2024
+                        </p>
+                    </div>
                     <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">State-of-the-art infrastructure</p>
@@ -433,9 +445,9 @@
 <section class="vvip-sec nav-link" id="vvips-imm">
     <div class="container">
         <div class="row g-4">
-        <div class="sec_title text-start">
-                    <h2><span>Advisory Board</span></h2>
-                </div>
+            <div class="sec_title text-start">
+                <h2><span>Advisory Board</span></h2>
+            </div>
             <!-- CARD 1 -->
             <div class="col-xl-3 col-lg-4 col-md-6 col-12">
                 <div class="vvip-card">
