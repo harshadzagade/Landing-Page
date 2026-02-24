@@ -11,12 +11,7 @@ $utm_medium = $_POST['utm_medium'];
 $utm_campaign = $_POST['utm_campaign'];
 $utm_adgroup = $_POST['utm_adgroup'];
 $utm_device = $_POST['utm_device'];
-$utm_content = $_POST['utm_content'];
-$utm_keyword = $_POST['utm_keyword'];
-$utm_adposition = $_POST['utm_adposition'];
-$utm_placement = $_POST['utm_placement'];
-$utm_matchtype = $_POST['utm_matchtype'];
-$utm_creative = $_POST['utm_creative'];
+$utm_term = $_POST['utm_term'];
 $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
@@ -26,27 +21,19 @@ if (isset($_POST['Course'])) {
     switch ($_POST['Course']) {
         case "PGP MCMM - Advertising & PR":
             $programme_name = 'PGP MCMM - Advertising & PR';
-            $extraegde_id = '28';
+            $extraegde_id ='28';
             break;
-        case "PGP MCMM - Entertainment & Events":
-            $programme_name = 'PGP MCMM - Entertainment & Events';
-            $extraegde_id = '29';
+        case "PGP MCMM - Entertainment":
+            $programme_name = 'PGP MCMM - Entertainment';
+            $extraegde_id ='29';
             break;
-        case "PGP MCMM - Journalism & Content Creation":
-            $programme_name = 'PGP MCMM - Journalism & Content Creation';
-            $extraegde_id = '31';
+        case "PGP MCMM - Journalism":
+            $programme_name = 'PGP MCMM - Journalism';
+            $extraegde_id ='31';
             break;
-        case "PGP MCMM - Next-Gen Digital Marketing":
-            $programme_name = 'PGP MCMM - Next-Gen Digital Marketing';
-            $extraegde_id = '30';
-            break;
-        case "PGP MCMM - Creative Technology & Immersive Media":
-            $programme_name = 'PGP MCMM - Creative Technology & Immersive Media';
-            $extraegde_id = '156';
-            break;
-        case "PGP MCMM - Cinematic Storytelling":
-            $programme_name = 'PGP MCMM - Cinematic Storytelling';
-            $extraegde_id = '163';
+        case "PGP MCMM - Digital Marketing":
+            $programme_name = 'PGP MCMM - Digital Marketing';
+            $extraegde_id ='30';
             break;
     }  //  Displaying Selected Value
 }
@@ -63,7 +50,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} else {
+}else {
     echo "Database connection established successfully!";
 }
 
@@ -91,25 +78,20 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $utm_campaign = $conn->real_escape_string($_POST['utm_campaign']);
     $utm_adgroup = $conn->real_escape_string($_POST['utm_adgroup']);
     $utm_device = $conn->real_escape_string($_POST['utm_device']);
-    $utm_content = $conn->real_escape_string($_POST['utm_content']);
-    $utm_keyword = $conn->real_escape_string($_POST['utm_keywords']);
-    $utm_adposition = $conn->real_escape_string($_POST['utm_adposition']);
-    $utm_placement = $conn->real_escape_string($_POST['utm_placement']);
-    $utm_matchtype = $conn->real_escape_string($_POST['utm_matchtype']);
-    $utm_creative = $conn->real_escape_string($_POST['utm_creative']);
+    $utm_term = $conn->real_escape_string($_POST['utm_term']);
     $gclid = $conn->real_escape_string($_POST['gclid']);
     $fbclid = $conn->real_escape_string($_POST['fbclid']);
     $url = $conn->real_escape_string($_POST['url']);
 
     // SQL query to insert data
-    $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, utm_content, utm_keyword, utm_adposition, utm_placement, utm_matchtype, utm_creative, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$utm_content', '$utm_keyword', '$utm_adposition', '$utm_placement', '$utm_matchtype', '$utm_creative', '$gclid', '$fbclid', '$url')";
+    $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$gclid', '$fbclid', '$url')";
 
     // Execute the query and check for success
     if ($conn->query($sql) === TRUE) {
         // echo "Data submitted successfully!";
         // URLs to be requested
         $urls = [
-            'https://docs.google.com/forms/d/e/1FAIpQLSdfJNuCYx9hvHkOQjaHspQw9gyzeh19gFn-KD6xRYIJg5uGuQ/formResponse',
+            'https://docs.google.com/forms/d/e/1FAIpQLSdNQa9ffYLIdmqcQ-BzXmmaj_Br1fDGW8t0QzlgcHvrD8f5yQ/formResponse',
             'https://thirdpartyapi.extraaedge.com/api/SaveRequest'
         ];
 
@@ -131,12 +113,12 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 'entry.1541579396' => $utm_adgroup,
                 'entry.1378479939' => $utm_device,
                 'entry.1060400701' => $utm_term,
-                'entry.1175826796' => $utm_content,
-                'entry.1260444939' => $utm_keyword,
-                'entry.372368334' => $utm_adposition,
-                'entry.1501046149' => $utm_placement,
-                'entry.1676527481' => $utm_matchtype,
-                'entry.1972015359' => $utm_creative,
+                'entry.403620755' => $utm_content,
+                'entry.1452753937' => $utm_keyword,
+                'entry.1392899682' => $utm_adposition,
+                'entry.361234515' => $utm_placement,
+                'entry.682284697' => $utm_matchtype,
+                'entry.1512719542' => $utm_creative,
                 'entry.1268481534' => $gclid,
                 'entry.1550907532' => $fbclid,
                 'entry.1948316156' => $url,
@@ -151,19 +133,14 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    'LeadName' => $page_name,
+                    'LeadName' => $page_name, 
                     'LeadType' => "Digital Paid",
                     'LeadSource' => "LogicLoop",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
                     'leadCampaign' => $utm_campaign,
-                    'leadChannel' => $utm_content,
-                    'Entity4' => $utm_keyword,
-                    'Field9' => $utm_adposition,
-                    'Field11' => $utm_placement,
-                    'Field2' => $utm_matchtype,
-                    'Field4' => $utm_creative,
+                    'leadChannel' => $utm_term,
                     // 'Field9' => $utm_adgroup,
                     'Field10' => $utm_device,
                     // '' => $utm_term,
@@ -171,7 +148,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     // '' => $fbclid,
                     // '' => $url,
                 ],
-
+            
             )
         ];
 
