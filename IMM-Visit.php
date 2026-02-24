@@ -91,9 +91,8 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $utm_campaign = $conn->real_escape_string($_POST['utm_campaign']);
     $utm_adgroup = $conn->real_escape_string($_POST['utm_adgroup']);
     $utm_device = $conn->real_escape_string($_POST['utm_device']);
-  //  $utm_term = $conn->real_escape_string($_POST['utm_term']);
     $utm_content = $conn->real_escape_string($_POST['utm_content']);
-    $utm_keyword = $conn->real_escape_string($_POST['utm_keyword']);
+    $utm_keyword = $conn->real_escape_string($_POST['utm_keywords']);
     $utm_adposition = $conn->real_escape_string($_POST['utm_adposition']);
     $utm_placement = $conn->real_escape_string($_POST['utm_placement']);
     $utm_matchtype = $conn->real_escape_string($_POST['utm_matchtype']);
@@ -101,14 +100,6 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $gclid = $conn->real_escape_string($_POST['gclid']);
     $fbclid = $conn->real_escape_string($_POST['fbclid']);
     $url = $conn->real_escape_string($_POST['url']);
-
-
-    // Utm content - entry.1083883795
-    // utm_keyword - entry.419177250
-    // utm_adposition - entry.981440918
-    // utm_placement - entry.249485828
-    // utm_matchtype - entry.1712193093
-    // utm_creative - entry.164262656
 
     // SQL query to insert data
     $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, utm_content, utm_keyword, utm_adposition, utm_placement, utm_matchtype, utm_creative, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$utm_content', '$utm_keyword', '$utm_adposition', '$utm_placement', '$utm_matchtype', '$utm_creative', '$gclid', '$fbclid', '$url')";
@@ -179,7 +170,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     // '' => $gclid,
                     // '' => $fbclid,
                     // '' => $url,
-                ]
+                ],
 
             )
         ];
