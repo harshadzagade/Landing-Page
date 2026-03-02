@@ -21,19 +21,27 @@ if (isset($_POST['Course'])) {
     switch ($_POST['Course']) {
         case "PGP MCMM - Advertising & PR":
             $programme_name = 'PGP MCMM - Advertising & PR';
-            $extraegde_id ='28';
+            $extraegde_id = '28';
             break;
-        case "PGP MCMM - Entertainment":
-            $programme_name = 'PGP MCMM - Entertainment';
-            $extraegde_id ='29';
+        case "PGP MCMM - Entertainment & Events":
+            $programme_name = 'PGP MCMM - Entertainment & Events';
+            $extraegde_id = '29';
             break;
-        case "PGP MCMM - Journalism":
-            $programme_name = 'PGP MCMM - Journalism';
-            $extraegde_id ='31';
+        case "PGP MCMM - Journalism & Content Creation":
+            $programme_name = 'PGP MCMM - Journalism & Content Creation';
+            $extraegde_id = '31';
             break;
-        case "PGP MCMM - Digital Marketing":
-            $programme_name = 'PGP MCMM - Digital Marketing';
-            $extraegde_id ='30';
+        case "PGP MCMM - Next-Gen Digital Marketing":
+            $programme_name = 'PGP MCMM - Next-Gen Digital Marketing';
+            $extraegde_id = '30';
+            break;
+        case "PGP MCMM - Creative Technology & Immersive Media":
+            $programme_name = 'PGP MCMM - Creative Technology & Immersive Media';
+            $extraegde_id = '156';
+            break;
+        case "PGP MCMM - Cinematic Storytelling":
+            $programme_name = 'PGP MCMM - Cinematic Storytelling';
+            $extraegde_id = '163';
             break;
     }  //  Displaying Selected Value
 }
@@ -50,7 +58,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-}else {
+} else {
     echo "Database connection established successfully!";
 }
 
@@ -133,7 +141,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'City' => $city,
                     'highestQualification' => $qualification,
                     'Course' => $institute_name,
-                    'LeadName' => $page_name, 
+                    'LeadName' => $page_name,
                     'LeadType' => "Digital Paid",
                     'LeadSource' => "LogicLoop",
                     'Location' => $extraegde_id,
