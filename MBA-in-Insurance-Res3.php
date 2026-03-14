@@ -82,8 +82,8 @@
                     Our Counsellor will get in touch with you shortly.
                 </p>
                 <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a
-                        href="assets/pdf/CII-Handout-2025.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/CII-Handout-2025.pdf" download>Download PDF</a>
+                        href="assets/pdf/MBA-Insurance_handout.pdf" download>click here</a>.</p>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/MBA-Insurance_handout.pdf" download>Download PDF</a>
             </div>
         </section>
     </main>
@@ -94,7 +94,7 @@
             <div class="row">
                 <div class="footer-text">
                     <p class="footer-p">
-                        Copyright © 2025 MET. All rights reserved
+                        Copyright © 2026 MET. All rights reserved
                     </p>
                 </div>
             </div>
