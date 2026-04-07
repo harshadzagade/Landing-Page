@@ -1915,6 +1915,56 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingtwentytwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsetwentytwo" aria-expanded="true"
+                                aria-controls="collapsetwentytwo">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">PGDM</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapsetwentytwo" class="accordion-collapse collapse"
+                            aria-labelledby="headingtwentytwo" data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>mh cet colleges, mba colleges, pgdm operations, mba colleges, mah mba mms 
+                                    cet, management colleges in mumbai, mba courses in mumbai, mba college 
+                                    in mumbai, mba admissions, mba in Operations, mba colleges in mumbai, 
+                                    mba in Hr, met application, mumbai educational trust met, management 
+                                    colleges in mumbai, list of management colleges in mumbai, 
+                                    best colleges in mumbai for mba, mba colleges in mumbai, 
+                                    mba in marketing management, mba college in bandra, 
+                                    list of management colleges in mumbai, mba admission 2026, 
+                                    met university mumbai, metbkc, 
+                                    met league of colleges, pgdm in human resource management, 
+                                    metbkc, met institute of management cost, cet colleges in mumbai, 
+                                    business management colleges in mumbai, met mba college fees, 
+                                    met institute of management mba fees, met mba fees, 
+                                    mumbai educational trust met, mba in Human resources, 
+                                    met league of colleges, top mba college, mba college in mumbai, 
+                                    met bhujbal mumbai, met mumbai average package, 
+                                    met institute of management cost, 
+                                    pgdm in human resource management, sies mba college, 
+                                    met college in mumbai, mba colleges thane, 
+                                    met mumbai fees, met college in mumbai, management institutes in mumbai, 
+                                    cet colleges in mumbai, mba in Hr, met mumbai average package, 
+                                    mba college in bandra, cmat accepting colleges, 
+                                    top mba colleges in maharashtra, 
+                                    top 10 mba colleges in mumbai, 
+                                    mba colleges accepting cat score, met college fees, 
+                                    mumbai educational trust bandra, mumbai educational trust, 
+                                    met bhujbal knowledge city courses, cmat accepting colleges in mumbai, 
+                                    mat accepting colleges, cmat accepting colleges, 
+                                    atma accepting colleges in mumbai, colleges accepting xat score, 
+                                    mba colleges accepting gmat score, Cat mba colleges, MBA MAH CET, 
+                                    Top mah cet mba colleges, mah cet mba colleges, mah cet colleges, 
+                                    top mba colleges in maharashtra, top 10 mba colleges in mumbai, 
+                                    top mba college</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
