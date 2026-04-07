@@ -1926,6 +1926,28 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingtwentytwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsetwentytwo" aria-expanded="true"
+                                aria-controls="collapsetwentytwo">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">
+                                        IIS
+                                    </p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapsetwentytwo" class="accordion-collapse collapse"
+                            aria-labelledby="headingtwentytwo" data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>
+                                    international business course in London, international business course, bba in international business, international business degrees, international business management studies, bba in international business
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
