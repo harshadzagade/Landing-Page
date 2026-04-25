@@ -1915,7 +1915,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <!-- <div class="accordion-item">
                         <p class="accordion-header" id="headingtwentytwo">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsetwentytwo" aria-expanded="true"
@@ -1964,7 +1964,7 @@
                                     top mba college</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
