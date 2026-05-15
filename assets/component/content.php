@@ -1570,7 +1570,7 @@
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/call.svg" alt="">
                                                 <p class="check-text1">Phone No.: 7208006694, 7208006695, 8451907258,
-                                                    9967181380</p>
+                                                    9967181380, 9136425329</p>
                                             </div>
                                             <div class="pgdm-checksign">
                                                 <img class="check-sign1" src="assets/images/icons/mail.svg" alt="">
