@@ -17,8 +17,8 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
-                    <h3><span class="counter">Diamond Rating</span></h3>
-                    <p>By QS I-GAUGE Indian College Rating</p>
+                    <h3><span class="counter">NBA Accredited</span></h3>
+                    <p>PGDM Programme</p>
                 </div>
             </div>
         </div>
@@ -141,6 +141,46 @@
 
 <!---------------- Specialisations section -------------->
 
+<!---------------- National Board of Accreditation (NBA) -------------->
+
+<section id="sectionabout" style="padding:70px 0;background:#f9f9f9;">
+    <div class="container">
+
+        <div style="max-width:900px;margin:auto;">
+
+            <!-- Heading -->
+            <h2 style="font-size:42px;font-weight:700;color:#111;margin-top:20px;line-height:1.3;">
+                <span style="color:#E31E24;">NBA Accredited</span> PGDM Programme
+            </h2>
+
+            <!-- Line -->
+            <div style="width:80px;height:4px;background:#E31E24;margin:18px 0 25px;border-radius:10px;"></div>
+
+            <!-- Highlight Box -->
+            <div style="background:#fff;padding:22px;border-left:5px solid #E31E24;border-radius:12px;box-shadow:0 5px 15px rgba(0,0,0,0.08);margin-bottom:25px;">
+
+                <p style="margin:0;font-size:17px;color:#222;line-height:1.8;">
+                    <b>PGDM programme at MET Institute of PGDM is accredited by National Board of Accreditation (NBA)</b>
+                </p>
+
+            </div>
+
+            <!-- Paragraphs -->
+            <p style="font-size:16px;line-height:1.9;color:#555;margin-bottom:18px;">
+                National Board of Accreditation (NBA) accreditation reflects a strong commitment to academic excellence, industry relevance, and continuous improvement in technical and professional education. It signifies that a programme meets established quality benchmarks designed to enhance student learning outcomes and career readiness.
+            </p>
+            <br>
+            <p style="font-size:16px;line-height:1.9;color:#555;">
+                For a PGDM programme, NBA accreditation serves as a recognition of high academic standards, a robust curriculum, experienced faculty, and industry-aligned learning practices. It reinforces the programme’s focus on developing future-ready management professionals equipped with practical business knowledge and leadership capabilities.
+            </p>
+
+        </div>
+
+    </div>
+</section>
+
+<!---------------- National Board of Accreditation (NBA) -------------->
+<br><br>
 <!--------------- Advantages section ------------------->
 
 <section class="adv__sec" id="advMET">
@@ -151,6 +191,10 @@
                     <h2><span>Advantage</span> MET</h2>
                 </div>
                 <div class="pgdm-gap1">
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">PGDM programme at MET Institute of PGDM is accredited by National Board of Accreditation (NBA)</p>
+                    </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">MET is proud to be certified as an Institute of Happiness by QS I-GAUGE for 2025-26.</p>
