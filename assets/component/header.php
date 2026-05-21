@@ -9,7 +9,7 @@
 
             <div class="navbar-links">
                 <div class="navbar-link">
-                    <a href="#sectionabout" class="nav-link">About DACA</a>
+                    <a href="#sectionabout" class="nav-link">About CCACA</a>
                 </div>
 
                 <div class="navbar-link">
@@ -72,7 +72,7 @@
     <div class="offcanvas-body">
         <div class="offcanvas-navs">
             <div class="offcanvas-nav">
-                <a href="#sectionabout" class="offcanvas-link">About DACA</a>
+                <a href="#sectionabout" class="offcanvas-link">About CCACA</a>
             </div>
 
             <div class="offcanvas-nav">

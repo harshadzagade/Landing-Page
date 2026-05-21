@@ -101,7 +101,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">Diploma in Advanced Computer Arts (DACA)</span><br>
+                                    <span class="linetext b-clr">Certificate Course In Advanced Computer Arts (CCACA)</span><br>
                                 </p>
                                 <p>Web Design | UI & UX | 2D & 3D Animation | Graphic Designing | Product modelling</p>
                             </div>

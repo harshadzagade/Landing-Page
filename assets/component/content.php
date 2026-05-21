@@ -40,7 +40,7 @@
                     <h2><span>About</span> Programme</h2>
                 </div>
                 <div class="info_data">
-                    <p>The Diploma in Advanced Computer Arts (DACA) offered by the MET Institute of Information
+                    <p>The Certificate Course In Advanced Computer Arts (CCACA) offered by the MET Institute of Information
                         Technology is a comprehensive one-year diploma designed to provide aspiring professionals with
                         specialized training in digital design, animation, video editing, and multimedia
                         communication.<br><br>
@@ -178,7 +178,7 @@
                             data-bs-parent="#accordionLocation">
                             <div class="accordion-body info_data">
                                 <hr />
-                                <p>The DACA programme offers comprehensive training in the following specialised areas:
+                                <p>The CCACA programme offers comprehensive training in the following specialised areas:
                                 </p>
                                 <ul>
                                     <li><b>Graphic Design</b>: Visual communication through tools like Adobe Photoshop,
@@ -275,7 +275,7 @@
                                 <div class="takeaways-head info_data_2">
                                     <strong class="takeaways-title">Comprehensive Skill Development</strong>
                                     <p class="takeaways-subtitle">
-                                        The DACA course offers a comprehensive skill development program, equipping you
+                                        The CCACA course offers a comprehensive skill development program, equipping you
                                         with the necessary expertise in areas such as Image Editing (Graphic Design), UX
                                         Design for Mobile Apps, UI, Web Design, and Digital Media.
                                     </p>
@@ -328,7 +328,7 @@
                                 <div class="takeaways-head info_data_2">
                                     <strong class="takeaways-title">Portfolio Development</strong>
                                     <p class="takeaways-subtitle">
-                                        The DACA course emphasizes the development of your portfolio, allowing you to
+                                        The CCACA course emphasizes the development of your portfolio, allowing you to
                                         showcase your creative and graphic media talents. A well-crafted portfolio will
                                         enhance your credibility and attractiveness to potential employers or clients.
                                     </p>
@@ -362,7 +362,7 @@
                                     <strong class="takeaways-title">Informal and Interactive Learning
                                         Environment</strong>
                                     <p class="takeaways-subtitle">
-                                        The DACA course fosters an informal and interactive learning environment. This
+                                        The CCACA course fosters an informal and interactive learning environment. This
                                         encourages collaboration, idea sharing, and networking opportunities with fellow
                                         students, creating a dynamic and engaging educational experience.
                                     </p>
@@ -416,7 +416,7 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Tanuja Dhakar</h5>
-                                <span class="text-secondary">Alumni DACA, MET IIT</span>
+                                <span class="text-secondary">Alumni CCACA, MET IIT</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
@@ -424,7 +424,7 @@
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
                             <p class="card-text-testimonial">"After a diploma and an internship, I found clarity through
-                                the <b>DACA course at MET IIT</b>.
+                                the <b>CCACA course at MET IIT</b>.
                                 From 2D & 3D design to real industry exposure, I grew as a designer and as a
                                 person.<br>
                                 Forever grateful to my mentors and MET for helping me discover my path!"
@@ -439,14 +439,14 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Vaibhavi Kate</h5>
-                                <span class="text-secondary">Alumni DACA, MET IIT</span>
+                                <span class="text-secondary">Alumni CCACA, MET IIT</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
                             </div>
                         </div>
                         <div class="text-testimonial info_data_2 mt-3">
-                            <p class="card-text-testimonial">“The <b>DACA course at MET IIT</b> gave me more than design
+                            <p class="card-text-testimonial">“The <b>CCACA course at MET IIT</b> gave me more than design
                                 skills—it gave me clarity, confidence, and unforgettable memories. From PowerPoint to
                                 Premiere Pro, Photoshop to Figma, every module pushed me to grow. The faculty stood by
                                 me like mentors and motivators, helping build not just portfolios, but lifelong skills.”
@@ -461,7 +461,7 @@
                             </div>
                             <div>
                                 <h5 class="card-title">Sameer Shivram Redka</h5>
-                                <span class="text-secondary">Alumni DACA, MET IIT</span>
+                                <span class="text-secondary">Alumni CCACA, MET IIT</span>
                             </div>
                             <div class="svg-icon-testimonial">
                                 <img class="svg-img" src="assets/images/icons/quotes.svg" alt="svg-icon">
@@ -523,7 +523,7 @@
 
                             <div class="info_data_2">
                                 <p><b>Register and Apply Online:</b><br>
-                                    Click on the registration link to apply for the DACA course and provide your basic
+                                    Click on the registration link to apply for the CCACA course and provide your basic
                                     personal and educational details.
                                 </p>
                             </div>
@@ -787,7 +787,7 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
                                 <div class="d-flex justify-content-start align-items-center">
-                                    <p class="mb-0">What is the duration of the DACA programme?</p>
+                                    <p class="mb-0">What is the duration of the CCACA programme?</p>
                                 </div>
                             </button>
                         </p>

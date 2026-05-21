@@ -114,7 +114,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                     <div class="head-line"></div>
                                 </div>
                                 <p>
-                                    <span class="linetext b-clr">Diploma in Advanced Computer Arts (DACA)</span><br>
+                                    <span class="linetext b-clr">Certificate Course In Advanced Computer Arts (CCACA)</span><br>
                                 </p>
                                 <br>
                                 <p>
