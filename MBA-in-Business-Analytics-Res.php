@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PGP in Strategic Business Analytics Program - MET AMDC | Management Courses in Mumbai | Top MBA/PG College
+        <title>PGP MBA in Business Analytics Program - MET AMDC | Management Courses in Mumbai | Top MBA/PG College
     </title>
     <meta name="description"
         content="Study at MET AMDC, top MBA/PG College in Mumbai for Management Courses, offers fulltime campus based eMBA, eMBA - Finance (BFSI) progarms focusing on Global Perspective, Quality Education, Best Faculty & Placements.">
