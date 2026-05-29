@@ -193,6 +193,10 @@
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">MET Institute of PGDM ranked 4th Top Institute in Mumbai offering PGDM Programs by Mid-day B-School Survey 2026.</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">PGDM programme at MET Institute of PGDM is accredited by National Board of Accreditation (NBA)</p>
                     </div>
                     <div class="pgdm-checksign">
