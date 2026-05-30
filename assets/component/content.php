@@ -588,6 +588,30 @@
 <br>
 <!--------------- MET Media Collective section ------------------->
 
+<!--------------- Collaboration with Chlorosynth ------------------->
+
+<section class="mmc-sec nav-link" id="met-media-collective">
+    <div class="container">
+        <div class="row align-items-start g-4">
+            <div class="col-lg-12">
+                <div class="sec_title text-start">
+                    <h2><span>Collaboration with Chlorosynth</span></h2>
+                </div>
+
+                <p class="mmc-text">
+                    The Institute has collaborated with Clorosynth, founded by Tridib Ghosh, an AI-powered branding, strategy, and creative studio with expertise spanning advertising, UX/UI, design thinking, and Generative AI.
+                </p>
+                <p class="mmc-text">
+                    This strategic collaboration marks an important step towards building a future-ready learning ecosystem where Artificial Intelligence becomes an integral part of media, communication, journalism, advertising, branding, and content creation education.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<!--------------- Collaboration with Chlorosynth ------------------->
+
 <!---------------- Life @ MET IMM section -------------->
 
 <section class="life-imm" id="life-imm">
