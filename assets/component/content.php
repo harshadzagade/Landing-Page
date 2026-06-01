@@ -1,2674 +1,2674 @@
-                                                            <style>
-    /* Scoped Typography & Base Container */
-    .mca-page-container {
-        color: #1e293b;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: clamp(20px, 5vw, 40px) 20px;
-        box-sizing: border-box;
-        /* background: linear-gradient(180deg, #ffffff 0%, #fcfdfd 60%, #f8fafc 100%); */
-    }
+<!------------------- Legacy section ----------------->
+<section class="legcy">
+    <div class="custom-container-2">
+        <div class="banner-legacy ">
+            <div class="row mr0 about-sec align-items-center justify-content-center">
+                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                    <h3>₹8 LPA</h3>
+                    <p>Highest Salary</p>
+                </div>
+                <div class="col-lg-5 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                    <h3>Edutainment Show</h3>
+                    <p>Silver Award in ‘Digital Media School’ Category</p>
+                </div>
+                <!-- <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                    <h3>MarTech, FinTech, M & E</h3>
+                    <p>Add-On Specializations</p>
+                </div> -->
 
-    .mca-page-container p {
-        color: #475569;
-        /* Elegant slate-gray */
-        font-weight: 400 !important;
-        /* Force regular weight */
-        font-size: clamp(14.5px, 2.5vw, 16px);
-        line-height: 1.75;
-        margin-top: 0;
-        margin-bottom: 24px;
-    }
+                <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
+                    <h3><span class="counter">100</span>+</h3>
+                    <p>Recruiting Media Houses</p>
+                </div>
+            </div>
+        </div>
+</section>
+<!------------------- Legacy section ----------------->
 
-    .mca-page-container h4 {
-        color: #0f172a;
-        /* Dark slate */
-        font-weight: 800;
-        font-size: clamp(18px, 3vw, 22px);
-        margin-top: 40px;
-        margin-bottom: 18px;
-        line-height: 1.35;
-        position: relative;
-    }
 
-    .mca-page-container a {
-        color: #E31E24;
-        /* Brand Red */
-        text-decoration: none;
-        font-weight: 700;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
-    }
+<!---------------- Specializations section -------------->
 
-    .mca-page-container a:hover {
-        color: #b81116;
-    }
+<section class="nav-link" id="Specializations">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>Specializations with AI-Integrated</span></h2>
+                </div>
+            </div>
+        </div>
 
-    /* THE MET ADVANTAGE */
-    .advantage-section {
-        width: 100%;
-        max-width: 900px;
-        margin: 50px auto;
-        padding: clamp(24px, 5vw, 45px);
-        background: #ffffff;
-        border-radius: 20px;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.02), 0 2px 10px rgba(0, 0, 0, 0.01);
-        border: 1px solid rgba(227, 30, 36, 0.05);
-        box-sizing: border-box;
-    }
+        <div class="row g-4">
 
-    .advantage-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(24px, 3.5vw, 30px);
-        font-weight: 800;
-        margin-top: 0;
-        margin-bottom: clamp(30px, 4vw, 40px);
-        letter-spacing: 0.5px;
-        position: relative;
-        display: inline-block;
-        left: 50%;
-        transform: translateX(-50%);
-    }
+            <!-- CARD 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Advertising_and_PR.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Advertising and PR</h5>
+                    <p style="font-size:14px;color:#555;">AI-powered branding, campaign strategy, content creation,
+                        public relations, and media planning, which is strengthened with creativity, critical thinking,
+                        and strategic insight.</p>
+                </div>
+            </div>
 
-    .advantage-section h2::after {
-        content: "";
-        width: 60px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 10px auto 0;
-        border-radius: 10px;
-    }
+            <!-- CARD 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Entertainment_and_Events.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Entertainment and Events</h5>
+                    <p style="font-size:14px;color:#555;">Traditional and AI-enhanced filmmaking, OTT platforms,
+                        experiential marketing, live events, and data-driven audience insights, which are enriched with
+                        creative leadership and problem-solving.</p>
+                </div>
+            </div>
 
-    .advantage-list {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 16px;
-    }
+            <!-- CARD 3 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Next_Gen_Digital_Marketing.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Next-Gen Digital Marketing</h5>
+                    <p style="font-size:14px;color:#555;">AI-assisted marketing campaigns, predictive analytics,
+                        automation, and creative strategy, which is enhanced with innovation and analytical
+                        decision-making.</p>
+                </div>
+            </div>
 
-    .advantage-item {
-        display: flex;
-        align-items: center;
-        gap: clamp(14px, 3vw, 20px);
-        background: linear-gradient(135deg, #ffffff 0%, #fcfdfd 100%);
-        border: 1px solid #e2e8f0;
-        border-radius: 14px;
-        padding: clamp(14px, 3vw, 18px);
-        color: #334155;
-        font-size: clamp(13.5px, 2.5vw, 15px);
-        line-height: 1.5;
-        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02);
-        box-sizing: border-box;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
+            <!-- CARD 4 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Journalism_and_Content_Creation.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Journalism and Content Creation</h5>
+                    <p style="font-size:14px;color:#555;">Data-backed reporting, multimedia storytelling, and AI-driven
+                        content creation which facilitate blending ethical judgment, creativity, and audience
+                        engagement.</p>
+                </div>
+            </div>
 
-    .advantage-item:hover {
-        transform: translateY(-4px) scale(1.01);
-        border-color: rgba(227, 30, 36, 0.25);
-        box-shadow: 0 12px 25px rgba(227, 30, 36, 0.06);
-    }
+            <!-- CARD 5 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Creative_Technology_and_Immersive_Media.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Creative Technology and Immersive Media</h5>
+                    <p style="font-size:14px;color:#555;">AR/VR, generative content, interactive storytelling, gaming,
+                        and next-gen media experiences, which are powered by critical thinking, design innovation, and
+                        creative execution.</p>
+                </div>
+            </div>
 
-    .advantage-item i {
-        flex: 0 0 44px;
-        height: 44px;
-        background: rgba(227, 30, 36, 0.06);
-        color: #E31E24;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 18px;
-        border: 1px solid rgba(227, 30, 36, 0.12);
-        box-shadow: 0 0 10px rgba(227, 30, 36, 0.03);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
+            <!-- CARD 6 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/Cinematic_Storytelling.jpg" class="img-fluid"
+                        style="width:100%;max-width:320px;margin:0 auto;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">PGP MCMM - Cinematic Storytelling</h5>
+                    <p style="font-size:14px;color:#555;">Where imagination meets the lens. Blend classic filmmaking
+                        principles with AI-powered production, editing, and storytelling tools to create impactful
+                        visual content.</p>
+                </div>
+            </div>
 
-    .advantage-item:hover i {
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: scale(1.08) rotate(5deg);
-        box-shadow: 0 5px 15px rgba(227, 30, 36, 0.2);
-    }
+        </div>
+    </div>
+</section>
 
-    @media (max-width: 768px) {
-        .advantage-list {
-            grid-template-columns: 1fr;
-        }
-    }
+<br><br>
+<!---------------- Specializations section -------------->
 
-    @media (max-width: 480px) {
-        .advantage-section {
-            padding: 24px 16px;
-        }
+<!---------------- VVIPs @ IMM section -------------->
 
-        .advantage-item {
-            align-items: flex-start;
-        }
+<section class="nav-link" id="VVIPs @ IMM">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>VVIPs @ IMM</span></h2>
+                </div>
+            </div>
+        </div>
 
-        .advantage-item i {
-            margin-top: 2px;
-        }
-    }
+        <div class="row g-4">
 
-    /* CURRICULUM STRUCTURE */
-    .curriculum-section {
-        padding: 60px 0;
-        background: transparent;
-    }
+            <!-- CARD 1 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Prahlad_Kakar.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Prahlad Kakar</h5>
+                </div>
+            </div>
 
-    .curriculum-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 40px;
-        position: relative;
-    }
+            <!-- CARD 2 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Manoj_Bajpayee.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Manoj Bajpayee</h5>
+                </div>
+            </div>
 
-    .curriculum-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 10px;
-    }
+            <!-- CARD 3 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Rakeyash_Omprakesh_Mehra.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Rakeyash Omprakesh Mehra</h5>
+                </div>
+            </div>
 
-    .curriculum-grid {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 20px;
-        max-width: 1200px;
-        margin: auto;
-    }
+            <!-- CARD 4 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Sonakshi_Sinha_&_Zaheer_Iqbal.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Sonakshi Sinha and Zaheer Iqbal</h5>
+                </div>
+            </div>
 
-    .sem-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
-        color: #334155;
-        overflow: hidden;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        display: flex;
-        flex-direction: column;
-    }
+            <!-- CARD 5 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Sarabg_Sathaye.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Sarang Sathaye</h5>
+                </div>
+            </div>
 
-    .sem-card:hover {
-        transform: translateY(-8px) scale(1.02);
-        box-shadow: 0 20px 45px rgba(227, 30, 36, 0.09);
-        border-color: rgba(227, 30, 36, 0.2);
-    }
+            <!-- CARD 6 -->
+            <div class="col-lg-3 col-md-6 col-12">
+                <div style="border:1px solid #e6e6e6;border-radius:16px;padding:20px;text-align:center;height:100%;">
+                    <img src="assets/images/VVIPs/Hruta_Durgule_Abhinay_Berde_and_Kshitij_Patwardhan.jpg" class="img-fluid"
+                        style="width:100%;max-width:500px;aspect-ratio:5/4;object-fit:cover;border-radius:12px;">
+                    <h5 style="margin-top:20px;font-weight:700;">Hruta Durgule, Abhinay Berde and Kshitij Patwardhan</h5>
+                </div>
+            </div>
 
-    .sem-head {
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 18px 20px;
-        font-weight: 800;
-        font-size: 16px;
-        letter-spacing: 0.5px;
-        box-shadow: 0 4px 12px rgba(227, 30, 36, 0.15);
-    }
+        </div>
+    </div>
+</section>
 
-    .sem-head span {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 4px 10px;
-        border-radius: 20px;
-        font-size: 13px;
-        font-weight: 700;
-    }
+<br><br>
 
-    .sem-card h4 {
-        padding: 18px 20px 10px;
-        margin: 0;
-        color: #0f172a;
-        font-size: 15px;
-        font-style: italic;
-        font-weight: 700;
-        border-bottom: 1px solid #f1f5f9;
-        letter-spacing: 0.2px;
-    }
+<!---------------- VVIPs @ IMM section -------------->
 
-    .sem-card ul {
-        list-style: none;
-        padding: 0 20px 24px;
-        margin: 0;
-        flex-grow: 1;
-    }
+<!--------------- Advisory Board ------------------->
 
-    .sem-card li {
-        position: relative;
-        padding: 12px 0 12px 18px;
-        border-bottom: 1px solid #f1f5f9;
-        font-size: 14px;
-        line-height: 1.45;
-        color: #475569;
-        transition: all 0.25s ease;
-    }
+<section class="vvip-sec nav-link" id="vvips-imm">
+    <div class="container">
+        <div class="row g-4">
+            <div class="sec_title text-start">
+                <h2><span>Advisory Board</span></h2>
+            </div>
+            <!-- CARD 1 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Prahlad_Kakar.jpg" alt="Prahlad Kakar">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Prahlad Kakar</h5>
+                        <p class="vvip-role">Founder, Genesis Film Productions</p>
+                    </div>
+                </div>
+            </div>
 
-    .sem-card li:last-child {
-        border-bottom: none;
-    }
+            <!-- CARD 2 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/KV_Sridhar_Pops.jpg" alt="KV Sridhar Pops">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">KV Sridhar Pops</h5>
+                        <p class="vvip-role">Global Chief Creative Officer, Nihilent Technologies</p>
+                    </div>
+                </div>
+            </div>
 
-    .sem-card li:hover {
-        padding-left: 22px;
-        color: #0f172a;
-    }
+            <!-- CARD 3 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Bharat_Dabholkar.jpg" alt="Bharat Dabholkar">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Bharat Dabholkar</h5>
+                        <p class="vvip-role">Creative Maverick, Actor & Director</p>
+                    </div>
+                </div>
+            </div>
 
-    .sem-card li::before {
-        content: "";
-        width: 6px;
-        height: 6px;
-        background: #E31E24;
-        border-radius: 50%;
-        position: absolute;
+            <!-- CARD 4 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="vvip-card">
+                    <div class="vvip-img">
+                        <img src="assets/images/Hephzibah_Pathak.jpg" alt="Hephzibah Pathak">
+                    </div>
+                    <div class="vvip-body">
+                        <h5 class="vvip-name">Hephzibah Pathak</h5>
+                        <p class="vvip-role">Executive Chairperson, India</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<br><br>
+<!--------------- Advisory Board ------------------->
+
+<!---------------- about us section -------------->
+
+<section class="about-background" id="sectionabout">
+    <div class="custom-container1">
+        <div class="row g-5">
+            <div class="col-lg-6 col-md-12">
+                <div class="about-pgdm">
+                    <img src="assets/images/about/Mass_Media.png" alt="about">
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 headline2-about">
+                <div class="sec_title text-start">
+                    <h2><span>About</span> Programme</h2>
+                </div>
+                <div class="info_data">
+                    <p>The fast-paced and growing mass media industry is in dire need of trained professionals who can
+                        bring fresh perspectives. The MET Institute of Mass Media offers a PGP in Mass Communication &
+                        Media Management that enhances students' innate abilities through a combination of theoretical
+                        and practical coursework, infused with technology and real-world business experiences.<br>
+
+                        The Postgraduate Programme in Mass Communication & Media Management at MET, Mumbai has
+                        Specializations in Advertising & PR, Entertainment & Events, Journalism & Content Creation,
+                        Next-Gen Digital Marketing, Creative Technology & Immersive Media and Cinematic Storytelling
+                        that prepare students to master the MediaVerse. The institution follows international standards
+                        and offers state-of-the-art facilities for its media and communication students. The focus is on
+                        hands-on training rather than theoretical learning, which is why MET IMM is considered one of
+                        Mumbai's top mass media & communication colleges.
+                    </p>
+                </div>
+                <div class="sec_title pt-3">
+                    <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br>
+<!---------------- about us section -------------->
+
+<!------------------ Infrastructure ---------------->
+
+<section class="section-gallery">
+    <div class="custom-container-2 pt-5">
+        <div class="row gallery-sec-title-wrapper">
+            <div class="col-md-6">
+                <div class="sec_title">
+                    <h2><span>Infrastructure</span></h2>
+                </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <div class="sec_title text-end">
+                    <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="gallery-container">
+                <div class="d-none d-lg-block">
+                    <div class="gallery-carousel owl-carousel">
+                        <div class="gallery">
+                            <div class="gallery-content">
+                                <div class="gallery-img img-2x2">
+                                    <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery5.png" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img img-2x3">
+                                    <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery1.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img img-2x4">
+                                    <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img img-3x2">
+                                    <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery3.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img img-4x2">
+                                    <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery2.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img img-2x1">
+                                    <a href="assets/images/gallery/gallery4.png" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery4.png" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 
+                                <div class="gallery">
+                                    <div class="gallery-content">
+                                        <div class="gallery-img img-2x2">
+                                            <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery6.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x3">
+                                            <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery1.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x4">
+                                            <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery5.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-3x2">
+                                            <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery3.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-4x2">
+                                            <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery2.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x1">
+                                            <a href="assets/images/gallery/gallery4.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery4.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery">
+                                    <div class="gallery-content">
+                                        <div class="gallery-img img-2x2">
+                                            <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery6.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x3">
+                                            <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery1.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x4">
+                                            <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery5.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-3x2">
+                                            <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery3.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-4x2">
+                                            <a href="assets/images/gallery/gallery2.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery2.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img img-2x1">
+                                            <a href="assets/images/gallery/gallery4.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery4.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div> -->
+                    </div>
+                </div>
+                <div class="d-block d-lg-none">
+                    <div class="gallery-carousel owl-carousel">
+                        <div class="gallery">
+                            <div class="gallery-content-small">
+                                <div class="gallery-img small-img-2x2">
+                                    <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery6.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img small-img-2x3">
+                                    <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery1.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img small-img-2x1">
+                                    <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery5.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                                <div class="gallery-img small-img-3x2">
+                                    <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                        <img src="assets/images/gallery/gallery3.jpg" alt=" club" loading="lazy">
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- 
+                                <div class="gallery">
+                                    <div class="gallery-content-small">
+                                        <div class="gallery-img small-img-2x2">
+                                            <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery6.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-2x3">
+                                            <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery1.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-2x1">
+                                            <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery5.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-3x2">
+                                            <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery3.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="gallery">
+                                    <div class="gallery-content-small">
+                                        <div class="gallery-img small-img-2x2">
+                                            <a href="assets/images/gallery/gallery6.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery6.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-2x3">
+                                            <a href="assets/images/gallery/gallery1.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery1.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-2x1">
+                                            <a href="assets/images/gallery/gallery5.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery5.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                        <div class="gallery-img small-img-3x2">
+                                            <a href="assets/images/gallery/gallery3.jpg" data-fancybox="club">
+                                                <img src="assets/images/gallery/gallery3.jpg" alt=" club"
+                                                    loading="lazy">
+                                            </a>
+                                        </div>
+
+                                    </div>
+                                </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------ Infrastructure ---------------->
+
+<!--------------- MET Media Collective section ------------------->
+
+<section class="mmc-sec nav-link" id="met-media-collective">
+    <div class="container">
+        <div class="row align-items-start g-4">
+            <div class="col-lg-12">
+                <div class="sec_title text-start">
+                    <h2><span>MET Media Collective</span></h2>
+                </div>
+
+                <p class="mmc-text">
+                    MET Media Collective is MET IMM’s on-campus media agency where classroom learning transforms into real-world
+                    campaigns. Launched in September 2025 by legendary adman KV Shridhar (Pops), the Collective gives students
+                    hands-on experience with live industry briefs—creating advertisements, managing social media, designing brands,
+                    producing videos, and executing events for real clients. Guided by faculty and industry mentors, students work
+                    with real deadlines and real expectations, building strong portfolios, confidence, and professional readiness
+                    even before they graduate.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<!--------------- MET Media Collective section ------------------->
+
+<!--------------- Collaboration with Chlorosynth ------------------->
+
+<section class="mmc-sec nav-link" id="met-media-collective">
+    <div class="container">
+        <div class="row align-items-start g-4">
+            <div class="col-lg-12">
+                <div class="sec_title text-start">
+                    <h2><span>Collaboration with Chlorosynth</span></h2>
+                </div>
+
+                <p class="mmc-text">
+                    The Institute has collaborated with Clorosynth, founded by Tridib Ghosh, an AI-powered branding, strategy, and creative studio with expertise spanning advertising, UX/UI, design thinking, and Generative AI.
+                </p>
+                <p class="mmc-text">
+                    This strategic collaboration marks an important step towards building a future-ready learning ecosystem where Artificial Intelligence becomes an integral part of media, communication, journalism, advertising, branding, and content creation education.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<!--------------- Collaboration with Chlorosynth ------------------->
+
+<!---------------- Life @ MET IMM section -------------->
+
+<section class="life-imm" id="life-imm">
+    <div class="custom-container-2">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>Life @ MET IMM</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4 life-grid">
+
+            <!-- CARD 1 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Launch_of_MET_Media_Collective.jpg" alt="Launch of MET Media Collective (In-house Media Agency)">
+                    </div>
+                    <h5 class="life-title">Launch of MET Media Collective (In-house Media Agency)</h5>
+                    <p class="life-desc">
+                        The launch of MET Media Collective marked the institute’s commitment to experiential learning by offering students real-time exposure to professional media operations.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Student_Podcast_Shoot.jpg" alt="Student Podcast Shoot">
+                    </div>
+                    <h5 class="life-title">Student Podcast Shoot</h5>
+                    <p class="life-desc">
+                        The Student Podcast Shoot provided a platform for students to create, host, and produce original audio content, enhancing their storytelling and digital communication skills.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/International_Research_Conference.jpg" alt="International Research Conference">
+                    </div>
+                    <h5 class="life-title">International Research Conference</h5>
+                    <p class="life-desc">
+                        The International Research Conference fostered academic exchange by bringing together researchers, scholars, and practitioners to discuss contemporary issues in media and communication.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/HR_Conclave.jpg" alt="HR Conclave">
+                    </div>
+                    <h5 class="life-title">HR Conclave</h5>
+                    <p class="life-desc">
+                        The HR Conclave connected students with industry leaders to explore emerging workplace trends, talent management practices, and the future of work.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Trophy_Record_Achievement.jpg" alt="Trophy Record Achievement">
+                    </div>
+                    <h5 class="life-title">Trophy Record Achievement</h5>
+                    <p class="life-desc">
+                        IMM achieved a significant milestone by securing the world record for the tallest trophy in Global book of Excellence and India Book of records reflecting excellence in creativity, performance, and intercollegiate competitiveness.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Portfolio_Day.jpg" alt="Portfolio Day">
+                    </div>
+                    <h5 class="life-title">Portfolio Day</h5>
+                    <p class="life-desc">
+                        Portfolio Day enabled students to showcase their creative and strategic work before industry professionals, receiving valuable feedback and placement exposure.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 7 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Outbound_Training_Activity_at_Vikramgad.jpg" alt="Outbound Training Activity at Vikramgad">
+                    </div>
+                    <h5 class="life-title">Outbound Training Activity at Vikramgad</h5>
+                    <p class="life-desc">
+                        The outbound training at Vikramgad focused on leadership, teamwork, and resilience through structured experiential learning activities in a natural setting.
+                    </p>
+                </div>
+            </div>
+
+            <!-- CARD 8 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12">
+                <div class="life-card">
+                    <div class="life-img">
+                        <img src="assets/images/Metamorphosis_Celebrity_Engagements.jpg" alt="Metamorphosis – Celebrity Engagements">
+                    </div>
+                    <h5 class="life-title">Metamorphosis – Celebrity Engagements</h5>
+                    <p class="life-desc">
+                        Metamorphosis featured renowned celebrities from the media and entertainment industry, offering students inspiration, insights, and direct interaction with industry icons. (Pictures of Manoj Bajpayee, Prahlad Kakkad, Omprakash Mehra, Sonakshi Sinha, Zahir Iqbal and others already with Marcomm)
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!---------------- Life @ MET IMM section -------------->
+
+<!--------------- Advantages section ------------------->
+
+<section class="adv__sec" id="advMET">
+    <div class="container">
+        <div class="row align-items-end">
+            <div class="col-lg-8 col-md-12">
+                <div class="sec_title text-start">
+                    <h2><span>Advantage</span> MET</h2>
+                </div>
+                <div class="pgdm-gap1">
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Two Decades in Media Education</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            Inhouse 4K studio complex - Shooting Floor, Editing Suite, Recording Studio
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            Professionals as Professors
+                        </p>
+                    </div>
+                    <!-- <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">MET Institute of Mass Media won the ‘Outstanding Institute for Mass Media Management of the Year’ award at the 9th World Education Summit & Awards, 2019</p>
+                    </div> -->
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            MET Media Collective: Mumbai’s First Ever Campus Media Agency
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            Holistic approach based on the 3 A’s of Media Education – ‘Acquire, Assemble and Apply’
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            MET IMM (under the aegis of MET Schools of Management) has been awarded the overall DIAMOND rating by QS I-GAUGE
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            MET is recognised as a ‘Prestigious Education Brands 2024-25’ by Marksmendaily.
+                        </p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">
+                            Won the Silver Award in ‘Best Digital Media School’ category all India by the Edutainment Awards 2024
+                        </p>
+                    </div>
+                    <!-- <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">State-of-the-art infrastructure</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Strong Alumni Base</p>
+                    </div> -->
+                </div>
+                <div class="sec_title mb-5">
+                    <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="adv_img">
+                    <img src="assets/images/adv-girl.png" alt="kolte Images">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br>
+<!--------------- Advantages section ------------------->
+
+<!--------------- Placement section ------------------->
+
+<section class="place__Sec" id="placement">
+    <div class="custom-container-2">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="sec_title text-center">
+                    <h2 class="white-text"><span>Placement</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12">
+                <div class="plc_box">
+                    <div class="row">
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>₹8 LPA</h3>
+                                <p>Highest Salary</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>Top Media</h3>
+                                <p>Agencies</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-md-4">
+                            <div class="plc_div">
+                                <h3>100+</h3>
+                                <p>Recruiters</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-5">
+                <div class="sec_title text-center">
+                    <a href="#banform"><button class="btn-primary btn-white">Enquire Now</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="img__sec">
+    <div class="custom-container-2">
+        <div class="event-container">
+            <div class="event-carousel owl-carousel">
+                <div class="event">
+                    <img src="assets/images/p1.webp" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/p2.webp" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/p3.webp" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/p4.webp" class="w-100" alt="">
+                </div>
+
+                <div class="event">
+                    <img src="assets/images/p5.webp" class="w-100" alt="">
+                </div>
+
+            </div>
+
+        </div>
+</section>
+
+<!--------------- Placement section ------------------->
+
+<!--------------- Programme section ------------------->
+
+<section class="program__Sec" id="prgDetail">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="sec_title text-start">
+                    <h2><span>Programme</span> Details</h2>
+                </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <div class="sec_title text-end">
+                    <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-6 col-md-12">
+                <img class="prg_img" src="assets/images/programme.png" alt="pgdm image">
+            </div>
+            <div class="col-lg-6 col-md-12">
+                <div class="accordion" id="accordionLocation">
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSeven">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                Programme Highlights
+                            </button>
+                        </p>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <hr />
+                                <ul>
+                                    <li>4K Media Studio</li>
+                                    <li>100% Experiential Learning</li>
+                                    <li>Stalwarts as Mentors</li>
+                                    <li>MET Media Collective: Mumbai’s First Ever Campus Media Agency</li>
+                                    <li>India's leading Media School</li>
+                                    <li>Record placements & internships</li>
+                                    <li>Rich industry interface</li>
+                                    <li>Business-driven pedagogy</li>
+                                    <li>Portfolios, Live Projects & Industry Orientation</li>
+                                    <li>Functional Visits, Assignments, Case Studies, Presentations</li>
+                                    <li>Campus To Corporate Programme</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingEight">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                Who Can Apply ?
+                            </button>
+                        </p>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <hr />
+                                <ul>
+                                    <li>Graduate in any discipline</li>
+                                    <li>Final year students can also apply</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingNine">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine" aria-expanded="true"
+                                aria-controls="collapseNine">Selection Procedure
+                            </button>
+                        </p>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <hr />
+                                <ul>
+                                    <li>Divergent thinking + PI</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-md-none mt-5">
+            <div class="col-12 sec_title text-center">
+                <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--------------- Programme section ------------------->
+
+<!--------------------- testimonial section ------------------->
+<section class="testimonial-pgdm" id="testimonial">
+    <div class="custom-container-2">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title">
+                    <h2><span>Testimonials</span></h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div id="testimonial-carousel" class="testimonial-carousel owl-carousel">
+
+                    <!-- 1 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Kaveri_Roy.jpg" alt="Kaveri Roy">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Kaveri Roy</h5>
+                                <span class="text-secondary">Senior Director – Strategic Planning & Creativity, Burson</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM gave me my first real exposure to how media works beyond textbooks. The institute’s emphasis on thinking, questioning, and understanding audiences shaped the strategic mindset I carry into every global boardroom today.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Suparna_Chakravarty.jpg" alt="Suparna Chakravarty">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Suparna Chakravarty</h5>
+                                <span class="text-secondary">Director, Bharat Media LLC | Founder, Reel Talkys Motion Pictures & Global Village of Indian Music</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM nurtured my creative voice and gave me the confidence to explore storytelling across formats. The foundation I received here continues to guide my work as a filmmaker and content creator.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Junior_Figueiredo.jpg" alt="Junior (Pep) Figueiredo">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Junior (Pep) Figueiredo</h5>
+                                <span class="text-secondary">Chief Strategy Officer, Munch TV | OTT & New Media Business Leader</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM was instrumental in shaping my understanding of content, media business, and emerging platforms. The institute encouraged us to think ahead of the curve—an approach that defines my work in the OTT space today.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Siddhav_Nachane.jpg" alt="Siddhav Nachane">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Siddhav Nachane</h5>
+                                <span class="text-secondary">Group Head – Fiction, Zee Marathi | Creative Supervisor, ZEE5 Marathi</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“My journey at MET IMM helped me understand the discipline behind creativity. The practical exposure and storytelling focus prepared me for the realities of television and long-format fiction.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Manasi_Bhagat.jpg" alt="Manasi Bhagat">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Manasi Bhagat</h5>
+                                <span class="text-secondary">Head – Marketing & Communications, CSR & Sustainability, AUMOVIO</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM laid a strong foundation for my career in marketing and communications. The learning environment encouraged adaptability, strategic thinking, and a deep respect for evolving media ecosystems.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Abhishek_Jain.jpg" alt="Abhishek Jain">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Abhishek Jain</h5>
+                                <span class="text-secondary">Founder, DG Avatar Media</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM helped me connect creativity with execution. The hands-on learning and industry exposure played a key role in shaping my journey as a digital marketing entrepreneur in the film industry.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Rohit_Satoskar.jpg" alt="Rohit Satoskar">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Rohit Satoskar</h5>
+                                <span class="text-secondary">Associate Director – Sales, Zee Entertainment Enterprises Ltd.</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“The institute gave me a clear understanding of how media functions from both creative and commercial perspectives. MET IMM’s exposure to the industry prepared me well for the business side of media.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 8 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Pranita_Mithbaonkar.jpg" alt="Pranita Mithbaonkar">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Pranita Mithbaonkar</h5>
+                                <span class="text-secondary">Senior Media Director, Mindshare India</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM gave me a strong grounding in media planning and strategic thinking. The practical approach to learning helped me transition smoothly into leading roles within top media agencies.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 9 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Vidushi_Gaur.jpg" alt="Vidushi Gaur">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Vidushi Gaur</h5>
+                                <span class="text-secondary">Brand Partnerships & Licensing, Saregama | Pocket Aces</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“My time at MET IMM taught me how content, brands, and audiences connect. The institute’s industry-oriented learning helped me navigate the fast-paced world of digital media and branded content.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 10 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Palaak_Vaidya_Tiwari.jpg" alt="Palaak Vaidya-Tiwari">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Palaak Vaidya-Tiwari</h5>
+                                <span class="text-secondary">Marketing & Public Relations, Sony YAY!</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM played a crucial role in shaping my communication skills and professional outlook. The exposure to real-world media practices gave me confidence early in my career.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 11 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Karan_Lakhe.jpg" alt="Karan Lakhe">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Karan Lakhe</h5>
+                                <span class="text-secondary">Product & Revenue Strategy, Disney Star</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM helped me understand media not just as content, but as a business. The blend of creative and strategic learning at the institute continues to influence my work in product and revenue strategy.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 12 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Amar_Vora.jpg" alt="Amar Vora">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Amar Vora</h5>
+                                <span class="text-secondary">Founder, Innovate Digital Media</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“The practical learning environment at MET IMM gave me clarity about digital media and branding. It helped me build the confidence to eventually start my own digital agency.”</p>
+                        </div>
+                    </div>
+
+                    <!-- 13 -->
+                    <div class="testimonial-card">
+                        <div class="testimonial-head">
+                            <div class="testimonial-avatar">
+                                <img class="student-images" src="assets/images/test/Mehek_Singhi.jpg" alt="Mehek Singhi">
+                            </div>
+                            <div class="testimonial-meta">
+                                <h5 class="card-title">Mehek Singhi</h5>
+                                <span class="text-secondary">Head – Planning, Strategy & Development, Think Ink Communications</span>
+                            </div>
+                            <div class="testimonial-quote" aria-hidden="true">❝</div>
+                        </div>
+                        <div class="text-testimonial mt-3">
+                            <p class="card-text-testimonial">“MET IMM provided me with a strong base in communication, strategy, and industry expectations. The institute’s focus on adaptability prepared me well for diverse roles across media and PR.”</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------------- testimonial section ------------------->
+
+
+<!--------------- Training Pedagogy section ------------------->
+<section class="pedagogy-sec " id="training-pedagogy">
+    <div class="container">
+        <div class="row align-items-start g-4">
+
+            <!-- Left Content -->
+            <div class="col-lg-12 col-md-12">
+                <div class="sec_title text-start">
+                    <h2><span>Training Pedagogy</span></h2>
+                </div>
+
+                <div class="pedagogy-list">
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Business and function driven training pedagogy focused on an experiential approach with a concept to application learning in alignment with the media convergence trends</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Curriculum designed in consultation with media experts</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Senior professionals from the media industry as subject mentors</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Lectures, Classroom Discussions, Role Plays, Projects, Presentations, Assignments and Case Studies</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Exposure to International Certifications</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Showreels, Portfolios, Live Projects and Industry Orientation</p>
+                    </div>
+
+                    <div class="pedagogy-item">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="Check">
+                        <p class="check-text">Exclusive year-round training towards career support services based on 'Growth Mindset' with MET's - Campus To Corporate Programme</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Highlight Card (Optional but recommended) -->
+            <!-- <div class="col-lg-4 col-md-12">
+                <div class="pedagogy-card">
+                    <h5>How you learn</h5>
+                    <p>Hands-on training designed for the media industry — from concept to execution.</p>
+
+                    <ul>
+                        <li>Industry mentors & expert curriculum</li>
+                        <li>Live projects + showreels + portfolios</li>
+                        <li>Career support all year round</li>
+                    </ul>
+
+                    <a href="#banform" class="pedagogy-btn">Download e-Brochure</a>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+</section>
+<!--------------- Training Pedagogy section ------------------->
+<br><br>
+
+<!------------------ takesway section ------------------>
+
+<section class="section-takesway" id="takeawaySection">
+    <div class="custom-container-2">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-center">
+                    <h2><span>Key </span>Takeaways</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="takeaways-container">
+                    <div class="takeaways-carousel owl-carousel">
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/book.svg" alt="take icons">
+                                </div>
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Hands On Expertise</strong>
+                                    <p class="takeaways-subtitle">
+                                        The Students get hands-on learning experience in the specialisation of their
+                                        choice.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/vocational.svg" alt="take icons">
+                                </div>
+
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Record Placements</strong>
+                                    <p class="takeaways-subtitle">
+                                        Students are groomed for self-management skills, growth and leadership mind set
+                                        to become
+                                        well-rounded employable candidates, ready to take on the dynamics of their
+                                        upcoming
+                                        professional journey.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/leadership.svg" alt="take icons">
+                                </div>
+
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Networking with Media Professionals</strong>
+                                    <p class="takeaways-subtitle">
+                                        The experiential learning module allows students to interact & network with
+                                        Media Industry
+                                        professionals.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/man.svg" alt="take icons">
+                                </div>
+
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Exposure to Latest Media Tools</strong>
+                                    <p class="takeaways-subtitle">
+                                        Students get to work with updated tools and guidance on using them effectively
+                                        using the
+                                        trending techniques.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/man.svg" alt="take icons">
+                                </div>
+
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Life Management & Mentorship</strong>
+                                    <p class="takeaways-subtitle">
+                                        Students get groomed under the mentorship of Industry mavens.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="takeaways">
+                            <div class="takeaways-content">
+                                <div class="takeaways-img">
+                                    <img src="assets/images/icons/book.svg" alt="take icons">
+                                </div>
+                                <div class="takeaways-head info_data_2">
+                                    <strong class="takeaways-title">Relevance to today's world</strong>
+                                    <p class="takeaways-subtitle">
+                                        The program is designed to align with the needs and realities of today's
+                                        globalized world,
+                                        preparing students to succeed in an increasingly interconnected and diverse
+                                        global community.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------  takesway section ------------------>
+
+<!--------------- Syllabus section 
+
+       <section class="syllab__sec" id="syllabusSection">
+           <div class="container">
+               <div class="row">
+                   <div class="col-12">
+                       <div class="sec_title text-center">
+                           <h2><span>Syllabus </span></h2>
+                       </div>
+                   </div>
+               </div>
+               <div class="row">
+                   <div class="col-12">
+                       <div class="accordion" id="accordionLocationn">
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingSeven">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - I</p>
+
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Managerial Economics</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Financial Reporting, Statement & Analysis</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Mathematics & Statistics for Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Management Research Methods</p>
+                                                   </div>
+                                                   
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                               <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Organizational Behaviour & Organizational Design</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Business Communication</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Corporate Social Responsibility & Sustainability - Concepts, Implemenation Process and Evaluation</p>
+                                                   </div>
+
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingEight">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - II</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Human Resources Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Marketing Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Financial & Cost Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Operations Management</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Information Technology Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Legal and Tax Aspects of Business</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Indian & Global Business Environment</p>
+                                                   </div>
+
+                                               </div>
+
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingNine">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - III</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                    <div class="pgdm-checksign">
+                                                    <h4>Finance</h4>
+                                                    </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Advanced Financial Management (Corporate Finance)</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Indian & Global Financial System, Markets & Services</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Banking and International Finance</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Fixed Income Securities & Mutual Funds</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Investment Analysis, Wealth & Portfolio Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Business & Financial Laws</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>Marketing</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Consumer Behaviour</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Sales and Distribution Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) Product Management & (B) Strategic Brand Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) B2B & Retail Marketing and (B) Marketing of High Technology Products</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Integrated Marketing Communication</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) Marketing Strategy & (B) Qualitative Marketing Research</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>HR</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Labour Laws and Implications on Industrial Relations</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Strategic HRM</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Global HRM</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">HR Accounting and Compensation Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Competency Based HRM and Performance Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Training & Development</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                               <div class="pgdm-checksign">
+                                                   <h4>Operations </h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Strategic Operations Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Business Process Engineering & Benchmarking</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Productivity Management & TQM</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Materials Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Supply Chain Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Service Operations Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>IT System</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Software Project management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) IT Consulting, (B) Digital Business</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Information System Security and Audit</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Software Engineering & Software Testing</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Database Management System & Data Warehousing</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Enterprise Management System</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingFour">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - IV</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                               <div class="pgdm-checksign">
+                                                    <h4>Finance</h4>
+                                                    </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Corporate Valuation, Merger & Acquisition and Corporate Restructuring</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Derivatives & Risk Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Strategic Cost Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Banking Operations & Treasury Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Special Studies in Finance</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>Marketing</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) Agricultural Marketing & (B) Rural Marketing</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Marketing Decision Models, E-Marketing & Marketing Analytics</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Digital Marketing</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Marketing of Services (BFSI)</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Special Studies in Marketing</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>HR</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Change Management, Conflict & Negotiation Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">HR Planning and HR Audit</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">HR Analytics</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Organizational Structure, Theory and & Design</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Special Studies in HR</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                               <div class="pgdm-checksign">
+                                                   <h4>Operations </h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) Inventory Management (B) Technology Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) World Class Manufacturing (B) Designing Operations Systems</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Operations Analytics</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Manufacturing Resource Planning & Control</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Special Studies in Operations</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                   <h4>IT System</h4>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Big Data and Business Analytics</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Knowledge Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Mobile Computing with Android, Web Designing and Multimedia</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">(A) Network Technologies and Security (B) E-Governance</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Special Studies in Systems</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingFive">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - V</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Human Resource Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Marketing Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Financial & Cost Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Operations Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Information Technology Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">FinTech Management</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Healthcare Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Social Management</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Business of Media & Entertainment</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Legal and Tax Aspects of Business</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Operation Ressearch and Data Science
+                                                           (Predictive and
+                                                           Prescriptive Analytics, AI & ML)</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                           <div class="accordion-item">
+                               <p class="accordion-header" id="headingSix">
+                                   <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                       data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                       <div class="d-flex justify-content-start align-items-center">
+                                           <p class="mb-0">Trimester - VI</p>
+                                       </div>
+                                   </button>
+                               </p>
+                               <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                   data-bs-parent="#accordionLocationn">
+                                   <div class="accordion-body">
+                                       <hr />
+                                       <div class="row">
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Management Control Systems</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">ISC1 - Certificate Courses</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">ISC2 - Seminar / Workshop / Conference</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-6">
+                                               <div class="pgdm-gap">
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">ISC2 - Research Publications / Intercollegiate / CSR / Event Volunteering, etc</p>
+                                                   </div>
+                                                   <div class="pgdm-checksign">
+                                                       <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                                                       <p class="check-text">Capstone Project Work (Functional & New Age Specialization)</p>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+<!--------------- Syllabus section ------------------->
+
+<!------------------ apply section ---------------->
+<section class="section-apply" id="applySection">
+    <div class="custom-container-2">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="sec_title">
+                    <h2 style="color: #fff;"><span>How </span>to Apply</h2>
+                </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <div class="sec_title text-end">
+                    <a href="#banform"><button class="btn-primary btn-white">Apply Now</button></a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="apply-main-container">
+                    <div class="apply-indicate">
+                        <div class="indicate-points">
+                        </div>
+                        <div class="indicate-points">
+                        </div>
+                        <div class="indicate-points">
+                        </div>
+                        <div class="indicate-points">
+                        </div>
+                    </div>
+
+                    <div class="apply-container">
+
+                        <div class="apply-content">
+                            <div class="apply-head">
+                                <div class="apply-title">
+                                    <strong>01</strong>
+                                    <p>Step</p>
+                                </div>
+                                <div class="apply-img">
+                                    <img src="assets/images/icons/step1.svg" alt="step image">
+                                </div>
+                            </div>
+
+                            <div class="info_data_2">
+                                <p>Click Apply and fill out your Basic Information</p>
+                            </div>
+                        </div>
+
+                        <div class="apply-content">
+                            <div class="apply-head">
+                                <div class="apply-title">
+                                    <strong>02</strong>
+                                    <p>Step</p>
+                                </div>
+                                <div class="apply-img">
+                                    <img src="assets/images/icons/step2.svg" alt="step image">
+                                </div>
+                            </div>
+
+                            <div class="info_data_2">
+                                <p>Verify the OTP and make a non-refundable online payment of Rs. 1200.</p>
+                            </div>
+                        </div>
+
+                        <div class="apply-content">
+                            <div class="apply-head">
+                                <div class="apply-title">
+                                    <strong>03</strong>
+                                    <p>Step</p>
+                                </div>
+                                <div class="apply-img">
+                                    <img src="assets/images/icons/step3.svg" alt="step image">
+                                </div>
+                            </div>
+
+                            <div class="info_data_2">
+                                <p>Login to the MET Online Application Form and complete the form, uploading all
+                                    necessary documents.</p>
+                            </div>
+                        </div>
+
+                        <div class="apply-content">
+                            <div class="apply-head">
+                                <div class="apply-title">
+                                    <strong>04</strong>
+                                    <p>Step</p>
+                                </div>
+                                <div class="apply-img">
+                                    <img src="assets/images/icons/step4.svg" alt="step image">
+                                </div>
+                            </div>
+
+                            <div class="info_data_2">
+                                <p>After successful submission, you will be informed about your Divergent Thinking + PI
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="section-button d-block d-md-none text-center mt-5">
+                    <a href="#banform"><button class="btn-primary">Apply Now</button></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+<!------------------ apply section ------------------->
+
+<!---------------- Career Pathways section -------------->
+
+<section class="nav-link" id="Career Pathways">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="sec_title text-start">
+                    <h2><span>Career Pathways</span></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="accordion" id="accordionLocationn">
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyTwo">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyTwo" aria-expanded="true"
+                                aria-controls="collapseTwentyTwo">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Advertising and PR</p>
+
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyTwo" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyTwo" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Advertising Executive, Brand Strategist, Account
+                                                Manager, Copywriter, Media Planner, Public Relations Manager, Corporate
+                                                Communications Specialist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyThree">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyThree" aria-expanded="true"
+                                aria-controls="collapseTwentyThree">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Entertainment and Events</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyThree" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyThree" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Event Manager, Celebrity & Artist Manager,
+                                                Entertainment Marketing Executive, Live Event Producer, Festival &
+                                                Experiential Marketing Manager
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyFour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyFour" aria-expanded="true"
+                                aria-controls="collapseTwentyFour">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Next-Gen Digital Marketing</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyFour" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyFour" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Digital Marketing Strategist, Social Media Manager,
+                                                Performance Marketing Executive, SEO/SEM Specialist, Influencer
+                                                Marketing Manager, Growth Marketer</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentyFive">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentyFive" aria-expanded="true"
+                                aria-controls="collapseTwentyFive">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Journalism and Content Creation</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentyFive" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentyFive" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Journalist, Digital Content Creator, News Producer,
+                                                Media Researcher, Scriptwriter, Podcast Host, Content Editor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentySix">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentySix" aria-expanded="true"
+                                aria-controls="collapseTwentySix">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Creative Technology and Immersive Media</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentySix" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentySix" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">AR/VR Designer, Immersive Media Producer, Interactive
+                                                Experience Designer, Game Content Creator, AI-Driven Media Specialist,
+                                                Creative Technologist</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwentySeven">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwentySeven" aria-expanded="true"
+                                aria-controls="collapseTwentySeven">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Cinematic Storytelling</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwentySeven" class="accordion-collapse collapse"
+                            aria-labelledby="headingTwentySeven" data-bs-parent="#accordionLocationn">
+                            <div class="accordion-body">
+                                <hr />
+                                <div class="row">
+                                    <div class="pgdm-gap">
+                                        <div class="pgdm-checksign">
+                                            <!-- <img class="check-sign" src="assets/images/icons/checksign.svg" alt=""> -->
+                                            <p class="check-text">Film Director, Assistant Director, Cinematographer,
+                                                Video Producer, Screenwriter, Editor, OTT Content Creator</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+<br><br>
+
+<!---------------- Career Pathways section -------------->
+
+<!------------------- contact section ---------------------->
+
+<section class="contact-us" id="contactus">
+    <div class="overlay">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sec_title text-center">
+                        <h2 class="white-text"><span>Contact</span> Us</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact-background">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12">
+                                <div class="contact-pad">
+                                    <div class="contact-img">
+                                        <img class="location-img" src="assets/images/icons/location-icon.png"
+                                            alt="icon">
+                                    </div>
+                                    <div class="text-red">
+                                        <h5 class="contact-text">Visit <span class="campus">Our Campus</span>
+                                        </h5>
+                                    </div>
+                                    <div class="para-title">
+                                        <h5 class="para-text">MET Institute of Mass Media</h5>
+                                    </div>
+                                    <div class="contact-para">
+                                        <div class="pgdm-gap">
+                                            <div class="pgdm-checksign">
+                                                <img class="check-sign1" src="assets/images/icons/pin.svg" alt="">
+                                                <p class="check-text1">Address: Bhujbal Knowledge City,
+                                                    Reclamation,
+                                                    Bandra West, Mumbai, Maharashtra 400050</p>
+                                            </div>
+                                            <div class="pgdm-checksign">
+                                                <img class="check-sign1" src="assets/images/icons/call.svg" alt="">
+                                                <p class="check-text1">Phone No.: 7208006691, 8655820696</p>
+                                            </div>
+                                            <div class="pgdm-checksign">
+                                                <img class="check-sign1" src="assets/images/icons/mail.svg" alt="">
+                                                <p class="check-text1">Email:
+                                                    communications@met.edu</p>
+                                            </div>
+                                        </div>
+                                        <!--<div class="contact-star">
+                                                   <img src="assets/images/icons/star.png" alt="">
+                                               </div>-->
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-6 col-md-12">
+                                <div class="maps">
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.269464908361!2d72.8291753!3d19.0518865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9e3eb8288db%3A0x6eaea262c8538dd5!2sMET%20Institute%20of%20Mass%20Media!5e0!3m2!1sen!2sin!4v1736489245325!5m2!1sen!2sin"
+                                        width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!------------------- contact section ---------------------->
+
+<!---------------------- FAQs section ----------------->
+
+<section class="syllab__sec" id="faq">
+    <div class="custom-container-2">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="sec_title">
+                    <h2><span>Frequently</span> <br> Asked Questions</h2>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="accordion" id="accordionLocationnn">
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingEleven">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What makes the PGP MCMM program at MET IMM different from other
+                                        media programs?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>
+                                    The program blends traditional media education with next-gen AI tools, live industry
+                                    projects, and cinematic-level facilities. Students learn through immersive,
+                                    real-world work via the MET Media Collective — Mumbai’s first student-run campus
+                                    agency.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwelve">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwelve" aria-expanded="true" aria-controls="collapseTwelve">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Is this program suitable for students from non-media backgrounds?
+                                    </p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwelve" class="accordion-collapse collapse" aria-labelledby="headingTwelve"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>
+                                    Absolutely. The program starts with foundational learning in Semester 1, enabling
+                                    students from any academic background to build strong media, storytelling, and
+                                    communication skills before specialising.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingThirteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThirteen" aria-expanded="true"
+                                aria-controls="collapseThirteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What kind of AI integration is included in the curriculum?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseThirteen" class="accordion-collapse collapse" aria-labelledby="headingThirteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>AI integration is moderate but meaningful — students use AI for research, creative
+                                    ideation, content generation, data insights, audience mapping, editing support,
+                                    automation, and immersive media workflows, depending on the specialization.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFourteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFourteen" aria-expanded="true"
+                                aria-controls="collapseFourteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">How many specializations can a student choose from?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseFourteen" class="accordion-collapse collapse" aria-labelledby="headingFourteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students choose <b>one specialization</b> out of six:<br><br>
+
+                                <ul>
+                                    <li>Advertising & PR</li>
+                                    <li>Entertainment & Events</li>
+                                    <li>Next-Gen Digital Marketing</li>
+                                    <li>Journalism & Content Creation</li>
+                                    <li>Creative Technology & Immersive Media</li>
+                                    <li>Cinematic Storytelling</li>
+                                </ul>
+
+                                Each is AI-integrated and industry-aligned.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingFifteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFifteen" aria-expanded="true" aria-controls="collapseFifteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Will students work on real client projects?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseFifteen" class="accordion-collapse collapse" aria-labelledby="headingFifteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Yes. Through the <b>MET Media Collective</b>, students work on actual briefs from
+                                    brands, agencies, startups, and non-profits. They create real campaigns, videos,
+                                    strategies, digital content, and immersive media projects.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSixteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSixteen" aria-expanded="true" aria-controls="collapseSixteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What are the internship opportunities like?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseSixteen" class="accordion-collapse collapse" aria-labelledby="headingSixteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students undergo a structured internship after Semester 2 with placements in media
+                                    houses, production studios, advertising agencies, PR firms, OTT platforms, and
+                                    digital marketing companies. The internship helps students refine skills and gain
+                                    industry exposure.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingSeventeen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeventeen" aria-expanded="true"
+                                aria-controls="collapseSeventeen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What career paths does the program prepare students for?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseSeventeen" class="accordion-collapse collapse"
+                            aria-labelledby="headingSeventeen" data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Depending on the specialization, students can pursue careers in advertising, PR,
+                                    filmmaking, content creation, journalism, digital marketing, creative technology,
+                                    AR/VR production, media strategy, brand storytelling, production management, or
+                                    AI-enabled creative roles.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingEighteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEighteen" aria-expanded="true"
+                                aria-controls="collapseEighteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">Do students need prior technical skills for Creative Technology or
+                                        Cinematic Storytelling?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseEighteen" class="accordion-collapse collapse" aria-labelledby="headingEighteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>No prior expertise is required. All necessary software, production tools, and
+                                    immersive media platforms are taught from the ground up, with additional support
+                                    through labs and mentorship.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingNineteen">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNineteen" aria-expanded="true"
+                                aria-controls="collapseNineteen">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">What facilities does MET IMM provide for hands-on media training?
+                                    </p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseNineteen" class="accordion-collapse collapse" aria-labelledby="headingNineteen"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>Students have access to 4K studios, editing labs, photography labs, sound recording
+                                    setups, advanced production equipment, immersive media tools, and the MET Media
+                                    Collective agency space for real-time project work.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwenty">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">How does MET IMM support final placements?</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>The institute’s dedicated Career Management Centre works closely with industry
+                                    partners and alumni networks. Students graduate with a professional
+                                    portfolio/playbook, internship experience, and polished job readiness through the
+                                    Sharpening Process — ensuring strong placement outcomes.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="accordion-item">
+                        <p class="accordion-header" id="headingTwenty">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwenty" aria-expanded="true" aria-controls="collapseTwenty">
+                                <div class="d-flex justify-content-start align-items-center">
+                                    <p class="mb-0">IMM</p>
+                                </div>
+                            </button>
+                        </p>
+                        <div id="collapseTwenty" class="accordion-collapse collapse" aria-labelledby="headingTwenty"
+                            data-bs-parent="#accordionLocationnn">
+                            <div class="accordion-body info_data_2">
+                                <hr />
+                                <p>advertising courses, Mass media courses, institute of digital marketing, digital marketing colleges in mumbai, top digital marketing courses, journalism and mass communication, mass media communication course, institute of digital marketing, journalism and mass communication colleges, mass communication course, mass media and communication, journalism course, advertising and public relations courses, colleges for mass communication, top mass communication colleges in mumbai, Journalism and mass communication colleges in Mumbai, advertising degree, mass communication course, top mass media colleges in mumbai, mass media colleges in mumbai, met institute of mass media, journalism and mass communication colleges, Journalism and mass communication colleges in Mumbai, Master in communication, courses for advertising, courses in journalism, masters in media and entertainment, PG Courses in Digital Marketing, diploma in journalism, Top mass media colleges in mumbai, top mass media colleges in mumbai, diploma in journalism, journalism colleges in mumbai, journalism and mass communication, advertising colleges in mumbai, courses in journalism, mba in media and entertainment, masters in mass media and communication, journalism and mass communication colleges in mumbai, masters in advertising and public relations in mumbai, masters in advertising, masters in communication and media studies, masters in mass communication, top mass communication colleges in mumbai, mass media colleges in mumbai, masters in mass media and communication, diploma in mass media, mass media communication course, mass media colleges in india, mass media communication colleges in mumbai, mass media and communication colleges in mumbai, mba in mass media, mass media and communication, best colleges for mass media in mumbai, journalism and mass communication colleges in mumbai, best colleges for mass media in mumbai, diploma in journalism in mumbai, mass media communication, Top mass media colleges in mumbai, Mass media courses, Journalism and mass communication course, mba in mass media and communication, mass media communication colleges in mumbai, Journalism and mass communication course, mass media communication, mass media and journalism, masters in entertainment media and advertising, masters in journalism in mumbai, masters in digital marketing, best colleges for journalism in mumbai, masters in journalism and mass communication, mass media and journalism, mass media communication course, advertising diploma, mass media colleges near me, best colleges for journalism in mumbai, mba in digital marketing colleges, journalism course, masters in journalism in mumbai, pr training, ma in mass communication and journalism colleges, pg journalism courses, masters in advertising in mumbai, masters in entertainment media and advertising, ma in mass communication and journalism colleges, met institute of mass media fees, mass media and communication colleges in mumbai, ma in mass media and communication, mass media communication course, journalism and mass media course, diploma in journalism in mumbai, diploma in mass media and communication, best mass media colleges in india, masters in journalism and mass communication, masters in mass communication in mumbai, best mass media colleges in india, diploma in mass media and communication, masters in advertising and public relations in mumbai, masters in advertising colleges in mumbai, top mass media colleges in india, mass media and communication degree, degree in Journalism and mass communication, ma in advertising and public relations, best colleges for masters in advertising in india, ma in advertising and pr, journalism and mass media course, ma journalism, best colleges for mass communication, mass media and journalism colleges in mumbai, mass communication colleges</p>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!---------------------- FAQs section ----------------->
+
+<section class="fixed-btn d-none d-md-block">
+    <div class="fixed-btn-container">
+        <div class="fixed-content">
+            <a href="#banform"><button class="btn-primary">Apply Now</button></a>
+            <a href="#contactus"><button class="btn-primary">Contact Now</button></a>
+        </div>
+    </div>
+</section>
+
+<!--=================Sticky Button Mobile section starts=============== -->
+<style>
+    .sticky-cta-mb {
+        display: none;
+        background: #f42525;
+        position: fixed;
+        bottom: 0;
+        right: 0;
         left: 0;
-        top: 19px;
-        transition: all 0.25s ease;
+        z-index: 99999;
     }
 
-    .sem-card li:hover::before {
-        transform: scale(1.3);
-        left: 4px;
-        background: #b81116;
+    .sticky-left-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
+        border-right: 2px solid #fff;
     }
 
-    @media (max-width: 992px) {
-        .curriculum-grid {
-            grid-template-columns: repeat(2, 1fr);
-            gap: 16px;
-        }
+    .sticky-right-col {
+        padding: 15px 0px;
+        font-size: 22px;
+        color: #fff;
     }
 
-    @media (max-width: 576px) {
-        .curriculum-grid {
-            grid-template-columns: 1fr;
-        }
-    }
-
-    /* TECHNICAL SKILLS & TECH STACK */
-    .tech-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .tech-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 40px;
-        position: relative;
-    }
-
-    .tech-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 10px;
-    }
-
-    .tech-grid {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 16px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .tech-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
-        overflow: hidden;
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .tech-card:hover {
-        transform: translateY(-8px) scale(1.02);
-        box-shadow: 0 20px 45px rgba(227, 30, 36, 0.09);
-        border-color: rgba(227, 30, 36, 0.2);
-    }
-
-    .tech-card h3 {
-        margin: 0;
-        padding: 18px 12px;
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        text-align: center;
-        font-size: 15px;
-        font-weight: 800;
-        line-height: 1.35;
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.1);
-        /* Equal Height */
-        min-height: 72px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-bottom: none;
-    }
-
-    .tech-card ul {
-        list-style: none;
-        padding: 18px 16px;
-        margin: 0;
-    }
-
-    .tech-card li {
-        position: relative;
-        padding: 10px 0 10px 16px;
-        color: #475569;
-        font-size: 13.5px;
-        line-height: 1.45;
-        border-bottom: 1px solid #f1f5f9;
-        transition: all 0.25s ease;
-    }
-
-    .tech-card li:last-child {
-        border-bottom: none;
-    }
-
-    .tech-card li:hover {
-        padding-left: 20px;
-        color: #0f172a;
-    }
-
-    .tech-card li::before {
-        content: "";
-        width: 6px;
-        height: 6px;
-        background: #E31E24;
-        border-radius: 50%;
-        position: absolute;
-        left: 0;
-        top: 16px;
-        transition: all 0.25s ease;
-    }
-
-    .tech-card li:hover::before {
-        transform: scale(1.3);
-        left: 4px;
-        background: #b81116;
-    }
-
-    .tools-bar {
-        max-width: 1200px;
-        margin: 30px auto 0;
-        padding: 16px 28px;
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.1);
-        border-radius: 40px;
-        color: #475569;
-        font-size: 14.5px;
-        text-align: center;
-        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.02);
-    }
-
-    .tools-bar strong {
-        color: #E31E24;
-        margin-right: 12px;
-        font-weight: 800;
-    }
-
-    .tools-bar span {
-        margin: 0 6px;
-        font-weight: 600;
-    }
-
-    @media (max-width: 1100px) {
-        .tech-grid {
-            grid-template-columns: repeat(3, 1fr);
-            gap: 16px;
-        }
+    .sticky-left-col a,
+    .sticky-right-col a {
+        color: #fff;
     }
 
     @media (max-width: 768px) {
-        .tech-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-    }
-
-    @media (max-width: 520px) {
-        .tech-grid {
-            grid-template-columns: 1fr;
-        }
-
-        .tools-bar {
-            line-height: 2;
-            border-radius: 20px;
-            padding: 16px;
-        }
-    }
-
-    /* TECH STACK & TOOLS GRID */
-    .tech-tools-section {
-        background: transparent;
-        padding: 60px 0 0;
-        overflow: hidden;
-    }
-
-    .tech-tools-container {
-        max-width: 1200px;
-        margin: auto;
-    }
-
-    .tech-tools-section h2 {
-        text-align: center;
-        color: #0f172a;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 8px;
-        line-height: 1.2;
-    }
-
-    .title-dots {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 14px;
-        margin-bottom: 35px;
-    }
-
-    .title-dots::before,
-    .title-dots::after {
-        content: "";
-        width: 90px;
-        height: 2px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-    }
-
-    .title-dots span {
-        width: 8px;
-        height: 8px;
-        background: #0f172a;
-        border-radius: 50%;
-    }
-
-    .tools-box {
-        position: relative;
-        border: 1px solid rgba(227, 30, 36, 0.1);
-        border-radius: 24px;
-        padding: 55px 0px 35px;
-        background: #ffffff;
-        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.03), 0 2px 10px rgba(0, 0, 0, 0.01);
-    }
-
-    .tools-label {
-        position: absolute;
-        top: -22px;
-        left: 30px;
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        padding: 10px 24px;
-        border-radius: 10px;
-        font-size: 15px;
-        font-weight: 800;
-        letter-spacing: 1px;
-        box-shadow: 0 8px 25px rgba(227, 30, 36, 0.25);
-    }
-
-    .tools-grid {
-        display: grid;
-        grid-template-columns: repeat(10, 1fr);
-    }
-
-    .tool-item {
-        min-height: 130px;
-        min-width: 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-right: 1px solid #f8fafc;
-        text-align: center;
-        padding: 18px 10px;
-        box-sizing: border-box;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .tool-item:last-child {
-        border-right: none;
-    }
-
-    .tool-item:hover {
-        background: #fdfdfd;
-        transform: translateY(-5px);
-        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.02);
-    }
-
-    .tool-item i {
-        font-size: 42px;
-        color: #E31E24;
-        margin-bottom: 12px;
-        line-height: 1;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .tool-item:hover i {
-        transform: translateY(-5px) scale(1.18) rotate(3deg);
-        color: #E31E24;
-        text-shadow: 0 8px 20px rgba(227, 30, 36, 0.25);
-    }
-
-    .tool-item p {
-        margin: 0;
-        font-size: 14.5px;
-        font-weight: 700;
-        color: #1e293b;
-        line-height: 1.3;
-        word-break: break-word;
-        transition: all 0.3s ease;
-    }
-
-    .tool-item:hover p {
-        color: #0f172a;
-    }
-
-    @media (max-width: 992px) {
-        .tools-grid {
-            grid-template-columns: repeat(5, 1fr);
-        }
-
-        .tool-item {
-            border-right: 1px solid #f1f5f9;
-            border-bottom: 1px solid #f1f5f9;
-        }
-
-        .tool-item:nth-child(5n) {
-            border-right: none;
-        }
-
-        .tool-item:nth-last-child(-n + 5) {
-            border-bottom: none;
-        }
-    }
-
-    @media (max-width: 576px) {
-        .tech-tools-section {
-            padding: 40px 0 0;
-        }
-
-        .tools-box {
-            padding: 45px 15px 20px;
-            margin: 0 10px;
-        }
-
-        .tools-label {
-            left: 20px;
-            top: -18px;
-            font-size: 13px;
-            padding: 8px 16px;
-        }
-
-        .title-dots::before,
-        .title-dots::after {
-            width: 45px;
-        }
-
-        .tools-grid {
-            grid-template-columns: repeat(2, 1fr);
-        }
-
-        .tool-item {
-            min-height: 110px;
-            border-right: none !important;
-            border-bottom: 1px solid #f1f5f9;
-        }
-
-        .tool-item:nth-last-child(-n + 2) {
-            border-bottom: none;
-        }
-
-        .tool-item i {
-            font-size: 36px;
-        }
-
-        .tool-item p {
-            font-size: 13.5px;
-        }
-    }
-
-    /* FEE STRUCTURE TABLE */
-    .fee-table-wrap {
-        width: 100%;
-        overflow-x: auto;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-        margin: 30px 0;
-        background: #ffffff;
-    }
-
-    .fee-table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-
-    .fee-table th,
-    .fee-table td {
-        padding: 16px 20px;
-        text-align: center;
-        font-size: 14.5px;
-    }
-
-    .fee-table th {
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        font-weight: 700;
-        letter-spacing: 0.5px;
-        border: none;
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.1);
-    }
-
-    .fee-table td {
-        border-bottom: 1px solid #f1f5f9;
-        color: #475569;
-    }
-
-    .fee-table tbody tr:last-child td {
-        border-bottom: none;
-    }
-
-    .fee-table tbody tr {
-        transition: all 0.2s ease;
-    }
-
-    .fee-table tbody tr:hover {
-        background-color: rgba(227, 30, 36, 0.02);
-    }
-
-    @media (max-width: 768px) {
-        .fee-table-wrap {
-            border: none;
-            box-shadow: none;
-            background: transparent;
-        }
-
-        .fee-table thead {
-            display: none;
-        }
-
-        .fee-table,
-        .fee-table tbody,
-        .fee-table tr,
-        .fee-table td {
+        .sticky-cta-mb {
             display: block;
-            width: 100%;
-        }
-
-        .fee-table tr {
-            margin-bottom: 16px;
-            border: 1px solid #e2e8f0;
-            border-radius: 14px;
-            background: #ffffff;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
-            overflow: hidden;
-        }
-
-        .fee-table td {
-            text-align: right;
-            padding-left: 45%;
-            position: relative;
-            box-sizing: border-box;
-            border-bottom: 1px solid #f1f5f9;
-            font-size: 13.5px;
-        }
-
-        .fee-table td:last-child {
-            border-bottom: none;
-        }
-
-        .fee-table td::before {
-            content: attr(data-label);
-            position: absolute;
-            left: 16px;
-            width: 40%;
-            text-align: left;
-            font-weight: 700;
-            color: #E31E24;
-        }
-    }
-
-    /* DETAILS ACCORDIONS */
-    .info-interactive-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .info-interactive-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    .info-interactive-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 20px;
-    }
-
-    .info-accordion {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .info-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-left: 4px solid #E31E24;
-        /* Left red highlight */
-        border-radius: 14px;
-        margin-bottom: 16px;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .info-card:hover {
-        box-shadow: 0 12px 30px rgba(227, 30, 36, 0.07);
-        border-color: rgba(227, 30, 36, 0.2);
-    }
-
-    .info-card summary {
-        cursor: pointer;
-        list-style: none;
-        background: #ffffff;
-        color: #0f172a;
-        padding: 20px 24px;
-        font-size: 17px;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .info-card summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .info-card summary i {
-        color: #ffffff;
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        width: 34px;
-        height: 34px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        font-size: 14px;
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.2);
-    }
-
-    .info-card summary::after {
-        content: "+";
-        margin-left: auto;
-        font-size: 22px;
-        color: #E31E24;
-        background: rgba(227, 30, 36, 0.05);
-        width: 30px;
-        height: 30px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 28px;
-        font-weight: 700;
-        flex-shrink: 0;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .info-card summary:hover {
-        background: #fafbfc;
-    }
-
-    .info-card[open] summary {
-        border-bottom: 1px solid #f1f5f9;
-        background: #fffafa;
-    }
-
-    .info-card[open] summary::after {
-        content: "-";
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: rotate(180deg);
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.2);
-    }
-
-    .info-content {
-        padding: 24px;
-        background: #ffffff;
-        color: #475569;
-        font-size: 15px;
-        line-height: 1.75;
-    }
-
-    .info-content p {
-        margin: 0 0 12px;
-    }
-
-    .info-content p:last-child {
-        margin-bottom: 0;
-    }
-
-    .info-content a {
-        color: #E31E24;
-        font-weight: 700;
-        text-decoration: none;
-    }
-
-    .info-content a:hover {
-        text-decoration: underline;
-    }
-
-    .info-content ul {
-        margin: 10px 0 15px;
-        padding-left: 20px;
-    }
-
-    .info-content li {
-        margin-bottom: 8px;
-        color: #475569;
-    }
-
-    .formula-box {
-        background: #f8fafc;
-        border-left: 4px solid #E31E24;
-        padding: 18px;
-        border-radius: 8px;
-        font-weight: 700;
-        color: #0f172a;
-        margin-bottom: 18px;
-        font-size: 16px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.01);
-    }
-
-    .formula-box span {
-        display: block;
-        margin-top: 8px;
-        color: #E31E24;
-        font-size: 18px;
-    }
-
-    .example-box {
-        background: #f8fafc;
-        border: 1px solid #e2e8f0;
-        padding: 20px;
-        border-radius: 10px;
-    }
-
-    @media (max-width: 576px) {
-        .info-interactive-section {
-            padding: 40px 10px;
-        }
-
-        .info-card summary {
-            font-size: 15px;
-            padding: 16px;
-            gap: 10px;
-        }
-
-        .info-card summary i {
-            width: 30px;
-            height: 30px;
-            font-size: 13px;
-        }
-
-        .info-card summary::after {
-            width: 26px;
-            height: 26px;
-            font-size: 18px;
-            line-height: 24px;
-        }
-
-        .info-content {
-            padding: 16px;
-            font-size: 14px;
-        }
-    }
-
-    /* PROGRAMME OUTLINE */
-    .programme-outline {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .programme-outline h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 10px;
-        position: relative;
-    }
-
-    .programme-outline h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 20px;
-    }
-
-    .outline-subtitle {
-        max-width: 800px;
-        margin: 20px auto 40px;
-        text-align: center;
-        color: #475569;
-        line-height: 1.7;
-        font-size: 16px;
-    }
-
-    .outline-grid {
-        max-width: 1200px;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 24px;
-    }
-
-    .outline-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        padding: 30px;
-        text-align: center;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .outline-card:hover {
-        transform: translateY(-8px) scale(1.02);
-        border-color: rgba(227, 30, 36, 0.2);
-        box-shadow: 0 20px 45px rgba(227, 30, 36, 0.08);
-    }
-
-    .outline-icon {
-        width: 60px;
-        height: 60px;
-        background: rgba(227, 30, 36, 0.07);
-        color: #E31E24;
-        border-radius: 50%;
-        margin: 0 auto 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 24px;
-        border: 1px solid rgba(227, 30, 36, 0.12);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .outline-card:hover .outline-icon {
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: scale(1.08) rotate(3deg);
-        box-shadow: 0 8px 20px rgba(227, 30, 36, 0.2);
-    }
-
-    .outline-card h3 {
-        color: #0f172a;
-        font-size: 20px;
-        font-weight: 800;
-        margin-bottom: 12px;
-    }
-
-    .outline-card p {
-        color: #475569;
-        line-height: 1.7;
-        margin: 0;
-    }
-
-    @media (max-width: 768px) {
-        .outline-grid {
-            grid-template-columns: 1fr;
-            gap: 16px;
-        }
-
-        .outline-card {
-            padding: 24px 20px;
-        }
-
-        .outline-card h3 {
-            font-size: 18px;
-        }
-
-        .outline-subtitle {
-            font-size: 14.5px;
-        }
-    }
-
-    /* PROGRAMME CONTENT */
-    .programme-content-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .programme-content-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    .programme-content-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 20px;
-    }
-
-    .programme-accordion {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .semester-card {
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-left: 4px solid #E31E24;
-        border-radius: 14px;
-        margin-bottom: 16px;
-        overflow: hidden;
-        background: #ffffff;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .semester-card:hover {
-        box-shadow: 0 12px 30px rgba(227, 30, 36, 0.07);
-        border-color: rgba(227, 30, 36, 0.2);
-    }
-
-    .semester-card summary {
-        list-style: none;
-        cursor: pointer;
-        background: #ffffff;
-        color: #0f172a;
-        padding: 20px 24px;
-        font-size: 17px;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .semester-card summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .semester-card summary i {
-        width: 34px;
-        height: 34px;
-        background: rgba(227, 30, 36, 0.07);
-        color: #E31E24;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
-        font-size: 14px;
-        border: 1px solid rgba(227, 30, 36, 0.1);
-    }
-
-    .semester-card summary::after {
-        content: "+";
-        margin-left: auto;
-        width: 30px;
-        height: 30px;
-        background: rgba(227, 30, 36, 0.05);
-        color: #E31E24;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 28px;
-        font-size: 22px;
-        font-weight: 700;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .semester-card summary:hover {
-        background: #fafbfc;
-    }
-
-    .semester-card[open] summary {
-        border-bottom: 1px solid #f1f5f9;
-        background: #fffafa;
-    }
-
-    .semester-card[open] summary::after {
-        content: "-";
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: rotate(180deg);
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.2);
-    }
-
-    .semester-body {
-        padding: 24px;
-    }
-
-    .semester-body ul {
-        margin: 0;
-        padding-left: 20px;
-        columns: 2;
-        column-gap: 40px;
-    }
-
-    .semester-body li {
-        break-inside: avoid;
-        margin-bottom: 12px;
-        color: #475569;
-        line-height: 1.6;
-    }
-
-    .semester-body li::marker {
-        color: #E31E24;
-    }
-
-    .semester-body ul ul {
-        columns: 1;
-        margin-top: 8px;
-        padding-left: 18px;
-    }
-
-    /* ADMISSIONS ACTIONS & HELPLINES */
-    .admission-actions {
-        max-width: 1000px;
-        margin: 45px auto;
-        display: flex;
-        gap: 24px;
-        align-items: stretch;
-    }
-
-    .helpline-box,
-    .vacant-seat-btn {
-        flex: 1;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        padding: 24px;
-        background: #ffffff;
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        text-decoration: none;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .helpline-box:hover,
-    .vacant-seat-btn:hover {
-        transform: translateY(-5px);
-        border-color: rgba(227, 30, 36, 0.2);
-        box-shadow: 0 20px 45px rgba(227, 30, 36, 0.08);
-    }
-
-    .helpline-box>i,
-    .vacant-seat-btn i {
-        width: 50px;
-        height: 50px;
-        background: rgba(227, 30, 36, 0.07);
-        color: #E31E24;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 20px;
-        flex-shrink: 0;
-        border: 1px solid rgba(227, 30, 36, 0.1);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .helpline-box:hover>i,
-    .vacant-seat-btn:hover i {
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: scale(1.08) rotate(5deg);
-        box-shadow: 0 5px 15px rgba(227, 30, 36, 0.2);
-    }
-
-    .helpline-box h3 {
-        margin: 0 0 6px;
-        color: #0f172a;
-        font-size: 18px;
-        font-weight: 800;
-    }
-
-    .helpline-box p {
-        margin: 0;
-        color: #475569;
-        font-size: 15px;
-    }
-
-    .helpline-box a {
-        color: #E31E24;
-        font-weight: 700;
-        text-decoration: none;
-    }
-
-    .vacant-seat-btn {
-        color: #E31E24;
-        border-color: rgba(227, 30, 36, 0.08);
-        font-weight: 800;
-        font-size: 17px;
-        justify-content: flex-start;
-    }
-
-    .location-box {
-        max-width: 1000px;
-        margin: 50px auto 0;
-    }
-
-    .location-box h2 {
-        text-align: center;
-        color: #0f172a;
-        font-size: clamp(20px, 3vw, 24px);
-        font-weight: 800;
-        margin-bottom: 24px;
-    }
-
-    .map-wrap {
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 20px;
-        overflow: hidden;
-        box-shadow: 0 15px 45px rgba(0, 0, 0, 0.05);
-    }
-
-    @media (max-width: 768px) {
-        .semester-body ul {
-            columns: 1;
-        }
-
-        .admission-actions {
-            flex-direction: column;
-            gap: 16px;
-        }
-
-        .semester-card summary {
-            font-size: 15px;
-            padding: 16px;
-        }
-
-        .semester-card summary i {
-            width: 32px;
-            height: 32px;
-        }
-
-        .semester-body {
-            padding: 18px;
-        }
-    }
-
-    /* ==========================================================================
-       ALUMNI SPEAK SECTION
-       ========================================================================== */
-    .alumni-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .alumni-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 40px;
-        position: relative;
-    }
-
-    .alumni-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 10px;
-    }
-
-    .alumni-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .alumni-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 20px;
-        padding: 35px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-        position: relative;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .alumni-card:hover {
-        transform: translateY(-8px);
-        border-color: rgba(227, 30, 36, 0.2);
-        box-shadow: 0 20px 45px rgba(227, 30, 36, 0.08);
-    }
-
-    .alumni-card::before {
-        content: "-";
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 80px;
-        color: rgba(227, 30, 36, 0.08);
-        font-family: serif;
-        line-height: 1;
-    }
-
-    .alumni-info {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-        margin-bottom: 25px;
-    }
-
-    .alumni-img {
-        width: 65px;
-        height: 65px;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 3px solid #ffffff;
-        box-shadow: 0 5px 15px rgba(227, 30, 36, 0.15);
-    }
-
-    .alumni-meta h3 {
-        margin: 0;
-        font-size: 18px;
-        font-weight: 800;
-        color: #0f172a;
-    }
-
-    .alumni-meta p {
-        margin: 4px 0 0 !important;
-        font-size: 14px;
-        color: #E31E24 !important;
-        font-weight: 700 !important;
-    }
-
-    .alumni-text {
-        font-size: 15px;
-        line-height: 1.7;
-        color: #475569;
-        margin: 0;
-        flex-grow: 1;
-    }
-
-    .alumni-text p {
-        margin-bottom: 16px !important;
-    }
-
-    .alumni-text p:last-child {
-        margin-bottom: 0 !important;
-    }
-
-    /* ==========================================================================
-       ADMISSION PROCESS SECTION
-       ========================================================================== */
-    .admissions-process-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .admissions-process-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 30px;
-        position: relative;
-    }
-
-    .admissions-process-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 10px;
-    }
-
-    .admission-flow-wrap {
-        width: 100%;
-        overflow-x: auto;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 16px;
-        margin: 30px 0 35px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-        background: #ffffff;
-    }
-
-    .admission-flow-img {
-        display: block;
-        width: 100%;
-        min-width: 800px;
-        height: auto;
-    }
-
-    /* ==========================================================================
-       DOCUMENTS & TIPS SECTION
-       ========================================================================== */
-    .admission-details-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .admission-details-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
-
-    .docs-card,
-    .tips-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-radius: 20px;
-        padding: 35px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
-    }
-
-    .docs-card h3,
-    .tips-card h3 {
-        color: #0f172a;
-        font-size: 22px;
-        font-weight: 800;
-        margin-top: 0;
-        margin-bottom: 25px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-    }
-
-    .docs-card h3 i,
-    .tips-card h3 i {
-        color: #E31E24;
-        font-size: 20px;
-    }
-
-    .docs-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .docs-list li {
-        position: relative;
-        padding: 12px 0 12px 28px;
-        border-bottom: 1px solid #f1f5f9;
-        font-size: 14.5px;
-        line-height: 1.5;
-        color: #475569;
-    }
-
-    .docs-list li:last-child {
-        border-bottom: none;
-    }
-
-    .docs-list li::before {
-        content: "\f00c";
-        /* FontAwesome check icon */
-
-        color: #E31E24;
-        position: absolute;
-        left: 0;
-        top: 13px;
-        font-size: 14px;
-        font-weight: 900;
-    }
-
-    .docs-list li strong {
-        color: #0f172a;
-    }
-
-    .tips-list {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    .tips-list li {
-        position: relative;
-        padding: 12px 14px 12px 35px;
-        background: #fffcfc;
-        border-left: 3px solid #E31E24;
-        border-radius: 0 8px 8px 0;
-        margin-bottom: 12px;
-        font-size: 14px;
-        line-height: 1.5;
-        color: #475569;
-    }
-
-    .tips-list li:last-child {
-        margin-bottom: 0;
-    }
-
-    .tips-list li::before {
-        content: "\f0eb";
-        /* FontAwesome lightbulb icon */
-
-        color: #E31E24;
-        position: absolute;
-        left: 12px;
-        top: 13px;
-        font-size: 14px;
-        font-weight: 900;
-    }
-
-    @media (max-width: 992px) {
-        .alumni-grid {
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
-
-        .admission-details-grid {
-            grid-template-columns: 1fr;
-            gap: 24px;
-        }
-    }
-
-
-    /* ==========================================================================
-       FAQ SECTION
-       ========================================================================== */
-    .faq-section {
-        padding: 60px 0;
-        background: transparent;
-    }
-
-    .faq-section h2 {
-        text-align: center;
-        color: #E31E24;
-        font-size: clamp(26px, 4vw, 38px);
-        font-weight: 800;
-        margin-bottom: 40px;
-        position: relative;
-    }
-
-    .faq-section h2::after {
-        content: "";
-        width: 80px;
-        height: 4px;
-        background: linear-gradient(90deg, #E31E24, #ff4b51);
-        display: block;
-        margin: 12px auto 0;
-        border-radius: 10px;
-    }
-
-    .faq-accordion {
-        max-width: 1000px;
-        margin: 0 auto;
-    }
-
-    .faq-card {
-        background: #ffffff;
-        border: 1px solid rgba(227, 30, 36, 0.08);
-        border-left: 4px solid #E31E24;
-        border-radius: 14px;
-        margin-bottom: 16px;
-        overflow: hidden;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .faq-card:hover {
-        box-shadow: 0 12px 30px rgba(227, 30, 36, 0.07);
-        border-color: rgba(227, 30, 36, 0.2);
-    }
-
-    .faq-card summary {
-        cursor: pointer;
-        list-style: none;
-        background: #ffffff;
-        color: #0f172a;
-        padding: 18px 24px;
-        font-size: 16px;
-        font-weight: 700;
-        display: flex;
-        align-items: center;
-        gap: 14px;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .faq-card summary::-webkit-details-marker {
-        display: none;
-    }
-
-    .faq-card summary::after {
-        content: "+";
-        margin-left: auto;
-        font-size: 20px;
-        color: #E31E24;
-        background: rgba(227, 30, 36, 0.05);
-        width: 28px;
-        height: 28px;
-        border-radius: 50%;
-        text-align: center;
-        line-height: 26px;
-        font-weight: 700;
-        flex-shrink: 0;
-        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .faq-card summary:hover {
-        background: #fafbfc;
-    }
-
-    .faq-card[open] summary {
-        border-bottom: 1px solid #f1f5f9;
-        background: #fffafa;
-        color: #E31E24;
-    }
-
-    .faq-card[open] summary::after {
-        content: "-";
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff;
-        transform: rotate(180deg);
-        box-shadow: 0 4px 10px rgba(227, 30, 36, 0.2);
-    }
-
-    .faq-content {
-        padding: 24px;
-        background: #ffffff;
-        color: #475569;
-        font-size: 15px;
-        line-height: 1.7;
-    }
-
-    .faq-content ul {
-        margin: 12px 0 0;
-        padding-left: 20px;
-    }
-
-    .faq-content li {
-        margin-bottom: 8px;
-        color: #475569;
-    }
-
-    .faq-content li::marker {
-        color: #E31E24;
-    }
-
-    .faq-apply-btn {
-        display: inline-block;
-        margin-top: 15px;
-        padding: 12px 24px;
-        background: linear-gradient(135deg, #E31E24 0%, #b81116 100%);
-        color: #ffffff !important;
-        font-weight: 700 !important;
-        text-decoration: none;
-        border-radius: 10px;
-        box-shadow: 0 4px 12px rgba(227, 30, 36, 0.2);
-        transition: all 0.3s ease;
-    }
-
-    .faq-apply-btn:hover {
-        transform: translateY(-2px);
-        box-shadow: 0 8px 20px rgba(227, 30, 36, 0.35);
-        text-decoration: none !important;
-    }
-
-    @media (max-width: 576px) {
-        .faq-card summary {
-            font-size: 14.5px;
-            padding: 16px;
-        }
-
-        .faq-content {
-            padding: 16px;
-            font-size: 14px;
         }
     }
 </style>
-<div class="mca-page-container">
-
-    <p><b>For admissions call
-            <a href="tel:+91 7208006689">+91 7208006689</a> /
-            <a href="tel:+91 8390800392">+91 8390800392</a>
-        </b>
-    </p>
-    <h4><b><i>Two-year, full-time PG programme affiliated to Mumbai University &amp; <br>approved by the Directorate of
-                Technical Education (DTE),<br>All India Council for Technical Education (AICTE) &amp; NAAC (Grade A)
-            </i>
-        </b>
-    </h4>
-
-    <h4>About the Programme</h4>
-    <p>Master of Computer Application from MET Institute of Computer Science (MET ICS), recognized as one of the top
-        institutes in India, is a 2 years (4 Semesters) post graduate programme . It is designed to provide a blend of
-        skills required across areas ranging from software development to enterprise level applications. The programme
-        follows outcome based education approach aligned with NEP2020.
-    </p>
-    <p>The MCA programme adopts a project based learning approach to inculcate advanced skills required in the ever
-        changing dynamic world of IT. In alignment with the OBE framework Program Educational Objectives (PEOs), Program
-        Outcomes, course outcomes are defined to strengthen teaching learning process. The MCA programme is structured
-        across four semesters, progressing from Foundation &amp; Core concepts to Applied &amp; Intelligent Systems,
-        followed by
-        Advanced &amp; Specialisation domains, and culminating in Industry Internship and Capstone projects. This steady
-        progression ensures that students develop strong theoretical foundations, practical expertise, research
-        aptitude, and industry experience. Institute Social Responsibility is included in the programme to create social
-        awareness, values and responsible behaviour among the learners. The curriculum incorporates courses such as
-        Artificial Intelligence, Machine Learning, Data Science, Quantum Computing, IoT, and Blockchain to keep learners
-        allied with growing industry trends. A dedicated course on communication and soft skills further enhances
-        students’ professional and interpersonal abilities. Guided by experienced faculty and supported by world-class
-        infrastructure at MET Institute of Computer Science, the programme equips learners with strong employability
-        skills and prepares them to become competent global IT professionals.
-    </p>
-    <p>In addition to academics, several unique initiatives such as the mentoring system, seminars, workshops, guest
-        lectures, quizzes, the technical magazine The Edge, and the annual technical festival Tech@MET are organized to
-        encourage innovation, leadership, teamwork, and the overall personality development of students.
-    </p>
-
-    <section class="advantage-section">
-        <h2>THE MET ADVANTAGE</h2>
-
-        <div class="advantage-list">
-            <div class="advantage-item">
-                <i class="fa fa-graduation-cap"></i>
-                <span>100% Enrolment ratio for MCA 2 Years Programme</span>
+<section class="sticky-cta-mb">
+    <div class="container">
+        <div class="row">
+            <div class="col sticky-left-col d-flex align-items-center justify-content-center">
+                <a href="tel:+919967181380">Call Us</a>
             </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-trophy"></i>
-                <span>Five University Toppers</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-briefcase"></i>
-                <span>Excellent Industry tie-ups and 100 percent internships</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-money"></i>
-                <span>Financial Assistance, Free ship &amp; Scholarships</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-university"></i>
-                <span>25 Years of Academic Excellence</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-trophy"></i>
-                <span>Amongst Top 5 MCA Institutes in Mumbai</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-book"></i>
-                <span>Value Added Courses</span>
-            </div>
-
-            <div class="advantage-item">
-                <i class="fa fa-flask"></i>
-                <span>Excellent Research</span>
+            <div class="col sticky-right-col d-flex align-items-center justify-content-center">
+                <a href="#banform">Apply Now</a>
             </div>
         </div>
-    </section>
-
-    <h4>Are you eligible?</h4>
-    <p>Graduate from a recognised University with Mathematics or Statistics as one of the subjects at 10+2 level or at
-        graduation and minimum of 50% aggregate marks for open category and 45% for reserved category.
-    </p>
-
-    <h4>Sanctioned Intake - 60 + TFWS (3) + EWS(6)</h4>
-
-    <h4>Selection Procedure</h4>
-    <p>The students will have to appear for the state-level Common Entrance Test (CET) conducted by Directorate of
-        Technical Education (DTE), Mumbai. The applicants will have to submit CET scores.
-    </p>
-
-    <h4>Fee Structure</h4>
-
-    <ul>
-        <li>Fees for the academic year 2026-27 is Rs. 1,95,000/- as per the Fees Regulatory Authority, Government of
-            Maharashtra. (Minutes dated 05th May 2026)</li>
-        <img src="https://www.met.edu/uploadfile/images/Marathi_font_ICS.png" alt="Marathi font" width="900" height="900">
-
-        <li>Document Retention is as per the directives received from the governing bodies from time to time.</li>
-        <li>Reservation and Admission Policy is as per the rules and regulations of Government of Maharashtra /
-            Directorate of Technical Education.</li>
-    </ul>
-
-    <p></p>
-    <div class="fee-table-wrap">
-        <table class="fee-table">
-            <thead>
-                <tr>
-                    <th>Category</th>
-                    <th>Tuition Fees<br>(Amount in Rs.)</th>
-                    <th>Development Fees<br>(Amount in Rs.)</th>
-                    <th>Other Fees<br>(Amount in Rs.)</th>
-                    <th>Total Fees Payable<br>(Amount in Rs.)</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td data-label="Category">Open</td>
-                    <td data-label="Tuition Fees">Rs. 1,69,565/-</td>
-                    <td data-label="Development Fees">Rs. 25,435/-</td>
-                    <td data-label="Other Fees">Rs. 10,119/-</td>
-                    <td data-label="Total Fees Payable">Rs. 2,05,119/-</td>
-                </tr>
-                <tr>
-                    <td data-label="Category">SC/ST</td>
-                    <td data-label="Tuition Fees">NA</td>
-                    <td data-label="Development Fees">NA</td>
-                    <td data-label="Other Fees">Rs. 10,119/-</td>
-                    <td data-label="Total Fees Payable">Rs. 10,119/-</td>
-                </tr>
-                <tr>
-                    <td data-label="Category">VJNT/DT/SBC/TFWS</td>
-                    <td data-label="Tuition Fees">NA</td>
-                    <td data-label="Development Fees">Rs. 25,435/-</td>
-                    <td data-label="Other Fees">Rs. 10,119/-</td>
-                    <td data-label="Total Fees Payable">Rs. 35,554/-</td>
-                </tr>
-                <tr>
-                    <td data-label="Category">OBC/SEBC/EWS (MALE)</td>
-                    <td data-label="Tuition Fees">Rs. 84,782.5/-</td>
-                    <td data-label="Development Fees">Rs. 25,435/-</td>
-                    <td data-label="Other Fees">Rs. 10,119/-</td>
-                    <td data-label="Total Fees Payable">Rs. 1,20,336.5/-</td>
-                </tr>
-                <tr>
-                    <td data-label="Category">OBC/SEBC/EWS (FEMALE)</td>
-                    <td data-label="Tuition Fees">NA</td>
-                    <td data-label="Development Fees">Rs. 25,435/-</td>
-                    <td data-label="Other Fees">Rs. 10,119/-</td>
-                    <td data-label="Total Fees Payable">Rs. 35,554/-</td>
-                </tr>
-            </tbody>
-        </table>
     </div>
-    <p></p>
-
-
-    <section class="tech-section">
-        <h2>TECHNICAL SKILLS &amp; TECH STACK</h2>
-
-        <div class="tech-grid">
-            <div class="tech-card">
-                <h3>Core<br>Programming</h3>
-                <ul>
-                    <li>Advanced Java (J2EE)</li>
-                    <li>Python &amp; R</li>
-                    <li>Data Structures &amp; Algorithms</li>
-                    <li>Software Engineering</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h3>Full-Stack &amp;<br>Mobile</h3>
-                <ul>
-                    <li>MERN / MEAN Stack</li>
-                    <li>Advanced Web Tech (AWT)</li>
-                    <li>Android &amp; Flutter</li>
-                    <li>REST APIs &amp; DevOps</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h3>AI / ML / Data</h3>
-                <ul>
-                    <li>Machine Learning &amp; AI</li>
-                    <li>Deep Learning &amp; CV</li>
-                    <li>Big Data Analytics</li>
-                    <li>NLP &amp; Data Visualization</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h3>Cloud &amp; Infra</h3>
-                <ul>
-                    <li>AWS &amp; Azure Cloud</li>
-                    <li>Cloud Computing</li>
-                    <li>Computer Networks</li>
-                    <li>Distributed Systems</li>
-                </ul>
-            </div>
-
-            <div class="tech-card">
-                <h3>Security &amp;<br>Emerging</h3>
-                <ul>
-                    <li>Information Security</li>
-                    <li>Ethical Hacking</li>
-                    <li>Blockchain</li>
-                    <li>IoT &amp; RPA</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="tools-bar">
-            <strong>Tools &amp; Platforms:</strong>
-            <span>Python</span> ·
-            <span>Java</span> ·
-            <span>SQL</span> ·
-            <span>NoSQL</span> ·
-            <span>Git</span> ·
-            <span>Docker</span> ·
-            <span>Jira</span> ·
-            <span>AWS</span> ·
-            <span>Azure</span> ·
-            <span>TensorFlow</span>
-        </div>
-    </section>
-
-    <section class="tech-tools-section">
-        <div class="tech-tools-container">
-            <h2>TECH STACK &amp; TOOLS</h2>
-
-            <div class="title-dots"><span></span><span></span><span></span></div>
-
-            <div class="tools-box">
-                <div class="tools-label">TOOLS &amp; PLATFORMS</div>
-
-                <div class="tools-grid">
-                    <div class="tool-item"><i class="fa fa-code"></i>
-                        <p>Python</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-coffee"></i>
-                        <p>Java</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-database"></i>
-                        <p>SQL</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-leaf"></i>
-                        <p>NoSQL</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-git"></i>
-                        <p>Git</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-cubes"></i>
-                        <p>Docker</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-tasks"></i>
-                        <p>Jira</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-cloud"></i>
-                        <p>AWS</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-windows"></i>
-                        <p>Azure</p>
-                    </div>
-                    <div class="tool-item"><i class="fa fa-sitemap"></i>
-                        <p>TensorFlow</p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="info-interactive-section">
-
-        <div class="info-accordion">
-
-            <details class="info-card" open="">
-                <summary><i class="fa fa-globe"></i> For NRI Students</summary>
-                <div class="info-content">
-                    <p>
-                        NRI students can take admission to the MCA programme by registering through the
-                        <a href="https://cetcell.mahacet.org/" target="_blank">MAH CET Cell Portal</a>.
-                    </p>
-                    <p>
-                        NRI students are not required to appear for the MAH MCA CET examination and can directly secure
-                        admission by submitting the online choice filling form as per the admission process.
-                    </p>
-                </div>
-            </details>
-
-            <details class="info-card">
-                <summary><i class="fa fa-briefcase"></i> Placements</summary>
-                <div class="info-content">
-                    <p>MET MCA alumni are making us proud across the globe by excelling in diverse industries including
-                        IT, finance, healthcare, e-commerce, consulting, and start-ups. Our graduates work in leading
-                        companies in roles such as Software Developer, Data Scientist, AI/ML Engineer, Full Stack
-                        Developer, Cloud Engineer, Cybersecurity Analyst, and Business Analyst. Many reputed
-                        organizations visit the campus every year for recruitment, offering excellent career
-                        opportunities and attractive salary packages. Several MCA graduates also pursue entrepreneurship
-                        by launching innovative technology start-ups and digital ventures
-                    </p>
-                </div>
-            </details>
-
-            <details class="info-card">
-                <summary><i class="fa fa-question-circle"></i> What if you have missed MAH MCA CET?</summary>
-                <div class="info-content">
-                    <p>At MET Institute of Computer Science, experiential learning forms an integral part of the
-                        academic ecosystem, helping students connect theoretical concepts with real-world applications.
-                        The institute regularly conducts guest lectures, industry interaction sessions, workshops,
-                        bootcamps, industrial visits, hackathons, live projects, and activity-based learning initiatives
-                        to enhance practical knowledge and professional readiness.
-                    </p>
-                    <p>Through continuous engagement with industry experts, alumni, and technology professionals,
-                        students gain hands-on exposure to emerging technologies, current industry practices, teamwork,
-                        innovation, and problem-solving approaches. These experiential learning opportunities prepare
-                        students to become industry-ready professionals equipped with both technical expertise and
-                        practical skills required in the evolving IT and technology sector.
-                    </p>
-                </div>
-            </details>
-
-            <details class="info-card">
-                <summary><i class="fa fa-calculator"></i> How is MCA CET Percentile Calculated?</summary>
-                <div class="info-content">
-                    <p>The basic formula is:</p>
-                    <img src="https://www.met.edu/uploadfile/images/MCA Formula.png" alt="Marathi font" width="900" height="900">
-
-                    <div class="example-box">
-                        <p><strong>Suppose:</strong></p>
-                        <p>Total students = 10,000</p>
-                        <p>Students scoring less than or equal to you = 9,200</p>
-                        <p><strong>Then:</strong></p>
-                        <img src="https://www.met.edu/uploadfile/images/MCA Formula1.png" alt="Marathi font" width="400" height="900">
-                    </div>
-                </div>
-            </details>
-
-        </div>
-    </section>
-
-    <section class="programme-outline">
-        <h2>Programme Outline</h2>
-        <p class="outline-subtitle">
-            The MCA programme has the following approach:
-        </p>
-
-        <div class="outline-grid">
-
-            <div class="outline-card">
-                <div class="outline-icon">
-                    <i class="fa fa-code"></i>
-                </div>
-                <h3>Strong Technical Foundation</h3>
-                <p>
-                    Core subjects in Programming, Mathematics field. Project based learning approach is used.
-                </p>
-            </div>
-
-            <div class="outline-card">
-                <div class="outline-icon">
-                    <i class="fa fa-lightbulb-o"></i>
-                </div>
-                <h3>Future-Ready Electives</h3>
-                <p>
-                    Electives like IoT, Blockchain, Game Development, Robotic Process Automation, Computer Vision,
-                    Embedded Systems, Image Processing, Natural Language Processing, Geographic Information System,
-                    Design and Analysis of Algorithm, Digital Marketing and Business Analytics, Ethical Hacking, Quantum
-                    Computing to keep them in touch with the latest in the computing world.
-                </p>
-            </div>
-
-            <div class="outline-card">
-                <div class="outline-icon">
-                    <i class="fa fa-briefcase"></i>
-                </div>
-                <h3>Industry Internship</h3>
-                <p>
-                    The final semester internship project in the industry prepares our students for the rigour of the
-                    corporate world. The students pursue a six month live project in the industry. Thus, when the
-                    students step into the corporate world they are fully equipped with the best IT skills.
-                </p>
-            </div>
-
-            <div class="outline-card">
-                <div class="outline-icon">
-                    <i class="fa fa-users"></i>
-                </div>
-                <h3>Holistic Development</h3>
-                <p>
-                    Unique initiatives and activities like the mentoring system, seminars and workshops, guest lectures,
-                    Quiz, technical magazine ‘The Edge’ and technical festival 'Tech@MET' are arranged in order to
-                    enhance an all-round growth of each individual student.
-                </p>
-            </div>
-
-        </div>
-    </section>
-
-    <br>
-
-    <section class="curriculum-section">
-        <h2>Curriculum Structure</h2>
-
-        <div class="curriculum-grid">
-            <div class="sem-card">
-                <div class="sem-head">
-                    <span>SEM I</span>
-                </div>
-                <h4>Foundation &amp; Core</h4>
-                <ul>
-                    <li>Mathematical Foundations for CS</li>
-                    <li>Advanced Java</li>
-                    <li>Adv. Database Mgmt System</li>
-                    <li>Software Project Management</li>
-                    <li>Data Structures Lab / Java Lab</li>
-                    <li>Elective: E-Commerce / Digital Mktg</li>
-                </ul>
-            </div>
-
-            <div class="sem-card">
-                <div class="sem-head">
-                    <span>SEM II</span>
-                </div>
-                <h4>Applied &amp; Intelligent Systems</h4>
-                <ul>
-                    <li>Research Methodology</li>
-                    <li>AI &amp; Machine Learning</li>
-                    <li>Information Security</li>
-                    <li>Soft Skills Development</li>
-                    <li>DevOps Lab / JWT Lab</li>
-                    <li>Elective: IoT / NLP / Cyber Sec / RPA</li>
-                </ul>
-            </div>
-
-            <div class="sem-card">
-                <div class="sem-head">
-                    <span>SEM III</span>
-                </div>
-                <h4>Advanced &amp; Specialization</h4>
-                <ul>
-                    <li>Big Data Analytics &amp; Visualisation</li>
-                    <li>Mobile Computing Lab</li>
-                    <li>Research Project (RP)</li>
-                    <li>Field Project (FP) / IIA</li>
-                    <li>Elective: CV / Deep Learning / Cloud</li>
-                    <li>Elective: Ethical Hacking / Blockchain</li>
-                </ul>
-            </div>
-
-            <div class="sem-card">
-                <div class="sem-head">
-                    <span>SEM IV</span>
-                </div>
-                <h4>Industry Internship</h4>
-                <ul>
-                    <li>On-the-Job Training (OJT)</li>
-                    <li>e-Internship / Industry Internship</li>
-                    <li>Full Software System Development</li>
-                    <li>Research Project Continuation</li>
-                    <li>Capstone Deliverable</li>
-                    <li>Industry Mentor Assigned</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <section class="programme-content-section">
-        <h2>MCA Programme Structure</h2>
-
-        <div class="programme-accordion">
-
-            <details class="semester-card" open="">
-                <summary><i class="fa fa-book"></i> Semester I</summary>
-                <div class="semester-body">
-                    <ul>
-                        <li>MCA11 Mathematical Foundation for Computer Science</li>
-                        <li>MCA12 Advanced Java</li>
-                        <li>MCA13 Advanced Database Management System</li>
-                        <li>MCA14 Software Project Management</li>
-                        <li>MCAE15 Elective – 1
-                            <ul>
-                                <li>Accounting &amp; Managerial Economics</li>
-                                <li>Optimization Techniques</li>
-                                <li>Digital Marketing and Business Analytics</li>
-                                <li>e-Commerce</li>
-                            </ul>
-                        </li>
-                        <li>MCAL11 Advanced Data Structures Lab</li>
-                        <li>MCAL12 Advanced Java Lab</li>
-                        <li>MCAL13 Advanced Database Management System Lab</li>
-                        <li>MCAL14 Web Technologies Lab</li>
-                        <li>MCAP11 Mini Project – 1A</li>
-                    </ul>
-                </div>
-            </details>
-
-            <details class="semester-card">
-                <summary><i class="fa fa-laptop"></i> Semester II</summary>
-                <div class="semester-body">
-                    <ul>
-                        <li>MCA21 Research Methodology</li>
-                        <li>MCA22 Artificial Intelligence and Machine Learning</li>
-                        <li>MCA23 Information Security</li>
-                        <li>MCAE24 Elective – 2
-                            <ul>
-                                <li>Internet of Things</li>
-                                <li>Robotic Process Automation</li>
-                                <li>Natural Language Processing</li>
-                                <li>Design and Analysis of Algorithm</li>
-                            </ul>
-                        </li>
-                        <li>MCAE25 Elective – 3
-                            <ul>
-                                <li>Green Computing &amp; Sustainability</li>
-                                <li>Management Information System</li>
-                                <li>Cyber Security</li>
-                                <li>Soft Computing</li>
-                            </ul>
-                        </li>
-                        <li>MCAL21 Soft Skill Development</li>
-                        <li>MCAL22 AI &amp; Machine Learning Lab</li>
-                        <li>MCAL23 DevOps Lab</li>
-                        <li>MCAL25 Advanced Web Technologies Lab</li>
-                        <li>MCAL26 User Interface Lab</li>
-                        <li>MCAL27 Networking with Linux Lab</li>
-                        <li>MCAP21 Mini Project – 1B</li>
-                    </ul>
-                </div>
-            </details>
-
-            <details class="semester-card">
-                <summary><i class="fa fa-cogs"></i> Semester III</summary>
-                <div class="semester-body">
-                    <ul>
-                        <li>MCA31 Big Data Analytics and Visualization</li>
-                        <li>MCA32 Distributed System and Cloud Computing</li>
-                        <li>MCAE33 Elective – 3
-                            <ul>
-                                <li>Blockchain</li>
-                                <li>Deep Learning</li>
-                                <li>Game Development</li>
-                                <li>Ethical Hacking</li>
-                                <li>Quantum Computing</li>
-                            </ul>
-                        </li>
-                        <li>MCAE34 Elective – 4
-                            <ul>
-                                <li>Intellectual Property Rights</li>
-                                <li>Green Computing</li>
-                                <li>Management Information System</li>
-                                <li>Cyber Security and Digital Forensics</li>
-                                <li>Entrepreneurship Management</li>
-                            </ul>
-                        </li>
-                        <li>MCAL31 Big Data Analytics and Visualization Lab</li>
-                        <li>MCAL32 Distributed System and Cloud Computing Lab</li>
-                        <li>MCALE33 Elective 3 Lab</li>
-                        <li>MCAL34 Skill Based Lab Mobile Computing Lab</li>
-                        <li>MCAL35 Software Testing Quality Assurance Lab</li>
-                        <li>MCAP31 Mini Project – 2A</li>
-                    </ul>
-                </div>
-            </details>
-
-            <details class="semester-card">
-                <summary><i class="fa fa-briefcase"></i> Semester IV</summary>
-                <div class="semester-body">
-                    <ul>
-                        <li>MCAI41 Internship</li>
-                        <li>MCAR42 Research Paper</li>
-                        <li>MCAM43 Online Course - MOOC</li>
-                        <li>MCAS44 Institute Social Responsibility</li>
-                    </ul>
-                </div>
-            </details>
-
-        </div>
-
-
-        <!-- ==========================================================================
-         NEW ADMISSION & ALUMNI SPEAK SECTIONS
-         ========================================================================== -->
-        <section class="admissions-process-section">
-            <h2>MCA Admission Process</h2>
-            <p>Candidates begin by filling out the application form and submitting any applicable disability
-                certificates, followed by uploading all required documents for review. The process concludes with
-                document verification at a designated centre and final confirmation of the application by the candidate.
-            </p>
-
-            <div class="admission-flow-wrap">
-                <img class="admission-flow-img" src="https://www.met.edu/uploadfile/images/admission-MCA.png" alt="MCA Admission Process Flowchart">
-            </div>
-
-            <p>After verification at a designated centre and confirmation of the application, students proceed to attend
-                CAP rounds where they fill in their option forms to indicate their preferred colleges and courses.</p>
-        </section>
-
-        <section class="admission-details-section">
-            <div class="admission-details-grid">
-
-                <!-- Documents Required Card -->
-                <div class="docs-card">
-                    <h3><i class="fa fa-file-text"></i> Documents Required at the time of Admission</h3>
-                    <ul class="docs-list">
-                        <li><strong>CET Score Card</strong></li>
-                        <li><strong>SSC and HSC Mark Sheets</strong></li>
-                        <li><strong>Graduation Mark Sheets</strong></li>
-                        <li><strong>Leaving Certificate</strong></li>
-                        <li><strong>Domicile Certificate</strong></li>
-                        <li><strong>Caste Certificate</strong> (if applicable). Candidates will be required to submit
-                            the Caste Certificate, Caste Validity Certificate, and Non-Creamy Layer if applicable, at
-                            the time of filling the CAP application form to be considered under the reserved category.
-                        </li>
-                        <li><strong>Income Certificate</strong> (for EWS/Scholarship). Candidates will be required to
-                            submit an Economically Weaker Section (EWS) Certificate, if applicable, at the time of
-                            filling the CAP application form.</li>
-                        <li><strong>Aadhaar Card</strong></li>
-                        <li><strong>Passport-size Photos</strong></li>
-                        <li><strong>APAAR ID and Aadhaar</strong> may be mandatory during registration.</li>
-                    </ul>
-                </div>
-
-                <!-- Important Tips Card -->
-                <div class="tips-card">
-                    <h3><i class="fa fa-lightbulb-o"></i> Important Tips for Admission process</h3>
-                    <ul class="tips-list">
-                        <li>Fill the CAP option form carefully.</li>
-                        <li>Keep all documents scanned and ready before registration.</li>
-                        <li>Attend all CAP rounds regularly.</li>
-                        <li>Check official notices and updates daily.</li>
-                        <li>Keep backup college options while filling preferences.</li>
-                        <li>If a student is allotted their first preference college, the seat may get automatically
-                            frozen, and the student may not be eligible to participate in the next CAP rounds.</li>
-                        <li>If a student is allotted a college other than their higher preference, they can select the
-                            <strong>Betterment</strong> option to participate in the next CAP round for a better college
-                            preference.
-                        </li>
-                        <li>Students selecting the Betterment option must complete the required seat acceptance process
-                            within the stipulated schedule.</li>
-                        <li>If a student receives a better allotment in the next CAP round, the previously allotted seat
-                            will be automatically cancelled.</li>
-                        <li>If no better allotment is received, the previously accepted seat will remain secured.</li>
-                        <li>Students are advised to read the official guidelines of the State Common Entrance Test Cell
-                            Maharashtra carefully before selecting the Betterment/Float option.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <section class="alumni-section">
-            <h2>Alumni Speak</h2>
-            <div class="alumni-grid">
-
-                <!-- Alumni Card 1 -->
-                <div class="alumni-card">
-                    <div class="alumni-info">
-                        <img class="alumni-img" src="https://www.met.edu/uploadfile/images/Suraj_nag.jpg" alt="Suraj Nag">
-                        <div class="alumni-meta">
-                            <h3>Suraj Nag</h3>
-                            <p>Software Developer, Cornerstone On Demand</p>
-                        </div>
-                    </div>
-                    <div class="alumni-text">
-                        <p>My journey at MET Institute of Computer Science during the MCA programme was truly
-                            transformative. The institute provided the perfect blend of academic excellence, practical
-                            exposure, and industry-oriented learning. The supportive faculty, hands-on projects, and
-                            encouraging environment helped me strengthen my technical and professional skills with
-                            confidence.</p>
-                        <p>What I value the most is the constant motivation from mentors and the opportunities to
-                            participate in workshops, seminars, and real-world learning experiences that prepared me for
-                            the corporate world. MET ICS not only helped me build a strong foundation in technology but
-                            also shaped my overall personality and career outlook.</p>
-                        <p>I am proud to be an alumnus of MET ICS and grateful for the knowledge, guidance, and lifelong
-                            memories I gained during my time here.</p>
-                    </div>
-                </div>
-
-                <!-- Alumni Card 2 -->
-                <div class="alumni-card">
-                    <div class="alumni-info">
-                        <img class="alumni-img" src="https://www.met.edu/uploadfile/images/Aarthi_pillai.jpg" alt="Aarthi Pillai">
-                        <div class="alumni-meta">
-                            <h3>Aarthi Pillai</h3>
-                            <p>Productivity Tools Engineer, Priceline</p>
-                        </div>
-                    </div>
-                    <div class="alumni-text">
-                        <p>My experience at MET ICS during the MCA programme was truly enriching. The institute provided
-                            a strong academic foundation along with practical exposure that helped me gain confidence
-                            and industry-ready skills. The guidance from faculty and the encouraging learning
-                            environment motivated me to continuously grow and explore new opportunities. I am thankful
-                            to MET ICS for being an important part of my professional journey.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-        <div class="admission-actions">
-            <div class="helpline-box">
-                <i class="fa fa-phone"></i>
-                <div>
-                    <h3>Admission Helpline</h3>
-                    <p>
-                        <a href="tel:+917208006689">+91 7208006689</a> /
-                        <a href="tel:+918390800392">+91 8390800392</a>
-                    </p>
-                </div>
-            </div>
-
-            <a class="vacant-seat-btn" href="https://www.met.edu/MCA_Admissions_Application_for_Institute_Level_Seats_and_Vacant_Seats">
-                <i class="fa fa-external-link"></i>
-                Vacant Seats against Cancellation
-            </a>
-        </div>
-
-
-        <!-- ==========================================================================
-         FAQ SECTION
-         ========================================================================== -->
-        <section class="faq-section">
-            <h2>Frequently Asked Questions (FAQs)</h2>
-            <div class="faq-accordion">
-
-                <!-- FAQ 1 -->
-                <details class="faq-card">
-                    <summary>What is the duration of the MCA programme at MET ICS?</summary>
-                    <div class="faq-content">
-                        <p>The Master of Computer Applications (MCA) programme at MET ICS is a two-year full-time
-                            postgraduate programme focused on advanced computing, software development, and emerging
-                            technologies.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 2 -->
-                <details class="faq-card">
-                    <summary>Is the MCA programme approved?</summary>
-                    <div class="faq-content">
-                        <p>Yes, the MCA programme is approved by the All India Council for Technical Education (AICTE)
-                            and affiliated with University of Mumbai.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 3 -->
-                <details class="faq-card">
-                    <summary>What specializations or advanced subjects are offered in the MCA programme?</summary>
-                    <div class="faq-content">
-                        <p>The curriculum includes subjects and electives in:</p>
-                        <ul>
-                            <li>Artificial Intelligence &amp; Machine Learning</li>
-                            <li>Data Science</li>
-                            <li>Full Stack Development</li>
-                            <li>Cloud Computing</li>
-                            <li>Cybersecurity</li>
-                            <li>Mobile Application Development</li>
-                            <li>IoT</li>
-                            <li>Blockchain</li>
-                            <li>Computer Vision</li>
-                            <li>Natural Language Processing</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <!-- FAQ 4 -->
-                <details class="faq-card">
-                    <summary>What is the eligibility criteria for MCA admission?</summary>
-                    <div class="faq-content">
-                        <p>Candidates should have completed graduation with the required eligibility criteria as
-                            prescribed by the university and competent authorities. Admission is generally based on
-                            entrance examination scores and merit.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 5 -->
-                <details class="faq-card">
-                    <summary>Which entrance exams are accepted for MCA admission?</summary>
-                    <div class="faq-content">
-                        <p>Admissions are primarily conducted through relevant state or university-approved entrance
-                            examination processes applicable for MCA admissions.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 6 -->
-                <details class="faq-card">
-                    <summary>Does MET ICS provide placement assistance?</summary>
-                    <div class="faq-content">
-                        <p>Yes, MET ICS has an active placement and training cell that assists students with
-                            internships, industry interaction, aptitude training, mock interviews, and campus
-                            recruitment opportunities.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 7 -->
-                <details class="faq-card">
-                    <summary>What type of companies recruit MCA students from MET ICS?</summary>
-                    <div class="faq-content">
-                        <p>Students receive opportunities from companies in:</p>
-                        <ul>
-                            <li>Software Development</li>
-                            <li>IT Services</li>
-                            <li>AI &amp; Analytics</li>
-                            <li>Cloud &amp; DevOps</li>
-                            <li>Finance</li>
-                            <li>Digital Marketing</li>
-                            <li>Consulting</li>
-                            <li>Startups and Product-Based Companies</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <!-- FAQ 8 -->
-                <details class="faq-card">
-                    <summary>Are internships included in the MCA programme?</summary>
-                    <div class="faq-content">
-                        <p>Yes, internships and industry projects form an important part of the programme to provide
-                            practical exposure and real-world experience.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 9 -->
-                <details class="faq-card">
-                    <summary>Does MET ICS focus on practical learning?</summary>
-                    <div class="faq-content">
-                        <p>Absolutely. The programme emphasizes:</p>
-                        <ul>
-                            <li>Project-based learning</li>
-                            <li>Hackathons</li>
-                            <li>Workshops</li>
-                            <li>Coding competitions</li>
-                            <li>Industry certifications</li>
-                            <li>Live projects</li>
-                            <li>Research and innovation activities</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <!-- FAQ 10 -->
-                <details class="faq-card">
-                    <summary>Are there workshops and seminars on emerging technologies?</summary>
-                    <div class="faq-content">
-                        <p>Yes, MET ICS regularly organizes expert sessions, bootcamps, seminars, and hands-on workshops
-                            on AI, Generative AI, Cybersecurity, Cloud Computing, Flutter, Agentic AI, and other
-                            emerging domains.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 11 -->
-                <details class="faq-card">
-                    <summary>Does the institute support research and innovation?</summary>
-                    <div class="faq-content">
-                        <p>Yes, students are encouraged to participate in research projects, paper publications,
-                            innovation competitions, and technical conferences.</p>
-                    </div>
-                </details>
-
-                <!-- FAQ 12 -->
-                <details class="faq-card">
-                    <summary>What facilities are available on campus for MCA students?</summary>
-                    <div class="faq-content">
-                        <p>MET ICS provides:</p>
-                        <ul>
-                            <li>Modern computer laboratories</li>
-                            <li>High-speed internet</li>
-                            <li>Digital classrooms</li>
-                            <li>Library and e-resources</li>
-                            <li>Seminar halls</li>
-                            <li>Innovation and project support infrastructure</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <!-- FAQ 13 -->
-                <details class="faq-card">
-                    <summary>Why should students choose the MCA programme at MET ICS?</summary>
-                    <div class="faq-content">
-                        <p>Key highlights include:</p>
-                        <ul>
-                            <li>Industry-oriented curriculum</li>
-                            <li>Strong practical exposure</li>
-                            <li>Experienced faculty</li>
-                            <li>Focus on emerging technologies</li>
-                            <li>Placement support</li>
-                            <li>Innovation-driven learning environment</li>
-                            <li>Opportunities for certifications, projects, and research</li>
-                        </ul>
-                    </div>
-                </details>
-
-                <!-- FAQ 14 -->
-                <details class="faq-card">
-                    <summary>How can students apply for the MCA programme?</summary>
-                    <div class="faq-content">
-                        <p>Students can apply through the official MET admission process available on the institute
-                            website.</p>
-                        <a class="faq-apply-btn" href="https://www.met.edu/MCA_Admissions_Application_for_Institute_Level_Seats_and_Vacant_Seats" target="_blank">Apply for Admission at MET ICS</a>
-                    </div>
-                </details>
-
-            </div>
-        </section>
-
-        <div class="location-box">
-            <h2>MET Institute of Computer Science is Located at</h2>
-
-            <div class="map-wrap">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.2713661532594!2d72.8267305143764!3d19.05180285768471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c975aa3141b3%3A0x60c26f1e683ded9!2sMET%20Institute%20of%20Computer%20Science!5e0!3m2!1sen!2sin!4v1675075622814!5m2!1sen!2sin" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-        </div>
-    </section>
-</div>                                                        
+</section>
+<!--=================Sticky Button Mobile section ends=============== -->
