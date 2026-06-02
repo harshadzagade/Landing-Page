@@ -361,6 +361,127 @@
                             </div>
                         </div>
                     </div>
+                    <div class="accordion-item">
+                        <p class="accordion-header" id="headingfour">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapsefour" aria-expanded="true"
+                                aria-controls="collapsefour">Scholarship Criteria
+                            </button>
+                        </p>
+
+                        <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionLocation">
+                            <div class="accordion-body info_data">
+                                <p>The scholarship will be awarded based on the candidates' CMAT 2026 or MH CET 2026 percentile, as specified.</p><br>
+                                <hr />
+                                <div class="row nopadding">
+
+                                    <table class="table table-bordered table_met">
+
+                                        <!-- TOP TITLE ROW -->
+
+                                        <thead>
+
+                                            <tr>
+
+                                                <th colspan="3" style="text-align:center;
+                                                                       font-size:22px;
+                                                                       font-weight:700;
+                                                                       padding:20px;">
+                                                    MET Merit Scholarship | PGDM 2026 – 28
+                                                </th>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <th style="text-align:center;" class="bluebg" width="30%">
+                                                    Exams
+                                                </th>
+
+                                                <th style="text-align:center;" class="bluebg" width="40%">
+                                                    Percentile Criteria
+                                                </th>
+
+                                                <th style="text-align:center;" class="bluebg" width="30%">
+                                                    Scholarship in Rupees
+                                                </th>
+
+                                            </tr>
+
+                                        </thead>
+
+                                        <tbody>
+
+                                            <!-- CMAT -->
+
+                                            <tr>
+
+                                                <td rowspan="2" style="text-align:center; vertical-align:middle;">
+                                                    CMAT 2026
+                                                </td>
+
+                                                <td style="text-align:center;">
+                                                    > = 95 Percentile
+                                                </td>
+
+                                                <td style="text-align:center;">
+                                                    2,00,000
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <td style="text-align:center;">
+                                                    > = 90 & < 95
+                                                        </td>
+
+                                                <td style="text-align:center;">
+                                                    1,00,000
+                                                </td>
+
+                                            </tr>
+
+
+                                            <!-- MHCET -->
+
+                                            <tr>
+
+                                                <td rowspan="2" style="text-align:center; vertical-align:middle;">
+                                                    MHCET 2026
+                                                </td>
+
+                                                <td style="text-align:center;">
+                                                    > = 95 Percentile
+                                                </td>
+
+                                                <td style="text-align:center;">
+                                                    2,00,000
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <td style="text-align:center;">
+                                                    > = 90 & < 95
+                                                        </td>
+
+                                                <td style="text-align:center;">
+                                                    1,00,000
+                                                </td>
+
+                                            </tr>
+
+                                        </tbody>
+
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
