@@ -361,7 +361,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-item">
+                    <!-- <div class="accordion-item">
                         <p class="accordion-header" id="headingfour">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#collapsefour" aria-expanded="true"
@@ -377,9 +377,6 @@
                                 <div class="row nopadding">
 
                                     <table class="table table-bordered table_met">
-
-                                        <!-- TOP TITLE ROW -->
-
                                         <thead>
 
                                             <tr>
@@ -413,8 +410,6 @@
 
                                         <tbody>
 
-                                            <!-- CMAT -->
-
                                             <tr>
 
                                                 <td rowspan="2" style="text-align:center; vertical-align:middle;">
@@ -442,9 +437,6 @@
                                                 </td>
 
                                             </tr>
-
-
-                                            <!-- MHCET -->
 
                                             <tr>
 
@@ -481,7 +473,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
