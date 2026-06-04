@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // Retrieve and sanitize form data
     $fname = $conn->real_escape_string($_POST['fname']);
     $email = $conn->real_escape_string($_POST['email']);
-    $mobile = $conn->real_escape_string($_POST['mobile']);
+    $mobile = $conn->real_escape_string($mobile);
     $city = $conn->real_escape_string($_POST['city']);
     $qualification = $conn->real_escape_string($_POST['qualification']);
     $programme_name = $conn->real_escape_string($programme_name);
