@@ -171,6 +171,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             <div class="form-group col-md-12">
                                                 <div class="input-group">
                                                     <span class="input-group-text">+977</span>
+                                                    <label class="inputial">Enter Whatsapp Number </label>
                                                     <input type="text"
                                                         name="mobile"
                                                         maxlength="10"
