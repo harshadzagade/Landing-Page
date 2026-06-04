@@ -25,7 +25,7 @@
 // Get the input element
 let numericInput = document.getElementsByClassName("number-only");
 
-for (i = 0; i < numericInput.length; i++) {
+for (let i = 0; i < numericInput.length; i++) {
   numericInput[i].addEventListener("input", function () {
     this.value = this.value.replace(/\D/g, "");
   });
@@ -35,18 +35,37 @@ function setupMobileValidation() {
   document.querySelectorAll(".number-only").forEach(function (input) {
     input.addEventListener("input", function () {
       const mobileInput = this.value;
-      const submitBtn = this.closest("form").querySelector(".btn-submit-1");
+      const form = this.closest("form");
+      const submitBtn = form ? form.querySelector(".btn-submit-1") : null;
       const mobLable = this.nextElementSibling;
-      mobLable.innerHTML = "please enter 10 digit no.";
-      mobLable.style.display = "block";
-      //console.log(mobLable);
-      if (submitBtn) {
-        submitBtn.disabled = mobileInput.length !== 10;
-        submitBtn.disabled = mobLable.innerHTML = "please enter 10 digit no.";
-        if (mobileInput.length === 10) {
-          submitBtn.disabled = false;
+      
+      const pageNameInput = form ? form.querySelector("input[name='page_name']") : null;
+      const isNepal = pageNameInput && pageNameInput.value === "IMM16";
+
+      let isValid = false;
+      let errorMsg = "please enter 10 digit no.";
+
+      if (isNepal) {
+        // Nepal mobile number validation: 10 digits starting with 9
+        isValid = mobileInput.length === 10 && /^9\d{9}$/.test(mobileInput);
+        errorMsg = "please enter 10 digit Nepal mobile no. starting with 9";
+      } else {
+        isValid = mobileInput.length === 10;
+        errorMsg = "please enter 10 digit no.";
+      }
+
+      if (mobLable) {
+        if (isValid) {
           mobLable.innerHTML = "";
+          mobLable.style.display = "none";
+        } else {
+          mobLable.innerHTML = errorMsg;
+          mobLable.style.display = "block";
         }
+      }
+
+      if (submitBtn) {
+        submitBtn.disabled = !isValid;
       }
     });
   });
