@@ -612,6 +612,30 @@
 <br>
 <!--------------- Collaboration with Chlorosynth ------------------->
 
+<!--------------- Collaboration with Aeon Immersive ------------------->
+
+<section class="mmc-sec nav-link" id="met-media-collective">
+    <div class="container">
+        <div class="row align-items-start g-4">
+            <div class="col-lg-12">
+                <div class="sec_title text-start">
+                    <h2><span>Collaboration with Aeon Immersive</span></h2>
+                </div>
+
+                <p class="mmc-text">
+                    The institute has collaborated with Aeon Immersive, a leading innovator in Virtual Reality (VR) and Augmented Reality (AR) solutions, to explore new possibilities in immersive storytelling, media innovation, and experiential learning.
+                </p>
+                <p class="mmc-text">
+                    Through this collaboration, students will gain valuable insights into emerging digital ecosystems while working on projects that bridge creativity, technology, and audience engagement.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<!--------------- Collaboration with Aeon Immersive ------------------->
+
 <!---------------- Life @ MET IMM section -------------->
 
 <section class="life-imm" id="life-imm">
