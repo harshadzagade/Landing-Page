@@ -17,6 +17,7 @@ $utm_adposition = $_POST['utm_adposition'];
 $utm_placement = $_POST['utm_placement'];
 $utm_matchtype = $_POST['utm_matchtype'];
 $utm_creative = $_POST['utm_creative'];
+$utm_term = $_POST['utm_term'];
 $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];

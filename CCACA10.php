@@ -10,6 +10,7 @@ $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
 $utm_placement = $_REQUEST['utm_placement'] ?? '';
 $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
 $utm_creative = $_REQUEST['utm_creative'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $gclid = $_REQUEST['gclid'] ?? '';
 $fbclid = $_REQUEST['fbclid'] ?? '';
 $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
