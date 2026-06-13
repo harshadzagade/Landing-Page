@@ -73,6 +73,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $gclid = $conn->real_escape_string($_POST['gclid']);
     $fbclid = $conn->real_escape_string($_POST['fbclid']);
     $url = $conn->real_escape_string($_POST['url']);
+    $utm_term = $conn->real_escape_string($_POST['utm_term']);
 
     // SQL query to insert data
     $sql = "INSERT INTO landing_page (name, email, mobile, city, qualification, programme_name, extraegde_id, institute_name, page_name, utm_source, utm_medium, utm_campaign, utm_adgroup, utm_device, utm_term, utm_content, utm_keyword, utm_adposition,  utm_placement, utm_matchtype, utm_creative, gclid, fbclid, url) VALUES ('$fname', '$email', '$mobile', '$city', '$qualification', '$programme_name', '$extraegde_id', '$institute_name', '$page_name', '$utm_source', '$utm_medium', '$utm_campaign', '$utm_adgroup', '$utm_device', '$utm_term', '$utm_content', '$utm_keyword', '$utm_adposition', '$utm_placement', '$utm_matchtype', '$utm_creative', '$gclid', '$fbclid', '$url')";

@@ -10,6 +10,7 @@ $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
 $utm_placement = $_REQUEST['utm_placement'] ?? '';
 $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
 $utm_creative = $_REQUEST['utm_creative'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $gclid = $_REQUEST['gclid'] ?? '';
 $fbclid = $_REQUEST['fbclid'] ?? '';
 $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
@@ -222,6 +223,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             <input type="hidden" name="utm_device" value="<?php echo $utm_device ?>">
                                             <input type="hidden" name="utm_content" value="<?php echo $utm_content ?>">
                                             <input type="hidden" name="utm_keywords" value="<?php echo $utm_keyword ?>">
+                                            <input type="hidden" name="utm_term" value="<?php echo $utm_term ?>">
                                             <input type="hidden" name="utm_adposition" value="<?php echo $utm_adposition ?>">
                                             <input type="hidden" name="utm_placement" value="<?php echo $utm_placement ?>">
                                             <input type="hidden" name="utm_matchtype" value="<?php echo $utm_matchtype ?>">
