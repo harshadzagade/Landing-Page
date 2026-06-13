@@ -29,7 +29,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
     MET: Top IIT College in Mumbai
     </title>
 
-    <meta name="Description" content="MET Institute of DACA is one of the best IIT colleges in Mumbai.">
+    <meta name="Description" content="MET Institute of CCACA is one of the best IIT colleges in Mumbai.">
 
     <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 

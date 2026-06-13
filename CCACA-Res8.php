@@ -10,7 +10,7 @@
         MET: Top IIT College in Mumbai
         </title>
 
-        <meta name="Description" content="MET Institute of DACA is one of the best IIT colleges in Mumbai.">
+        <meta name="Description" content="MET Institute of CCACA is one of the best IIT colleges in Mumbai.">
 
         <link rel="shortcut icon" type="image/png" href="https://www.met.edu/frontendassets/images/fev/metlogo.ico">
 
@@ -78,8 +78,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Thank you for your Interest.
                     Our Counsellor will get in touch with you shortly.
                 </p>
-                <!-- <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a href="assets/pdf/DACA-Hangout.pdf" download>click here</a>.</p>
-                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/DACA-Hangout.pdf" download>Download PDF</a> -->
+                <!-- <p class="thankyou-subtitle">Your download will start automatically. If it doesn't, <a href="assets/pdf/CCACA-Hangout.pdf" download>click here</a>.</p>
+                <a id="download-pdf" class="download-pdf d-none" href="./assets/pdf/CCACA-Hangout.pdf" download>Download PDF</a> -->
             </div>
         </section>
     </main>

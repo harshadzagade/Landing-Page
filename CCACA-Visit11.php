@@ -21,7 +21,7 @@ $gclid = $_POST['gclid'];
 $fbclid = $_POST['fbclid'];
 $url = $_POST['url'];
 
-$programme_name = "DACA";
+$programme_name = "CCACA";
 $extraegde_id = "10";
 $institute_name = "Institute of Information Technology";
 
@@ -218,7 +218,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         }
         // Redirect if success
         if ($redirect) {
-            header("Location: DACA-Res11.php");
+            header("Location: CCACA-Res11.php");
             exit; // Stop further script execution
         }
 
