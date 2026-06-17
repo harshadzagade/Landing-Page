@@ -18,7 +18,7 @@
 
                 <div class="col-lg-3 col-md-6 col-6 legcy-sec mt-3 mb-3">
                     <h3><span class="counter">NBA Accredited</span></h3>
-                    <p>PGDM Programme</p>
+                    <p>Equivalent to MBA</p>
                 </div>
             </div>
         </div>
@@ -42,7 +42,8 @@
                 <div class="info_data">
                     <p>MET is ranked as one of the top B-schools in India that offers PGDM or PGDM in Mumbai with
                         specialisations in Marketing, Finance, HR, IT and Operations. PGDM at MET is approved by the All
-                        India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is more than an
+                        India Council for Technical Education (AICTE) & DTE, Govt. of Maharashtra. It is accredited
+                        by the National Board of Accreditation (NBA) and is equivalent to an MBA. It is more than an
                         MBA since its industry-driven course content and pedagogy empowers budding managers with
                         technological tools and knowledge besides honing their managerial prowess. It is evident by the
                         fact that a few thousand MET PGDM alumni are successfully employed at senior levels in leading
