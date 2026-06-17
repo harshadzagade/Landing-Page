@@ -194,23 +194,11 @@
                 <div class="pgdm-gap1">
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Institute of PGDM ranked 4th Top Institute in Mumbai offering PGDM Programs by Mid-day B-School Survey 2026.</p>
+                        <p class="check-text">PGDM programme at MET Institute of PGDM is accredited by National Board of Accreditation (NBA).</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">PGDM programme at MET Institute of PGDM is accredited by National Board of Accreditation (NBA)</p>
-                    </div>
-                    <div class="pgdm-checksign">
-                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET is proud to be certified as an Institute of Happiness by QS I-GAUGE for 2025-26.</p>
-                    </div>
-                    <div class="pgdm-checksign">
-                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">MET Institute of PGDM has been ranked the 17th Best Private B-School in Mumbai by The Week Best B-School Survey 2025</p>
-                    </div>
-                    <div class="pgdm-checksign">
-                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating</p>
+                        <p class="check-text">PGDM programme at MET Institute of PGDM is equivalent to MBA.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -218,11 +206,19 @@
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Ranked 4th Top Institute in Mumbai offering PGDM Programs by Mid-day B-School Survey 2026.</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Ranked 14th among the 'Top 20 West B-Schools' by the Times B-School Survey 2025.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Ranked 17th Top West B-Schools by BW Businessworld Ranking 2024.</p>
+                        <p class="check-text">Ranked the 17th Best Private B-School in Mumbai by The Week Best B-School Survey 2025.</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">Awarded Diamond QS I-GAUGE Indian College Rating.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -234,7 +230,11 @@
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">Excellent placement</p>
+                        <p class="check-text">Excellent placement & Strong Alumni Base</p>
+                    </div>
+                    <div class="pgdm-checksign">
+                        <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
+                        <p class="check-text">State-of-the-art infrastructure</p>
                     </div>
                     <!-- <div class="pgdm-checksign">
                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
@@ -248,14 +248,14 @@
                                <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                                <p class="check-text">Robust and concurrent syllabus</p>
                            </div> -->
-                    <div class="pgdm-checksign">
+                    <!-- <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">State-of-the-art infrastructure</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
                         <p class="check-text">Strong Alumni Base</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="sec_title mb-5">
                     <a href="#banform"><button class="btn-primary">Enquire Now</button></a>
