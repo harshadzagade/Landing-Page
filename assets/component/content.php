@@ -752,7 +752,7 @@
                     </div>
                     <h5 class="life-title">Metamorphosis – Celebrity Engagements</h5>
                     <p class="life-desc">
-                        Metamorphosis featured renowned celebrities from the media and entertainment industry, offering students inspiration, insights, and direct interaction with industry icons. (Pictures of Manoj Bajpayee, Prahlad Kakkad, Omprakash Mehra, Sonakshi Sinha, Zahir Iqbal and others already with Marcomm)
+                        Metamorphosis featured renowned celebrities from the media and entertainment industry, offering students inspiration, insights, and direct interaction with industry icons.
                     </p>
                 </div>
             </div>
