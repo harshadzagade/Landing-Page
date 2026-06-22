@@ -198,7 +198,7 @@
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
-                        <p class="check-text">PGDM programme at MET Institute of PGDM is equivalent to MBA.</p>
+                        <p class="check-text">PGDM programme at MET Institute of PGDM is equivalent to MBA granted by AIU.</p>
                     </div>
                     <div class="pgdm-checksign">
                         <img class="check-sign" src="assets/images/icons/checksign.svg" alt="">
