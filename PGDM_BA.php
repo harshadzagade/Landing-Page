@@ -137,7 +137,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                     </div>
                                 </div>
-                                <!-- <form id="pop-form" action="PGDM-Visit-BA.php" method="POST" novalidate
+                                <form id="pop-form" action="PGDM-Visit-BA.php" method="POST" novalidate
                                     class="needs-validation">
                                     <div class="row g-3">
                                         <div class="form-group col-md-12">
@@ -234,7 +234,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                         </button>
                                     </div>
-                                </form> -->
+                                </form>
                             </div>
                         </div>
                     </div>
