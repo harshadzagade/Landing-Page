@@ -134,7 +134,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
-                                    <p>Get In Touch </p>
+                                    <!-- <p>Get In Touch </p> -->
                                     <!-- <div id="ee-form-11">
 
                                     </div> -->

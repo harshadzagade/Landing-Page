@@ -136,7 +136,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
 
                                     </div> -->
 
-                                    <p>Get In Touch </p>
+                                    <!-- <p>Get In Touch </p> -->
                                     <form id="pop-form" action="PGDM-Visit8.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
