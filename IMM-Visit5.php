@@ -154,7 +154,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                     'Course' => $institute_name,
                     'LeadName' => $page_name, 
                     'LeadType' => "Digital Organic",
-                    'LeadSource' => "SMS_WhatsApp",
+                    'LeadSource' => "STARZ",
                     'Location' => $extraegde_id,
                     'SourceTo' => $utm_source,
                     'leadMedium' => $utm_medium,
