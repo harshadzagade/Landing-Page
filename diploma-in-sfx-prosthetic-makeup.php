@@ -1178,7 +1178,7 @@
   <!-- ================= STICKY MOBILE CTA BAR ================= -->
   <div class="mobile-sticky-bar">
     <div class="mobile-bar-info">
-      Diploma in SFX & Prosthetics
+      MET × ABC Academy of Beauty Powered by Kryolan
       <span>Starting Nov 2026 | MET Mumbai</span>
     </div>
     <a href="#hero-form" class="btn btn-primary" style="padding: 0.6rem 1.25rem; font-size: 0.85rem;">
