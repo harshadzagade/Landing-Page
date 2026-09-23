@@ -1968,10 +1968,7 @@ img {
   position: relative;
   border-radius: var(--radius-md);
   overflow: hidden;
-  width: 100%;
-  max-width: 300px;
-  justify-self: center;
-  aspect-ratio: 4/5;
+  aspect-ratio: 3 / 2;
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-card);
   background: #f8fafc;
@@ -3442,6 +3439,7 @@ body {
 }
 
 @keyframes cardFloat {
+
   0%,
   100% {
     translate: 0 0;
@@ -3538,6 +3536,7 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   *,
   *::before,
   *::after {

@@ -130,7 +130,7 @@
 
           <div class="hero-actions">
             <a href="#heroLeadForm" class="btn btn-primary">
-              <i class="fa-solid fa-paper-plane"></i> Apply Now
+              <i class="fa-solid fa-paper-plane"></i> Enquire Now
             </a>
           </div>
 
@@ -1048,7 +1048,7 @@
       </div>
       <div class="hero-actions" style="display: flex; justify-content: center; align-items: center;">
         <a href="#heroLeadForm" class="btn btn-primary">
-          <i class="fa-solid fa-paper-plane"></i> Apply Now
+          <i class="fa-solid fa-paper-plane"></i> Enquire Now
         </a>
       </div>
     </div>
