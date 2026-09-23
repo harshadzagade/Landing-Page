@@ -61,7 +61,7 @@
       </div>
 
       <div class="nav-cta-group">
-        <a href="#heroLeadForm" class="btn btn-primary">Enquire Now</a>
+        <a href="#heroLeadForm" class="btn btn-primary">Apply Now</a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
           <i class="fa-solid fa-bars"></i>
         </button>
@@ -130,7 +130,7 @@
 
           <div class="hero-actions">
             <a href="#heroLeadForm" class="btn btn-primary">
-              <i class="fa-solid fa-paper-plane"></i> ENQUIRE NOW
+              <i class="fa-solid fa-paper-plane"></i> Apply Now
             </a>
           </div>
 
@@ -1048,7 +1048,7 @@
       </div>
       <div class="hero-actions" style="display: flex; justify-content: center; align-items: center;">
         <a href="#heroLeadForm" class="btn btn-primary">
-          <i class="fa-solid fa-paper-plane"></i> ENQUIRE NOW
+          <i class="fa-solid fa-paper-plane"></i> Apply Now
         </a>
       </div>
     </div>
@@ -1182,7 +1182,7 @@
       <span>Starting Nov 2026 | MET Mumbai</span>
     </div>
     <a href="#hero-form" class="btn btn-primary" style="padding: 0.6rem 1.25rem; font-size: 0.85rem;">
-      Enquire Now
+      Apply Now
     </a>
   </div>
 

@@ -428,8 +428,8 @@ img {
 .hero {
   position: relative;
   min-height: 75vh;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 65px;
+  padding-bottom: 65px;
   display: flex;
   align-items: center;
   background:
@@ -1914,8 +1914,8 @@ img {
 
 .module-split-layout {
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
-  gap: 2.5rem;
+  grid-template-columns: minmax(0, 1.45fr) minmax(220px, 0.65fr);
+  gap: 2rem;
   align-items: center;
 }
 
@@ -1968,6 +1968,9 @@ img {
   position: relative;
   border-radius: var(--radius-md);
   overflow: hidden;
+  width: 100%;
+  max-width: 300px;
+  justify-self: center;
   aspect-ratio: 4/5;
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-card);
@@ -3002,7 +3005,7 @@ body {
 
   /* Course Module Accordion */
   .module-split-layout {
-    grid-template-columns: 1.1fr 1fr;
+    grid-template-columns: minmax(0, 1.45fr) minmax(220px, 0.65fr);
     gap: 2rem;
   }
 }
@@ -3065,7 +3068,8 @@ body {
   }
 
   .module-featured-img-box {
-    max-height: 340px;
+    max-width: 280px;
+    max-height: none;
     order: 2;
   }
 
@@ -3216,6 +3220,10 @@ body {
 
   .module-topics-list li {
     font-size: 0.9rem;
+  }
+
+  .module-featured-img-box {
+    max-width: 240px;
   }
 
   .module-duration-pill {
