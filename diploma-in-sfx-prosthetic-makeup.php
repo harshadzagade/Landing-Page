@@ -747,7 +747,7 @@
         <div class="faculty-card-modern">
           <div>
             <div class="faculty-img-box">
-              <img src="img/IMG_3933.jpg" alt="Avinash Pawar SFX Work">
+              <img src="img/avinash-pawar.jpeg" alt="Avinash Pawar SFX Work">
             </div>
             <h4 class="faculty-name-title">Avinash Pawar</h4>
             <div class="faculty-role-tag">SFX & Prosthetics Specialist</div>
