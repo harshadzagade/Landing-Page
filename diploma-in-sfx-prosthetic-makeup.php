@@ -282,7 +282,7 @@
     </div>
   </section>
 
-    <!-- ================= AUTHENTIC STUDENT WORK GALLERY SHOWCASE (UNCROPPED + PARALLAX) ================= -->
+  <!-- ================= AUTHENTIC STUDENT WORK GALLERY SHOWCASE (UNCROPPED + PARALLAX) ================= -->
   <section class="section section-alt" id="gallery">
     <div class="container">
       <span class="section-tag">Practical Portfolio Showcase</span>
@@ -935,10 +935,6 @@
             <div><strong style="display:block; font-size:0.8rem; color:var(--text-muted);">In Collaboration
                 With</strong> MET × ABC Academy of Beauty, Powered by Kryolan</div>
           </div>
-          <div class="syllabus-card"><i class="fa-regular fa-calendar" style="color: var(--gold-kryolan);"></i>
-            <div><strong style="display:block; font-size:0.8rem; color:var(--text-muted);">Commencement</strong>
-              November 2026</div>
-          </div>
           <div class="syllabus-card"><i class="fa-regular fa-clock" style="color: var(--gold-kryolan);"></i>
             <div><strong style="display:block; font-size:0.8rem; color:var(--text-muted);">Duration</strong> 320 Hours /
               4 months</div>
@@ -1039,7 +1035,7 @@
           MET × ABC Academy of Beauty, Powered by Kryolan
         </div>
         <div style="color: var(--primary-red); font-weight: 800; margin-bottom: 0.35rem;">
-          Certificate Course in SFX & PROSTHETICS Starting October 2026 | Mumbai
+          Certificate Course in SFX & PROSTHETICS | Mumbai
         </div>
 
         <div style="color: var(--gold-kryolan); font-weight: 800; font-size: 1.25rem !important;"> Limited Seats |
@@ -1087,13 +1083,15 @@
 
         <details class="faq-card-item">
           <summary class="faq-card-summary">
-            3. Who is this course suitable for?
+            3. Who should pursue a Diploma in SFX & Prosthetic Makeup?
             <i class="fa-solid fa-chevron-down"></i>
           </summary>
           <div class="faq-card-answer">
-            The programme is suitable for makeup artists, beauty and bridal artists, beginners interested in character
-            makeup, film/media students, theatre makeup artists, influencers, UGC creators, cosplay artists and creative
-            professionals interested in SFX and character transformation.
+            It's for anyone aged 18 or above who wants a career in special effects and character 
+            make-up for film, OTT, theatre or entertainment. That includes aspiring SFX artists, 
+            beauty and bridal make-up artists, and film, media and acting students. It also suits 
+            theatre artists, cosplayers, content creators, make-up educators and career switchers. 
+            No previous SFX experience is needed.
           </div>
         </details>
 
@@ -1121,11 +1119,17 @@
 
         <details class="faq-card-item">
           <summary class="faq-card-summary">
-            6. Who is the programme powered by?
+            6. How can MET IMM, ABC Academy of Beauty and Kryolan help me build a career in SFX & Prosthetic Makeup?
             <i class="fa-solid fa-chevron-down"></i>
           </summary>
           <div class="faq-card-answer">
-            The programme is offered by MET Institute of Mass Meida × ABC Academy of Beauty, powered by Kryolan.
+            MET Institute of Mass Media, established in 2005, carries forward MET’s 37-year legacy in 
+            media education, offering a creative film and media learning environment. ABC Academy of 
+            Beauty with Creativity, powered by Kryolan, provides specialised SFX and prosthetic makeup 
+            training through professional trainers trained by Kryolan professional Makeup. 
+            Students gain hands-on industry exposure, professional-grade Kryolan products, 
+            a complete makeup kit and a PRO Card; building the skills and portfolio needed for careers in SFX, 
+            prosthetics and film makeup.
           </div>
         </details>
 
@@ -1179,7 +1183,7 @@
   <div class="mobile-sticky-bar">
     <div class="mobile-bar-info">
       MET × ABC Academy of Beauty Powered by Kryolan
-      <span>Starting Nov 2026 | MET Mumbai</span>
+      <span> MET Mumbai</span>
     </div>
     <a href="#hero-form" class="btn btn-primary" style="padding: 0.6rem 1.25rem; font-size: 0.85rem;">
       Apply Now
