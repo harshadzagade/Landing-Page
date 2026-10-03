@@ -130,10 +130,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <div id="ee-form-6">
+                                    <!-- <div id="ee-form-6">
 
-                                    </div>
-                                    <!-- <form id="pop-form" action="MBA-in-Mumbai-Visit9.php" method="POST" novalidate
+                                    </div> -->
+                                    <form id="pop-form" action="MBA-in-Mumbai-Visit9.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -235,7 +235,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form> -->
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -419,8 +419,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script
-        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-6/widget.js"></script>
+    <!-- <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-6/widget.js"></script> -->
 
 </body>
 
