@@ -6,6 +6,7 @@ $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
 $utm_device = $_REQUEST['utm_device'] ?? '';
 $utm_content = $_REQUEST['utm_content'] ?? '';
 $utm_keyword = $_REQUEST['utm_keyword'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
 $utm_placement = $_REQUEST['utm_placement'] ?? '';
 $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
@@ -110,10 +111,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <div id="ee-form-12">
+                                    <!-- <div id="ee-form-12">
 
-                                    </div>
-                                    <!-- <form id="pop-form" action="PGP-Data-Science-Machine-Learning-Visit9.php" method="POST" novalidate
+                                    </div> -->
+                                    <form id="pop-form" action="PGP-Data-Science-Machine-Learning-Visit9.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -211,7 +212,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form> -->
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -395,8 +396,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script
-        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-12/widget.js"></script>
+    <!-- <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-12/widget.js"></script> -->
 
 </body>
 
