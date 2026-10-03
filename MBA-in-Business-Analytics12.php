@@ -4,6 +4,7 @@ $utm_medium = $_REQUEST['utm_medium'] ?? '';
 $utm_campaign = $_REQUEST['utm_campaign'] ?? '';
 $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
 $utm_device = $_REQUEST['utm_device'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $utm_content = $_REQUEST['utm_content'] ?? '';
 $utm_keyword = $_REQUEST['utm_keyword'] ?? '';
 $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
@@ -127,7 +128,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <!-- <form id="pop-form" action="MBA-in-Business-Analytics-Visit12.php" method="POST" novalidate
+                                    <form id="pop-form" action="MBA-in-Business-Analytics-Visit12.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -229,12 +230,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form> -->
-                                    <div class="form-body">
+                                    </form>
+                                    <!-- <div class="form-body">
                                         <div id="ee-form-10">
 
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -418,8 +419,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-10/widget.js">
-    </script>
+    <!-- <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-10/widget.js">
+    </script> -->
 
 </body>
 

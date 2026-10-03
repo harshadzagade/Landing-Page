@@ -125,11 +125,11 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                         <div class="banform" id="banform">
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
-                                <div class="form-body">
+                                <!-- <div class="form-body">
                                     <div id="ee-form-10">
 
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -312,9 +312,9 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script
+    <!-- <script
         src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-10/widget.js">
-    </script>
+    </script> -->
 
 
 

@@ -1,6 +1,7 @@
 <?php
 $utm_source = $_REQUEST['utm_source'] ?? '';
 $utm_medium = $_REQUEST['utm_medium'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $utm_campaign = $_REQUEST['utm_campaign'] ?? '';
 $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
 $utm_device = $_REQUEST['utm_device'] ?? '';
@@ -127,7 +128,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
                                 <div class="form-body">
                                     <!-- <p>Get In Touch </p> -->
-                                    <!-- <form id="pop-form" action="MBA-in-Business-Analytics-Visit1.php" method="POST"
+                                    <form id="pop-form" action="MBA-in-Business-Analytics-Visit9.php" method="POST"
                                         novalidate class="needs-validation">
                                         <div class="row g-3">
                                             <div class="form-group col-md-12">
@@ -207,7 +208,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                     <label for="privacy"> I agree to receive information</label>
                                                 </div>
                                             </div>
-                                            <input type="hidden" name="page_name" value="PGP EMBA-BA1">
+                                            <input type="hidden" name="page_name" value="PGP EMBA-BA9">
                                             <input type="hidden" name="utm_source" value="<?php echo $utm_source ?>">
                                             <input type="hidden" name="utm_medium" value="<?php echo $utm_medium ?>">
                                             <input type="hidden" name="utm_campaign"
@@ -229,10 +230,10 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                                 href="#"><span>Register Now <i class="flaticon-right-arrow"></i></span>
                                             </button>
                                         </div>
-                                    </form> -->
-                                    <div id="ee-form-10">
+                                    </form>
+                                    <!-- <div id="ee-form-10">
 
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -416,8 +417,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-10/widget.js">
-    </script>
+    <!-- <script src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-10/widget.js">
+    </script> -->
 
 </body>
 
