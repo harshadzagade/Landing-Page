@@ -6,6 +6,7 @@ $utm_adgroup = $_REQUEST['utm_adgroup'] ?? '';
 $utm_device = $_REQUEST['utm_device'] ?? '';
 $utm_content = $_REQUEST['utm_content'] ?? '';
 $utm_keyword = $_REQUEST['utm_keywords'] ?? '';
+$utm_term = $_REQUEST['utm_term'] ?? '';
 $utm_adposition = $_REQUEST['utm_adposition'] ?? '';
 $utm_placement = $_REQUEST['utm_placement'] ?? '';
 $utm_matchtype = $_REQUEST['utm_matchtype'] ?? '';
@@ -125,7 +126,7 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                         <div class="banform" id="banform">
                             <div class="form-content">
                                 <p class="fw-bold form-highlighter">Download Free e-Brochure</p>
-                                <!-- <div class="form-body">
+                                <div class="form-body">
                                     <form id="pop-form" action="PGDM-Visit12.php" method="POST" novalidate
                                         class="needs-validation">
                                         <div class="row g-3">
@@ -219,12 +220,12 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
                                             </button>
                                         </div>
                                     </form>
-                                </div> -->
-                                <div class="form-body">
+                                </div>
+                                <!-- <div class="form-body">
                                     <div id="ee-form-11">
 
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -407,8 +408,8 @@ $url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http
         })
     </script>
 
-    <script
-        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script>
+    <!-- <script
+        src="https://eeconfigstaticfiles.blob.core.windows.net/staticfiles/met/ee-form-widget/form-11/widget.js"></script> -->
 
 
 </body>
