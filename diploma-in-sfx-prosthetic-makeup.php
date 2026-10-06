@@ -34,9 +34,37 @@
 
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-PWD7ZBXF');
+  </script>
+  <!-- End Google Tag Manager -->
+
+
 </head>
 
 <body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWD7ZBXF" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+
   <!-- Interactive 3D WebGL Background Canvas -->
   <canvas id="webgl-bg-canvas"></canvas>
 
@@ -1087,10 +1115,10 @@
             <i class="fa-solid fa-chevron-down"></i>
           </summary>
           <div class="faq-card-answer">
-            It's for anyone aged 18 or above who wants a career in special effects and character 
-            make-up for film, OTT, theatre or entertainment. That includes aspiring SFX artists, 
-            beauty and bridal make-up artists, and film, media and acting students. It also suits 
-            theatre artists, cosplayers, content creators, make-up educators and career switchers. 
+            It's for anyone aged 18 or above who wants a career in special effects and character
+            make-up for film, OTT, theatre or entertainment. That includes aspiring SFX artists,
+            beauty and bridal make-up artists, and film, media and acting students. It also suits
+            theatre artists, cosplayers, content creators, make-up educators and career switchers.
             No previous SFX experience is needed.
           </div>
         </details>
@@ -1123,12 +1151,12 @@
             <i class="fa-solid fa-chevron-down"></i>
           </summary>
           <div class="faq-card-answer">
-            MET Institute of Mass Media, established in 2005, carries forward MET’s 37-year legacy in 
-            media education, offering a creative film and media learning environment. ABC Academy of 
-            Beauty with Creativity, powered by Kryolan, provides specialised SFX and prosthetic makeup 
-            training through professional trainers trained by Kryolan professional Makeup. 
-            Students gain hands-on industry exposure, professional-grade Kryolan products, 
-            a complete makeup kit and a PRO Card; building the skills and portfolio needed for careers in SFX, 
+            MET Institute of Mass Media, established in 2005, carries forward MET’s 37-year legacy in
+            media education, offering a creative film and media learning environment. ABC Academy of
+            Beauty with Creativity, powered by Kryolan, provides specialised SFX and prosthetic makeup
+            training through professional trainers trained by Kryolan professional Makeup.
+            Students gain hands-on industry exposure, professional-grade Kryolan products,
+            a complete makeup kit and a PRO Card; building the skills and portfolio needed for careers in SFX,
             prosthetics and film makeup.
           </div>
         </details>
