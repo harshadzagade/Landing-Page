@@ -3708,3 +3708,253 @@ body {
     max-width: 132px;
   }
 }
+
+/* ==========================================================================
+   VISIT OUR CAMPUS & CONTACT SECTION (MATCHING SCREENSHOT REFERENCE)
+   ========================================================================== */
+.campus-contact-section {
+  padding: 5.5rem 0 6rem 0;
+  position: relative;
+  background: linear-gradient(180deg, rgba(254, 242, 242, 0.6) 0%, #ffffff 40%, var(--bg-canvas-alt) 100%);
+  overflow: hidden;
+}
+
+.campus-contact-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1200px;
+  height: 220px;
+  background: radial-gradient(ellipse at top, rgba(227, 30, 36, 0.1) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.campus-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 3.25rem 3rem;
+  box-shadow: 0 20px 45px -8px rgba(15, 23, 42, 0.09), 0 4px 16px -2px rgba(15, 23, 42, 0.04);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 3rem;
+  align-items: stretch;
+  position: relative;
+  z-index: 2;
+  transition: box-shadow 0.3s ease;
+}
+
+.campus-card:hover {
+  box-shadow: 0 25px 55px -10px rgba(15, 23, 42, 0.12), 0 6px 20px -3px rgba(227, 30, 36, 0.06);
+}
+
+.campus-info-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.campus-pin-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--primary-red);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 8px 18px rgba(227, 30, 36, 0.3);
+}
+
+.campus-heading {
+  font-family: var(--font-heading);
+  font-size: clamp(2rem, 3.2vw, 2.6rem);
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.15;
+  margin-bottom: 0.85rem;
+}
+
+.campus-heading .text-red {
+  color: var(--primary-red);
+}
+
+.campus-dept-title {
+  font-family: var(--font-heading);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #334155;
+  margin-bottom: 2rem;
+  line-height: 1.45;
+}
+
+.campus-details-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+
+.campus-detail-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.1rem;
+}
+
+.detail-icon-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--primary-red);
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+  margin-top: 2px;
+  box-shadow: 0 4px 10px rgba(227, 30, 36, 0.25);
+}
+
+.detail-text {
+  font-size: 1.02rem;
+  line-height: 1.6;
+  color: #334155;
+}
+
+.detail-text strong {
+  color: #0f172a;
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+.detail-text a {
+  color: #334155;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.detail-text a:hover {
+  color: var(--primary-red);
+  text-decoration: underline;
+}
+
+.campus-map-col {
+  display: flex;
+  min-height: 380px;
+}
+
+.campus-map-frame {
+  width: 100%;
+  height: 100%;
+  min-height: 380px;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  border: 1px solid var(--border-light);
+}
+
+.campus-map-frame iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .campus-card {
+    grid-template-columns: 1fr;
+    gap: 2.25rem;
+    padding: 2.25rem 1.75rem;
+  }
+
+  .campus-map-col,
+  .campus-map-frame {
+    min-height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .campus-contact-section {
+    padding: 3.5rem 0 4.5rem 0;
+  }
+
+  .campus-card {
+    padding: 1.75rem 1.25rem;
+    border-radius: 18px;
+  }
+
+  .campus-pin-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.25rem;
+  }
+
+  .detail-icon-circle {
+    width: 34px;
+    height: 34px;
+    font-size: 0.85rem;
+  }
+
+  .detail-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* ==========================================================================
+   FLOATING RIGHT SIDE ACTION BUTTONS (MATCHING SCREENSHOT 1 REFERENCE)
+   ========================================================================== */
+.floating-side-cta {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  pointer-events: auto;
+}
+
+.floating-side-btn {
+  display: block;
+  background: var(--primary-red);
+  color: #ffffff !important;
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  padding: 16px 8px;
+  border-radius: 8px 0 0 8px;
+  box-shadow: -3px 4px 16px rgba(227, 30, 36, 0.35);
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  white-space: nowrap;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  user-select: none;
+}
+
+.floating-side-btn:hover {
+  background: #c81318;
+  color: #ffffff !important;
+  transform: rotate(180deg) translateX(4px);
+  box-shadow: -5px 6px 22px rgba(227, 30, 36, 0.55);
+}
+
+.floating-side-btn:active {
+  background: #a30e13;
+}
+
+@media (max-width: 768px) {
+  .floating-side-btn {
+    font-size: 12px;
+    padding: 12px 6px;
+    border-radius: 6px 0 0 6px;
+  }
+}

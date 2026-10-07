@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }, observerOptions);
 
   const elementsToReveal = document.querySelectorAll(
-    '.section-title, .section-subtitle, .bento-card, .gallery-card, .faculty-card-modern, .jumbotron-banner-box, .lead-form-box, .hero-form-card, .module-visual-banner, .faq-card-item'
+    '.section-title, .section-subtitle, .bento-card, .gallery-card, .faculty-card-modern, .jumbotron-banner-box, .lead-form-box, .hero-form-card, .module-visual-banner, .faq-card-item, .campus-card'
   );
 
   elementsToReveal.forEach((el, idx) => {
