@@ -959,6 +959,224 @@
   </section>
 
   <!-- ================= SECTION 15: VISIT OUR CAMPUS / CONTACT US ================= -->
+  <style>
+    /* Campus Contact Section & Card Styling */
+    .campus-contact-section {
+      padding: 5.5rem 0 6rem 0;
+      position: relative;
+      background: linear-gradient(180deg, rgba(254, 242, 242, 0.6) 0%, #ffffff 40%, #f8fafc 100%);
+      overflow: hidden;
+    }
+    .campus-contact-section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+      max-width: 1200px;
+      height: 220px;
+      background: radial-gradient(ellipse at top, rgba(227, 30, 36, 0.1) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .campus-card {
+      background: #ffffff !important;
+      border-radius: 24px !important;
+      padding: 3.25rem 3rem !important;
+      box-shadow: 0 20px 45px -8px rgba(15, 23, 42, 0.09), 0 4px 16px -2px rgba(15, 23, 42, 0.04) !important;
+      border: 1px solid rgba(226, 232, 240, 0.85) !important;
+      display: grid !important;
+      grid-template-columns: 1fr 1.15fr !important;
+      gap: 3rem !important;
+      align-items: stretch !important;
+      position: relative !important;
+      z-index: 2 !important;
+      box-sizing: border-box !important;
+    }
+    .campus-info-col {
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center !important;
+    }
+    .campus-pin-icon {
+      width: 52px !important;
+      height: 52px !important;
+      border-radius: 50% !important;
+      background: #E31E24 !important;
+      color: #ffffff !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 1.5rem !important;
+      margin-bottom: 1.25rem !important;
+      box-shadow: 0 8px 18px rgba(227, 30, 36, 0.3) !important;
+    }
+    .campus-heading {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: clamp(2rem, 3.2vw, 2.6rem) !important;
+      font-weight: 800 !important;
+      color: #0f172a !important;
+      line-height: 1.15 !important;
+      margin-bottom: 0.85rem !important;
+    }
+    .campus-heading .text-red,
+    .text-red {
+      color: #E31E24 !important;
+    }
+    .campus-dept-title {
+      font-family: 'Outfit', sans-serif !important;
+      font-size: 1.2rem !important;
+      font-weight: 600 !important;
+      color: #334155 !important;
+      margin-bottom: 2rem !important;
+      line-height: 1.45 !important;
+    }
+    .campus-details-list {
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 1.35rem !important;
+    }
+    .campus-detail-item {
+      display: flex !important;
+      align-items: flex-start !important;
+      gap: 1.1rem !important;
+    }
+    .detail-icon-circle {
+      width: 38px !important;
+      height: 38px !important;
+      border-radius: 50% !important;
+      background: #E31E24 !important;
+      color: #ffffff !important;
+      display: inline-flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      font-size: 0.95rem !important;
+      flex-shrink: 0 !important;
+      margin-top: 2px !important;
+      box-shadow: 0 4px 10px rgba(227, 30, 36, 0.25) !important;
+    }
+    .detail-text {
+      font-size: 1.02rem !important;
+      line-height: 1.6 !important;
+      color: #334155 !important;
+    }
+    .detail-text strong {
+      color: #0f172a !important;
+      font-weight: 700 !important;
+      margin-right: 0.25rem !important;
+    }
+    .detail-text a {
+      color: #334155 !important;
+      text-decoration: none !important;
+      transition: color 0.2s ease !important;
+    }
+    .detail-text a:hover {
+      color: #E31E24 !important;
+      text-decoration: underline !important;
+    }
+    .campus-map-col {
+      display: flex !important;
+      min-height: 380px !important;
+    }
+    .campus-map-frame {
+      width: 100% !important;
+      height: 100% !important;
+      min-height: 380px !important;
+      border-radius: 18px !important;
+      overflow: hidden !important;
+      box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08) !important;
+      border: 1px solid #e2e8f0 !important;
+    }
+    .campus-map-frame iframe {
+      width: 100% !important;
+      height: 100% !important;
+      min-height: 380px !important;
+      display: block !important;
+      border: 0 !important;
+    }
+
+    /* Floating Right Side Buttons */
+    .floating-side-cta {
+      position: fixed !important;
+      right: 0 !important;
+      top: 50% !important;
+      transform: translateY(-50%) !important;
+      z-index: 99999 !important;
+      display: flex !important;
+      flex-direction: column !important;
+      gap: 8px !important;
+      pointer-events: auto !important;
+    }
+    .floating-side-btn {
+      display: block !important;
+      background: #E31E24 !important;
+      color: #ffffff !important;
+      font-family: 'Outfit', sans-serif !important;
+      font-weight: 700 !important;
+      font-size: 14px !important;
+      letter-spacing: 0.5px !important;
+      text-decoration: none !important;
+      padding: 16px 8px !important;
+      border-radius: 8px 0 0 8px !important;
+      box-shadow: -3px 4px 16px rgba(227, 30, 36, 0.35) !important;
+      writing-mode: vertical-rl !important;
+      transform: rotate(180deg) !important;
+      white-space: nowrap !important;
+      text-align: center !important;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1) !important;
+      cursor: pointer !important;
+      user-select: none !important;
+    }
+    .floating-side-btn:hover {
+      background: #c81318 !important;
+      color: #ffffff !important;
+      transform: rotate(180deg) translateX(4px) !important;
+      box-shadow: -5px 6px 22px rgba(227, 30, 36, 0.55) !important;
+    }
+
+    @media (max-width: 991px) {
+      .campus-card {
+        grid-template-columns: 1fr !important;
+        gap: 2.25rem !important;
+        padding: 2.25rem 1.75rem !important;
+      }
+      .campus-map-col,
+      .campus-map-frame,
+      .campus-map-frame iframe {
+        min-height: 320px !important;
+      }
+    }
+    @media (max-width: 768px) {
+      .floating-side-btn {
+        font-size: 12px !important;
+        padding: 12px 6px !important;
+        border-radius: 6px 0 0 6px !important;
+      }
+    }
+    @media (max-width: 576px) {
+      .campus-contact-section {
+        padding: 3.5rem 0 4.5rem 0 !important;
+      }
+      .campus-card {
+        padding: 1.75rem 1.25rem !important;
+        border-radius: 18px !important;
+      }
+      .campus-pin-icon {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 1.25rem !important;
+      }
+      .detail-icon-circle {
+        width: 34px !important;
+        height: 34px !important;
+        font-size: 0.85rem !important;
+      }
+      .detail-text {
+        font-size: 0.95rem !important;
+      }
+    }
+  </style>
+
   <section class="section campus-contact-section" id="visit-campus">
     <div class="container">
       <div class="campus-card">
