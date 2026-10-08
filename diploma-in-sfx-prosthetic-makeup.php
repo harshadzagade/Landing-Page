@@ -86,11 +86,10 @@
         <a href="#faculty">Faculty</a>
         <a href="#comparison">Compare</a>
         <a href="#faq">FAQ</a>
-        <a href="#visit-campus">Contact</a>
       </div>
 
       <div class="nav-cta-group">
-        <a href="#heroLeadForm" class="btn btn-primary">Apply Now</a>
+        <a href="tel:+917208006691" class="btn btn-primary">+91 7208006691</a>
         <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation">
           <i class="fa-solid fa-bars"></i>
         </button>
@@ -105,8 +104,8 @@
         <span class="intro-hero-kicker">Admissions Open</span>
         <h1>Diploma in SFX &<br>Prosthetic Makeup</h1>
         <p>Learn practical SFX, prosthetics and character transformation techniques for film, OTT, theatre and creative productions.</p>
-        <div class="intro-hero-actions">
-          <a href="#heroLeadForm" class="btn btn-primary">
+        <div class="intro-hero-actions" id="">
+          <a href="#hero-form" class="btn btn-primary">
             <i class="fa-solid fa-paper-plane"></i> Enroll Now
           </a>
           <a href="#curriculum" class="btn btn-outline">
@@ -158,7 +157,7 @@
           </div>
 
           <div class="hero-actions">
-            <a href="#heroLeadForm" class="btn btn-primary">
+            <a href="#hero-form" class="btn btn-primary">
               <i class="fa-solid fa-paper-plane"></i> Enquire Now
             </a>
           </div>
